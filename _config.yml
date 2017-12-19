@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   time though. It seemed like a pretty natural step to make lists about music,
   and so here we are. My 10 favorite albums of the year. For a lot of years!
 baseurl: "/albums" # the subpath of your site, e.g. /blog
-url: "http://gvorbeck.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
