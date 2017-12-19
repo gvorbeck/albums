@@ -4,6 +4,8 @@
 
 .wrapper {
   padding: 0 ($padding*3 + px);
+  max-width: 375px;
+  margin: 0 auto;
 }
 
 footer {

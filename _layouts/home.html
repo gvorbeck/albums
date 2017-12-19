@@ -7,7 +7,8 @@ layout: default
   {{ content }}
 
   <ul id="year-list">
-    {% for data in site.data reversed %}
+    {% assign datas = site.data | sort %}
+    {% for data in datas reversed %}
     {% assign fav = data[1] %}
       <li>
         <article>
