@@ -1,0 +1,18 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    {% if site.author %}
+      {{ site.author | escape }}
+    {% else %}
+      {{ site.title | escape }}
+    {% endif %}
+    <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+    <p>{{ site.description | escape }}</p>
+
+  </div>
+
+</footer>
+<script src="{{"/assets/color-thief.min.js" | absolute_url }}"></script>
+<script src="{{"/assets/jquery-3.2.1.min.js" | absolute_url }}"></script>
+<script src="{{"/assets/site.js" | absolute_url }}"></script>

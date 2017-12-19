@@ -1,0 +1,221 @@
+//1.535 width
+//1.539 height
+
+#site-logo {
+  position: relative;
+  overflow: hidden;
+
+  .amp {
+    display: flex;
+    flex-direction: column;
+    width: 284px;
+    height: 194px;
+    margin: ($padding*3 + px) auto 0;
+    padding-bottom: $padding*3 + px;
+  }
+  .handle {
+    background-color: #161616;
+    height: 17px;
+    margin: 0 17px;
+
+    &::after {
+      content: '';
+      display: block;
+      background-color: #FFFFFF;
+      width: 238px;
+      height: 9px;
+      margin: 7px auto 0;
+    }
+  }
+  .body {
+    background-color: #AFAFAF;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: $box-shadow;
+
+    &::after {
+      content: '';
+      display: block;
+      width: 150%;
+      height: 100%;
+      background-color: #969696;
+      position: absolute;
+      top: 35px;
+      transform: rotate(-46deg);
+      left: 33px;
+    }
+
+    > div {
+      z-index: 1;
+      position: relative;
+    }
+  }
+  .dial {
+    $border: 1px solid #6D6D6D;
+    background-color: #2B2B2B;
+    height: 34px;
+    margin: 9px 6px 0;
+    border-bottom: $border;
+    border-left: $border;
+    border-right: $border;
+    padding-top: 3px;
+
+    &::before,
+    &::after {
+      content: '';
+      display: block;
+      background-color: #E93F3F;
+    }
+
+    &::before {
+      $border: 1px solid #432D2F;
+      height: 3px;
+      border-top: $border;
+      border-bottom: $border;
+    }
+
+    &::after {
+      width: 26px;
+      height: 3px;
+      margin: 20px 0 0 3px;
+      border-radius: 50%;
+    }
+  }
+  .hardware {
+    display: flex;
+    align-items: stretch;
+  }
+  .tape-deck {
+    $border-color: #5E605F;
+    $border-top: 2px solid $border-color;
+    $border-side: 6px solid $border-color;
+    background-color: #BCBCBC;
+    width: 115px;
+    height: 57px;
+    margin: 51px 29px 0 6px;
+    border-left: $border-side;
+    border-right: $border-side;
+    border-top: $border-top;
+    border-bottom: $border-top;
+
+    div:first-child {
+      width: 92px;
+      height: 9px;
+      background-color: #4A4849;
+      border: 3px solid #858585;
+      margin: 5px auto 0;
+    }
+    div:last-child {
+      width: 55px;
+      height: 15px;
+      background: #898989;
+      margin: 9px auto 0;
+      position: relative;
+
+      &::before,
+      &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        background-color: #A2A2A2;
+        width: 3px;
+        height: 3px;
+        border-radius: 50%;
+        border: 5px solid #191919;
+        top: 1px;
+      }
+
+      &::before {
+        left: -15px;
+      }
+
+      &::after {
+        right: -15px;
+      }
+    }
+  }
+  .slides {
+    display: flex;
+    margin: 9px 0 0 9px;
+
+    li {
+      width: 6px;
+      height: 46px;
+      background-color: #232323;
+      border-radius: 10px;
+
+      & + li {
+        margin-left: 8px;
+      }
+
+      &::before {
+        content: '';
+        display: block;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background-color: #B0B0B0;
+        box-shadow: $box-shadow;
+      }
+      &:nth-child(1)::before {
+        margin-top: 10px;
+      }
+      &:nth-child(2)::before {
+        margin-top: 25px;
+      }
+      &:nth-child(3)::before {
+        margin-top: 5px;
+      }
+      &:nth-child(5)::before {
+        margin-top: 25px;
+      }
+    }
+  }
+  .dials {
+    $border: solid #4A4849;
+    display: flex;
+    padding: 9px 0 0;
+
+    &::before,
+    &::after {
+      content: '';
+      display: block;
+      box-shadow: $box-shadow;
+    }
+    &::before {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: #151515;
+      border: 9px $border;
+      margin-right: 17px;
+    }
+    &::after {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: #565656;
+      border: 6px $border;
+    }
+  }
+  h1 {
+    font-family: $font-start;
+    position: absolute;
+    top: 53px;
+    left: 8px;
+    color: #FFFFFF;
+    z-index: 1;
+    white-space: nowrap;
+    animation: example1 15s linear infinite;
+  }
+  @keyframes example1 {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+}

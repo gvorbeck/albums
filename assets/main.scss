@@ -1,0 +1,17 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "meyer-reset";
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P|Roboto:100,400');
+
+$padding: 6;
+
+$font-roboto: 'Roboto', sans-serif;
+$font-start: 'Press Start 2P', cursive;
+
+$box-shadow: 0 ($padding/2 + px) ($padding + px) rgba(0,0,0,0.16), 0 ($padding/2 + px) ($padding + px) rgba(0,0,0,0.23);
+
+@import "page";
+@import "amp";
+@import "album";

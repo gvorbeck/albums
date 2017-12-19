@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "2016"
+date:   2017-12-17 16:44:49 -0500
+categories: jekyll update
+---
+- ![Andy Shauf - The Party]({{ "/assets/theParty.webp" | absolute_url }})
+- ![Baroness - Purple]({{ "/assets/purple.webp" | absolute_url }})
+- ![David Bazan - Blanco]({{ "/assets/blanco.webp" | absolute_url }})
+- ![King Gizard and The Lizard Wizard - Nonagon Infinity]({{ "/assets/nonagonInfinity.webp" | absolute_url }})
+- ![Matt Pond PA - Winter Lives]({{ "/assets/winterLives.webp" | absolute_url }})
+- ![Mean Jeans - Tight New Dimension]({{ "/assets/tightNewDimension.webp" | absolute_url }})
+- ![Mrs. Magician - Bermuda]({{ "/assets/bermuda.webp" | absolute_url }})
+- ![Planes Mistaken For Stars - Prey]({{ "/assets/prey.webp" | absolute_url }})
+- ![Rebelution - Falling Into Place]({{ "/assets/fallingIntoPlace.webp" | absolute_url }})
+- ![Tiger Army - V]({{ "/assets/v.webp" | absolute_url }})

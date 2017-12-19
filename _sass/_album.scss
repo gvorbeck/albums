@@ -1,0 +1,119 @@
+#year-list {
+  > li {
+    overflow: hidden;
+    font-family: $font-roboto;
+    box-shadow: $box-shadow;
+
+    &:nth-child(even) {
+
+      .year-header {
+        flex-direction: row-reverse;
+
+        h2 {
+          text-align: right;
+        }
+      }
+    }
+
+    & + li {
+      margin-top: $padding*3 + px;
+    }
+  }
+  article {
+    $height: $padding*20;
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+
+    .year-header {
+      display: flex;
+    }
+
+    header {
+      flex-shrink: 0;
+      width: $height + px;
+      background-size: $height + px;
+      position: relative;
+      overflow: hidden;
+      height: $height + px;
+
+      img {
+        width: 100%;
+      }
+
+      .fade {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+      }
+
+      h2 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        line-height: $height + px;
+        width: 100%;
+        text-align: left;
+
+        span {
+          padding: $padding + px;
+          color: rgba(255,255,255,.7);
+          font-size: $padding*4 + px;
+        }
+      }
+    }
+
+    .year-header {
+      max-height: $height + px;
+    }
+  }
+
+  .artist-list {
+    margin: $padding*2 + px;
+    overflow: hidden;
+    text-align: justify;
+    font-size: $padding*2 + px;
+    line-height: $padding*3 + 1 + px;
+    letter-spacing: 1px;
+    opacity: .7;
+    width: 100%;
+  }
+
+  .favorites-list {
+    padding: ($padding*2.5 + px);
+    display: flex;
+    display: none;
+    flex-direction: column;
+
+    li {
+      height: $padding*10 + px;
+      display: flex;
+
+      img {
+        height: 100%;
+        margin-right: $padding*2.5 + px;
+      }
+
+      div {
+        padding: ($padding/2 + px) 0;
+        overflow: hidden;
+        font-family: $font-roboto;
+      }
+
+      h3 {
+        letter-spacing: 1px;
+        line-height: 26px;
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      h4 {
+        font-weight: 100;
+        font-size: 12px;
+        line-height: 19px;
+      }
+    }
+  }
+}

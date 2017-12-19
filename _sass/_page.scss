@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  padding: 0 ($padding*3 + px);
+}
+
+footer {
+  margin-top: $padding*3 + px;
+  font-family: $font-roboto;
+  line-height: 26px;
+
+  p {
+    margin: ($padding*3 + px) 0;
+    text-align: justify;
+  }
+}

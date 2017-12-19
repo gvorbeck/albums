@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  {{ content }}
+
+  <ul id="year-list">
+    {% for data in site.data reversed %}
+    {% assign fav = data[1] %}
+      <li>
+        <article>
+          <div class="year-header">
+            <header>
+              <img alt="{{fav.records[0].artist}} - {{fav.records[0].album}}" src="{{"/assets/" | absolute_url }}{{ fav.records[0].cover}}">
+              <div class="fade"></div>
+              <h2><span>{{ fav.title }}</span></h2>
+            </header>
+            <div class="artist-list">
+              <p>
+                {% for record in fav.records %}
+                  {{record.artist}}//
+                {% endfor %}
+              </p>
+            </div>
+          </div>
+          <ul class="favorites-list" data-src="{{'/assets/' | absolute_url}}">
+            {% for record in fav.records %}
+              <li data-artist="{{record.artist}}" data-album="{{record.album}}" data-cover="{{record.cover}}"></li>
+            {% endfor %}
+          </ul>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p> -->
+
+</div>
