@@ -14,7 +14,7 @@ layout: default
         <article>
           <div class="year-header">
             <header>
-              <img alt="{{fav.records[0].artist}} - {{fav.records[0].album}}" src="{{"/assets/" | absolute_url }}{{ fav.records[0].cover}}">
+              <img alt="{{fav.records[0].artist}} - {{fav.records[0].album}}" src="{{"/assets/" | relative_url }}{{ fav.records[0].cover}}">
               <div class="fade"></div>
               <h2><span>{{ fav.title }}</span></h2>
             </header>
@@ -26,7 +26,7 @@ layout: default
               </p>
             </div>
           </div>
-          <ul class="favorites-list" data-src="{{'/assets/' | absolute_url}}">
+          <ul class="favorites-list" data-src="{{'/assets/' | relative_url}}">
             {% for record in fav.records %}
               <li data-artist="{{record.artist}}" data-album="{{record.album}}" data-cover="{{record.cover}}"></li>
             {% endfor %}
