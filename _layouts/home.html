@@ -1,19 +1,26 @@
 ---
 layout: default
 ---
-  <ul id="years">
+  <ul class="years-list">
     {% for favYear in site.data.favorites %}
-        <li class="years__item">
-            <h2 class="years__title">{{ favYear.year }}</h2>
-            <ul class="favorites">
-                {% assign albums = favYear.list | sort:"artist" %}
-                {% for albumItem in albums %}
-                    <li class="favorites__item">
-                        <h3 class="favorites__album">{{ albumItem.album }}</h3>
-                        <h4 class="favorites__artist">{{ albumItem.artist }}</h4>
-                    </li>
-                {% endfor %}
-            </ul>
+        <li class="years-list__item">
+            <div class="year-block">
+                <h2 class="year-block__title">{{ favYear.year }}</h2>
+                <div class="year-block__projector">
+                    <img src="{{"/assets/" | relative_url }}warriors.webp">
+                </div>
+                <ul class="album-list">
+                    {% assign albums = favYear.list | sort:"artist" %}
+                    {% for albumItem in albums %}
+                        <li class="album-list__item {% if albumItem.favorite %}year-block__item--favorite{% endif %}">
+                            <div class="album">
+                                <h3 class="album__name">{{ albumItem.album }}</h3>
+                                <h4 class="album__artist">{{ albumItem.artist }}</h4>
+                            </div>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
         </li>
     {% endfor %}
   </ul>
