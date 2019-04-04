@@ -2,6 +2,7 @@
   list:
   - album: Loved to Death
     artist: Dance With the Dead
+    cover: warriors.webp
 
   - album: Ordinary Corrupt Human Love
     artist: Deafheaven
@@ -117,8 +118,45 @@
 
 - year: 2015
   list:
-  - album: foo foo foo
-    artist: bar
+  - artist: Enter Shikari
+    album: The Mindsweep
+    cover: theParty.webp
+
+  - artist: Refused
+    album: Freedom
+    cover: purple.webp
+
+  - artist: Radioactivity
+    album: Silent Kill
+    cover: blanco.webp
+
+  - artist: MisterWives
+    album: Our Own House
+    cover: nonagonInfinity.webp
+
+  - artist: Teenage Bottlerocket
+    album: Tales From Wyoming
+    cover: winterLives.webp
+
+  - artist: The Decline
+    album: Resister
+    cover: tightNewDimension.webp
+
+  - artist: The Expanders
+    album: Hustling Culture
+    cover: bermuda.webp
+
+  - artist: Foxing
+    album: Dealer
+    cover: prey.webp
+
+  - artist: Smallpools
+    album: LOVETAP!
+    cover: fallingIntoPlace.webp
+
+  - artist: CHVRCHES
+    album: Every Open Eye
+    cover: v.webp
 
 - year: 2014
   list:
