@@ -6,8 +6,8 @@ layout: default
         <li class="years-list__item">
             <div class="year-block">
                 <h2 class="year-block__title">{{ favYear.year }}</h2>
-                <div class="year-block__projector">
-                    <img src="{{"/assets/" | relative_url }}warriors.webp">
+                <div class="year-block__projector" style="background-image: url({{ "/assets/" | relative_url}}covers/{{favYear.year}}/sprite.png);">
+                    <!-- <img src="{{"/assets/" | relative_url }}covers/{{ favYear.year }}/sprite.png"> -->
                 </div>
                 <ul class="album-list">
                     {% assign albums = favYear.list | sort:"artist" %}

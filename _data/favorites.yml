@@ -8,17 +8,19 @@
     artist: Deafheaven
     favorite: true
 
-  - album: Horror Section
-    artist: Horror Section
+  - album: Crown of Nothing
+    artist: Direct Hit!
 
   - album: POST-
     artist: Jeff Rosenstock
 
   - album: Double Negative
     artist: Low
+    x: 640
 
   - album: "'Til the End"
     artist: MiTis
+    x: 0
 
   - album: Free Rein
     artist: Rebelution

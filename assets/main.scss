@@ -71,7 +71,7 @@ body {
         }
 
         &:nth-child(3) {
-            background: #CAD2C5;
+            background: #44355B;
             color: #000000;
             grid-column-start: 6;
             grid-column-end: 11;
@@ -137,9 +137,23 @@ body {
         grid-column-end: 2;
         grid-row-start: 2;
         grid-row-end: 4;
+        // background-image: url(/albums/assets/covers/2018/sprite.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top left;
+        height: 0;
+        padding-top: 100%;
+
+    // [style^='--aspect-ratio']::before {
+    //     content: "";
+    //     display: inline-block;
+    //     width: 1px;
+    //     height: 0;
+    //     padding-bottom: calc(100% / (var(--aspect-ratio)));
+    // }
 
         img {
-            max-width: 100%;
+            // max-width: 100%;
         }
     }
 
@@ -216,6 +230,7 @@ https://medium.com/@alvaro.saburido/applying-gradient-trends-in-sass-cf825d70f5f
 https://www.pinterest.com/pin/538672805427109629/
 https://www.pinterest.com/Creadigitales/web-design-inspiration-2019/?lp=true
 https://fonts.google.com/featured/Plex?category=Sans+Serif,Display&sort=popularity&selection.family=IBM+Plex+Sans+Condensed:400i|IBM+Plex+Sans:400,400i,700,700i
+https://www.toptal.com/developers/css/sprite-generator/
 */
 
 /* TAPE IMAGE:
