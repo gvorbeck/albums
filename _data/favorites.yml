@@ -1,0 +1,191 @@
+- year: 2018
+  list:
+  - album: Loved to Death
+    artist: Dance With the Dead
+
+  - album: Ordinary Corrupt Human Love
+    artist: Deafheaven
+    favorite: true
+
+  - album: Horror Section
+    artist: Horror Section
+
+  - album: POST-
+    artist: Jeff Rosenstock
+
+  - album: Double Negative
+    artist: Low
+
+  - album: "'Til the End"
+    artist: MiTis
+
+  - album: Free Rein
+    artist: Rebelution
+
+  - album: Clean
+    artist: Soccer Mommy
+
+  - album: ROCKNROLL MACHINE
+    artist: Turbonegro
+
+  - album: Everybody!!
+    artist: WANIMA
+
+- year: 2017
+  list:
+  - artist: Bad Cop/Bad Cop
+    album: Warriors
+    cover: warriors.webp
+
+  - artist: Can't Swim
+    album: Fail You Again
+    cover: failYouAgain.webp
+
+  - artist: Communions
+    album: Blue
+    cover: blue.webp
+
+  - artist: Future Islands
+    album: The Far Field
+    cover: theFarField.webp
+
+  - artist: Iya Terra
+    album: Sacred Sound
+    cover: sacredSound.webp
+
+  - artist: Mega Drive
+    album: The Grid
+    cover: theGrid.webp
+
+  - artist: The Menzingers
+    album: After The Party
+    cover: afterTheParty.webp
+
+  - artist: San Fermin
+    album: Belong
+    cover: belong.webp
+
+  - artist: Teenage Bottlerocket
+    album: Stealing the Covers
+    cover: stealingTheCovers.webp
+
+  - artist: Tigers Jaw
+    album: spin
+    cover: spin.webp
+
+- year: 2016
+  list:
+  - artist: Andy Shauf
+    album: The Party
+    cover: theParty.webp
+
+  - artist: Baroness
+    album: Purple
+    cover: purple.webp
+
+  - artist: David Bazan
+    album: Blanco
+    cover: blanco.webp
+
+  - artist: King Gizzard & the Lizard Wizard
+    album: Nonagon Infinity
+    cover: nonagonInfinity.webp
+
+  - artist: Matt Pond PA
+    album: Winter Lives
+    cover: winterLives.webp
+
+  - artist: Mean Jeans
+    album: Tight New Dimension
+    cover: tightNewDimension.webp
+
+  - artist: Mrs. Magician
+    album: Bermuda
+    cover: bermuda.webp
+
+  - artist: Planes Mistaken For Stars
+    album: Prey
+    cover: prey.webp
+
+  - artist: Rebelution
+    album: Falling Into Place
+    cover: fallingIntoPlace.webp
+
+  - artist: Tiger Army
+    album: V
+    cover: v.webp
+
+- year: 2015
+  list:
+  - album: foo foo foo
+    artist: bar
+
+- year: 2014
+  list:
+  - album: foo foo foo
+    artist: bar
+
+- year: 2013
+  list:
+  - album: foo foo foo
+    artist: bar
+
+- year: 2012
+  list:
+  - album: foo foo foo
+    artist: bar
+
+- year: 2011
+  list:
+  - album: foo foo foo
+    artist: bar
+
+- year: 2010
+  list:
+  - album: foo foo foo
+    artist: bar
+
+- year: 2009
+  list:
+  - album: foo foo foo
+    artist: bar
+
+- year: 2008
+  list:
+  - album: foo foo foo
+    artist: bar
+
+- year: 2007
+  list:
+  - album: foo foo foo
+    artist: bar
+
+- year: 2006
+  list:
+  - album: foo foo foo
+    artist: bar
+
+- year: 2005
+  list:
+  - album: foo foo foo
+    artist: bar
+
+- year: 2004
+  list:
+  - album: foo foo foo
+    artist: bar
+
+- year: 2003
+  list:
+  - album: foo foo foo
+    artist: bar
+
+- year: 2002
+  list:
+  - album: foo foo foo
+    artist: bar
+
+- year: 2001
+  list:
+  - album: foo foo foo
+    artist: bar
