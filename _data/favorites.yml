@@ -2,37 +2,43 @@
   list:
   - album: Loved to Death
     artist: Dance With the Dead
-    cover: warriors.webp
+    sprite_position: 3
 
   - album: Ordinary Corrupt Human Love
     artist: Deafheaven
-    favorite: true
+    sprite_position: 7
 
   - album: Crown of Nothing
     artist: Direct Hit!
+    sprite_position: 9
 
   - album: POST-
     artist: Jeff Rosenstock
+    sprite_position: 2
 
   - album: Double Negative
     artist: Low
-    x: 640
+    sprite_position: 1
 
   - album: "'Til the End"
     artist: MiTis
-    x: 0
+    sprite_position: 4
 
   - album: Free Rein
     artist: Rebelution
+    sprite_position: 6
 
   - album: Clean
     artist: Soccer Mommy
+    sprite_position: 5
 
   - album: ROCKNROLL MACHINE
     artist: Turbonegro
+    sprite_position: 0
 
   - album: Everybody!!
     artist: WANIMA
+    sprite_position: 8
 
 - year: 2017
   list:
