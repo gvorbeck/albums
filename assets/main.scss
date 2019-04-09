@@ -9,7 +9,7 @@
   @return #{$remSize}rem;
 }
 
-$gradient-chill: linear-gradient(135deg, #56A3A6 0%, #084C61 100%);
+$gradient-chill: linear-gradient(90deg, #56A3A6 0%, #084C61 100%);
 
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed:400i|IBM+Plex+Sans:400,400i,700,700i');
 
@@ -52,7 +52,7 @@ body {
     grid-row-gap: 2rem;
 
     &__item {
-        background: white;
+        background: #FFFFFF;
         grid-column-start: 1;
         grid-column-end: 11;
         box-shadow: 0 rem(10px) rem(20px) rgba(0,0,0,0.19), 0 rem(6px) rem(6px) rgba(0,0,0,0.23);
@@ -62,22 +62,38 @@ body {
         &:nth-child(1) {
             $baseColor: #E3B505;
             background: $baseColor;
-            color: #FFFFFF;
-            border: 1rem solid darken($baseColor, 5%);
+            color: lighten($baseColor, 50%);
+            border: .5rem solid darken($baseColor, 5%);
+
+            .year-block__projector {
+                background: darken($baseColor, 5%);
+            }
         }
 
         &:nth-child(2) {
-            background: #DB504A;
+            $baseColor: #DB504A;
+            background: $baseColor;
             grid-column-end: 6;
-            color: #FFFFFF;
+            color: lighten($baseColor, 35%);
+            border: .5rem solid darken($baseColor, 5%);
+
+            .year-block__projector {
+                background: darken($baseColor, 5%);
+            }
         }
 
         &:nth-child(3) {
-            background: #44355B;
+            $baseColor: #44355B;
+            background: $baseColor;
             color: #000000;
             grid-column-start: 6;
             grid-column-end: 11;
-            color: #FFFFFF;
+            color: lighten($baseColor, 50%);
+            border: .5rem solid darken($baseColor, 5%);
+
+            .year-block__projector {
+                background: darken($baseColor, 5%);
+            }
         }
 
         &:nth-child(n+4) {
@@ -138,40 +154,40 @@ body {
         grid-column-end: 2;
         grid-row-start: 2;
         grid-row-end: 4;
-        // background-image: url(/albums/assets/covers/2018/sprite.png);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: top left;
         height: 0;
         padding-top: 100%;
-
-    // [style^='--aspect-ratio']::before {
-    //     content: "";
-    //     display: inline-block;
-    //     width: 1px;
-    //     height: 0;
-    //     padding-bottom: calc(100% / (var(--aspect-ratio)));
-    // }
-
-        img {
-            // max-width: 100%;
-        }
     }
 
     &__sprite {
         width: 100%;
     }
 
+    .years-list__item:nth-child(-n+3) & {
+
+        .album-list {
+            background: #FFFFFF;
+            padding: .5rem;
+            border-radius: rem(5px);
+        }
+    }
+
     .years-list__item:nth-child(1) & {
+        grid-template-columns: repeat(3, 1fr);
 
         &__title {
             text-align: center;
             font-size: 3rem;
+            grid-column-end: 4;
         }
 
         .album-list {
+            grid-column-end: 4;
             grid-template-columns: repeat(5, 1fr);
             grid-template-rows: repeat(2, 1fr);
+            padding: 1rem 1rem 0;
         }
     }
 
@@ -199,14 +215,9 @@ body {
             font-size: 1.5rem;
         }
 
-        &__projector {
-            grid-column-end: 5;
-            grid-row-end: 3;
-        }
-
         .album-list {
             grid-column-start: 1;
-            grid-row-start: 3;
+            grid-row-start: 2;
             grid-template-columns: 1fr;
             grid-template-rows: repeat(10, 1fr);
         }
@@ -232,7 +243,7 @@ body {
 }
 
 /* URLS
-https://coolors.co/084c61-db504a-e3b505-4f6d7a-56a3a6
+https://coolors.co/d8dbe2-db504a-e3b505-44355b-a9bcd0
 https://www.imgonline.com.ua/eng/get-dominant-colors.php
 https://stackoverflow.com/questions/2541481/get-average-color-of-image-via-javascript
 https://medium.com/@alvaro.saburido/applying-gradient-trends-in-sass-cf825d70f5fe

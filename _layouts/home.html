@@ -6,9 +6,9 @@ layout: default
         <li class="years-list__item">
             <div class="year-block">
                 <h2 class="year-block__title">{{ favYear.year }}</h2>
-                <div class="year-block__projector" style="background-image: url({{ "/assets/" | relative_url}}covers/{{favYear.year}}/css_sprites.png);">
-                    <!-- <img src="{{"/assets/" | relative_url }}covers/{{ favYear.year }}/sprite.png"> -->
-                </div>
+                {% if forloop.index <= 3 %}
+                    <div class="year-block__projector"></div>
+                {% endif %}
                 <ul class="album-list">
                     {% assign albums = favYear.list | sort:"artist" %}
                     {% for albumItem in albums %}
@@ -23,10 +23,10 @@ layout: default
                                 {% capture bgPos %}100{% endcapture %}
                             {% else %}
                                 {% assign sprite_position = albumItem.sprite_position %}
-                                {% assign sprite_increment = 100 | divided_by: 9.0 %}
+                                {% assign sprite_increment = 100 | divided_by: 9.0 | round: 2 %}
                                 {% assign bgPos = sprite_position | times: sprite_increment %}
                             {% endif %}
-                            <div class="album" data-album="{{ albumItem.album }}" data-artist="{{ albumItem.artist }}" style="background-image: url({{ "/assets/" | relative_url}}covers/{{favYear.year}}/css_sprites.png); background-position: 0% {{ bgPos }}%;"></div>
+                            <div class="album" data-album="{{ albumItem.album }}" data-artist="{{ albumItem.artist }}" style="background-image: url({{ "/assets/images/covers/" | relative_url}}{{favYear.year}}/css_sprites.png); background-position: 0% {{ bgPos }}%;"></div>
                         </li>
                     {% endfor %}
                 </ul>

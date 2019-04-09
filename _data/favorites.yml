@@ -1,3 +1,4 @@
+
 - year: 2018
   list:
   - album: Loved to Death
@@ -12,8 +13,8 @@
     artist: Direct Hit!
     sprite_position: 9
 
-  - album: POST-
-    artist: Jeff Rosenstock
+  - album: Love Is Dead
+    artist: CHVRCHES
     sprite_position: 2
 
   - album: Double Negative
@@ -42,196 +43,126 @@
 
 - year: 2017
   list:
-  - artist: Bad Cop/Bad Cop
+  - artist: Bad Cop, Bad Cop
     album: Warriors
-    cover: warriors.webp
+    sprite_position: 5
 
   - artist: Can't Swim
     album: Fail You Again
-    cover: failYouAgain.webp
+    sprite_position: 6
 
   - artist: Communions
     album: Blue
-    cover: blue.webp
+    sprite_position: 7
 
   - artist: Future Islands
     album: The Far Field
-    cover: theFarField.webp
+    sprite_position: 2
 
   - artist: Iya Terra
     album: Sacred Sound
-    cover: sacredSound.webp
+    sprite_position: 0
 
   - artist: Mega Drive
     album: The Grid
-    cover: theGrid.webp
+    sprite_position: 8
 
   - artist: The Menzingers
     album: After The Party
-    cover: afterTheParty.webp
+    sprite_position: 9
 
   - artist: San Fermin
     album: Belong
-    cover: belong.webp
+    sprite_position: 3
 
   - artist: Teenage Bottlerocket
     album: Stealing the Covers
-    cover: stealingTheCovers.webp
+    sprite_position: 4
 
   - artist: Tigers Jaw
     album: spin
-    cover: spin.webp
+    sprite_position: 1
 
 - year: 2016
   list:
   - artist: Andy Shauf
     album: The Party
-    cover: theParty.webp
+    sprite_position: 5
 
   - artist: Baroness
     album: Purple
-    cover: purple.webp
+    sprite_position: 9
 
   - artist: David Bazan
     album: Blanco
-    cover: blanco.webp
+    sprite_position: 1
 
   - artist: King Gizzard & the Lizard Wizard
     album: Nonagon Infinity
-    cover: nonagonInfinity.webp
+    sprite_position: 3
 
   - artist: Matt Pond PA
     album: Winter Lives
-    cover: winterLives.webp
+    sprite_position: 7
 
   - artist: Mean Jeans
     album: Tight New Dimension
-    cover: tightNewDimension.webp
+    sprite_position: 8
 
   - artist: Mrs. Magician
     album: Bermuda
-    cover: bermuda.webp
+    sprite_position: 0
 
   - artist: Planes Mistaken For Stars
     album: Prey
-    cover: prey.webp
+    sprite_position: 4
 
   - artist: Rebelution
     album: Falling Into Place
-    cover: fallingIntoPlace.webp
+    sprite_position: 2
 
   - artist: Tiger Army
     album: V
-    cover: v.webp
+    sprite_position: 6
 
 - year: 2015
   list:
   - artist: Enter Shikari
     album: The Mindsweep
-    cover: theParty.webp
+    sprite_position: 9
 
   - artist: Refused
     album: Freedom
-    cover: purple.webp
+    sprite_position: 1
 
   - artist: Radioactivity
     album: Silent Kill
-    cover: blanco.webp
+    sprite_position: 5
 
   - artist: MisterWives
     album: Our Own House
-    cover: nonagonInfinity.webp
+    sprite_position: 7
 
   - artist: Teenage Bottlerocket
     album: Tales From Wyoming
-    cover: winterLives.webp
+    sprite_position: 8
 
   - artist: The Decline
     album: Resister
-    cover: tightNewDimension.webp
+    sprite_position: 6
 
   - artist: The Expanders
     album: Hustling Culture
-    cover: bermuda.webp
+    sprite_position: 2
 
   - artist: Foxing
     album: Dealer
-    cover: prey.webp
+    sprite_position: 0
 
   - artist: Smallpools
     album: LOVETAP!
-    cover: fallingIntoPlace.webp
+    sprite_position: 3
 
   - artist: CHVRCHES
     album: Every Open Eye
-    cover: v.webp
-
-- year: 2014
-  list:
-  - album: foo foo foo
-    artist: bar
-
-- year: 2013
-  list:
-  - album: foo foo foo
-    artist: bar
-
-- year: 2012
-  list:
-  - album: foo foo foo
-    artist: bar
-
-- year: 2011
-  list:
-  - album: foo foo foo
-    artist: bar
-
-- year: 2010
-  list:
-  - album: foo foo foo
-    artist: bar
-
-- year: 2009
-  list:
-  - album: foo foo foo
-    artist: bar
-
-- year: 2008
-  list:
-  - album: foo foo foo
-    artist: bar
-
-- year: 2007
-  list:
-  - album: foo foo foo
-    artist: bar
-
-- year: 2006
-  list:
-  - album: foo foo foo
-    artist: bar
-
-- year: 2005
-  list:
-  - album: foo foo foo
-    artist: bar
-
-- year: 2004
-  list:
-  - album: foo foo foo
-    artist: bar
-
-- year: 2003
-  list:
-  - album: foo foo foo
-    artist: bar
-
-- year: 2002
-  list:
-  - album: foo foo foo
-    artist: bar
-
-- year: 2001
-  list:
-  - album: foo foo foo
-    artist: bar
+    sprite_position: 4
