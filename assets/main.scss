@@ -60,8 +60,10 @@ body {
         color: #000000;
 
         &:nth-child(1) {
-            background: #E3B505;
+            $baseColor: #E3B505;
+            background: $baseColor;
             color: #FFFFFF;
+            border: 1rem solid darken($baseColor, 5%);
         }
 
         &:nth-child(2) {
@@ -154,6 +156,10 @@ body {
         img {
             // max-width: 100%;
         }
+    }
+
+    &__sprite {
+        width: 100%;
     }
 
     .years-list__item:nth-child(1) & {
