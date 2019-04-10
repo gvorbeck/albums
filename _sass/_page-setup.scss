@@ -4,7 +4,7 @@
 
 body {
     background-color: $color--background;
-    background-color: linear-gradient(127deg, $color--background, darken($color--background, 15%) 70.71%);
+    background: linear-gradient(127deg, $color--background, darken($color--background, 15%) 70.71%);
     font-family: 'IBM Plex Sans', sans-serif;
 
     display: grid;

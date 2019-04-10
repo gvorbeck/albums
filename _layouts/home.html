@@ -7,7 +7,7 @@ layout: default
         <li class="favorites-list__item">
             <div class="year-block">
                 <h2 class="year-block__title">{{ favoritesItem.year }}</h2>
-                <div class="year-block__spotlight"><span class="site-logo"></span></div>
+                <div class="year-block__spotlight">{% include tape.svg %}</div>
                 <ul class="album-list">
                     {% assign albums = favoritesItem.list | sort:"artist" %}
                     {% for albumItem in albums %}

@@ -4,4 +4,37 @@
     font-size: 5rem;
     font-weight: 700;
     text-transform: uppercase;
+    position: relative;
+    margin: 2rem 0 2rem 1rem;
+
+    &__title {
+        position: relative;
+
+        span {
+            width: rem(146px);
+            display: inline-block;
+        }
+
+        &::after {
+            @include pseudo;
+            width: rem(166px);
+            height: rem(100px);
+            border: rem(10px) solid $color--base;
+            top: rem(-17px);
+            left: rem(75px);
+            border-radius: rem(15px);
+            opacity: .4;
+            transform: rotate(15deg);
+        }
+    }
+
+    svg {
+        width: rem(135px);
+        height: auto;
+        position: absolute;
+        fill: $color--base;
+        top: rem(-26px);
+        left: rem(100px);
+        transform: rotate(15deg);
+    }
 }
