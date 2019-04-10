@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background-color: $color--background;
+    background-color: linear-gradient(127deg, $color--background, darken($color--background, 15%) 70.71%);
+    font-family: 'IBM Plex Sans', sans-serif;
+
+    display: grid;
+    grid-template: auto 1fr auto / repeat(12, 1fr);
+    grid-row-gap: 1rem;
+}
+
+.site-header,
+main,
+.site-footer {
+    grid-column: 2 / 12;
+}
+
+.site-header {
+    grid-row: 1 / 2;
+}
+
+main {
+    grid-row: 2 / 3;
+}
+
+.site-footer {
+    grid-row: 3 / 4;
+}

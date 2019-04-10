@@ -3,11 +3,11 @@
   list:
   - album: Loved to Death
     artist: Dance With the Dead
-    sprite_position: 3
+    sprite_position: 8
 
   - album: Ordinary Corrupt Human Love
     artist: Deafheaven
-    sprite_position: 7
+    sprite_position: 3
 
   - album: Crown of Nothing
     artist: Direct Hit!
@@ -19,7 +19,7 @@
 
   - album: Double Negative
     artist: Low
-    sprite_position: 1
+    sprite_position: 0
 
   - album: "'Til the End"
     artist: MiTis
@@ -27,7 +27,7 @@
 
   - album: Free Rein
     artist: Rebelution
-    sprite_position: 6
+    sprite_position: 7
 
   - album: Clean
     artist: Soccer Mommy
@@ -35,11 +35,11 @@
 
   - album: ROCKNROLL MACHINE
     artist: Turbonegro
-    sprite_position: 0
+    sprite_position: 1
 
   - album: Everybody!!
     artist: WANIMA
-    sprite_position: 8
+    sprite_position: 6
 
 - year: 2017
   list:
@@ -131,8 +131,8 @@
     album: The Mindsweep
     sprite_position: 9
 
-  - artist: Refused
-    album: Freedom
+  - artist: Fetty Wap
+    album: Fetty Wap
     sprite_position: 1
 
   - artist: Radioactivity
@@ -166,3 +166,213 @@
   - artist: CHVRCHES
     album: Every Open Eye
     sprite_position: 4
+
+- year: 2014
+  list:
+  - artist: Architecture in Helsinki
+    album: Now + 4eva
+    sprite_position: 8
+
+  - artist: Bear Hands
+    album: Distraction
+    sprite_position: 2
+
+  - artist: Bleachers
+    album: Strange Desire
+    sprite_position: 9
+
+  - artist: The Copyrights
+    album: Report
+    sprite_position: 7
+
+  - artist: Deleted Scenes
+    album: Lithium Burn
+    sprite_position: 4
+
+  - artist: Future Islands
+    album: Singles
+    sprite_position: 6
+
+  - artist: Lo-Fang
+    album: Blue Film
+    sprite_position: 1
+
+  - artist: Skaters
+    album: Manhattan
+    sprite_position: 5
+
+  - artist: SOJA
+    album: Amid The Noise And Haste
+    sprite_position: 0
+
+  - artist: Tokyo Police Blub
+    album: Forcefield
+    sprite_position: 3
+
+- year: 2013
+  list:
+  - artist: The Appleseed Cast
+    album: Illumination Ritual
+    sprite_position: 9
+
+  - artist: Banquets
+    album: Banquets
+    sprite_position: 2
+
+  - artist: Conditions
+    album: Full Of War
+    sprite_position: 4
+
+  - artist: The Fourth Estate
+    album: The Costs of Living
+    sprite_position: 3
+
+  - artist: Har Mar Superstar
+    album: Bye Bye 17
+    sprite_position: 1
+
+  - artist: Old Man Markley
+    album: Down Side Up
+    sprite_position: 5
+
+  - artist: Radioactivity
+    album: Radioactivity
+    sprite_position: 7
+
+  - artist: Sarabix
+    album: Krakatoa
+    sprite_position: 6
+
+  - artist: Sigur Rós
+    album: Kveikur
+    sprite_position: 8
+
+  - artist: This Town Needs Guns
+    album: 13.0.0.0.0
+    sprite_position: 0
+
+- year: 2012
+  list:
+  - artist: The Tower & The
+    album: How Long
+    sprite_position: 4
+
+  - artist: Athletics
+    album: Who You Are Is Not Enough
+    sprite_position: 9
+
+  - artist: Enter Shikari
+    album: A Flash Flood Of Colour
+    sprite_position: 0
+
+  - artist: Belie My Burial
+    album: Pale Beyond
+    sprite_position: 7
+
+  - artist: Sigur Rós
+    album: Valtari
+    sprite_position: 5
+
+  - artist: Paul Banks
+    album: Banks
+    sprite_position: 1
+
+  - artist: Symphony Of Distraction
+    album: Call It Off, John
+    sprite_position: 3
+
+  - artist: Topsy Turvy's
+    album: You Better Believe It, You're In
+    sprite_position: 8
+
+  - artist: Pinback
+    album: Information Retrieved
+    sprite_position: 6
+
+  - artist: Voodoo Glow Skulls
+    album: Break The Spell
+    sprite_position: 2
+
+- year: 2011
+  list:
+  - artist: Ever Forthright
+    album: Ever Forthright
+    sprite_position: 4
+
+  - artist: The Vaccines
+    album: What Did You Expect from the Vaccines?
+    sprite_position: 9
+
+  - artist: Black Lips
+    album: Arabia Mountain
+    sprite_position: 0
+
+  - artist: The Bride
+    album: President Rd
+    sprite_position: 7
+
+  - artist: Five O'Clock Heroes
+    album: Different Times
+    sprite_position: 3
+
+  - artist: David Bazan
+    album: Strange Negotiations
+    sprite_position: 6
+
+  - artist: Tennis
+    album: Cape Dory
+    sprite_position: 2
+
+  - artist: The Decline
+    album: Are You Gonna Eat That?
+    sprite_position: 1
+
+  - artist: Hands
+    album: Give Me Rest
+    sprite_position: 5
+
+  - artist: The Expanders
+    album: The Expanders
+    sprite_position: 8
+
+- year: 2010
+  list:
+  - artist: Affiance
+    album: No Secret Revealed
+    sprite_position: 5
+
+  - artist: The Black Keys
+    album: Brothers
+    sprite_position: 0
+
+  - artist: Conditions
+    album: Fluorescent Youth
+    sprite_position: 1
+
+  - artist: The Decline
+    album: I'm Not Gonna Lie to You
+    sprite_position: 7
+
+  - artist: Fifty Stars Anger
+    album: Mind Grenades for The Revolution
+    sprite_position: 4
+
+  - artist: Golliwog
+    album: Plague Allegiance
+    sprite_position: 8
+
+  - artist: The Growlers
+    album: Hot Tropics
+    sprite_position: 2
+
+  - artist: La Vide Bohème
+    album: Nuestra
+    sprite_position: 6
+
+  - artist: Miami Horror
+    album: Illumination
+    sprite_position: 3
+
+  - artist: Various Artists
+    album: Red Dead Redemption Original Soundtrack
+    sprite_position: 9
