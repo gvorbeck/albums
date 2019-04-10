@@ -1,5 +1,9 @@
 ---
 layout: default
+
+# x lazy load images
+# - on mobile: spotify link auto-shows
+# x on desktop: a signifier on album list that an album is selected
 ---
 <ul class="favorites-list">
     {% assign favorites = site.data.favorites | sort:"year" | reverse %}
@@ -25,12 +29,15 @@ layout: default
                             {% assign bgPos = sprite_position | times: sprite_increment %}
                         {% endif %}
                         <li class="album-list__item">
+                            {% include tape.svg %}
                             <button class="album-list__button"
                                 data-artist="{{ albumItem.artist }}"
                                 data-album="{{ albumItem.album }}"
                                 data-position="{{ albumItem.sprite_position }}"
+                                data-spotify="{{ albumItem.spotify_link }}"
+                                data-src="{{ "/assets/images/covers/" | relative_url }}{{favoritesItem.year}}/css_sprites.png"
                                 style="
-                                    background-image: url({{ "/assets/images/covers/" | relative_url }}{{favoritesItem.year}}/css_sprites.png);
+                                    {% comment %}background-image: url({{ "/assets/images/covers/" | relative_url }}{{favoritesItem.year}}/css_sprites.png);{% endcomment %}
                                     background-position: 0 {{ bgPos }}%;"
                                 ></button>
                         </li>

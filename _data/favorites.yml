@@ -4,42 +4,52 @@
   - album: Loved to Death
     artist: Dance With the Dead
     sprite_position: 8
+    spotify_link: spotify:album:1lnSh8xb06nXe4ZxRSvQhn
 
   - album: Ordinary Corrupt Human Love
     artist: Deafheaven
     sprite_position: 3
+    spotify_link: spotify:album:2iA7rzpQsOfAPkfH4Ekp7f
 
   - album: Crown of Nothing
     artist: Direct Hit!
     sprite_position: 9
+    spotify_link: spotify:album:1EFnZuLUzXx0B6ZsL9aqum
 
   - album: Love Is Dead
     artist: CHVRCHES
     sprite_position: 2
+    spotify_link: spotify:album:7EchhykwUf4ACDDABEDa7o
 
   - album: Double Negative
     artist: Low
     sprite_position: 0
+    spotify_link: spotify:album:1zTkgOHx3mjrUvrhxq4osf
 
   - album: "'Til the End"
     artist: MiTis
     sprite_position: 4
+    spotify_link: spotify:album:09dfll1eY4PRh0nSWIuFBi
 
   - album: Free Rein
     artist: Rebelution
     sprite_position: 7
+    spotify_link: spotify:album:5FfbqVo0OapeCvoJvjWlOp
 
   - album: Clean
     artist: Soccer Mommy
     sprite_position: 5
+    spotify_link: spotify:album:36NLDBi2kX7XRHnyLzLOS8
 
   - album: ROCKNROLL MACHINE
     artist: Turbonegro
     sprite_position: 1
+    spotify_link: spotify:album:424KFQolDBYGCXPJID48Fm
 
   - album: Everybody!!
     artist: WANIMA
     sprite_position: 6
+    spotify_link: spotify:artist:6YqdtpUutxodni6lUD4stM
 
 - year: 2017
   list:
@@ -129,39 +139,39 @@
   list:
   - artist: Enter Shikari
     album: The Mindsweep
-    sprite_position: 9
+    sprite_position: 1
 
   - artist: Fetty Wap
     album: Fetty Wap
-    sprite_position: 1
+    sprite_position: 2
 
   - artist: Radioactivity
     album: Silent Kill
-    sprite_position: 5
+    sprite_position: 3
 
   - artist: MisterWives
     album: Our Own House
-    sprite_position: 7
+    sprite_position: 6
 
   - artist: Teenage Bottlerocket
     album: Tales From Wyoming
-    sprite_position: 8
+    sprite_position: 0
 
   - artist: The Decline
     album: Resister
-    sprite_position: 6
+    sprite_position: 8
 
   - artist: The Expanders
     album: Hustling Culture
-    sprite_position: 2
+    sprite_position: 7
 
   - artist: Foxing
     album: Dealer
-    sprite_position: 0
+    sprite_position: 9
 
   - artist: Smallpools
     album: LOVETAP!
-    sprite_position: 3
+    sprite_position: 5
 
   - artist: CHVRCHES
     album: Every Open Eye

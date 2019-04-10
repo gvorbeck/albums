@@ -1,6 +1,7 @@
 .favorites-list {
     box-shadow: 0 rem(14px) rem(28px) rgba(0,0,0,0.25), 0 rem(10px) rem(10px) rgba(0,0,0,0.22);
 
+    /* DYNAMIC COLOR IMPLEMENTATION */
     @for $i from 1 through length($colors--year-block) {
         &__item:nth-child(#{length($colors--year-block)}n+#{$i}) {
             padding: 1rem;
@@ -11,12 +12,24 @@
                 color: lighten(nth($colors--year-block, $i), 50%);;
             }
 
+            .album-list__item {
+                background-color: darken(nth($colors--year-block, $i), 25%);
+
+                svg {
+                    fill: darken(nth($colors--year-block, $i), 15%);
+                }
+            }
+
             .year-block__spotlight {
                 background-color: darken(nth($colors--year-block, $i), 25%);
 
                 svg {
                     fill: darken(nth($colors--year-block, $i), 15%);
                 }
+            }
+
+            .sprite-spotify {
+                background-color: rgba(nth($colors--year-block, $i), .6);
             }
         }
     }
@@ -60,7 +73,7 @@
     }
 
     &__title {
-        font-size: 4rem;
+        font-size: 6rem;
         font-weight: 700;
     }
 
@@ -73,9 +86,14 @@
             width: calc(100% - 4rem);
             margin: 0 1rem 0 1rem;
             position: absolute;
-            height: 100%;
+            height: auto;
         }
     }
+}
+
+.sprite-slice,
+.sprite-info {
+    position: relative;
 }
 
 .sprite-slice {
@@ -85,13 +103,37 @@
     box-shadow: 0 rem(10px) rem(20px) rgba(0,0,0,0.19), 0 rem(6px) rem(6px) rgba(0,0,0,0.23);
 }
 
+.sprite-spotify {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+
+    &::after {
+        @include pseudo;
+        top: 25%;
+        left: 25%;
+        width: 50%;
+        height: 50%;
+        background-image: url(/albums/assets/images/logos/spotify.svg);
+        background-size: 100%;
+    }
+
+    .sprite-slice:hover & {
+        display: block;
+        // opacity: .6;
+    }
+}
+
 .sprite-info {
     margin: 1rem 0;
     text-align: justify;
     font-size: 2rem;
     line-height: 3rem;
     border-top: .25rem solid;
-    position: relative;
 
     span {
         font-weight: 700;
@@ -108,6 +150,25 @@
     grid-template: repeat(5, 1fr) / repeat(2, 1fr);
     grid-gap: 1rem;
 
+    &__item {
+        padding: 0;
+        transition: padding .25s ease-out;
+        position: relative;
+
+        &--active {
+            padding: 1rem;
+            transition: padding .25s ease-in;
+        }
+
+        svg {
+            position: absolute;
+            width: 80%;
+            top: 10%;
+            left: 10%;
+            height: auto;
+        }
+    }
+
     &__button {
         background-size: 100%;
         height: 0;
@@ -115,6 +176,9 @@
         border: none;
         width: 100%;
         box-shadow: 0 rem(3px) rem(6px) rgba(0,0,0,0.16), 0 rem(3px) rem(6px) rgba(0,0,0,0.23);
+        outline: none;
         cursor: pointer;
+        position: relative;
+        background-color: transparent;
     }
 }

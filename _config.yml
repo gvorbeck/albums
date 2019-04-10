@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: I Love Music
+subtitle: My favorite records, a project by J. Garrett Vorbeck
 email: me@iamgarrett.com
 description: >- # this means to ignore newlines until "baseurl:"
   I like to make lists and I like to listen to music. Not always at the same
