@@ -56,42 +56,52 @@
   - artist: Bad Cop, Bad Cop
     album: Warriors
     sprite_position: 5
+    spotify_link: spotify:album:2PNMwU8deGSm3ZylzdOcZQ
 
   - artist: Can't Swim
     album: Fail You Again
     sprite_position: 6
+    spotify_link: spotify:album:2R1KjAoMCoz6QmhwhEZuYV
 
   - artist: Communions
     album: Blue
     sprite_position: 7
+    spotify_link: spotify:album:2gGVKRwFVfp8KhTUrMBGZq
 
   - artist: Future Islands
     album: The Far Field
     sprite_position: 2
+    spotify_link: spotify:album:5fhDKNsP4aDsSLjd4JLXrz
 
   - artist: Iya Terra
     album: Sacred Sound
     sprite_position: 0
+    spotify_link: spotify:album:1mWCAdn4pHhjEHl9yVY796
 
   - artist: Mega Drive
     album: The Grid
     sprite_position: 8
+    spotify_link: spotify:album:2H7l9M4tzeVQdqKfEYghaR
 
   - artist: The Menzingers
     album: After The Party
     sprite_position: 9
+    spotify_link: spotify:album:1nzDVfQopF9YBkpPAfUck3
 
   - artist: San Fermin
     album: Belong
     sprite_position: 3
+    spotify_link: spotify:album:22sKyWyE7QGrAtfPHDboXV
 
   - artist: Teenage Bottlerocket
     album: Stealing the Covers
     sprite_position: 4
+    spotify_link: spotify:album:1bakZAEZ9c6WC8jnkbXDF3
 
   - artist: Tigers Jaw
     album: spin
     sprite_position: 1
+    spotify_link: spotify:album:2xSppFiPUTWqZ9cdF6CQnY
 
 - year: 2016
   list:
