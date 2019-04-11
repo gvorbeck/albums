@@ -108,168 +108,208 @@
   - artist: Andy Shauf
     album: The Party
     sprite_position: 5
+    spotify_link: spotify:album:35FWLG8Ysjj1BF3sx4F6zM
 
   - artist: Baroness
     album: Purple
     sprite_position: 9
+    spotify_link: spotify:album:25FRZSpdZCczTURlAcMm6r
 
   - artist: David Bazan
     album: Blanco
     sprite_position: 1
+    spotify_link: spotify:album:33kDKilTTOHjFDJvNBbiWi
 
   - artist: King Gizzard & the Lizard Wizard
     album: Nonagon Infinity
     sprite_position: 3
+    spotify_link: spotify:album:438JijxKCWYrtvpB5A5071
 
   - artist: Matt Pond PA
     album: Winter Lives
     sprite_position: 7
+    spotify_link: spotify:album:62hP0p3napMAE06DsYt2fg
 
   - artist: Mean Jeans
     album: Tight New Dimension
     sprite_position: 8
+    spotify_link: spotify:album:3Ln9Fg9iSUANrwXliqolmH
 
   - artist: Mrs. Magician
     album: Bermuda
     sprite_position: 0
+    spotify_link: spotify:album:2Vp7l22Ljza3OH80HJq6dC
 
   - artist: Planes Mistaken For Stars
     album: Prey
     sprite_position: 4
+    spotify_link: spotify:album:5XAvsY5SyGg2pvWJMflTWk
 
   - artist: Rebelution
     album: Falling Into Place
     sprite_position: 2
+    spotify_link: spotify:album:3TsqZMEQhGAnQ1nph9M22A
 
   - artist: Tiger Army
     album: V
     sprite_position: 6
+    spotify_link: spotify:album:6PYN4eAuXbcMq3h29h9spJ
 
 - year: 2015
   list:
   - artist: Enter Shikari
     album: The Mindsweep
     sprite_position: 1
+    spotify_link: spotify:album:3068M4yetJhtaANBT34sYr
 
   - artist: Fetty Wap
     album: Fetty Wap
     sprite_position: 2
+    spotify_link: spotify:album:2gKQvajkEEaDtkqJ8FJ4uw
 
   - artist: Radioactivity
     album: Silent Kill
     sprite_position: 3
+    spotify_link: spotify:album:1pcM7NFV8ZaZkfNUpcY13P
 
   - artist: MisterWives
     album: Our Own House
     sprite_position: 6
+    spotify_link: spotify:album:726GB3GTBwPdsGr5XzOQbz
 
   - artist: Teenage Bottlerocket
     album: Tales From Wyoming
     sprite_position: 0
+    spotify_link: spotify:album:6EcpmYvGlUa8AIlcvm1Ds9
 
   - artist: The Decline
     album: Resister
     sprite_position: 8
+    spotify_link: spotify:album:5ot4933neHbkPcSEDCeFTM
 
   - artist: The Expanders
     album: Hustling Culture
     sprite_position: 7
+    spotify_link: spotify:album:7bdBUhd3ojfCJJdAQqtgON
 
   - artist: Foxing
     album: Dealer
     sprite_position: 9
+    spotify_link: spotify:album:7nVLbTV7JrJ5ohUbPjvSlN
 
   - artist: Smallpools
     album: LOVETAP!
     sprite_position: 5
+    spotify_link: spotify:album:59xqFRG2IgFTsZtQ73yIp6
 
   - artist: CHVRCHES
     album: Every Open Eye
     sprite_position: 4
+    spotify_link: spotify:album:6pcfjrxlkf7fk9irlvJUzG
 
 - year: 2014
   list:
   - artist: Architecture in Helsinki
     album: Now + 4eva
     sprite_position: 8
+    spotify_link: spotify:album:2CslpGBJenq4K5NtuMXMgM
 
   - artist: Bear Hands
     album: Distraction
     sprite_position: 2
+    spotify_link: spotify:album:2g0SR4SuVcPKgzigzzpw5d
 
   - artist: Bleachers
     album: Strange Desire
     sprite_position: 9
+    spotify_link: spotify:album:0cnNCK2xpudXjB8pzsrYy9
 
   - artist: The Copyrights
     album: Report
     sprite_position: 7
+    spotify_link: spotify:album:77Li4A2uUeoDFeTtYCf6U7
 
   - artist: Deleted Scenes
     album: Lithium Burn
     sprite_position: 4
+    spotify_link: spotify:album:6oZkQ4pJBWmaXAltXcRIpT
 
   - artist: Future Islands
     album: Singles
     sprite_position: 6
+    spotify_link: spotify:album:1dKh4z5Aayt8FFDWjO5FDh
 
   - artist: Lo-Fang
     album: Blue Film
     sprite_position: 1
+    spotify_link: spotify:album:66BEZ127VgaQbxxRJijFZg
 
   - artist: Skaters
     album: Manhattan
     sprite_position: 5
+    spotify_link: spotify:album:2yZx85NwXdqZu3roJ0vH6J
 
   - artist: SOJA
     album: Amid The Noise And Haste
     sprite_position: 0
+    spotify_link: spotify:album:5OkMrvt48nB8iMDN6Mx3HL
 
   - artist: Tokyo Police Blub
     album: Forcefield
     sprite_position: 3
+    spotify_link: spotify:album:55pj3OVrpwedZVi8GUrChK
 
 - year: 2013
   list:
   - artist: The Appleseed Cast
     album: Illumination Ritual
     sprite_position: 9
+    spotify_link: spotify:album:4ZUpacHZD1ts1H37ms8iiG
 
   - artist: Banquets
     album: Banquets
     sprite_position: 2
+    spotify_link: spotify:album:6KRKbkw6ZxW1U6aAuV4DyF
 
   - artist: Conditions
     album: Full Of War
     sprite_position: 4
+    spotify_link: spotify:album:5XlMI2QVBxFS0vh5oJxBYc
 
   - artist: The Fourth Estate
     album: The Costs of Living
     sprite_position: 3
+    spotify_link: spotify:album:45RLzeKuX9YcmdwKcbTu8T
 
   - artist: Har Mar Superstar
     album: Bye Bye 17
     sprite_position: 1
+    spotify_link: spotify:album:2GC0D9Deyx1L8UHrskFbEi
 
   - artist: Old Man Markley
     album: Down Side Up
     sprite_position: 5
+    spotify_link: spotify:album:3iJLMNGT4uSpG5I0lxthQm
 
   - artist: Radioactivity
     album: Radioactivity
     sprite_position: 7
+    spotify_link: spotify:album:0atZuxlHAR1UaMAksmJS5Y
 
   - artist: Sarabix
     album: Krakatoa
     sprite_position: 6
+    spotify_link: spotify:album:49OwlsWqHDtsIKkliRuiOr
 
   - artist: Sigur Rós
     album: Kveikur
     sprite_position: 8
+    spotify_link: spotify:album:1rRNqn4MTZfh393GzGvBtY
 
   - artist: This Town Needs Guns
     album: 13.0.0.0.0
     sprite_position: 0
+    spotify_link: spotify:album:3QQOkN9iqJJrwXohbNYRiP
 
 - year: 2012
   list:
