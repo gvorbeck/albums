@@ -25,7 +25,7 @@ layout: default
                             {% capture bgPos %}100{% endcapture %}
                         {% else %}
                             {% assign sprite_position = albumItem.sprite_position %}
-                            {% assign sprite_increment = 100 | divided_by: 9.0 | round: 2 %}
+                            {% assign sprite_increment = 100 | divided_by: 9.0 %}
                             {% assign bgPos = sprite_position | times: sprite_increment %}
                         {% endif %}
                         <li class="album-list__item">

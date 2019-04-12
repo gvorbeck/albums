@@ -313,126 +313,364 @@
 
 - year: 2012
   list:
-  - artist: The Tower & The
+  - artist: The Tower & The Fool
     album: How Long
     sprite_position: 4
+    spotify_link: spotify:album:3XkhvmeGUwG2IZbxkQnsDH
 
   - artist: Athletics
     album: Who You Are Is Not Enough
     sprite_position: 9
+    spotify_link: spotify:album:3XkhvmeGUwG2IZbxkQnsDH
 
   - artist: Enter Shikari
     album: A Flash Flood Of Colour
     sprite_position: 0
+    spotify_link: spotify:album:4bRbfjARi12Jm0EoAV2t3u
 
   - artist: Belie My Burial
     album: Pale Beyond
     sprite_position: 7
+    spotify_link: spotify:album:1hjCFXjEpjlHLj7Q9jBZGa
 
   - artist: Sigur Rós
     album: Valtari
     sprite_position: 5
+    spotify_link: spotify:album:0ZHkshyLAi9f8DXdj3Z5ph
 
   - artist: Paul Banks
     album: Banks
     sprite_position: 1
+    spotify_link: spotify:album:5AXP2zfIyBQifia7ELGZbK
 
   - artist: Symphony Of Distraction
     album: Call It Off, John
     sprite_position: 3
+    spotify_link: spotify:album:3Ozi0IBL8NtRaxuYPmG79X
 
   - artist: Topsy Turvy's
     album: You Better Believe It, You're In
     sprite_position: 8
+    spotify_link: spotify:album:36h8ZFmbawTFTYwe2kiXCB
 
   - artist: Pinback
     album: Information Retrieved
     sprite_position: 6
+    spotify_link: spotify:album:3J1E7sOzCfnv9LaJNlFdwI
 
   - artist: Voodoo Glow Skulls
     album: Break The Spell
     sprite_position: 2
+    spotify_link: spotify:album:3r65OXZa8o8mK92m7uB1m7
 
 - year: 2011
   list:
   - artist: Ever Forthright
     album: Ever Forthright
     sprite_position: 4
+    spotify_link: spotify:artist:13D2d4O3SXaCtDgVn3AbgX
 
   - artist: The Vaccines
     album: What Did You Expect from the Vaccines?
     sprite_position: 9
+    spotify_link: spotify:album:6eWtdQm0hSlTgpkbw4LaBG
 
   - artist: Black Lips
     album: Arabia Mountain
     sprite_position: 0
+    spotify_link: spotify:album:2gfAAM6Uwp2XR1PjJscw33
 
   - artist: The Bride
     album: President Rd
     sprite_position: 7
+    spotify_link: spotify:album:4LM8ofSW0JjPZasZLkTbUe
 
   - artist: Five O'Clock Heroes
     album: Different Times
     sprite_position: 3
+    spotify_link: spotify:album:6GvdlYJmJzRiNEx67nvHVF
 
   - artist: David Bazan
     album: Strange Negotiations
     sprite_position: 6
+    spotify_link: spotify:album:0teCneZSSxaicWL96S1bfH
 
   - artist: Tennis
     album: Cape Dory
     sprite_position: 2
+    spotify_link: spotify:album:7EdH3HFfkPD44j2uh4HYNr
 
   - artist: The Decline
     album: Are You Gonna Eat That?
     sprite_position: 1
+    spotify_link: spotify:album:7eWdY196pAYZun7x4RqLS9
 
   - artist: Hands
     album: Give Me Rest
     sprite_position: 5
+    spotify_link: spotify:album:7kxHA6L2NxB1YBvlp7Je4L
 
   - artist: The Expanders
     album: The Expanders
     sprite_position: 8
+    spotify_link: spotify:album:1zKyHrPc54uJDWDSreBC9T
 
 - year: 2010
   list:
   - artist: Affiance
     album: No Secret Revealed
     sprite_position: 5
+    spotify_link: spotify:album:3WqXOKjQ371qGFVQE94ZsF
 
   - artist: The Black Keys
     album: Brothers
     sprite_position: 0
+    spotify_link: spotify:album:7qE6RXYyz5kj5Tll7mJU0v
 
   - artist: Conditions
     album: Fluorescent Youth
     sprite_position: 1
+    spotify_link: spotify:album:06fCkwSB0j0dsZmUmbhC1B
 
   - artist: The Decline
     album: I'm Not Gonna Lie to You
     sprite_position: 7
+    spotify_link: spotify:album:5ZdOCRZVJc5slPXXlqA56q
 
   - artist: Fifty Stars Anger
     album: Mind Grenades for The Revolution
     sprite_position: 4
+    spotify_link:
 
   - artist: Golliwog
     album: Plague Allegiance
     sprite_position: 8
+    spotify_link: spotify:album:2d4PJzmFbgb5XDAjS7F3Mg
 
   - artist: The Growlers
     album: Hot Tropics
     sprite_position: 2
+    spotify_link: spotify:album:02KuwrUe9r1knIfI0rVf7c
 
   - artist: La Vide Bohème
     album: Nuestra
     sprite_position: 6
+    spotify_link: spotify:album:7kSxnf1JIMeFMIKKC5xDtt
 
   - artist: Miami Horror
     album: Illumination
     sprite_position: 3
+    spotify_link: spotify:album:1Nb8xRzI4OVThbG3ewobwY
 
   - artist: Various Artists
     album: Red Dead Redemption Original Soundtrack
     sprite_position: 9
+    spotify_link: spotify:album:22H5XKyHXkxHbty4jtBibg
+
+- year: 2009
+  list:
+  - artist: David Bazan
+    album: Curse Your Branches
+    sprite_position: 5
+    spotify_link: spotify:album:3jSLRsQ0xqfbktpEoFGIcV
+
+  - artist: Horse The Band
+    album: Desperate Living
+    sprite_position: 1
+    spotify_link: spotify:album:4rNTleyIYz0fJKLaSxSe8Z
+
+  - artist: Edward Sharpe & The Magnetic Zeroes
+    album: Up from Below
+    sprite_position: 4
+    spotify_link: spotify:album:39xrkt8RILtwa9DMyLkv32
+
+  - artist: Propagandhi
+    album: Supporting Caste
+    sprite_position: 8
+    spotify_link: spotify:album:2XD0u81Bu0cnddlaYXUOT5
+
+  - artist: fun.
+    album: Aim and Ignite
+    sprite_position: 6
+    spotify_link: spotify:album:68Q6uG6exOAUqF4Q7aNUEY
+
+  - artist: Julian Plenti
+    album: Julian Plenti Is... Skyscraper
+    sprite_position: 3
+    spotify_link: spotify:album:2xLmsfiCmieCud4cj8yMrl
+
+  - artist: Cobra Skulls
+    album: American Rubicon
+    sprite_position: 0
+    spotify_link: spotify:album:1OLg3WMwHfRa9va84rA2Vq
+
+  - artist: La Roux
+    album: La Roux
+    sprite_position: 7
+    spotify_link: spotify:album:3elHo10HDaxn13uuVhiTWH
+
+  - artist: Imogen Heap
+    album: Ellipse
+    sprite_position: 2
+    spotify_link: spotify:album:5AYKGPzPBJNHeKehCxMaq0
+
+  - artist: Killswitch Engage
+    album: Killswitch Engage
+    sprite_position: 9
+    spotify_link: spotify:album:0Vj4E53uI59Q4hnxiIpZrl
+
+- year: 2008
+  list:
+  - artist: The Teenagers
+    album: Reality Check
+    sprite_position: 0
+    spotify_link: spotify:album:5pUFwCxqMKYeNewTY9j1DG
+
+  - artist: No Use For A Name
+    album: The Feel Good Record of the Year
+    sprite_position: 5
+    spotify_link: spotify:album:4u8maWk9uRQ7ipjkKTVHup
+
+  - artist: Jay Tholen
+    album: Epidemic
+    sprite_position: 4
+    spotify_link: spotify:album:41gWYyywW8PNVU9Bl7vFx4
+
+  - artist: Kanye West
+    album: 808s & Heartbreak
+    sprite_position: 1
+    spotify_link: spotify:album:3WFTGIO6E3Xh4paEOBY9OU
+
+  - artist: Paul Gonzenbach
+    album: Avalanche Kiss
+    sprite_position: 2
+    spotify_link: spotify:album:5JylMXQ2Zqt63KROfogBP2
+
+  - artist: Smash the Statues
+    album: When Fear Is All Around Us
+    sprite_position: 3
+    spotify_link: spotify:album:3JcjYNoUVD0CPjnAeIUwqg
+
+  - artist: Black President
+    album: Black President
+    sprite_position: 9
+    spotify_link:
+
+  - artist: Pendulum
+    album: In Silico
+    sprite_position: 7
+    spotify_link: spotify:album:6eRDE48ttoLqN2VfkEpPOJ
+
+  - artist: Crystal Castles
+    album: Crystal Castles
+    sprite_position: 8
+    spotify_link: spotify:album:5nM3cUPxqg7iqjaoyeCWtN
+
+  - artist: Dillinger Four
+    album: C I V I L W A R
+    sprite_position: 6
+    spotify_link: spotify:album:3qIFEGF5cuip70vU7zatpb
+
+- year: 2007
+  list:
+  - artist: Lavender Diamond
+    album: Imagine Our Love
+    sprite_position: 9
+    spotify_link: spotify:album:77KZTEqXuLNDX9nLPL8Wba
+
+  - artist: Cobra Skulls
+    album: Sitting Army
+    sprite_position: 8
+    spotify_link: spotify:album:06XizyvLh1GN1Cr237MtQl
+
+  - artist: Grouper
+    album: Cover the Windows and the Walls
+    sprite_position: 6
+    spotify_link: spotify:album:6FDT9qQNRT6ntiEhTI8SI6
+
+  - artist: Murcof
+    album: Cosmos
+    sprite_position: 4
+    spotify_link: spotify:album:5CPMjEHl3GxbZufnQdgylB
+
+  - artist: Chief
+    album: Provocation Of The Nation
+    sprite_position: 1
+    spotify_link: spotify:album:72NmrcAzL2nWxQ6quUPKXP
+
+  - artist: Robert Plant & Alison Krauss
+    album: Raising Sand
+    sprite_position: 5
+    spotify_link: spotify:album:54GfJ3ZEY2b6PKmvETmj1n
+
+  - artist: Explosions In The Sky
+    album: All of a Sudden I Miss Everyone
+    sprite_position: 2
+    spotify_link: spotify:album:34RLNUE77WOvP9na4nf7Ua
+
+  - artist: Angels & Airwaves
+    album: I-Empire
+    sprite_position: 7
+    spotify_link: spotify:album:7E31adfdc3ljGnxjZVF6et
+
+  - artist: Aspects of Physics
+    album: "Marginalized Information Forms 2: Cumulative Errror"
+    sprite_position: 3
+    spotify_link: spotify:album:4MaEYv5Uh7ERcsk60J9jsE
+
+  - artist: Tegan and Sara
+    album: The Con
+    sprite_position: 0
+    spotify_link: spotify:album:4QjGIZZqvNrdkgw4LZKLZK
+
+- year: 2006
+  list:
+  - artist: David Bazan
+    album: Fewer Moving Parts
+    sprite_position: 7
+    spotify_link: spotify:album:3FMPXrI0idOKmTZxqbUgu2
+
+  - artist: DragonForce
+    album: Inhuman Rampage
+    sprite_position: 3
+    spotify_link: spotify:album:28YBgZU6HDhnkf6ZZXbY3y
+
+  - artist: Angels & Airwaves
+    album: We Don't Need To Whisper
+    sprite_position: 1
+    spotify_link: spotify:album:55drvPTRV1FgJkuaztyS5X
+
+  - artist: The Sounds
+    album: Dying To Say This To You
+    sprite_position: 8
+    spotify_link: spotify:album:45obbcVIa3428mdxaNLmly
+
+  - artist: NOFX
+    album: Wolves in Wolves' Clothing
+    sprite_position: 2
+    spotify_link: spotify:album:0bb9iLMHdUJhFIVwOars3P
+
+  - artist: Killswitch Engage
+    album: As Daylight Dies
+    sprite_position: 6
+    spotify_link: spotify:album:6iJEtgHTEbVlSS5isIS71z
+
+  - artist: Kevin Carafa
+    album: Sick Sad World
+    sprite_position: 9
+    spotify_link:
+
+  - artist: The Format
+    album: Dog Problems
+    sprite_position: 4
+    spotify_link: spotify:album:6VPLqG06SlXc1FzVzzcuZB
+
+  - artist: The Streets
+    album: The Hardest Way to Make An Easy Living
+    sprite_position: 5
+    spotify_link: spotify:album:7EZnqnThnWnSG4MJMd0Gug
+
+  - artist: The Fratellis
+    album: Costello Music
+    sprite_position: 0
+    spotify_link: spotify:album:6R6pjR9ocMYuqSuNx5e4mg
