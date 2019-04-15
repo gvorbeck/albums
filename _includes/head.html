@@ -1,0 +1,21 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        {% if page.title %}
+            {{ page.title }} | {{ site.title }}
+        {% else %}
+            {{ site.title }}
+        {% endif %}
+    </title>
+    <meta name="description" content="{{ site.description }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:400,700|Sintony:400,700" media="all">
+    <link rel="stylesheet" href="{{ "/assets/main.css" | absolute_url }}">
+    <link rel="canonical" href="/">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="/feed.xml">
+    <!-- Favicon -->
+    <!--link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/images/favicon-32x32.png" | absolute_url }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ "/assets/images/favicon-16x16.png" | absolute_url }}">
+    <link rel="shortcut icon" href="{{ "/assets/images/favicon.ico" | absolute_url }}"-->
+</head>

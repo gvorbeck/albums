@@ -1,40 +1,50 @@
 ---
 layout: default
+
+# x better lazy load images
+# x on mobile: spotify link auto-shows
+# - mobile styles.
+# x on desktop: a signifier on album list that an album is selected
 ---
-
-<div class="home">
-
-  {{ content }}
-
-  <ul id="year-list">
-    {% assign datas = site.data | sort %}
-    {% for data in datas reversed %}
-    {% assign fav = data[1] %}
-      <li>
-        <article>
-          <div class="year-header">
-            <header>
-              <img alt="{{fav.records[0].artist}} - {{fav.records[0].album}}" src="{{"/assets/" | relative_url }}{{ fav.records[0].cover}}">
-              <div class="fade"></div>
-              <h2><span>{{ fav.title }}</span></h2>
-            </header>
-            <div class="artist-list">
-              <p>
-                {% for record in fav.records %}
-                  {{record.artist}}//
-                {% endfor %}
-              </p>
+<ul class="favorites-list">
+    {% assign favorites = site.data.favorites | sort:"year" | reverse %}
+    {% for favoritesItem in favorites %}
+        <li class="favorites-list__item">
+            <div class="year-block">
+                <h3 class="year-block__title">{{ favoritesItem.year }}</h3>
+                <div class="year-block__spotlight">{% include tape.svg %}</div>
+                <ul class="album-list">
+                    {% assign albums = favoritesItem.list | sort:"artist" %}
+                    {% for albumItem in albums %}
+                        {% comment %}
+                            source: https://pagecrafter.com/responsive-background-image-sprites-css-tutorial/
+                            increment formula for responsive bg images: 100% / (10 - 1)
+                        {% endcomment %}
+                        {% if albumItem.sprite_position == 0 %}
+                            {% capture bgPos %}0{% endcapture %}
+                        {% elsif albumItem.sprite_position == 9 %}
+                            {% capture bgPos %}100{% endcapture %}
+                        {% else %}
+                            {% assign sprite_position = albumItem.sprite_position %}
+                            {% assign sprite_increment = 100 | divided_by: 9.0 %}
+                            {% assign bgPos = sprite_position | times: sprite_increment %}
+                        {% endif %}
+                        <li class="album-list__item">
+                            {% include tape.svg %}
+                            <button class="album-list__button"
+                                data-artist="{{ albumItem.artist }}"
+                                data-album="{{ albumItem.album }}"
+                                data-position="{{ albumItem.sprite_position }}"
+                                data-spotify="{{ albumItem.spotify_link }}"
+                                data-src="{{ "/assets/images/covers/" | relative_url }}{{favoritesItem.year}}/css_sprites.png"
+                                style="
+                                    {% comment %}background-image: url({{ "/assets/images/covers/" | relative_url }}{{favoritesItem.year}}/css_sprites.png);{% endcomment %}
+                                    background-position: 0 {{ bgPos }}%;"
+                                ></button>
+                        </li>
+                    {% endfor %}
+                </ul>
             </div>
-          </div>
-          <ul class="favorites-list" data-src="{{'/assets/' | relative_url}}">
-            {% for record in fav.records %}
-              <li data-artist="{{record.artist}}" data-album="{{record.album}}" data-cover="{{record.cover}}"></li>
-            {% endfor %}
-          </ul>
-      </li>
+        </li>
     {% endfor %}
-  </ul>
-
-  <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p> -->
-
-</div>
+</ul>

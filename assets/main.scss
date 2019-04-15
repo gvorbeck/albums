@@ -1,17 +1,22 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 ---
-
+// BROWSER RESET
 @import "meyer-reset";
-@import url('https://fonts.googleapis.com/css?family=Press+Start+2P|Roboto:100,400');
-
-$padding: 6;
-
-$font-roboto: 'Roboto', sans-serif;
-$font-start: 'Press Start 2P', cursive;
-
-$box-shadow: 0 ($padding/2 + px) ($padding + px) rgba(0,0,0,0.16), 0 ($padding/2 + px) ($padding + px) rgba(0,0,0,0.23);
-
-@import "page";
-@import "amp";
-@import "album";
+// SASS VARIABLES
+@import "variables";
+// SASS FUNCTIONS
+@import "functions";
+// SASS MIXINS
+@import "mixins";
+// GOOGLE FONTS
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed:400i|IBM+Plex+Sans:400,400i,700,700i');
+// SASS EXTENDS
+@import "extends";
+// PAGE SETUP
+@import "page-setup";
+// PAGE HEADER
+@import "page-header";
+// PAGE SECTION FAVORITES LIST
+@import "page-section-favorites-list";
+// PAGE FOOTER
+@import "page-footer";

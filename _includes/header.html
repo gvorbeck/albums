@@ -1,28 +1,5 @@
 <header class="site-header" role="banner">
-
-  <div class="wrapper">
-
-    <div id="site-logo">
-      <div class="amp">
-        <div class="handle"></div>
-        <div class="body">
-          <div class="dial"></div>
-          <div class="hardware">
-            <div class="tape-deck">
-              <div></div>
-              <div></div>
-            </div>
-            <div class="controls">
-              <ul class="slides">
-                <li></li><li></li><li></li><li></li><li></li><li></li>
-              </ul>
-              <div class="dials"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <h1>{{ site.title | escape}} by Garrett Vorbeck</h1>
-    </div>
-
-  </div>
+    <h1 class="site-header__title">I L<span>{% include tape.svg %}</span>ve Music</h1>
+    <h2 class="site-header__subtitle">{{ site.subtitle }}</h2>
+    <a class="site-header__link" target="_blank" href="https://www.last.fm/user/im_calm" title="My last.fm page">{% include lastfm.svg %}</a>
 </header>
