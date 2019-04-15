@@ -7,24 +7,41 @@
     position: relative;
     margin: 2rem 1rem;
 
+    @include media(s) {
+        font-size: 3rem;
+        margin: 1rem 1rem 0;
+    }
+
     &__title {
         position: relative;
 
         span {
             width: rem(146px);
             display: inline-block;
+
+            @include media(s) {
+                width: rem(75px);
+            }
         }
 
         &::after {
             @include pseudo;
             width: rem(166px);
             height: rem(100px);
-            border: rem(10px) solid $color--base;
+            border: rem(10px) solid $color--logo;
             top: rem(-17px);
             left: rem(75px);
             border-radius: rem(15px);
-            opacity: .4;
             transform: rotate(15deg);
+            z-index: -1;
+
+            @include media(s) {
+                width: rem(95px);
+                height: rem(55px);
+                border-width: rem(5px);
+                top: rem(-9px);
+                left: rem(41px);
+            }
         }
 
         svg {
@@ -34,6 +51,13 @@
             top: rem(-26px);
             left: rem(100px);
             transform: rotate(15deg);
+            fill: $color--logo;
+
+            @include media(s) {
+                width: rem(75px);
+                left: rem(57px);
+                top: rem(-15px);
+            }
         }
     }
 
@@ -41,6 +65,10 @@
         font-size: 1rem;
         font-weight: 400;
         margin-top: 1rem;
+
+        @include media(s) {
+            max-width: 90%;
+        }
     }
 
     &__link {
@@ -48,18 +76,19 @@
         bottom: rem(-15px);
         right: 0;
 
+        @include media(s) {
+            bottom: rem(-11px);
+        }
+
         svg {
             width: rem(25px);
             height: auto;
-            opacity: .6;
+            // opacity: .6;
+            fill: $color--base;
 
             &:hover {
                 opacity: 1;
             }
         }
-    }
-
-    svg {
-        fill: $color--base;
     }
 }

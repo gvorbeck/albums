@@ -1,21 +1,24 @@
 // SPRITE LAZY LOAD
-function isVisible(elem) {
-    let coords = elem.getBoundingClientRect();
-    let windowHeight = document.documentElement.clientHeight;
-    // top elem edge is visible OR bottom elem edge is visible
-    let topVisible = coords.top > 0 && coords.top < windowHeight;
-    let bottomVisible = coords.bottom < windowHeight && coords.bottom > 0;
-    return topVisible || bottomVisible;
+function isScrolledIntoView(el) {
+    var rect = el.getBoundingClientRect();
+    var elemTop = rect.top;
+    var elemBottom = rect.bottom;
+
+    // Only completely visible elements return true:
+    // var isVisible = (elemTop >= 0) && (elemBottom <= window.innerHeight);
+    // Partially visible elements return true:
+    isVisible = elemTop < window.innerHeight && elemBottom >= 0;
+    return isVisible;
 }
 function showVisible() {
     for (let img of document.querySelectorAll(".favorites-list__item button")) {
         let realSrc = img.dataset.src;
         if (!realSrc) continue;
 
-        if (isVisible(img.parentElement.parentElement.parentElement.parentElement)) {
+        if (isScrolledIntoView(img.parentElement.parentElement.parentElement.parentElement)) {
             // disable caching
             // this line should be removed in production code
-            // realSrc += '?nocache=' + Math.random();
+            realSrc += '?nocache=' + Math.random();
 
             img.setAttribute("style", "background-image: url(" + realSrc + ");" + img.getAttribute("style"));
 
@@ -41,7 +44,7 @@ for (let i = 0; i < Buttons.length; i++) {
                 ThisYearsAlbums[i].parentElement.classList.remove("album-list__item--active");
             }
             this.parentElement.classList.add("album-list__item--active");
-            
+
                 // Album projector element for the clicked album
             let ThisProjector        = this.parentElement.parentElement.parentElement.querySelector('.year-block__spotlight'),
                 // Album cover image
@@ -69,7 +72,7 @@ for (let i = 0; i < Buttons.length; i++) {
             if (this.dataset.spotify) {
                 let SpotifyLink = document.createElement("A");
                 SpotifyLink.setAttribute("class", "sprite-spotify");
-                SpotifyLink.setAttribute("title", "Listen to " + albumNameTextNode + " on Spotify");
+                SpotifyLink.setAttribute("title", "Listen to " + this.dataset.album + " on Spotify");
                 SpotifyLink.setAttribute("href", this.dataset.spotify);
                 ProjectorSprite.appendChild(SpotifyLink);
             }

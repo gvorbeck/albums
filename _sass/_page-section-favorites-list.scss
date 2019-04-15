@@ -34,22 +34,24 @@
         }
     }
 
-    &__item:nth-child(even) {
+    @include media(ml) {
+        &__item:nth-child(even) {
 
-        .year-block {
+            .year-block {
 
-            &__title,
-            &__spotlight {
-                grid-column: 7 / 13;
+                &__title,
+                &__spotlight {
+                    grid-column: 7 / 13;
+                }
+
+                &__title {
+                    text-align: right;
+                }
             }
 
-            &__title {
-                text-align: right;
+            .album-list {
+                grid-column: 1 / 7;
             }
-        }
-
-        .album-list {
-            grid-column: 1 / 7;
         }
     }
 
@@ -67,14 +69,27 @@
     grid-template: auto 1fr / repeat(12, 1fr);
     grid-gap: 1rem;
 
+    @include media(s) {
+        grid-template: auto auto 1fr / repeat(12, 1fr);
+    }
+
     &__title,
     &__spotlight {
         grid-column: 1 / 7;
+
+        @include media(s) {
+            grid-column: 1 / 13;
+        }
     }
 
     &__title {
         font-size: 6rem;
         font-weight: 700;
+
+        @include media(s) {
+            font-size: 3rem;
+            grid-row: 1 / 2;
+        }
     }
 
     &__spotlight {
@@ -82,11 +97,20 @@
         position: relative;
         padding: 1rem;
 
+        @include media(s) {
+            min-height: rem(180px);
+        }
+
         svg {
             width: calc(100% - 4rem);
             margin: 0 1rem 0 1rem;
             position: absolute;
             height: auto;
+
+            @include media(s) {
+                bottom: 0;
+                height: rem(200px);
+            }
         }
     }
 }
@@ -151,19 +175,25 @@
 .album-list {
     grid-column: 7 / 13;
     grid-row: 1 / -1;
-
     display: grid;
     grid-template: repeat(5, 1fr) / repeat(2, 1fr);
     grid-gap: 1rem;
 
+    @include media(s) {
+        grid-column: 1 / 13;
+        grid-row: 3 / -1;
+    }
+
     &__item {
         padding: 0;
-        transition: padding .25s ease-out;
+        transition: all .2s ease-out;
         position: relative;
+        opacity: 1;
 
         &--active {
             padding: 1rem;
-            transition: padding .25s ease-in;
+            transition: all .2s ease-in;
+            opacity: .5;
         }
 
         svg {

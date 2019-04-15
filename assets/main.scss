@@ -2,12 +2,12 @@
 ---
 // BROWSER RESET
 @import "meyer-reset";
+// SASS VARIABLES
+@import "variables";
 // SASS FUNCTIONS
 @import "functions";
 // SASS MIXINS
 @import "mixins";
-// SASS VARIABLES
-@import "variables";
 // GOOGLE FONTS
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed:400i|IBM+Plex+Sans:400,400i,700,700i');
 // SASS EXTENDS

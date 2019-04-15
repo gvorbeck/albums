@@ -12,12 +12,21 @@ body {
     grid-row-gap: 1rem;
     max-width: rem(2000px);
     margin: 0 auto;
+
+    @include media(s) {
+        max-width: none;
+        margin: auto;
+    }
 }
 
 .site-header,
 main,
 .site-footer {
     grid-column: 2 / 12;
+
+    @include media(s) {
+        grid-column: 1 / 13;
+    }
 }
 
 .site-header {
