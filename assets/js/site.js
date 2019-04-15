@@ -18,7 +18,7 @@ function showVisible() {
         if (isScrolledIntoView(img.parentElement.parentElement.parentElement.parentElement)) {
             // disable caching
             // this line should be removed in production code
-            realSrc += '?nocache=' + Math.random();
+            // realSrc += '?nocache=' + Math.random();
 
             img.setAttribute("style", "background-image: url(" + realSrc + ");" + img.getAttribute("style"));
 
