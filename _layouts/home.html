@@ -29,12 +29,31 @@ layout: default
                             <button class="album-list__button"
                                 data-artist="{{ albumItem.artist }}"
                                 data-album="{{ albumItem.album }}"
-                                data-position="{{ albumItem.sprite_position }}"
-                                data-spotify="{{ albumItem.spotify_link }}"
-                                data-src="{{ "/assets/images/covers/" | relative_url }}{{favoritesItem.year}}/css_sprites.png"
+
+                                {% if albumItem.sprite_position %}
+                                    data-position="{{ albumItem.sprite_position }}"
+                                {% endif %}
+
+                                {% if albumItem.spotify_link %}
+                                    data-spotify="{{ albumItem.spotify_link }}"
+                                {% endif %}
+
+                                {% if albumItem.sprite_position or albumItem.image %}
+                                    data-src="
+                                        {{- '/assets/images/covers/' | relative_url -}}{{- favoritesItem.year -}}/
+                                        {%- if albumItem.sprite_position -%}
+                                            css_sprites.png
+                                        {%- else -%}
+                                            {{- albumItem.image -}}
+                                        {%- endif -%}
+                                    "
+                                {% endif %}
+
                                 style="
-                                    {% comment %}background-image: url({{ "/assets/images/covers/" | relative_url }}{{favoritesItem.year}}/css_sprites.png);{% endcomment %}
-                                    background-position: 0 {{ bgPos }}%;"
+                                    {%- if albumItem.sprite_position -%}
+                                        background-position: 0 {{ bgPos }}%;
+                                    {%- endif -%}
+                                "
                                 ></button>
                         </li>
                     {% endfor %}
