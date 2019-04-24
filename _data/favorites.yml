@@ -105,9 +105,14 @@
 
   - artist: King Gizzard & The Lizard Wizard
     album: Murder Of The Universe
-    sprite_position:
     image: e73dde395d13137067a18fc1aac8cda4fcbe24b5.jpeg
     spotify_link: spotify:album:61ZDWEphPwgz6Hzmt6ZK8y
+
+  - artist: Japandroids
+    album: Near To The Wild Heart Of Life
+    image: 552ccf50cd572d2bfa251c39aac760158601b707.jpeg
+    spotify_link: spotify:album:26hqnB0XF1ZFc31zY6NAgf
+
 
 - year: 2016
   list:
