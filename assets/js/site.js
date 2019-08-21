@@ -53,6 +53,8 @@ for (let i = 0; i < Buttons.length; i++) {
                 ProjectorAlbumInfo   = document.createElement("H4"),
                 // Album name container
                 ProjectorAlbumName   = document.createElement("SPAN"),
+                // Album text
+                ProjectorReview        = document.createElement("DIV"),
                 // Position of album cover in sprite
                 thisPosition         = (100 / (10 - 1)) * this.dataset.position,
                 // Album artist name text
@@ -64,6 +66,8 @@ for (let i = 0; i < Buttons.length; i++) {
             ProjectorSprite.setAttribute("class", "sprite-slice");
             // Add class to album info container
             ProjectorAlbumInfo.setAttribute("class", "sprite-info");
+            // Add class to album review text container
+            ProjectorReview.setAttribute("class", "sprite-review")
 
             // Set album cover as bg-image on container
             ProjectorSprite.setAttribute("style", "background-image:" + this.style["backgroundImage"] + ";background-position: 0% " + thisPosition + "%;");
@@ -75,6 +79,11 @@ for (let i = 0; i < Buttons.length; i++) {
                 SpotifyLink.setAttribute("title", "Listen to " + this.dataset.album + " on Spotify");
                 SpotifyLink.setAttribute("href", this.dataset.spotify);
                 ProjectorSprite.appendChild(SpotifyLink);
+            }
+
+            // If album has review text
+            if (this.dataset.text) {
+                ProjectorReview.innerHTML = this.dataset.text;
             }
 
             // Add album name text to container
@@ -90,6 +99,8 @@ for (let i = 0; i < Buttons.length; i++) {
             ThisProjector.appendChild(ProjectorAlbumInfo);
             // Add album cover image to the projector
             ThisProjector.appendChild(ProjectorSprite);
+            // Add album review text to the projector
+            ThisProjector.appendChild(ProjectorReview);
         }
     });
 }

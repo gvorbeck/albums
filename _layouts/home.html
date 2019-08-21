@@ -49,6 +49,10 @@ layout: default
                                     "
                                 {% endif %}
 
+                                {% if albumItem.text %}
+                                    data-text="{{ albumItem.text | markdownify }}"
+                                {% endif %}
+
                                 style="
                                     {%- if albumItem.sprite_position -%}
                                         background-position: 0 {{ bgPos }}%;
