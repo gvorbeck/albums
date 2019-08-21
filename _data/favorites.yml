@@ -21,6 +21,8 @@
     artist: Dance With the Dead
     sprite_position: 8
     spotify_link: spotify:album:1lnSh8xb06nXe4ZxRSvQhn
+    text: |
+      I spent a good chunk of time in 2018 trying to write a horror novel. I say "trying" because it never seemed to get off the ground. Imposter syndrome and writer's block worked in concert together to prevent anything substantial from being produced and the story lives in my head to this day. One culprit for keeping this evanescent story from disappearing entirely from my mind is Dance With the Dead's _Loved to Death_. It's campy sounds hint at the feel I wanted to capture in my writing. Riding a line between techno/dance and power metal, this California-based duo really gave me something to feed off of in my creative moments much in the same way _The Grid_ by Mega Drive did in the previous year. The tense and victorious rhthyms kept me focused, and the songs seem to demand a story all by themselves.
 
   - album: Ordinary Corrupt Human Love
     artist: Deafheaven
@@ -37,10 +39,10 @@
     sprite_position: 2
     spotify_link: spotify:album:7EchhykwUf4ACDDABEDa7o
 
-  # - album: Double Negative
-  #   artist: Low
-  #   sprite_position: 0
-  #   spotify_link: spotify:album:1zTkgOHx3mjrUvrhxq4osf
+  - album: Double Negative
+    artist: Low
+    sprite_position: 0
+    spotify_link: spotify:album:1zTkgOHx3mjrUvrhxq4osf
 
   - album: "'Til the End"
     artist: MiTis
@@ -57,10 +59,10 @@
     sprite_position: 5
     spotify_link: spotify:album:36NLDBi2kX7XRHnyLzLOS8
 
-  - album: ROCKNROLL MACHINE
-    artist: Turbonegro
-    sprite_position: 1
-    spotify_link: spotify:album:424KFQolDBYGCXPJID48Fm
+  # - album: ROCKNROLL MACHINE
+  #   artist: Turbonegro
+  #   sprite_position: 1
+  #   spotify_link: spotify:album:424KFQolDBYGCXPJID48Fm
 
   - album: Everybody!!
     artist: WANIMA
