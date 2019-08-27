@@ -2,6 +2,8 @@
 #  list:
 #  - album: III
 #    artist: Masked Intruder
+#    text: |
+#      As a concept band, Masked Intruder
 #  - album: LP3
 #    artist: American Football
 #  - album: Gold & Grey
@@ -14,6 +16,11 @@
 #    artist: Stonefield
 #  - album: Floating Being
 #    artist: Earth Tongue
+
+# Application name	I Love Music
+# API key	6a163345d35cda2e6eefb42202119d35
+# Shared secret	2ebccf6f0d7ed8b7416db07852c83074
+# Registered to	im_calm
 
 - year: 2018
   list:

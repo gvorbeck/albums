@@ -1,3 +1,27 @@
+var getJSON = function(url, callback) {
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', url, true);
+    xhr.responseType = 'json';
+    xhr.onload = function() {
+      var status = xhr.status;
+      if (status === 200) {
+        callback(null, xhr.response);
+      } else {
+        callback(status, xhr.response);
+      }
+    };
+    xhr.send();
+};
+
+getJSON('https://ws.audioscrobbler.com/2.0/?method=artist.getinfo&api_key=6a163345d35cda2e6eefb42202119d35&artist=King+Gizzard+%26+The+Lizard+Wizard&format=json',
+function(err, data) {
+  if (err !== null) {
+    console.log('Something went wrong: ' + err);
+  } else {
+    console.log(data);
+  }
+});
+
 // SPRITE LAZY LOAD
 function isScrolledIntoView(el) {
     var rect = el.getBoundingClientRect();
