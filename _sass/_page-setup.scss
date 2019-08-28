@@ -57,6 +57,12 @@ main {
     }
 }
 
-spotlight__box {
+.spotlight__box {
+    $dimension: 10rem;
     background-color: white;
+    width: $dimension;
+    height: $dimension;
+    position: absolute;
+    left: calc(50% - #{$dimension / 2});
+    top: calc(50% - #{$dimension / 2});
 }
