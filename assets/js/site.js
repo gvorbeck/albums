@@ -13,14 +13,37 @@ var getJSON = function(url, callback) {
     xhr.send();
 };
 
-getJSON('https://ws.audioscrobbler.com/2.0/?method=artist.getinfo&api_key=6a163345d35cda2e6eefb42202119d35&artist=King+Gizzard+%26+The+Lizard+Wizard&format=json',
-function(err, data) {
-  if (err !== null) {
-    console.log('Something went wrong: ' + err);
-  } else {
-    console.log(data);
-  }
-});
+let YearList = document.getElementsByClassName("favorites-list")[0],
+    getCovers = function() {
+        for (let i = 0; i < YearList.children.length; i++) {
+            if (YearList.children[i].firstElementChild.classList.contains("year-block--open")) {
+                // for (let x = 0; x < YearList.children[i].getElementsByClassName("album-list__item").length; x++) {
+                for (let x = 0; x < 1; x++) {
+                    let thisArtist = YearList.children[i].getElementsByClassName("album-list__item")[x].dataset.artist,
+                        thisAlbum  = YearList.children[i].getElementsByClassName("album-list__item")[x].dataset.album;
+
+                    getJSON("https://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=6a163345d35cda2e6eefb42202119d35&artist=" + thisArtist + "&album=" + thisAlbum + "&format=json",
+                    function(err, data) {
+                      if (err !== null) {
+                        console.log('Something went wrong: ' + err);
+                      } else {
+                        console.log(data);
+                      }
+                    });
+                }
+            }
+        }
+    };
+getCovers();
+
+// getJSON('https://ws.audioscrobbler.com/2.0/?method=artist.getinfo&api_key=6a163345d35cda2e6eefb42202119d35&artist=King+Gizzard+%26+The+Lizard+Wizard&format=json',
+// function(err, data) {
+//   if (err !== null) {
+//     console.log('Something went wrong: ' + err);
+//   } else {
+//     console.log(data);
+//   }
+// });
 
 // SPRITE LAZY LOAD
 function isScrolledIntoView(el) {
