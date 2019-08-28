@@ -1,7 +1,23 @@
 ---
 layout: default
 ---
-<ul class="favorites-list">
+<ul class="favorites">
+    {% assign favorites = site.data.favorites | sort:"year" | reverse %}
+    {% for favoritesItem in favorites %}
+        <li class="favorites__item">
+            <div class="year {% if forloop.first == true %}year--open{% endif %}">
+                <div class="year__header">
+                    <h3 class="year__title"><button class="year__button" title="Expand">{{ favoritesItem.year }}</button></h3>
+                </div>
+                <div class="year__content">
+                    {% include album-list.html list=favoritesItem.list %}
+                    <div class="album-spotlight"></div>
+                </div>
+            </div>
+        </li>
+    {% endfor %}
+</ul>
+<!-- <ul class="favorites-list">
     {% assign favorites = site.data.favorites | sort:"year" | reverse %}
     {% for favoritesItem in favorites %}
         <li class="favorites-list__item">
@@ -20,4 +36,4 @@ layout: default
             </div>
         </li>
     {% endfor %}
-</ul>
+</ul> -->
