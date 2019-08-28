@@ -20,22 +20,24 @@ let getJSON = function(url, callback) {
                     let thisArtist = YearList.children[i].getElementsByClassName("album-list__item")[x].dataset.artist,
                         thisAlbum  = YearList.children[i].getElementsByClassName("album-list__item")[x].dataset.album;
 
-                    if (!YearList.children[i].getElementsByClassName("album-list__item")[x].getElementsByClassName("album__button")[0].style.backgroundImage) {
-                        getJSON("https://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=6a163345d35cda2e6eefb42202119d35&artist=" + thisArtist + "&album=" + thisAlbum + "&format=json",
-                        function(err, data) {
-                          if (err !== null) {
-                            console.log('Something went wrong: ' + err);
-                          } else {
-                            let albumCoverLarge = data.album.image[3]["#text"];
-                            YearList.children[i].getElementsByClassName("album-list__item")[x].getElementsByClassName("album__button")[0].style.backgroundImage = "url('" + albumCoverLarge + "')";
-                          }
-                        });
-                    }
+                    // if (!YearList.children[i].getElementsByClassName("album-list__item")[x].getElementsByClassName("album__button")[0].style.backgroundImage) {
+                    //     getJSON("https://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=6a163345d35cda2e6eefb42202119d35&artist=" + thisArtist + "&album=" + thisAlbum + "&format=json",
+                    //     function(err, data) {
+                    //       if (err !== null) {
+                    //         console.log('Something went wrong: ' + err);
+                    //       } else {
+                    //         let albumCoverLarge = data.album.image[3]["#text"];
+                    //         YearList.children[i].getElementsByClassName("album-list__item")[x].getElementsByClassName("album__button")[0].style.backgroundImage = "url('" + albumCoverLarge + "')";
+                    //       }
+                    //     });
+                    // }
                 }
             }
         }
     },
-    YearButtons = document.getElementsByClassName("year__button");
+    YearButtons = document.getElementsByClassName("year__button"),
+    AlbumButtons = document.getElementsByClassName("album__button"),
+    SpotlightClose = document.getElementsByClassName("spotlight__close")[0];
 
 for (let i = 0; i < YearButtons.length; i++) {
     YearButtons[i].addEventListener("click", function(){
@@ -43,6 +45,16 @@ for (let i = 0; i < YearButtons.length; i++) {
         getCovers();
     });
 }
+
+for (let i = 0; i < AlbumButtons.length; i++) {
+    AlbumButtons[i].addEventListener("click", function() {
+        document.body.classList.add("spotlight--open");
+    })
+}
+
+SpotlightClose.addEventListener("click", function() {
+    document.body.classList.remove("spotlight--open");
+});
 
 getCovers();
 

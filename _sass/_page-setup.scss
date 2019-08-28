@@ -17,6 +17,10 @@ body {
         max-width: none;
         margin: auto;
     }
+
+    &.spotlight--open {
+        overflow: hidden;
+    }
 }
 
 .site-header,
@@ -39,4 +43,20 @@ main {
 
 .site-footer {
     grid-row: 3 / 4;
+}
+
+.spotlight {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .4);
+
+    body.spotlight--open & {
+        display: block;
+    }
+}
+
+spotlight__box {
+    background-color: white;
 }
