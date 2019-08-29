@@ -10,7 +10,11 @@ layout: default
                     <h3 class="year__title"><button class="year__button" title="Expand">{{ favoritesItem.year }}</button></h3>
                 </div>
                 <div class="year__content">
-                    {% include album-list.html list=favoritesItem.list %}
+                    {% if forloop.first == true %}
+                        {% include album-list.html list=favoritesItem.list tab="true" %}
+                    {% else %}
+                        {% include album-list.html list=favoritesItem.list tab="false" %}
+                    {% endif %}
                 </div>
             </div>
         </li>

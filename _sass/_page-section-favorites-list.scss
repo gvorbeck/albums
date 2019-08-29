@@ -1,12 +1,21 @@
 .favorites {
 
     @for $i from 1 through length($colors--year-block) {
-        &__item:nth-child(#{length($colors--year-block)}n+#{$i}) {
-            background: linear-gradient(135deg, nth($colors--year-block, $i), darken(nth($colors--year-block, $i), 25%));
-            @if (lightness(nth($colors--year-block, $i)) > 60) {
+
+        .favorites__item:nth-child(#{length($colors--year-block)}n+#{$i}) {
+            background: linear-gradient(135deg, nth($colors--year-block, $i), darken(nth($colors--year-block, $i), 20%));
+            @if (lightness(nth($colors--year-block, $i)) > 58) {
                 color: darken(nth($colors--year-block, $i), 50%);
+
+                button {
+                    color: darken(nth($colors--year-block, $i), 45%);
+                }
             } @else {
-                color: lighten(nth($colors--year-block, $i), 50%);;
+                color: lighten(nth($colors--year-block, $i), 50%);
+
+                button {
+                    color: lighten(nth($colors--year-block, $i), 45%);
+                }
             }
 
             .album-list__item {
@@ -44,6 +53,26 @@
     padding: 1rem 1rem 0;
 }
 
+.year__title {
+
+    .favorites__item:nth-child(even) & {
+        text-align: right;
+    }
+}
+
+.year__button {
+    font-size: 3rem;
+    font-weight: 700;
+    border: .3rem solid;
+    padding: .25rem .35rem;
+    cursor: pointer;
+
+    &:focus {
+        outline: 0;
+        box-shadow: 0 rem(3px) rem(6px) rgba(0,0,0,0.16), 0 rem(3px) rem(6px) rgba(0,0,0,0.23);
+    }
+}
+
 .year__content {}
 
 .album-list {
@@ -75,12 +104,12 @@
         position: absolute;
         top: 0;
         left: 0;
+        padding: 1rem;
     }
 }
 
 .album__button {
     border: none;
-    padding: 0;
     position: absolute;
     top: 0;
     left: 0;
@@ -88,11 +117,16 @@
     height: 100%;
     box-shadow: 0 rem(3px) rem(6px) rgba(0,0,0,0.16), 0 rem(3px) rem(6px) rgba(0,0,0,0.23);
     cursor: pointer;
-    background: none;
-    // outline: none;
+    transition: box-shadow .2s;
 
     &:hover {
         opacity: .4;
+        box-shadow: 0 0 0 rgba(0,0,0,0), 0 0 0 rgba(0,0,0,0);
+    }
+
+    &:focus {
+        outline: 0;
+        box-shadow: 0 rem(14px) rem(28px) rgba(0,0,0,0.25), 0 rem(10px) rem(10px) rgba(0,0,0,0.22);
     }
 }
 

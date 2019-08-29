@@ -4,7 +4,7 @@
         <li class="album-list__item" data-artist="{{ albumItem.artist | url_encode }}" data-album="{{ albumItem.album | url_encode }}">
             <div class="album">
                 {% include tape.svg %}
-                <button class="album__button"></button>
+                <button class="album__button" {% unless include.tab == "true" %}tabindex=-1{% endunless %}></button>
             </div>
         </li>
     {% endfor %}

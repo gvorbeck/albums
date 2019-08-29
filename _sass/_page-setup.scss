@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
 body {
@@ -65,4 +66,11 @@ main {
     position: absolute;
     left: calc(50% - #{$dimension / 2});
     top: calc(50% - #{$dimension / 2});
+}
+
+button {
+    padding: 0;
+    border: none;
+    background: none;
+    line-height: 1;
 }

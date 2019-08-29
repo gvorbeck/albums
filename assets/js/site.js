@@ -42,6 +42,15 @@ let getJSON = function(url, callback) {
 for (let i = 0; i < YearButtons.length; i++) {
     YearButtons[i].addEventListener("click", function(){
         this.parentElement.parentElement.parentElement.classList.toggle("year--open");
+        let ThisAlbumButtons = this.parentElement.parentElement.parentElement.getElementsByClassName("album__button");
+        for (let x = 0; x < ThisAlbumButtons.length; x++) {
+            if (ThisAlbumButtons[x].getAttribute("tabindex")) {
+                ThisAlbumButtons[x].removeAttribute("tabindex");
+            } else {
+                ThisAlbumButtons[x].setAttribute("tabindex", -1);
+            }
+        }
+        // this.parentElement.parentElement.parentElement.getElementsByClassName("album__button")
         getCovers();
     });
 }
@@ -55,6 +64,13 @@ for (let i = 0; i < AlbumButtons.length; i++) {
 SpotlightClose.addEventListener("click", function() {
     document.body.classList.remove("spotlight--open");
 });
+
+document.onkeydown = function(e) {
+    e = e || window.event;
+    if (e.keyCode == 27) {
+        document.body.classList.remove("spotlight--open");
+    }
+};
 
 getCovers();
 
