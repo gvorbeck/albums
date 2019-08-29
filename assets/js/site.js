@@ -28,8 +28,10 @@ let getJSON = function(url, callback) {
                           } else {
                             let albumCoverLarge = data.album.image[3]["#text"],
                                 ThisAlbumButton = YearList.children[i].getElementsByClassName("album-list__item")[x].getElementsByClassName("album__button")[0];
+                            console.log(data);
                             ThisAlbumButton.dataset.thumb = albumCoverLarge;
                             ThisAlbumButton.dataset.info = data.album.wiki.content;
+                            ThisAlbumButton.dataset.tags = data.album.tags.tag;
                             YearList.children[i].getElementsByClassName("album-list__item")[x].getElementsByClassName("album__button")[0].style.backgroundImage = "url('" + albumCoverLarge + "')";
                           }
                         });
@@ -57,26 +59,34 @@ for (let i = 0; i < YearButtons.length; i++) {
     });
 }
 
+// populate spotlight
 for (let i = 0; i < AlbumButtons.length; i++) {
     AlbumButtons[i].addEventListener("click", function() {
         document.body.classList.add("spotlight--open");
         document.getElementsByClassName("spotlight__album")[0].appendChild(document.createTextNode(this.dataset.album));
         document.getElementsByClassName("spotlight__artist")[0].appendChild(document.createTextNode(this.dataset.artist));
-        let SpotlightContent = document.getElementsByClassName("spotlight__content")[0];
 
+        let SpotlightContent = document.getElementsByClassName("spotlight__content")[0];
+        console.log(this);
+        if (this.dataset.review) {
+            console.log("foo");
+        }
     })
 }
 
+// depopulate spotlight
 let closeClearSpotlight = function() {
     document.body.classList.remove("spotlight--open");
     document.getElementsByClassName("spotlight__album")[0].innerHTML = "";
     document.getElementsByClassName("spotlight__artist")[0].innerHTML = "";
 }
 
+// depopulate spotlight event trigger
 SpotlightClose.addEventListener("click", function() {
     closeClearSpotlight();
 });
 
+// depopulate spotlight event trigger
 document.onkeydown = function(e) {
     e = e || window.event;
     if (e.keyCode == 27) {
