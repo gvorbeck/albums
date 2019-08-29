@@ -297,7 +297,7 @@
     sprite_position: 0
     spotify_link: spotify:album:5OkMrvt48nB8iMDN6Mx3HL
 
-  - artist: Tokyo Police Blub
+  - artist: Tokyo Police Club
     album: Forcefield
     sprite_position: 3
     spotify_link: spotify:album:55pj3OVrpwedZVi8GUrChK
@@ -356,7 +356,7 @@
 
 - year: 2012
   list:
-  - artist: The Tower & The Fool
+  - artist: The Tower and The Fool
     album: How Long
     sprite_position: 4
     spotify_link: spotify:album:3XkhvmeGUwG2IZbxkQnsDH
@@ -495,7 +495,7 @@
     sprite_position: 2
     spotify_link: spotify:album:02KuwrUe9r1knIfI0rVf7c
 
-  - artist: La Vide Bohème
+  - artist: La Vida Bohème
     album: Nuestra
     sprite_position: 6
     spotify_link: spotify:album:7kSxnf1JIMeFMIKKC5xDtt
@@ -522,7 +522,7 @@
     sprite_position: 1
     spotify_link: spotify:album:4rNTleyIYz0fJKLaSxSe8Z
 
-  - artist: Edward Sharpe & The Magnetic Zeroes
+  - artist: Edward Sharpe & The Magnetic Zeros
     album: Up from Below
     sprite_position: 4
     spotify_link: spotify:album:39xrkt8RILtwa9DMyLkv32
@@ -584,7 +584,7 @@
     sprite_position: 1
     spotify_link: spotify:album:3WFTGIO6E3Xh4paEOBY9OU
 
-  - artist: Paul Gonzenbach
+  - artist: Paul Gonzenbach / Baby Panda
     album: Avalanche Kiss
     sprite_position: 2
     spotify_link: spotify:album:5JylMXQ2Zqt63KROfogBP2
@@ -657,7 +657,7 @@
     spotify_link: spotify:album:7E31adfdc3ljGnxjZVF6et
 
   - artist: Aspects of Physics
-    album: "Marginalized Information Forms 2: Cumulative Errror"
+    album: "Marginalized Information Forms 2: Cummulative ErRror"
     sprite_position: 3
     spotify_link: spotify:album:4MaEYv5Uh7ERcsk60J9jsE
 

@@ -20,23 +20,3 @@ layout: default
         </li>
     {% endfor %}
 </ul>
-<!-- <ul class="favorites-list">
-    {% assign favorites = site.data.favorites | sort:"year" | reverse %}
-    {% for favoritesItem in favorites %}
-        <li class="favorites-list__item">
-            <div class="year-block {% if forloop.first == true %}year-block--open{% endif %}">
-                <h3 class="year-block__title">{{ favoritesItem.year }}</h3>
-                <div class="year-block__spotlight">{% include tape.svg %}</div>
-                <ul class="album-list">
-                    {% assign albums = favoritesItem.list | sort:"artist" %}
-                    {% for albumItem in albums %}
-                        <li class="album-list__item" data-artist="{{ albumItem.artist | url_encode }}" data-album="{{ albumItem.album | url_encode }}">
-                            {% include tape.svg %}
-                            <button class="album-list__button"></button>
-                        </li>
-                    {% endfor %}
-                </ul>
-            </div>
-        </li>
-    {% endfor %}
-</ul> -->

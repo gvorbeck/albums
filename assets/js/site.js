@@ -16,21 +16,24 @@ let getJSON = function(url, callback) {
     getCovers = function() {
         for (let i = 0; i < YearList.children.length; i++) {
             if (YearList.children[i].firstElementChild.classList.contains("year--open")) {
-                for (let x = 0; x < YearList.children[i].getElementsByClassName("album-list__item").length; x++) {
+                for (let x = 0; x < 1; x++) {
+                // for (let x = 0; x < YearList.children[i].getElementsByClassName("album-list__item").length; x++) {
                     let thisArtist = YearList.children[i].getElementsByClassName("album-list__item")[x].dataset.artist,
                         thisAlbum  = YearList.children[i].getElementsByClassName("album-list__item")[x].dataset.album;
-
-                    // if (!YearList.children[i].getElementsByClassName("album-list__item")[x].getElementsByClassName("album__button")[0].style.backgroundImage) {
-                    //     getJSON("https://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=6a163345d35cda2e6eefb42202119d35&artist=" + thisArtist + "&album=" + thisAlbum + "&format=json",
-                    //     function(err, data) {
-                    //       if (err !== null) {
-                    //         console.log('Something went wrong: ' + err);
-                    //       } else {
-                    //         let albumCoverLarge = data.album.image[3]["#text"];
-                    //         YearList.children[i].getElementsByClassName("album-list__item")[x].getElementsByClassName("album__button")[0].style.backgroundImage = "url('" + albumCoverLarge + "')";
-                    //       }
-                    //     });
-                    // }
+                    if (!YearList.children[i].getElementsByClassName("album-list__item")[x].getElementsByClassName("album__button")[0].style.backgroundImage) {
+                        getJSON("https://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=6a163345d35cda2e6eefb42202119d35&artist=" + thisArtist + "&album=" + thisAlbum + "&format=json",
+                        function(err, data) {
+                          if (err !== null) {
+                            console.log('Something went wrong: ' + err);
+                          } else {
+                            let albumCoverLarge = data.album.image[3]["#text"],
+                                ThisAlbumButton = YearList.children[i].getElementsByClassName("album-list__item")[x].getElementsByClassName("album__button")[0];
+                            ThisAlbumButton.dataset.thumb = albumCoverLarge;
+                            ThisAlbumButton.dataset.info = data.album.wiki.content;
+                            YearList.children[i].getElementsByClassName("album-list__item")[x].getElementsByClassName("album__button")[0].style.backgroundImage = "url('" + albumCoverLarge + "')";
+                          }
+                        });
+                    }
                 }
             }
         }
@@ -50,7 +53,6 @@ for (let i = 0; i < YearButtons.length; i++) {
                 ThisAlbumButtons[x].setAttribute("tabindex", -1);
             }
         }
-        // this.parentElement.parentElement.parentElement.getElementsByClassName("album__button")
         getCovers();
     });
 }
@@ -58,17 +60,27 @@ for (let i = 0; i < YearButtons.length; i++) {
 for (let i = 0; i < AlbumButtons.length; i++) {
     AlbumButtons[i].addEventListener("click", function() {
         document.body.classList.add("spotlight--open");
+        document.getElementsByClassName("spotlight__album")[0].appendChild(document.createTextNode(this.dataset.album));
+        document.getElementsByClassName("spotlight__artist")[0].appendChild(document.createTextNode(this.dataset.artist));
+        let SpotlightContent = document.getElementsByClassName("spotlight__content")[0];
+
     })
 }
 
-SpotlightClose.addEventListener("click", function() {
+let closeClearSpotlight = function() {
     document.body.classList.remove("spotlight--open");
+    document.getElementsByClassName("spotlight__album")[0].innerHTML = "";
+    document.getElementsByClassName("spotlight__artist")[0].innerHTML = "";
+}
+
+SpotlightClose.addEventListener("click", function() {
+    closeClearSpotlight();
 });
 
 document.onkeydown = function(e) {
     e = e || window.event;
     if (e.keyCode == 27) {
-        document.body.classList.remove("spotlight--open");
+        closeClearSpotlight();
     }
 };
 

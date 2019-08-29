@@ -4,7 +4,11 @@
         <li class="album-list__item" data-artist="{{ albumItem.artist | url_encode }}" data-album="{{ albumItem.album | url_encode }}">
             <div class="album">
                 {% include tape.svg %}
-                <button class="album__button" {% unless include.tab == "true" %}tabindex=-1{% endunless %}></button>
+                <button class="album__button" data-artist="{{ albumItem.artist }}" data-album="{{ albumItem.album }}" data-review="{{ albumItem.text | markdownify }}" {% unless include.tab == "true" %}tabindex=-1{% endunless %}>
+                    <p class="byline">
+                        <span class="byline__title">{{ albumItem.album }}</span> by <span class="byline__artist">{{ albumItem.artist }}</span>
+                    </p>
+                </button>
             </div>
         </li>
     {% endfor %}

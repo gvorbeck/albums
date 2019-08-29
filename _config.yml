@@ -14,11 +14,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: I Love Music
-subtitle: My favorite music, a project by J. Garrett Vorbeck
+subtitle: My favorite music, an ongoing project by J. Garrett Vorbeck
 email: me@iamgarrett.com
 description: >- # this means to ignore newlines until "baseurl:"
   I like to make lists and I like to listen to music. Not always at the same
-  time, but here we are. My 10 favorite albums of the year. For a lot of years!
+  time, but here we are. My favorite albums of the year. For a lot of years!
 baseurl: "/albums" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
