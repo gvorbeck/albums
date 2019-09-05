@@ -136,14 +136,12 @@
 
   - artist: King Gizzard & The Lizard Wizard
     album: Murder Of The Universe
-    image: e73dde395d13137067a18fc1aac8cda4fcbe24b5.jpeg
     spotify_link: spotify:album:61ZDWEphPwgz6Hzmt6ZK8y
     text: |
       I am quite biased when it comes to **KG&TLW**, so finding them on any list of mine is basically a foregone conclusion. The band is so prolific that often the decision is not whether or not their latest record belongs in this year's list, it's which one belongs there. But the idea of these guys putting together a narrative-driven concept album based on fantastic stories of human-animal hybrids, lightning battles, and a universe murdered by vomit, I didn't even need to hear the record to know it was one of my favorites. The chaotic rhythms and breakneck tempos are to be expected from **King Gizz**, but what sets this record apart from their other albums is the spoken-word narrators, something they haven't done since _Eyes Like the Sky_
 
   - artist: Japandroids
     album: Near To The Wild Heart Of Life
-    image: 552ccf50cd572d2bfa251c39aac760158601b707.jpeg
     spotify_link: spotify:album:26hqnB0XF1ZFc31zY6NAgf
 
 - year: 2016
@@ -586,7 +584,7 @@
 
   - artist: Paul Gonzenbach / Baby Panda
     album: Avalanche Kiss
-    sprite_position: 2
+    thumb: avalanche_kiss.jpeg
     spotify_link: spotify:album:5JylMXQ2Zqt63KROfogBP2
 
   - artist: Smash the Statues
@@ -913,7 +911,7 @@
 
   - artist: Scientific
     album: From the Nest of Idea
-    sprite_position: 3
+    thumb: from_the_nest_of_idea.jpeg
     spotify_link: spotify:album:4QkCqeFmgsJHlyzgPu9ge4
 
   - artist: The Anniversary

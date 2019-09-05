@@ -1,3 +1,12 @@
+function getClosest(elem, selector) {
+    for (; elem && elem !== document; elem = elem.parentNode) {
+        if (elem.matches(selector)) {
+            return elem;
+        }
+    }
+    return null;
+}
+
 let getJSON = function(url, callback) {
     var xhr = new XMLHttpRequest();
     xhr.open('GET', url, true);
@@ -16,23 +25,34 @@ let getJSON = function(url, callback) {
     getCovers = function() {
         for (let i = 0; i < YearList.children.length; i++) {
             if (YearList.children[i].firstElementChild.classList.contains("year--open")) {
-                for (let x = 0; x < 1; x++) {
-                // for (let x = 0; x < YearList.children[i].getElementsByClassName("album-list__item").length; x++) {
+                // for (let x = 0; x < 1; x++) {
+                for (let x = 0; x < YearList.children[i].getElementsByClassName("album-list__item").length; x++) {
+                    break;
                     let thisArtist = YearList.children[i].getElementsByClassName("album-list__item")[x].dataset.artist,
                         thisAlbum  = YearList.children[i].getElementsByClassName("album-list__item")[x].dataset.album;
+
                     if (!YearList.children[i].getElementsByClassName("album-list__item")[x].getElementsByClassName("album__button")[0].style.backgroundImage) {
                         getJSON("https://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=6a163345d35cda2e6eefb42202119d35&artist=" + thisArtist + "&album=" + thisAlbum + "&format=json",
                         function(err, data) {
                           if (err !== null) {
                             console.log('Something went wrong: ' + err);
                           } else {
-                            let albumCoverLarge = data.album.image[3]["#text"],
-                                ThisAlbumButton = YearList.children[i].getElementsByClassName("album-list__item")[x].getElementsByClassName("album__button")[0];
-                            console.log(data);
-                            ThisAlbumButton.dataset.thumb = albumCoverLarge;
-                            ThisAlbumButton.dataset.info = data.album.wiki.content;
-                            ThisAlbumButton.dataset.tags = data.album.tags.tag;
-                            YearList.children[i].getElementsByClassName("album-list__item")[x].getElementsByClassName("album__button")[0].style.backgroundImage = "url('" + albumCoverLarge + "')";
+                            let ThisAlbumButton = YearList.children[i].getElementsByClassName("album-list__item")[x].getElementsByClassName("album__button")[0];
+
+                            if (!data.error) {
+                                if (!ThisAlbumButton.dataset.thumb) {
+                                    ThisAlbumButton.dataset.thumb = data.album.image[3]["#text"];
+                                }
+                                if (data.album.wiki) {
+                                    ThisAlbumButton.dataset.info = data.album.wiki.content;
+                                }
+                                ThisAlbumButton.dataset.tags = data.album.tags.tag;
+                            } else {
+                                console.log(data.message + ": " + thisAlbum);
+                                console.log(data);
+                            }
+
+                            YearList.children[i].getElementsByClassName("album-list__item")[x].getElementsByClassName("album__button")[0].style.backgroundImage = "url('" + ThisAlbumButton.dataset.thumb + "')";
                           }
                         });
                     }
@@ -66,10 +86,20 @@ for (let i = 0; i < AlbumButtons.length; i++) {
         document.getElementsByClassName("spotlight__album")[0].appendChild(document.createTextNode(this.dataset.album));
         document.getElementsByClassName("spotlight__artist")[0].appendChild(document.createTextNode(this.dataset.artist));
 
-        let SpotlightContent = document.getElementsByClassName("spotlight__content")[0];
-        console.log(this);
+        const SpotlightBox     = document.getElementsByClassName("spotlight__box")[0],
+              SpotlightContent = document.getElementsByClassName("spotlight__content")[0],
+              SpotlightClose   = document.getElementsByClassName("spotlight__close")[0];
+
+        // Get computed background-color and color styles from hidden .album-list__item::before for .spotlight__box.
+        let bg    = window.getComputedStyle(getClosest(this, ".album-list__item"), ":before").getPropertyValue('background-color');
+        let color = window.getComputedStyle(getClosest(this, ".album-list__item"), ":before").getPropertyValue('color');
+        SpotlightBox.style.backgroundColor   = bg;
+        SpotlightBox.style.color             = color;
+        SpotlightClose.style.backgroundColor = color;
+        SpotlightClose.getElementsByTagName("DIV")[0].style.backgroundColor = bg;
+        SpotlightClose.getElementsByTagName("DIV")[1].style.backgroundColor = bg;
         if (this.dataset.review) {
-            console.log("foo");
+            // console.log("foo");
         }
     })
 }

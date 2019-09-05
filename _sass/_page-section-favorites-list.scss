@@ -26,6 +26,17 @@
                 svg {
                     fill: darken(nth($colors--year-block, $i), 15%);
                 }
+
+                // This is here only for JS to get a computed background-color and color styles for the Spotlight.
+                &::before {
+                    @include pseudo;
+                    background: nth($colors--year-block, $i);
+                    @if (lightness(nth($colors--year-block, $i)) > 58) {
+                        color: darken(nth($colors--year-block, $i), 45%);
+                    } @else {
+                        color: lighten(nth($colors--year-block, $i), 45%);
+                    }
+                }
             }
 
             // .year-block__spotlight {
@@ -128,6 +139,7 @@
     cursor: pointer;
     text-align: left;
     transition: box-shadow .2s;
+    background-size: contain;
 
     &:hover {
         box-shadow: 0 0 0 rgba(0,0,0,0), 0 0 0 rgba(0,0,0,0);
