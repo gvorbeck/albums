@@ -79,6 +79,7 @@ main {
 
 .spotlight__header {
     position: relative;
+    margin-bottom: 1rem;
 }
 
 .spotlight__title {
@@ -118,6 +119,23 @@ main {
         &:last-child{
             transform: rotate(-45deg);
         }
+    }
+}
+
+.spotlight__content {
+    display: grid;
+    grid-template-columns: auto 300px;
+
+    section {
+
+        & + section {
+            margin-top: 1rem;
+        }
+    }
+
+    .spotlight__cover {
+        grid-column-start: 2;
+        grid-column-end: 3;
     }
 }
 

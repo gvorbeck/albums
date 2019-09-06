@@ -24,6 +24,10 @@
                     data-review="{{ albumItem.text | markdownify }}"
                   {% endif %}
 
+                  {% if albumItem.tags %}
+                    data-tags="{{ albumItem.tags }}"
+                  {% endif %}
+
                   {% if albumItem.genius_link %}
                     data-genius="{{ albumItem.genius_link }}"
                   {% endif %}

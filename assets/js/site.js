@@ -73,19 +73,6 @@ function setAlbumData() {
                                     }
                                     if (data.album.wiki) {
                                         ThisAlbumButton.dataset.info = data.album.wiki.summary;
-                                        console.log(data.album);
-                                    }
-                                    if (data.album.tags.tag.length) {
-                                        let thisAlbumTags     = data.album.tags.tag,
-                                            thisAlbumTagsList = "";
-
-                                        for (a = 0; a < thisAlbumTags.length; a++) {
-                                            if (a >= 1) {
-                                                thisAlbumTagsList += ", ";
-                                            }
-                                            thisAlbumTagsList += thisAlbumTags[a].name;
-                                        }
-                                        ThisAlbumButton.dataset.tags = thisAlbumTagsList;
                                     }
                                     if (data.album.url.length) {
                                         ThisAlbumButton.dataset.lastfm = data.album.url;
@@ -174,31 +161,6 @@ for (let i = 0; i < albumButtons.length; i++) {
             AlbumCoverImage.setAttribute("alt", this.dataset.album);
             SpotlightContent.appendChild(AlbumCover);
         }
-        // Add favorite track.
-        if (this.dataset.track) {
-            let AlbumTrack   = document.createElement("SECTION"),
-                AlbumTrackDL = AlbumTrack.appendChild(document.createElement("DL")),
-                AlbumTrackDT = AlbumTrackDL.appendChild(document.createElement("DT")),
-                AlbumTrackDD = AlbumTrackDL.appendChild(document.createElement("DD"));
-
-            AlbumTrack.setAttribute("class", "spotlight__track");
-            AlbumTrackDT.appendChild(document.createTextNode("Favorite Track"));
-            AlbumTrackDD.appendChild(document.createTextNode(this.dataset.track));
-            SpotlightContent.appendChild(AlbumTrack);
-        }
-        // Add tags.
-        if (this.dataset.tags) {
-            let AlbumTags   = document.createElement("SECTION"),
-                AlbumTagsDL = AlbumTags.appendChild(document.createElement("DL")),
-                AlbumTagsDT = AlbumTagsDL.appendChild(document.createElement("DT")),
-                AlbumTagsDD = AlbumTagsDL.appendChild(document.createElement("DD"));
-
-            AlbumTags.setAttribute("class", "spotlight__tags");
-            AlbumTagsDT.appendChild(document.createTextNode("Album Tags"));
-            AlbumTagsDD.appendChild(document.createTextNode(this.dataset.tags));
-            SpotlightContent.appendChild(AlbumTags);
-        }
-
         // Add last.fm link.
         // Add spotify link.
         // Add genius link.
@@ -216,10 +178,32 @@ for (let i = 0; i < albumButtons.length; i++) {
             if (this.dataset.spotify) {
                 AlbumLinksUL.appendChild(albumLinkBuilder(this.dataset.spotify, AlbumLinksUL, "spotify"));
             }
+            AlbumLinks.setAttribute("class", "spotlight__links");
             AlbumLinksH2.appendChild(document.createTextNode("Links"));
             SpotlightContent.appendChild(AlbumLinks);
         }
+        // Add tags.
+        if (this.dataset.tags) {
+            let AlbumTags     = document.createElement("SECTION"),
+                AlbumTagsH2   = AlbumTags.appendChild(document.createElement("H2")),
+                AlbumTagsText = AlbumTags.appendChild(document.createElement("DIV"));
 
+            AlbumTags.setAttribute("class", "spotlight__tags");
+            AlbumTagsH2.appendChild(document.createTextNode("Album Tags"));
+            AlbumTagsText.appendChild(document.createTextNode(this.dataset.tags));
+            SpotlightContent.appendChild(AlbumTags);
+        }
+        // Add favorite track.
+        if (this.dataset.track) {
+            let AlbumTrack     = document.createElement("SECTION"),
+                AlbumTrackH2   = AlbumTrack.appendChild(document.createElement("H2")),
+                AlbumTrackText = AlbumTrack.appendChild(document.createElement("DIV"));
+
+            AlbumTrack.setAttribute("class", "spotlight__track");
+            AlbumTrackH2.appendChild(document.createTextNode("Favorite Track"));
+            AlbumTrackText.appendChild(document.createTextNode(this.dataset.track));
+            SpotlightContent.appendChild(AlbumTrack);
+        }
         // Add review.
         if (this.dataset.review) {
             let AlbumReview     = document.createElement("SECTION"),
