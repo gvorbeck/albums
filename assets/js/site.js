@@ -87,6 +87,9 @@ function setAlbumData() {
                                         }
                                         ThisAlbumButton.dataset.tags = thisAlbumTagsList;
                                     }
+                                    if (data.album.url.length) {
+                                        ThisAlbumButton.dataset.lastfm = data.album.url;
+                                    }
 
                                     ThisAlbumButton.style.backgroundImage = "url('" + ThisAlbumButton.dataset.thumb + "')";
                                     ThisAlbumItem.classList.add("album-list__item--applied");
@@ -106,6 +109,20 @@ function closeClearSpotlight() {
     SpotlightAlbum.innerHTML = "";
     SpotlightArtist.innerHTML = "";
     SpotlightContent.innerHTML = "";
+}
+
+function albumLinkBuilder(url, list, service) {
+    let listItem = list.appendChild(document.createElement("LI")),
+        listItemA = listItem.appendChild(document.createElement("A"));
+    listItem.setAttribute("class", "links__item links__item--" + service);
+    if (service !== "spotify") {
+        listItemA.setAttribute("target", "_blank");
+    }
+    listItemA.setAttribute("href", url);
+    listItemA.setAttribute("title", service);
+    listItemA.appendChild(document.createTextNode(service));
+
+    return listItem;
 }
 
 const jsonURL          = "https://ws.audioscrobbler.com/2.0/",
@@ -181,10 +198,27 @@ for (let i = 0; i < albumButtons.length; i++) {
             AlbumTagsDD.appendChild(document.createTextNode(this.dataset.tags));
             SpotlightContent.appendChild(AlbumTags);
         }
-        
+
         // Add last.fm link.
         // Add spotify link.
         // Add genius link.
+        if (this.dataset.lastfm || this.dataset.genius || this.dataset.spotify) {
+            let AlbumLinks = document.createElement("SECTION"),
+                AlbumLinksH2 = AlbumLinks.appendChild(document.createElement("H2")),
+                AlbumLinksUL = AlbumLinks.appendChild(document.createElement("UL"));
+
+            if (this.dataset.lastfm) {
+                AlbumLinksUL.appendChild(albumLinkBuilder(this.dataset.lastfm, AlbumLinksUL, "lastfm"));
+            }
+            if (this.dataset.genius) {
+                AlbumLinksUL.appendChild(albumLinkBuilder(this.dataset.genius, AlbumLinksUL, "genius"));
+            }
+            if (this.dataset.spotify) {
+                AlbumLinksUL.appendChild(albumLinkBuilder(this.dataset.spotify, AlbumLinksUL, "spotify"));
+            }
+            AlbumLinksH2.appendChild(document.createTextNode("Links"));
+            SpotlightContent.appendChild(AlbumLinks);
+        }
 
         // Add review.
         if (this.dataset.review) {

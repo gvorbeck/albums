@@ -49,6 +49,7 @@
     artist: CHVRCHES
     sprite_position: 2
     spotify_link: spotify:album:7EchhykwUf4ACDDABEDa7o
+    genius_link: https://genius.com/albums/Chvrches/Love-is-dead
 
   - album: Double Negative
     artist: Low
