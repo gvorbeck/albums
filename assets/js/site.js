@@ -209,7 +209,6 @@ for (let i = 0; i < albumButtons.length; i++) {
         SpotlightBox.style.cssText           = spotlightBoxStylesString;
         SpotlightClose.style.backgroundColor = colorLight;
         SpotlightQuick.style.cssText         = spotlightQuickStyleString;
-        console.log(SpotlightLinks.getElementsByTagName("A"));
         for (let x = 0; x < SpotlightLinks.getElementsByTagName("A").length; x++) {
             SpotlightLinks.getElementsByTagName("A")[x].firstElementChild.style.fill = color;
         }
