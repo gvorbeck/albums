@@ -84,8 +84,6 @@
     favorite_track: OLE!!
     tags: pop.punk.rock punk.rock rock japan
     spotify_link: spotify:album:1spFHTdEd1oA8htGJxeIac
-    text: |
-      Through the thumping crecendos and and past the creative synths, this record is very pretty and very sad. I don't listen to a lot to EDM, but _'Til the End_ caught my attention for it's ability to constantly pull my attention back with its narrative. Woven between instrumentals, the break-up of a relationship unfolds via MitiS's guest singers while the tracks themselves dance around the subject at hand. The desperate bargaining of _By My Side_ describes that terror of impending heartbreak, while it is harshly rebutted in _For Miles & Miles_ telling the listener to "Don't think just walk away and forget me." _Embers_ ends the story with romanticized denial finally giving way to acceptance, and the record leaves us with a victorious few minutes to contemplate where we go now in _Dreams_.
 
 - year: 2017
   list:
@@ -463,54 +461,47 @@
 
 - year: 2010
   list:
+  - artist: Decibully
+    album: World Travels Fast
+    spotify_link: spotify:album:5I2qbAY6jdllUaIMPEehmZ
+    
   - artist: Affiance
     album: No Secret Revealed
-    sprite_position: 5
     spotify_link: spotify:album:3WqXOKjQ371qGFVQE94ZsF
 
   - artist: The Black Keys
     album: Brothers
-    sprite_position: 0
     spotify_link: spotify:album:7qE6RXYyz5kj5Tll7mJU0v
 
   - artist: Conditions
     album: Fluorescent Youth
-    sprite_position: 1
     spotify_link: spotify:album:06fCkwSB0j0dsZmUmbhC1B
 
   - artist: The Decline
     album: I'm Not Gonna Lie to You
-    sprite_position: 7
     spotify_link: spotify:album:5ZdOCRZVJc5slPXXlqA56q
 
   - artist: Fifty Stars Anger
     album: Mind Grenades for The Revolution
-    sprite_position: 4
-    spotify_link:
 
   - artist: Golliwog
     album: Plague Allegiance
-    sprite_position: 8
     spotify_link: spotify:album:2d4PJzmFbgb5XDAjS7F3Mg
 
   - artist: The Growlers
     album: Hot Tropics
-    sprite_position: 2
     spotify_link: spotify:album:02KuwrUe9r1knIfI0rVf7c
 
   - artist: La Vida Bohème
     album: Nuestra
-    sprite_position: 6
     spotify_link: spotify:album:7kSxnf1JIMeFMIKKC5xDtt
 
   - artist: Miami Horror
     album: Illumination
-    sprite_position: 3
     spotify_link: spotify:album:1Nb8xRzI4OVThbG3ewobwY
 
   - artist: Various Artists
     album: Red Dead Redemption Original Soundtrack
-    sprite_position: 9
     spotify_link: spotify:album:22H5XKyHXkxHbty4jtBibg
 
 - year: 2009

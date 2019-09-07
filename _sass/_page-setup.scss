@@ -52,6 +52,7 @@ main {
     height: 0;
     background-color: rgba(0, 0, 0, 0);
     transition: background-color .2s;
+    overflow: hidden;
 
     body.spotlight--open & {
         padding: 5rem;
@@ -131,10 +132,17 @@ main {
 
         h2 {
             font-family: 'Merriweather', serif;
+            margin-bottom: .5rem;
+            font-size: 1.5rem;
+            line-height: 1;
         }
 
         & + section {
             margin-top: 1rem;
+        }
+
+        &:nth-child(3) {
+            margin-right: 1rem;
         }
     }
 
@@ -169,6 +177,26 @@ main {
     svg {
         width: 2.5rem;
         height: 2.5rem;
+    }
+}
+
+.spotlight__info,
+.spotlight__review {
+    line-height: 1.5;
+
+    a {
+        background: $color--background;
+        color: $color--logo;
+        text-decoration: none;
+        padding: .1rem .25rem;
+    }
+
+    em {
+        font-style: italic;
+    }
+
+    strong {
+        font-weight: 700;
     }
 }
 
