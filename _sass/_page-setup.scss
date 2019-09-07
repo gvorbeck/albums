@@ -125,17 +125,50 @@ main {
 .spotlight__content {
     display: grid;
     grid-template-columns: auto 300px;
+    grid-template-rows: 300px auto;
 
     section {
+
+        h2 {
+            font-family: 'Merriweather', serif;
+        }
 
         & + section {
             margin-top: 1rem;
         }
     }
 
-    .spotlight__cover {
-        grid-column-start: 2;
-        grid-column-end: 3;
+    .spotlight__quick {
+        grid-column-start: 1;
+        grid-row-start: 1;
+        margin: 0;
+        padding: 1rem;
+    }
+}
+
+.spotlight__cover {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    box-shadow: 0 rem(3px) rem(6px) rgba(0,0,0,0.16), 0 rem(3px) rem(6px) rgba(0,0,0,0.23);
+}
+
+.spotlight__links {
+
+    ul {
+        display: flex;
+    }
+
+    li + li {
+        margin-left: 1rem;
+    }
+
+    a {
+
+    }
+
+    svg {
+        width: 2.5rem;
+        height: 2.5rem;
     }
 }
 

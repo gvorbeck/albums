@@ -95,33 +95,30 @@ function closeClearSpotlight() {
     document.body.classList.remove("spotlight--open");
     SpotlightAlbum.innerHTML = "";
     SpotlightArtist.innerHTML = "";
-    SpotlightContent.innerHTML = "";
-}
-
-function albumLinkBuilder(url, list, service) {
-    let listItem = list.appendChild(document.createElement("LI")),
-        listItemA = listItem.appendChild(document.createElement("A"));
-    listItem.setAttribute("class", "links__item links__item--" + service);
-    if (service !== "spotify") {
-        listItemA.setAttribute("target", "_blank");
-    }
-    listItemA.setAttribute("href", url);
-    listItemA.setAttribute("title", service);
-    listItemA.appendChild(document.createTextNode(service));
-
-    return listItem;
+    SpotlightTags.getElementsByTagName("DIV")[0].innerHTML = "";
+    SpotlightTrack.getElementsByTagName("DIV")[0].innerHTML = "";
+    SpotlightReview.getElementsByTagName("DIV")[0].innerHTML = "";
+    SpotlightInfo.getElementsByTagName("DIV")[0].innerHTML = "";
 }
 
 const jsonURL          = "https://ws.audioscrobbler.com/2.0/",
       apiKey           = "6a163345d35cda2e6eefb42202119d35",
+      // colorStr         = "#59B68A #E94579 #F8C547 #244AFC #E84F5B #65C7CF #FFEC32",
+      // colorArr         = colorStr.split(" "),
       YearList         = document.getElementsByClassName("favorites")[0],
       yearButtons      = document.getElementsByClassName("year__button"),
       albumButtons     = document.getElementsByClassName("album__button"),
       SpotlightBox     = document.getElementsByClassName("spotlight__box")[0],
-      SpotlightContent = document.getElementsByClassName("spotlight__content")[0],
-      SpotlightClose   = document.getElementsByClassName("spotlight__close")[0],
       SpotlightAlbum   = document.getElementsByClassName("spotlight__album")[0],
-      SpotlightArtist  = document.getElementsByClassName("spotlight__artist")[0];
+      SpotlightArtist  = document.getElementsByClassName("spotlight__artist")[0],
+      SpotlightClose   = document.getElementsByClassName("spotlight__close")[0],
+      SpotlightContent = document.getElementsByClassName("spotlight__content")[0],
+      SpotlightQuick   = SpotlightContent.getElementsByClassName("spotlight__quick")[0],
+      SpotlightLinks   = SpotlightQuick.getElementsByClassName("spotlight__links")[0],
+      SpotlightTags    = SpotlightQuick.getElementsByClassName("spotlight__tags")[0],
+      SpotlightTrack   = SpotlightQuick.getElementsByClassName("spotlight__track")[0],
+      SpotlightReview  = SpotlightContent.getElementsByClassName("spotlight__review")[0],
+      SpotlightInfo    = SpotlightContent.getElementsByClassName("spotlight__info")[0];
 
 // Create event listeners for each .year__button.
 for (let i = 0; i < yearButtons.length; i++) {
@@ -153,88 +150,74 @@ for (let i = 0; i < albumButtons.length; i++) {
         SpotlightArtist.appendChild(document.createTextNode(this.dataset.artist));
         // Add album cover.
         if (this.dataset.thumb) {
-            let AlbumCover      = document.createElement("SECTION"),
-                AlbumCoverImage = AlbumCover.appendChild(document.createElement("IMG"));
+            let AlbumCover = SpotlightContent.getElementsByClassName("spotlight__cover")[0],
+                  AlbumCoverImage = AlbumCover.getElementsByTagName("IMG")[0];
 
-            AlbumCover.setAttribute("class", "spotlight__cover");
             AlbumCoverImage.setAttribute("src", this.dataset.thumb);
             AlbumCoverImage.setAttribute("alt", this.dataset.album);
-            SpotlightContent.appendChild(AlbumCover);
         }
         // Add last.fm link.
         // Add spotify link.
         // Add genius link.
         if (this.dataset.lastfm || this.dataset.genius || this.dataset.spotify) {
-            let AlbumLinks = document.createElement("SECTION"),
-                AlbumLinksH2 = AlbumLinks.appendChild(document.createElement("H2")),
-                AlbumLinksUL = AlbumLinks.appendChild(document.createElement("UL"));
+            const albumLinksServices = {lastfm:this.dataset.lastfm, genius:this.dataset.genius, spotify:this.dataset.spotify};
 
-            if (this.dataset.lastfm) {
-                AlbumLinksUL.appendChild(albumLinkBuilder(this.dataset.lastfm, AlbumLinksUL, "lastfm"));
+            for (let i in albumLinksServices) {
+                let link = SpotlightLinks.getElementsByClassName(i)[0];
+                if (albumLinksServices[i] === undefined) {
+                    link.parentNode.style.display = "none";
+                } else {
+                    link.parentNode.style.display = "block";
+                    link.setAttribute("href", albumLinksServices[i]);
+                    link.setAttribute("title", i);
+                }
             }
-            if (this.dataset.genius) {
-                AlbumLinksUL.appendChild(albumLinkBuilder(this.dataset.genius, AlbumLinksUL, "genius"));
-            }
-            if (this.dataset.spotify) {
-                AlbumLinksUL.appendChild(albumLinkBuilder(this.dataset.spotify, AlbumLinksUL, "spotify"));
-            }
-            AlbumLinks.setAttribute("class", "spotlight__links");
-            AlbumLinksH2.appendChild(document.createTextNode("Links"));
-            SpotlightContent.appendChild(AlbumLinks);
         }
         // Add tags.
         if (this.dataset.tags) {
-            let AlbumTags     = document.createElement("SECTION"),
-                AlbumTagsH2   = AlbumTags.appendChild(document.createElement("H2")),
-                AlbumTagsText = AlbumTags.appendChild(document.createElement("DIV"));
-
-            AlbumTags.setAttribute("class", "spotlight__tags");
-            AlbumTagsH2.appendChild(document.createTextNode("Album Tags"));
-            AlbumTagsText.appendChild(document.createTextNode(this.dataset.tags));
-            SpotlightContent.appendChild(AlbumTags);
+            SpotlightTags.style.display = "block";
+            SpotlightTags.getElementsByTagName("DIV")[0].appendChild(document.createTextNode(this.dataset.tags));
+        } else {
+            SpotlightTags.style.display = "none";
         }
         // Add favorite track.
         if (this.dataset.track) {
-            let AlbumTrack     = document.createElement("SECTION"),
-                AlbumTrackH2   = AlbumTrack.appendChild(document.createElement("H2")),
-                AlbumTrackText = AlbumTrack.appendChild(document.createElement("DIV"));
-
-            AlbumTrack.setAttribute("class", "spotlight__track");
-            AlbumTrackH2.appendChild(document.createTextNode("Favorite Track"));
-            AlbumTrackText.appendChild(document.createTextNode(this.dataset.track));
-            SpotlightContent.appendChild(AlbumTrack);
+            SpotlightTrack.style.display = "block";
+            SpotlightTrack.getElementsByTagName("DIV")[0].appendChild(document.createTextNode(this.dataset.track));
+        } else {
+            SpotlightTrack.style.display = "none";
         }
         // Add review.
         if (this.dataset.review) {
-            let AlbumReview     = document.createElement("SECTION"),
-                AlbumReviewH2   = AlbumReview.appendChild(document.createElement("H2")),
-                AlbumReviewText = AlbumReview.appendChild(document.createElement("DIV"));
-
-            AlbumReview.setAttribute("class", "spotlight__review");
-            AlbumReviewH2.appendChild(document.createTextNode("Why I Like This"));
-            AlbumReviewText.innerHTML = this.dataset.review;
-            SpotlightContent.appendChild(AlbumReview);
+            SpotlightReview.style.display = "block";
+            SpotlightReview.getElementsByTagName("DIV")[0].innerHTML = this.dataset.review;
+        } else {
+            SpotlightReview.style.display = "none";
         }
         // Add wiki info.
         if (this.dataset.info) {
-            let AlbumInfo = document.createElement("SECTION"),
-                AlbumInfoH2 = AlbumInfo.appendChild(document.createElement("H2")),
-                AlbumInfoText = AlbumInfo.appendChild(document.createElement("DIV"));
-
-            AlbumInfo.setAttribute("class", "spotlight__info");
-            AlbumInfoH2.appendChild(document.createTextNode("Album Info"));
-            AlbumInfoText.innerHTML = this.dataset.info;
-            SpotlightContent.appendChild(AlbumInfo);
+            SpotlightInfo.style.display = "block";
+            SpotlightInfo.getElementsByTagName("DIV")[0].innerHTML = this.dataset.info;
+        } else {
+            SpotlightInfo.style.display = "none";
         }
 
         // Get computed background-color and color styles from hidden .album-list__item::before for .spotlight__box.
-        let bg    = window.getComputedStyle(getClosest(this, ".album-list__item", "parent"), ":before").getPropertyValue('background-color');
-        let color = window.getComputedStyle(getClosest(this, ".album-list__item", "parent"), ":before").getPropertyValue('color');
-        SpotlightBox.style.backgroundColor   = bg;
-        SpotlightBox.style.color             = color;
-        SpotlightClose.style.backgroundColor = color;
-        SpotlightClose.getElementsByTagName("DIV")[0].style.backgroundColor = bg;
-        SpotlightClose.getElementsByTagName("DIV")[1].style.backgroundColor = bg;
+        let color      = window.getComputedStyle(getClosest(this, ".album-list__item", "parent"), ":before").getPropertyValue('background-color'),
+            colorLight = window.getComputedStyle(getClosest(this, ".album-list__item", "parent"), ":before").getPropertyValue('color'),
+            colorDark  = window.getComputedStyle(getClosest(this, ".album-list__item", "parent"), ":after").getPropertyValue('color'),
+            spotlightQuickStyleString = "background-color: " + colorDark + "; color: " + colorLight + ";",
+            spotlightBoxStylesString  = "background-color: " + color + "; color: " + colorLight + ";";
+
+        SpotlightBox.style.cssText           = spotlightBoxStylesString;
+        SpotlightClose.style.backgroundColor = colorLight;
+        SpotlightQuick.style.cssText         = spotlightQuickStyleString;
+        console.log(SpotlightLinks.getElementsByTagName("A"));
+        for (let x = 0; x < SpotlightLinks.getElementsByTagName("A").length; x++) {
+            SpotlightLinks.getElementsByTagName("A")[x].firstElementChild.style.fill = color;
+        }
+        SpotlightClose.getElementsByTagName("DIV")[0].style.backgroundColor = color;
+        SpotlightClose.getElementsByTagName("DIV")[1].style.backgroundColor = color;
 
         document.body.classList.add("spotlight--open");
     });

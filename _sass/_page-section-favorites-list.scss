@@ -37,6 +37,16 @@
                         color: lighten(nth($colors--year-block, $i), 45%);
                     }
                 }
+                // This is here only for JS to get a computed background-color and color styles for the Spotlight.
+                &::after {
+                    @include pseudo;
+                    background: nth($colors--year-block, $i);
+                    @if (lightness(nth($colors--year-block, $i)) <= 58) {
+                        color: darken(nth($colors--year-block, $i), 25%);
+                    } @else {
+                        color: lighten(nth($colors--year-block, $i), 25%);
+                    }
+                }
             }
 
             // .year-block__spotlight {

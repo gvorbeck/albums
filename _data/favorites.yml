@@ -47,7 +47,6 @@
 
   - album: Love Is Dead
     artist: CHVRCHES
-    sprite_position: 2
     tags: synthpop electronic
     spotify_link: spotify:album:7EchhykwUf4ACDDABEDa7o
     genius_link: https://genius.com/albums/Chvrches/Love-is-dead
@@ -61,6 +60,7 @@
     artist: MiTis
     sprite_position: 4
     spotify_link: spotify:album:09dfll1eY4PRh0nSWIuFBi
+    genius_link: https://genius.com/albums/Mitis/Til-the-end
     text: |
       Through the thumping crecendos and and past the creative synths, this record is very pretty and very sad. I don't listen to a lot to EDM, but _'Til the End_ caught my attention for it's ability to constantly pull my attention back with its narrative. Woven between instrumentals, the break-up of a relationship unfolds via MitiS's guest singers while the tracks themselves dance around the subject at hand. The desperate bargaining of _By My Side_ describes that terror of impending heartbreak, while it is harshly rebutted in _For Miles & Miles_ telling the listener to "Don't think just walk away and forget me." _Embers_ ends the story with romanticized denial finally giving way to acceptance, and the record leaves us with a victorious few minutes to contemplate where we go now in _Dreams_.
 
@@ -81,8 +81,8 @@
 
   - album: Everybody!!
     artist: WANIMA
-    sprite_position: 6
     favorite_track: OLE!!
+    tags: pop.punk.rock punk.rock rock japan
     spotify_link: spotify:album:1spFHTdEd1oA8htGJxeIac
     text: |
       Through the thumping crecendos and and past the creative synths, this record is very pretty and very sad. I don't listen to a lot to EDM, but _'Til the End_ caught my attention for it's ability to constantly pull my attention back with its narrative. Woven between instrumentals, the break-up of a relationship unfolds via MitiS's guest singers while the tracks themselves dance around the subject at hand. The desperate bargaining of _By My Side_ describes that terror of impending heartbreak, while it is harshly rebutted in _For Miles & Miles_ telling the listener to "Don't think just walk away and forget me." _Embers_ ends the story with romanticized denial finally giving way to acceptance, and the record leaves us with a victorious few minutes to contemplate where we go now in _Dreams_.
