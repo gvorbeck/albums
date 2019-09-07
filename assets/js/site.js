@@ -41,7 +41,6 @@ function setAlbumData() {
             // Determin if this .year element is opened.
             if (YearList.children[i].firstElementChild.classList.contains("year--open")) {
                 for (let x = 0; x < YearList.children[i].getElementsByClassName("album-list__item").length; x++) {
-                    // break;
 
                     let ThisAlbumItem   = YearList.children[i].getElementsByClassName("album-list__item")[x],
                         ThisAlbumButton = ThisAlbumItem.getElementsByClassName("album__button")[0],
@@ -103,8 +102,6 @@ function closeClearSpotlight() {
 
 const jsonURL          = "https://ws.audioscrobbler.com/2.0/",
       apiKey           = "6a163345d35cda2e6eefb42202119d35",
-      // colorStr         = "#59B68A #E94579 #F8C547 #244AFC #E84F5B #65C7CF #FFEC32",
-      // colorArr         = colorStr.split(" "),
       YearList         = document.getElementsByClassName("favorites")[0],
       yearButtons      = document.getElementsByClassName("year__button"),
       albumButtons     = document.getElementsByClassName("album__button"),
