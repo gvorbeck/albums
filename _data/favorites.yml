@@ -21,31 +21,38 @@
   list:
   - album: Loved to Death
     artist: Dance With the Dead
+    tags: horror rock dance electronic
     spotify_link: spotify:album:1lnSh8xb06nXe4ZxRSvQhn
     text: |
       I spent a good chunk of time in 2018 trying to write a horror novel. Imposter syndrome and writer's block worked in concert together to prevent anything substantial from being produced and the story lives in my head to this day, taunting me. One useful culprit for keeping this story from disappearing entirely from my mind is Dance With the Dead's _Loved to Death_. It's campy horror sound hints at the feel I wanted to capture in my writing. Riding a line between techno/dance and power metal, this California-based duo really gave me something to feed off of in my creative moments, much in the same way _The Grid_ by Mega Drive did in the previous year. The tense and victorious rhthyms kept me focused, and the songs seem to demand a story all by themselves. Perhaps one day I'll get that story written.
 
   - album: Ordinary Corrupt Human Love
     artist: Deafheaven
+    tags: post.rock rock black.metal metal ambient experimental
     spotify_link: spotify:album:2iA7rzpQsOfAPkfH4Ekp7f
+    genius_link: https://genius.com/albums/Deafheaven/Ordinary-corrupt-human-love
     text: |
       I would never have thought one of the most beautiful albums I'd listen to would have so much black metal in it. I loved _Sunbather_ when it came out in 2013 but never really had a moment to myself where the thought occured that "Hey, I like this band." I let _New Bermuda_ come and go without any attention, but for some reason found myself chained to _Ordinary Corrupt Human Love_ throughout the summer. I think it will always remind me of the long walks along the streets of Astoria, Queens that I took while listening to this album. It's hopeful and beautiful lyrics are hard to decipher through Clarke's static screams, but the heart of this record is found in every element of its makeup. This record, more than any of the others I listened to this year, feels like a piece of art.
 
   - album: Crown of Nothing
     artist: Direct Hit!
+    tags: pop.punk.rock punk.rock rock
     spotify_link: spotify:album:1EFnZuLUzXx0B6ZsL9aqum
+    genius_link: https://genius.com/albums/Direct-hit/Crown-of-nothing
     text: |
-      Starting with a choral echo backed bass thump that would feel more at home on a new blink-182 album, this record is Direct Hit!'s most dynamic and mature record yet. Frequently wrestling with themes of death and the meaning of life, this record shows a band reaching for something higher than another pop punk album with a hard candy shell. Revelling in their nihilist refutations of our traditional conceptions of heaven and hell, Direct Hit! asks us to enjoy what we can in this terrible world before we inevitably shuffle off this mortal coil, and that's cool with me.
+      Starting with a choral echo backed bass thump that would feel more at home on a new blink-182 album, this record is Direct Hit!'s most dynamic and mature record yet. Frequently wrestling with themes of death and the meaning of life, this existentialism-as-concept-album shows a band reaching for something higher than another pop punk album with a hard candy shell. Revelling in their nihilist refutations of our traditional conceptions of heaven and hell, Direct Hit! asks us to enjoy what we can in this terrible world before we inevitably shuffle off this mortal coil, and that's cool with me.
 
   - album: Love Is Dead
     artist: CHVRCHES
-    tags: synthpop electronic
+    tags: synth.pop electronic indie.pop pop
     spotify_link: spotify:album:7EchhykwUf4ACDDABEDa7o
     genius_link: https://genius.com/albums/Chvrches/Love-is-dead
 
   - album: Double Negative
     artist: Low
+    tags: slowcore indie.rock rock ambient post.rock
     spotify_link: spotify:album:1zTkgOHx3mjrUvrhxq4osf
+    genius_link: https://genius.com/albums/Low/Double-negative
 
   - album: "'Til the End"
     artist: MiTis
@@ -56,10 +63,13 @@
 
   - album: Clean
     artist: Soccer Mommy
+    tags: indie.rock
     spotify_link: spotify:album:36NLDBi2kX7XRHnyLzLOS8
+    genius_link: https://genius.com/albums/Soccer-mommy/Clean
 
   - album: ROCKNROLL MACHINE
     artist: Turbonegro
+    tags: rocknroll punk.rock rock glam.rock
     spotify_link: spotify:album:424KFQolDBYGCXPJID48Fm
 
   - album: Everybody!!

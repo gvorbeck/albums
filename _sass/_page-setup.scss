@@ -170,13 +170,15 @@ main {
         margin-left: 1rem;
     }
 
-    a {
-
-    }
-
     svg {
-        width: 2.5rem;
-        height: 2.5rem;
+        width: 2.75rem;
+        height: 2.75rem;
+        padding: .25rem;
+
+        &:hover {
+            background: $color--background;
+            fill: $color--logo !important;
+        }
     }
 }
 

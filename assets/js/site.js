@@ -62,6 +62,7 @@ function setAlbumData() {
                                     switch (data.error) {
                                         case 6:
                                             console.log("Invalid parameters - Your request is missing a required parameter");
+                                            console.log(apiRequest);
                                             break;
                                         default:
                                             console.log("unknown error");
@@ -76,10 +77,10 @@ function setAlbumData() {
                                     if (data.album.url.length) {
                                         ThisAlbumButton.dataset.lastfm = data.album.url;
                                     }
-
-                                    ThisAlbumButton.style.backgroundImage = "url('" + ThisAlbumButton.dataset.thumb + "')";
-                                    ThisAlbumItem.classList.add("album-list__item--applied");
                                 }
+
+                                ThisAlbumButton.style.backgroundImage = "url('" + ThisAlbumButton.dataset.thumb + "')";
+                                ThisAlbumItem.classList.add("album-list__item--applied");
                             }
                         });
                     }
