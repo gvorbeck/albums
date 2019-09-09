@@ -7,7 +7,7 @@ layout: default
         <li class="favorites__item">
             <div class="year {% if forloop.first == true %}year--open{% endif %}">
                 <div class="year__header">
-                    <h3 class="year__title"><button class="year__button" title="Expand">{{ favoritesItem.year }}</button></h3>
+                    <h3 class="year__title"><button aria-label="{{ favoritesItem.year }}" class="year__button" title="Expand">{{ favoritesItem.year }}</button></h3>
                 </div>
                 <div class="year__content">
                     {% if forloop.first == true %}
