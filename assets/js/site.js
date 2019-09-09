@@ -15,7 +15,7 @@ function getClosest(elem, selector, dir="parent") {
     } else {
         return null;
     }
-};
+}
 
 // Function to get JSON from API source.
 function getJSON(url, callback) {
@@ -32,7 +32,7 @@ function getJSON(url, callback) {
         }
     };
     xhr.send();
-};
+}
 
 // Get information from API source and
 function setAlbumData() {
@@ -88,7 +88,7 @@ function setAlbumData() {
             }
         }
     }
-};
+}
 
 // Depopulate .spotlight.
 function closeClearSpotlight() {
