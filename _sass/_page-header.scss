@@ -75,7 +75,8 @@
         position: absolute;
         bottom: rem(-15px);
         right: 0;
-
+        outline: none;
+        
         @include media(s) {
             bottom: rem(-11px);
         }

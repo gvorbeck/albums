@@ -1,67 +1,21 @@
 ---
 layout: default
 ---
-<ul class="favorites-list">
+<ul class="favorites">
     {% assign favorites = site.data.favorites | sort:"year" | reverse %}
     {% for favoritesItem in favorites %}
-        <li class="favorites-list__item">
-            <div class="year-block">
-                <h3 class="year-block__title">{{ favoritesItem.year }}</h3>
-                <div class="year-block__spotlight">{% include tape.svg %}</div>
-                <ul class="album-list">
-                    {% assign albums = favoritesItem.list | sort:"artist" %}
-                    {% for albumItem in albums %}
-                        {% comment %}
-                            source: https://pagecrafter.com/responsive-background-image-sprites-css-tutorial/
-                            increment formula for responsive bg images: 100% / (10 - 1)
-                        {% endcomment %}
-                        {% if albumItem.sprite_position == 0 %}
-                            {% capture bgPos %}0{% endcapture %}
-                        {% elsif albumItem.sprite_position == 9 %}
-                            {% capture bgPos %}100{% endcapture %}
-                        {% else %}
-                            {% assign sprite_position = albumItem.sprite_position %}
-                            {% assign sprite_increment = 100 | divided_by: 9.0 %}
-                            {% assign bgPos = sprite_position | times: sprite_increment %}
-                        {% endif %}
-                        <li class="album-list__item">
-                            {% include tape.svg %}
-                            <button class="album-list__button"
-                                data-artist="{{ albumItem.artist }}"
-                                data-album="{{ albumItem.album }}"
-
-                                {% if albumItem.sprite_position %}
-                                    data-position="{{ albumItem.sprite_position }}"
-                                {% endif %}
-
-                                {% if albumItem.spotify_link %}
-                                    data-spotify="{{ albumItem.spotify_link }}"
-                                {% endif %}
-
-                                {% if albumItem.sprite_position or albumItem.image %}
-                                    data-src="
-                                        {{- '/assets/images/covers/' | relative_url -}}{{- favoritesItem.year -}}/
-                                        {%- if albumItem.sprite_position -%}
-                                            css_sprites.png
-                                        {%- else -%}
-                                            {{- albumItem.image -}}
-                                        {%- endif -%}
-                                    "
-                                {% endif %}
-
-                                {% if albumItem.text %}
-                                    data-text="{{ albumItem.text | markdownify }}"
-                                {% endif %}
-
-                                style="
-                                    {%- if albumItem.sprite_position -%}
-                                        background-position: 0 {{ bgPos }}%;
-                                    {%- endif -%}
-                                "
-                                ></button>
-                        </li>
-                    {% endfor %}
-                </ul>
+        <li class="favorites__item">
+            <div class="year {% if forloop.first == true %}year--open{% endif %}">
+                <div class="year__header">
+                    <h3 class="year__title"><button aria-label="{{ favoritesItem.year }}" class="year__button" title="Expand">{{ favoritesItem.year }}</button></h3>
+                </div>
+                <div class="year__content">
+                    {% if forloop.first == true %}
+                        {% include album-list.html list=favoritesItem.list tab="true" %}
+                    {% else %}
+                        {% include album-list.html list=favoritesItem.list tab="false" %}
+                    {% endif %}
+                </div>
             </div>
         </li>
     {% endfor %}
