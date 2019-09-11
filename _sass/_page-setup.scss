@@ -60,6 +60,10 @@ main {
         height: 100%;
         background-color: rgba(0, 0, 0, .4);
         overflow-y: scroll;
+
+        @include media(s) {
+            padding: 1rem;
+        }
     }
 }
 
@@ -128,6 +132,11 @@ main {
     grid-template-columns: auto 300px;
     grid-template-rows: 300px auto;
 
+    @include media(s) {
+        grid-template-columns: 300px;
+        justify-content: center;
+    }
+
     section {
 
         h2 {
@@ -144,6 +153,11 @@ main {
         &:nth-child(3) {
             margin-right: 1rem;
         }
+
+        @include media(s) {
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
     }
 
     .spotlight__quick {
@@ -151,6 +165,10 @@ main {
         grid-row-start: 1;
         margin: 0;
         padding: 1rem;
+
+        @include media(s) {
+            grid-row-start: 2;
+        }
     }
 }
 
