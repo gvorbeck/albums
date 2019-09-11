@@ -804,6 +804,26 @@
     album: Turn On The Bright Lights
     spotify_link: spotify:album:79deKDaslwLfH3yPR2T3SB
 
+  - artist: Bright Eyes
+    album: Lifted or The Story Is in the Soil, Keep Your Ear to the Ground
+    spotify_link: spotify:album:3D9lWF6r92UhRESvgte65y
+
+  - artist: Coldplay
+    album: A Rush of Blood to the Head
+    spotify_link: spotify:album:0RHX9XECH8IVI3LNgWDpmQ
+
+  - artist: Hot Hot Heat
+    album: Make Up The Breakdown
+    spotify_link: spotify:album:6MN4QYFWo1cLuZRiv2sedC
+
+  - artist: Seldom
+    album: Romance
+    spotify_link:
+
+  - artist:
+    album:
+    spotify_link:
+
 - year: 2001
   list:
   - artist: Andrew W.K.
