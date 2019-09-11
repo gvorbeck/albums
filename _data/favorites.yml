@@ -855,7 +855,7 @@
     spotify_link: spotify:album:3Xe3ERA3WSRcRrbQw1VsRO
 
   - artist: Explosions In The Sky
-    album: Those Who Tell the Trusth Shall Die, Those Who Tell the Truth Shall Live Forever
+    album: Those Who Tell the Truth Shall Die, Those Who Tell the Truth Shall Live Forever
     spotify_link: spotify:album:0HxOFNk6NIHydHAer8y01M
 
   - artist: Further Seems Forever
@@ -864,6 +864,7 @@
 
   - artist: My Hotel Year
     album: The Composition of Ending and Phrasing
+    thumb: the_composition_of_ending_and_phrasing.jpeg
     spotify_link: spotify:album:0ntqqxkwnFBHrluwekQv9G
 
 - year: 2000
