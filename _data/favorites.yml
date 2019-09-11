@@ -846,6 +846,26 @@
     album: It's Winter Here
     spotify_link: spotify:album:5RBB59IdmJ35fVokeQMu86
 
+  - artist: Alkaline Trio
+    album: From Here to Infirmary
+    spotify_link: spotify:album:74FavWuKZGG8tp3jpMVzN4
+
+  - artist: The Ataris
+    album: End Is Forever
+    spotify_link: spotify:album:3Xe3ERA3WSRcRrbQw1VsRO
+
+  - artist: Explosions In The Sky
+    album: Those Who Tell the Trusth Shall Die, Those Who Tell the Truth Shall Live Forever
+    spotify_link: spotify:album:0HxOFNk6NIHydHAer8y01M
+
+  - artist: Further Seems Forever
+    album: The Moon Is Down
+    spotify_link: spotify:album:7JJNQLAixkJUjc5vCj19rP
+
+  - artist: My Hotel Year
+    album: The Composition of Ending and Phrasing
+    spotify_link: spotify:album:0ntqqxkwnFBHrluwekQv9G
+
 - year: 2000
   list:
   - artist: Blindside
