@@ -761,6 +761,30 @@
     album: There Must be Some Way to Stop Them
     spotify_link: spotify:album:0jvXBuQqgkynqt81V79zGj
 
+  - artist: Azure Ray
+    album: Hold On Love
+    spotify_link: spotify:album:002VxJYn0PuESip7EnYZ5V
+
+  - artist: The Postal Service
+    album: Give Up
+    spotify_link: spotify:album:4ssF0ppdJnMTtL2hg1CLKX
+
+  - artist: Cex
+    album: Being Ridden
+    spotify_link: spotify:album:2Vm9o3t0fRSfQdM01YVPLR
+
+  - artist: Horse The Band
+    album: R. Borlax
+    spotify_link: spotify:album:7d8CDV3sAMg0BE0T6hziFk
+
+  - artist: The Format
+    album: Interventions and Lullabies
+    spotify_link: spotify:album:5B6SoTwBaUBoJbUFycg0Oa
+
+  - artist: The Rocket Summer
+    album: Calendar Days
+    spotify_link: spotify:album:6NiF6BfePelczZlw5vVBb1
+
 - year: 2002
   list:
   - artist: All-Time Quarterback
@@ -826,6 +850,10 @@
 
 - year: 2001
   list:
+  - artist: Black Rebel Motorcycle Club
+    album: B.R.M.C.
+    spotify_link: spotify:album:5yMBrh34J9x9xG4NQN0DNk
+
   - artist: Andrew W.K.
     album: I Get Wet
     spotify_link: spotify:album:6BQMUDC55fjjnApdWtZYZM
@@ -931,10 +959,6 @@
   - artist: Dead Prez
     album: Let's Get Free
     spotify_link: spotify:album:7gXuElmegVReY7imkb5bf8
-
-  - artist: The Explosion
-    album: Flash Flash Flash
-    spotify_link: spotify:album:5WYALItavWQbD1Ll4hMWrU
 
   - artist: Slick Shoes
     album: Wake Up Screaming
