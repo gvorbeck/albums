@@ -1,5 +1,6 @@
 #- year: 2019
 #  list:
+
 #  - album: III
 #    artist: Masked Intruder
 #    text: |
@@ -110,6 +111,8 @@
     favorite_track: OLE!!
     tags: pop.punk.rock punk.rock rock japan
     spotify_link: spotify:album:1spFHTdEd1oA8htGJxeIac
+    text: |
+      This is pure saccharine for me. The energy coming off of each of these tracks hits me right in that spot that craves Japanese Pop Punk.
 
 - year: 2017
   list:
@@ -139,7 +142,9 @@
 
   - artist: The Menzingers
     album: After The Party
+    favorite_track: Tellin' Lies
     spotify_link: spotify:album:1nzDVfQopF9YBkpPAfUck3
+    genius_link: https://genius.com/albums/The-menzingers/After-the-party
 
   - artist: San Fermin
     album: Belong
@@ -151,7 +156,9 @@
 
   - artist: Tigers Jaw
     album: spin
+    favorite_track: Bullet
     spotify_link: spotify:album:2xSppFiPUTWqZ9cdF6CQnY
+    genius_link: https://genius.com/albums/Tigers-jaw/Spin
 
   - artist: King Gizzard & The Lizard Wizard
     album: Murder Of The Universe
@@ -879,3 +886,23 @@
   - artist: The White Octave
     album: Style No. 6312
     spotify_link: spotify:album:1xsOA9nS2z9wSdt6eGIVut
+
+  - artist: Dead Prez
+    album: Let's Get Free
+    spotify_link: spotify:album:7gXuElmegVReY7imkb5bf8
+
+  - artist: The Explosion
+    album: Flash Flash Flash
+    spotify_link: spotify:album:5WYALItavWQbD1Ll4hMWrU
+
+  - artist: Slick Shoes
+    album: Wake Up Screaming
+    spotify_link: spotify:album:5p31d39Lkx9Fy1gi8MEtVr
+
+  - artist: NOFX
+    album: Pump Up The Valuum
+    spotify_link: spotify:album:37hvw6OVfRLktCmFcU9zHE
+
+  - artist: Millencolin
+    album: Pennybridge Pioneers
+    spotify_link: spotify:album:5VWyJbfC4DUsnC1NLSjuWC
