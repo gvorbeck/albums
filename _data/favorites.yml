@@ -551,6 +551,26 @@
     album: C I V I L W A R
     spotify_link: spotify:album:3qIFEGF5cuip70vU7zatpb
 
+  - artist: Atlas Losing Grip
+    album: Shut the World Out
+    spotify_link: spotify:album:4iIUmm3xcHgH8wuvi1LGt5
+
+  - artist: Frightened Rabbit
+    album: The Midnight Organ Fight
+    spotify_link: spotify:album:69voh97i16t9SrQeHWIqrY
+
+  - artist: Handheld
+    album: Handheld
+    spotify_link: spotify:album:3tz4aUyqS5QhHPtTo6FxMl
+
+  - artist: Santigold
+    album: Santigold
+    spotify_link: spotify:album:4yATru0hY3VgRHSreswbGj
+
+  - artist: Xploding Plastix
+    album: Treated Timber Resists Rot
+    spotify_link: spotify:album:3ailWW6LnksSpjrPM3tLHt
+
 - year: 2007
   list:
   - artist: Lavender Diamond
@@ -592,6 +612,10 @@
   - artist: Tegan and Sara
     album: The Con
     spotify_link: spotify:album:4QjGIZZqvNrdkgw4LZKLZK
+
+  - artist: Pour Habit
+    album: Suiticide
+    spotify_link: spotify:album:2aC8u1cEMH8i09wtOvq1S9
 
 - year: 2006
   list:
@@ -635,6 +659,22 @@
     album: Costello Music
     spotify_link: spotify:album:6R6pjR9ocMYuqSuNx5e4mg
 
+  - artist: Anti-Flag
+    album: For Blood And Empire
+    spotify_link: spotify:album:3B3gJszXnaDZMz8YVRZ1J2
+
+  - artist: Brandtson
+    album: Hello, Control
+    spotify_link: spotify:album:6vfntMjrhjePcDe48vXOwz
+
+  - artist: New Found Glory
+    album: Coming Home
+    spotify_link: spotify:album:1rRe0RrLHXpYhOSQeiGgGK
+
+  - artist: The Coup
+    album: Pick A Bigger Weapon
+    spotify_link: spotify:album:5EExWVfD5JW4QI95Upzx6v
+
 - year: 2005
   list:
   - artist: Bright Eyes
@@ -676,6 +716,18 @@
   - artist: VNV Nation
     album: Matter + Form
     spotify_link: spotify:album:0ePUvI74Sz0awGfcjoHZP2
+
+  - artist: A Wilhelm Scream
+    album: Ruiner
+    spotify_link: spotify:album:4SWFv2A7yGx4XlIW8vxRMV
+
+  - artist: Reggie And The Full Effect
+    album: Songs Not to Get Married to
+    spotify_link: spotify:album:5E5OzJiE0UVmEkIO6csUb2
+
+  - artist: The Rocket Summer
+    album: Hello, Good Friend.
+    spotify_link: spotify:album:4yFoGX4PpiDBfbyaCxV340
 
 - year: 2004
   list:
@@ -938,6 +990,10 @@
     album: The Composition of Ending and Phrasing
     thumb: the_composition_of_ending_and_phrasing.jpeg
     spotify_link: spotify:album:0ntqqxkwnFBHrluwekQv9G
+
+  - artist: System Of A Down
+    album: Toxicity
+    spotify_link: spotify:album:6jWde94ln40epKIQCd8XUh
 
 - year: 2000
   list:
