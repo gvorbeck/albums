@@ -161,6 +161,14 @@
     genius_link: https://genius.com/albums/Tigers-jaw/Spin
 
   - artist: King Gizzard & The Lizard Wizard
+    album: Flying Microtonal Banana
+    spotify_link: spotify:album:4G9ANFGk9579p2uirMbVT0
+
+  - artist: King Gizzard & The Lizard Wizard
+    album: Polygondwanaland
+    spotify_link: spotify:album:3esB4Gl0K2LKCgACUJa3mu
+
+  - artist: King Gizzard & The Lizard Wizard
     album: Murder Of The Universe
     spotify_link: spotify:album:61ZDWEphPwgz6Hzmt6ZK8y
     text: |
@@ -200,10 +208,6 @@
     album: Bermuda
     spotify_link: spotify:album:2Vp7l22Ljza3OH80HJq6dC
 
-  - artist: Planes Mistaken For Stars
-    album: Prey
-    spotify_link: spotify:album:5XAvsY5SyGg2pvWJMflTWk
-
   - artist: Rebelution
     album: Falling Into Place
     spotify_link: spotify:album:3TsqZMEQhGAnQ1nph9M22A
@@ -221,6 +225,10 @@
   - artist: Fetty Wap
     album: Fetty Wap
     spotify_link: spotify:album:2gKQvajkEEaDtkqJ8FJ4uw
+
+  - artist: King Gizzard & The Lizard Wizard
+    album: Paper Mâché Dream Balloon
+    spotify_link: spotify:album:0RyezpNCj0HGTv2Mrwaat5
 
   - artist: Radioactivity
     album: Silent Kill
@@ -275,6 +283,10 @@
   - artist: Deleted Scenes
     album: Lithium Burn
     spotify_link: spotify:album:6oZkQ4pJBWmaXAltXcRIpT
+
+  - artist: King Gizzard & The Lizard Wizard
+    album: Oddments
+    spotify_link: spotify:album:2DKCPWXAyXPq2dr1ZahO9p
 
   - artist: Future Islands
     album: Singles
@@ -380,6 +392,18 @@
     album: Break The Spell
     spotify_link: spotify:album:3r65OXZa8o8mK92m7uB1m7
 
+  - artist: The Menzingers
+    album: On The Impossible Past
+    spotify_link: spotify:album:4Jh3PDPicP3QwWpktQS7Yh
+
+  - artist: Lana Del Rey
+    album: Born To Die
+    spotify_link: spotify:album:4X8hAqIWpQyQks2yRhyqs4
+
+  - artist: Pennywise
+    album: All Or Nothing
+    spotify_link: spotify:album:3k0DvRgQzEtUXFCrCDB8qa
+
 - year: 2011
   list:
   - artist: Ever Forthright
@@ -421,6 +445,34 @@
   - artist: The Expanders
     album: The Expanders
     spotify_link: spotify:album:1zKyHrPc54uJDWDSreBC9T
+
+  - artist: Dirty Beaches
+    album: Badlands
+    spotify_link: spotify:album:5PV54mAI2Vrlbp1SfjeD6a
+
+  - artist: Forus
+    album: We
+    spotify_link: spotify:album:6NA02zLUglUSYEzpaIUJux
+
+  - artist: I See Stars
+    album: The End Of The World Party
+    spotify_link: spotify:album:493Zvo4Sf1VF0RCYFlQ5yd
+
+  - artist: Scattered Trees
+    album: Sympathy
+    spotify_link: spotify:album:0Y4JXu4tfVTDhZCgZRCe2I
+
+  - artist: The Pains Of Being Pure At Heart
+    album: Belong
+    spotify_link: spotify:album:7Hif0SCVj3oHys2QsTSWiZ
+
+  - artist: How Dare You
+    album: The King, the Clown and Colonel
+    spotify_link: spotify:album:6vxQr0zsENULpdu32O9gpJ
+
+  - artist: Nothington
+    album: Borrowed Time
+    spotify_link: spotify:album:3sAjsBpcWPDJPSZHGwOgrD
 
 - year: 2010
   list:
@@ -467,6 +519,10 @@
     album: Red Dead Redemption Original Soundtrack
     spotify_link: spotify:album:22H5XKyHXkxHbty4jtBibg
 
+  - artist: Against Me!
+    album: White Crosses
+    spotify_link: spotify:album:5VLEp4UIDkIowATwaveKUQ
+
 - year: 2009
   list:
   - artist: David Bazan
@@ -507,7 +563,35 @@
 
   - artist: Killswitch Engage
     album: Killswitch Engage
+    tags: metalcore metal
     spotify_link: spotify:album:0Vj4E53uI59Q4hnxiIpZrl
+
+  - artist: Enter Shikari
+    album: Common Dreads
+    spotify_link: spotify:album:1NuzPVEhVfDYdu49gmxrzd
+
+  - artist: Strike Anywhere
+    album: Iron Front
+    spotify_link: spotify:album:5AUGZyMmBtTVMRGx058Mkk
+
+  - artist: The Avett Brothers
+    album: I and Love and You
+    tags: folk bluegrass
+    spotify_link: spotify:album:2PPFtYUnnqMYflIEn3b7ON
+
+  - artist: This Is A Standoff
+    album: Be Disappointed
+    tags: punk.rock technical rock
+    spotify_link: spotify:album:5Id9ufhL4RNLbNxv5jNha6
+
+  - artist: The Raveonettes
+    album: In And Out Of Control
+    spotify_link: spotify:album:44VzVHBsqOAWWS6gnTOXbv
+
+  - artist: Mumford & Sons
+    album: Sigh No More
+    tags: folk uk
+    spotify_link: spotify:album:6w5W6ZGTvDsppKUOiGMuMo
 
 - year: 2008
   list:
