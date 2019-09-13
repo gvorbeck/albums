@@ -231,5 +231,11 @@ document.onkeydown = function(e) {
         closeClearSpotlight();
     }
 };
+// depopulate spotlight event trigger
+document.addEventListener("click", function(event) {
+    if (event.target == document.getElementsByClassName("spotlight")[0]) {
+        closeClearSpotlight();
+    }
+});
 
 setAlbumData();

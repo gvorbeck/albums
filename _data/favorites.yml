@@ -90,6 +90,7 @@
 
   - album: "'Til the End"
     artist: MiTis
+    tags: electronic edm concept.album
     spotify_link: spotify:album:09dfll1eY4PRh0nSWIuFBi
     genius_link: https://genius.com/albums/Mitis/Til-the-end
     text: |
@@ -118,31 +119,38 @@
   list:
   - artist: Bad Cop, Bad Cop
     album: Warriors
+    tags: punk.rock feminist rock
     spotify_link: spotify:album:2PNMwU8deGSm3ZylzdOcZQ
 
   - artist: Can't Swim
     album: Fail You Again
+    tags: pop.punk punk.rock rock
     spotify_link: spotify:album:2R1KjAoMCoz6QmhwhEZuYV
 
   - artist: Communions
     album: Blue
+    tags: post.punk new.wave indie.rock
     spotify_link: spotify:album:2gGVKRwFVfp8KhTUrMBGZq
 
   - artist: Future Islands
     album: The Far Field
+    tags: synth.pop indie.pop
     spotify_link: spotify:album:5fhDKNsP4aDsSLjd4JLXrz
 
   - artist: Iya Terra
     album: Sacred Sound
+    tags: reggae
     spotify_link: spotify:album:1mWCAdn4pHhjEHl9yVY796
 
   - artist: Mega Drive
     album: The Grid
+    tags: electronic
     spotify_link: spotify:album:2H7l9M4tzeVQdqKfEYghaR
 
   - artist: The Menzingers
     album: After The Party
     favorite_track: Tellin' Lies
+    tags: pop.punk rock
     spotify_link: spotify:album:1nzDVfQopF9YBkpPAfUck3
     genius_link: https://genius.com/albums/The-menzingers/After-the-party
 
@@ -152,16 +160,29 @@
 
   - artist: Teenage Bottlerocket
     album: Stealing the Covers
+    tags: pop.punk punk.rock
     spotify_link: spotify:album:1bakZAEZ9c6WC8jnkbXDF3
 
   - artist: Tigers Jaw
     album: spin
+    tags: indie.rock indie.pop
     favorite_track: Bullet
     spotify_link: spotify:album:2xSppFiPUTWqZ9cdF6CQnY
     genius_link: https://genius.com/albums/Tigers-jaw/Spin
 
   - artist: King Gizzard & The Lizard Wizard
+    album: Flying Microtonal Banana
+    tags: psychedelic.rock microtonal rock progressive.rock
+    spotify_link: spotify:album:4G9ANFGk9579p2uirMbVT0
+
+  - artist: King Gizzard & The Lizard Wizard
+    album: Polygondwanaland
+    tags: psychedelic.rock rock progressive.rock
+    spotify_link: spotify:album:3esB4Gl0K2LKCgACUJa3mu
+
+  - artist: King Gizzard & The Lizard Wizard
     album: Murder Of The Universe
+    tags: psychedelic.rock rock progressive.rock concept.album spoken.word
     spotify_link: spotify:album:61ZDWEphPwgz6Hzmt6ZK8y
     text: |
       I am quite biased when it comes to **KG&TLW**, so finding them on any list of mine is basically a foregone conclusion. The band is so prolific that often the decision is not whether or not their latest record belongs in this year's list, it's which one belongs there. But the idea of these guys putting together a narrative-driven concept album based on fantastic stories of human-animal hybrids, lightning battles, and a universe murdered by vomit, I didn't even need to hear the record to know it was one of my favorites. The chaotic rhythms and breakneck tempos are to be expected from **King Gizz**, but what sets this record apart from their other albums is the spoken-word narrators, something they haven't done since _Eyes Like the Sky_
@@ -200,10 +221,6 @@
     album: Bermuda
     spotify_link: spotify:album:2Vp7l22Ljza3OH80HJq6dC
 
-  - artist: Planes Mistaken For Stars
-    album: Prey
-    spotify_link: spotify:album:5XAvsY5SyGg2pvWJMflTWk
-
   - artist: Rebelution
     album: Falling Into Place
     spotify_link: spotify:album:3TsqZMEQhGAnQ1nph9M22A
@@ -221,6 +238,10 @@
   - artist: Fetty Wap
     album: Fetty Wap
     spotify_link: spotify:album:2gKQvajkEEaDtkqJ8FJ4uw
+
+  - artist: King Gizzard & The Lizard Wizard
+    album: Paper Mâché Dream Balloon
+    spotify_link: spotify:album:0RyezpNCj0HGTv2Mrwaat5
 
   - artist: Radioactivity
     album: Silent Kill
@@ -275,6 +296,10 @@
   - artist: Deleted Scenes
     album: Lithium Burn
     spotify_link: spotify:album:6oZkQ4pJBWmaXAltXcRIpT
+
+  - artist: King Gizzard & The Lizard Wizard
+    album: Oddments
+    spotify_link: spotify:album:2DKCPWXAyXPq2dr1ZahO9p
 
   - artist: Future Islands
     album: Singles
@@ -380,6 +405,18 @@
     album: Break The Spell
     spotify_link: spotify:album:3r65OXZa8o8mK92m7uB1m7
 
+  - artist: The Menzingers
+    album: On The Impossible Past
+    spotify_link: spotify:album:4Jh3PDPicP3QwWpktQS7Yh
+
+  - artist: Lana Del Rey
+    album: Born To Die
+    spotify_link: spotify:album:4X8hAqIWpQyQks2yRhyqs4
+
+  - artist: Pennywise
+    album: All Or Nothing
+    spotify_link: spotify:album:3k0DvRgQzEtUXFCrCDB8qa
+
 - year: 2011
   list:
   - artist: Ever Forthright
@@ -421,6 +458,34 @@
   - artist: The Expanders
     album: The Expanders
     spotify_link: spotify:album:1zKyHrPc54uJDWDSreBC9T
+
+  - artist: Dirty Beaches
+    album: Badlands
+    spotify_link: spotify:album:5PV54mAI2Vrlbp1SfjeD6a
+
+  - artist: Forus
+    album: We
+    spotify_link: spotify:album:6NA02zLUglUSYEzpaIUJux
+
+  - artist: I See Stars
+    album: The End Of The World Party
+    spotify_link: spotify:album:493Zvo4Sf1VF0RCYFlQ5yd
+
+  - artist: Scattered Trees
+    album: Sympathy
+    spotify_link: spotify:album:0Y4JXu4tfVTDhZCgZRCe2I
+
+  - artist: The Pains Of Being Pure At Heart
+    album: Belong
+    spotify_link: spotify:album:7Hif0SCVj3oHys2QsTSWiZ
+
+  - artist: How Dare You
+    album: The King, the Clown and Colonel
+    spotify_link: spotify:album:6vxQr0zsENULpdu32O9gpJ
+
+  - artist: Nothington
+    album: Borrowed Time
+    spotify_link: spotify:album:3sAjsBpcWPDJPSZHGwOgrD
 
 - year: 2010
   list:
@@ -467,6 +532,10 @@
     album: Red Dead Redemption Original Soundtrack
     spotify_link: spotify:album:22H5XKyHXkxHbty4jtBibg
 
+  - artist: Against Me!
+    album: White Crosses
+    spotify_link: spotify:album:5VLEp4UIDkIowATwaveKUQ
+
 - year: 2009
   list:
   - artist: David Bazan
@@ -507,7 +576,35 @@
 
   - artist: Killswitch Engage
     album: Killswitch Engage
+    tags: metalcore metal
     spotify_link: spotify:album:0Vj4E53uI59Q4hnxiIpZrl
+
+  - artist: Enter Shikari
+    album: Common Dreads
+    spotify_link: spotify:album:1NuzPVEhVfDYdu49gmxrzd
+
+  - artist: Strike Anywhere
+    album: Iron Front
+    spotify_link: spotify:album:5AUGZyMmBtTVMRGx058Mkk
+
+  - artist: The Avett Brothers
+    album: I and Love and You
+    tags: folk bluegrass
+    spotify_link: spotify:album:2PPFtYUnnqMYflIEn3b7ON
+
+  - artist: This Is A Standoff
+    album: Be Disappointed
+    tags: punk.rock technical rock
+    spotify_link: spotify:album:5Id9ufhL4RNLbNxv5jNha6
+
+  - artist: The Raveonettes
+    album: In And Out Of Control
+    spotify_link: spotify:album:44VzVHBsqOAWWS6gnTOXbv
+
+  - artist: Mumford & Sons
+    album: Sigh No More
+    tags: folk uk
+    spotify_link: spotify:album:6w5W6ZGTvDsppKUOiGMuMo
 
 - year: 2008
   list:
@@ -551,6 +648,26 @@
     album: C I V I L W A R
     spotify_link: spotify:album:3qIFEGF5cuip70vU7zatpb
 
+  - artist: Atlas Losing Grip
+    album: Shut the World Out
+    spotify_link: spotify:album:4iIUmm3xcHgH8wuvi1LGt5
+
+  - artist: Frightened Rabbit
+    album: The Midnight Organ Fight
+    spotify_link: spotify:album:69voh97i16t9SrQeHWIqrY
+
+  - artist: Handheld
+    album: Handheld
+    spotify_link: spotify:album:3tz4aUyqS5QhHPtTo6FxMl
+
+  - artist: Santigold
+    album: Santigold
+    spotify_link: spotify:album:4yATru0hY3VgRHSreswbGj
+
+  - artist: Xploding Plastix
+    album: Treated Timber Resists Rot
+    spotify_link: spotify:album:3ailWW6LnksSpjrPM3tLHt
+
 - year: 2007
   list:
   - artist: Lavender Diamond
@@ -592,6 +709,10 @@
   - artist: Tegan and Sara
     album: The Con
     spotify_link: spotify:album:4QjGIZZqvNrdkgw4LZKLZK
+
+  - artist: Pour Habit
+    album: Suiticide
+    spotify_link: spotify:album:2aC8u1cEMH8i09wtOvq1S9
 
 - year: 2006
   list:
@@ -637,6 +758,22 @@
     album: Costello Music
     spotify_link: spotify:album:6R6pjR9ocMYuqSuNx5e4mg
 
+  - artist: Anti-Flag
+    album: For Blood And Empire
+    spotify_link: spotify:album:3B3gJszXnaDZMz8YVRZ1J2
+
+  - artist: Brandtson
+    album: Hello, Control
+    spotify_link: spotify:album:6vfntMjrhjePcDe48vXOwz
+
+  - artist: New Found Glory
+    album: Coming Home
+    spotify_link: spotify:album:1rRe0RrLHXpYhOSQeiGgGK
+
+  - artist: The Coup
+    album: Pick A Bigger Weapon
+    spotify_link: spotify:album:5EExWVfD5JW4QI95Upzx6v
+
 - year: 2005
   list:
   - artist: Bright Eyes
@@ -678,6 +815,18 @@
   - artist: VNV Nation
     album: Matter + Form
     spotify_link: spotify:album:0ePUvI74Sz0awGfcjoHZP2
+
+  - artist: A Wilhelm Scream
+    album: Ruiner
+    spotify_link: spotify:album:4SWFv2A7yGx4XlIW8vxRMV
+
+  - artist: Reggie And The Full Effect
+    album: Songs Not to Get Married to
+    spotify_link: spotify:album:5E5OzJiE0UVmEkIO6csUb2
+
+  - artist: The Rocket Summer
+    album: Hello, Good Friend.
+    spotify_link: spotify:album:4yFoGX4PpiDBfbyaCxV340
 
 - year: 2004
   list:
@@ -721,6 +870,30 @@
     album: A Grand Don't Come For Free
     spotify_link: spotify:album:365ETCJBUmEWroc4UGBS1u
 
+  - artist: Death From Above 1979
+    album: You're A Woman, I'm A Machine
+    spotify_link: spotify:album:07sQdQsdK2Pxh48FOvYgce
+
+  - artist: Joy Electric
+    album: Hello Mannequin
+    spotify_link: spotify:album:6VBKnjq4HOZWViBDQVrUpA
+
+  - artist: Killswitch Engage
+    album: The End Of Heartache
+    spotify_link: spotify:album:6NrMjaGIZAKZLMzVnkNY4V
+
+  - artist: Kings of Leon
+    album: Aha Shake Heartbreak
+    spotify_link: spotify:album:1pIUIkBJsyKvNYNqw7oY4k
+
+  - artist: Pinback
+    album: Summer In Abaddon
+    spotify_link: spotify:album:3XLn9BkDkwq4icsUye2Krp
+
+  - artist: Say Anything
+    album: ...Is a Real Boy
+    spotify_link: spotify:album:2dEa0qjnAkSjGhD4wY16QT
+
 - year: 2003
   list:
   - artist: Copeland
@@ -762,6 +935,30 @@
   - artist: Vaux
     album: There Must be Some Way to Stop Them
     spotify_link: spotify:album:0jvXBuQqgkynqt81V79zGj
+
+  - artist: Azure Ray
+    album: Hold On Love
+    spotify_link: spotify:album:002VxJYn0PuESip7EnYZ5V
+
+  - artist: The Postal Service
+    album: Give Up
+    spotify_link: spotify:album:4ssF0ppdJnMTtL2hg1CLKX
+
+  - artist: Cex
+    album: Being Ridden
+    spotify_link: spotify:album:2Vm9o3t0fRSfQdM01YVPLR
+
+  - artist: Horse The Band
+    album: R. Borlax
+    spotify_link: spotify:album:7d8CDV3sAMg0BE0T6hziFk
+
+  - artist: The Format
+    album: Interventions and Lullabies
+    spotify_link: spotify:album:5B6SoTwBaUBoJbUFycg0Oa
+
+  - artist: The Rocket Summer
+    album: Calendar Days
+    spotify_link: spotify:album:6NiF6BfePelczZlw5vVBb1
 
 - year: 2002
   list:
@@ -833,6 +1030,10 @@
 
 - year: 2001
   list:
+  - artist: Black Rebel Motorcycle Club
+    album: B.R.M.C.
+    spotify_link: spotify:album:5yMBrh34J9x9xG4NQN0DNk
+
   - artist: Andrew W.K.
     album: I Get Wet
     spotify_link: spotify:album:6BQMUDC55fjjnApdWtZYZM
@@ -894,6 +1095,10 @@
     thumb: the_composition_of_ending_and_phrasing.jpeg
     spotify_link: spotify:album:0ntqqxkwnFBHrluwekQv9G
 
+  - artist: System Of A Down
+    album: Toxicity
+    spotify_link: spotify:album:6jWde94ln40epKIQCd8XUh
+
 - year: 2000
   list:
   - artist: Blindside
@@ -938,10 +1143,6 @@
   - artist: Dead Prez
     album: Let's Get Free
     spotify_link: spotify:album:7gXuElmegVReY7imkb5bf8
-
-  - artist: The Explosion
-    album: Flash Flash Flash
-    spotify_link: spotify:album:5WYALItavWQbD1Ll4hMWrU
 
   - artist: Slick Shoes
     album: Wake Up Screaming

@@ -76,9 +76,10 @@ main {
     transition: all .4s;
 
     body.spotlight--open & {
-        margin-top: 0rem;
+        margin: 0 auto;
         opacity: 1;
         position: static;
+        max-width: rem(1500px);
     }
 }
 
