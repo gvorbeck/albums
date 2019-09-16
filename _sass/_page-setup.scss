@@ -136,6 +136,11 @@ main {
 
 .spotlight__nav-button {
 
+    &[disabled] {
+        opacity: .5;
+        cursor: pointer;
+    }
+
     &:first-child {
 
         div:first-child {
