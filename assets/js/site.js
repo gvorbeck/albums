@@ -109,6 +109,7 @@ const jsonURL          = "https://ws.audioscrobbler.com/2.0/",
       SpotlightBox     = document.getElementsByClassName("spotlight__box")[0],
       SpotlightAlbum   = document.getElementsByClassName("spotlight__album")[0],
       SpotlightArtist  = document.getElementsByClassName("spotlight__artist")[0],
+      spotlightNavBtns = document.getElementsByClassName("spotlight__nav")[0].getElementsByTagName("BUTTON"),
       SpotlightClose   = document.getElementsByClassName("spotlight__close")[0],
       SpotlightContent = document.getElementsByClassName("spotlight__content")[0],
       SpotlightQuick   = SpotlightContent.getElementsByClassName("spotlight__quick")[0],
@@ -117,6 +118,8 @@ const jsonURL          = "https://ws.audioscrobbler.com/2.0/",
       SpotlightTrack   = SpotlightQuick.getElementsByClassName("spotlight__track")[0],
       SpotlightReview  = SpotlightContent.getElementsByClassName("spotlight__review")[0],
       SpotlightInfo    = SpotlightContent.getElementsByClassName("spotlight__info")[0];
+
+console.log(spotlightNavBtns);
 
 // Create event listeners for each .year__button.
 for (let i = 0; i < yearButtons.length; i++) {
@@ -200,6 +203,7 @@ for (let i = 0; i < albumButtons.length; i++) {
             SpotlightInfo.style.display = "none";
         }
 
+        // COLORS!!!
         // Get computed background-color and color styles from hidden .album-list__item::before for .spotlight__box.
         let color      = window.getComputedStyle(getClosest(this, ".album-list__item", "parent"), ":before").getPropertyValue('background-color'),
             colorLight = window.getComputedStyle(getClosest(this, ".album-list__item", "parent"), ":before").getPropertyValue('color'),
@@ -208,20 +212,23 @@ for (let i = 0; i < albumButtons.length; i++) {
             spotlightBoxStylesString  = "background-color: " + color + "; color: " + colorLight + ";";
 
         SpotlightBox.style.cssText           = spotlightBoxStylesString;
-        SpotlightClose.style.backgroundColor = colorLight;
         SpotlightQuick.style.cssText         = spotlightQuickStyleString;
         for (let x = 0; x < SpotlightLinks.getElementsByTagName("A").length; x++) {
             SpotlightLinks.getElementsByTagName("A")[x].firstElementChild.style.fill = color;
         }
-        SpotlightClose.getElementsByTagName("DIV")[0].style.backgroundColor = color;
-        SpotlightClose.getElementsByTagName("DIV")[1].style.backgroundColor = color;
+        for (let x = 0; x < spotlightNavBtns.length; x++) {
+            spotlightNavBtns[x].style.backgroundColor = colorLight;
+            for (a = 0; a < spotlightNavBtns[x].getElementsByTagName("DIV").length; a++) {
+                spotlightNavBtns[x].getElementsByTagName("DIV")[a].style.backgroundColor = color;
+            }
+        }
 
         document.body.classList.add("spotlight--open");
     });
 }
 
 // depopulate spotlight event trigger
-SpotlightClose.addEventListener("click", function() {
+document.getElementsByClassName("spotlight__close")[0].addEventListener("click", function() {
     closeClearSpotlight();
 });
 // depopulate spotlight event trigger
