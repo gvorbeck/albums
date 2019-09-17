@@ -6,6 +6,15 @@ const jsonURL   = "https://ws.audioscrobbler.com/2.0/",
 let years = Favorites.children,
     yearButtons = Favorites.getElementsByClassName("album__button");
 
+// Function to find closest parent/child element.
+function getClosest(elem, selector) {
+    for (; elem && elem !== document; elem = elem.parentNode) {
+        if (elem.matches(selector)) {
+            return elem;
+        }
+    }
+}
+
 // Function to get JSON from API source.
 function getJSON(url, callback) {
     let xhr = new XMLHttpRequest();
@@ -23,9 +32,14 @@ function getJSON(url, callback) {
     xhr.send();
 }
 
-function yearButtonClick(event) {
-    let thisAlbumData = this.dataset;
+function albumButtonClick(event) {
+    let thisAlbumData = this.dataset,
+        thisYear = getClosest(this, ".favorites__item"),
+        colorDark = window.getComputedStyle(thisYear).backgroundImage.replace("linear-gradient(", "").slice(0, -1).split(","),
+        colors = [window.getComputedStyle(thisYear).backgroundImage, window.getComputedStyle(thisYear).color];
     console.log(this);
+    console.log(colorDark);
+    console.log(window.getComputedStyle(thisYear));
     console.log(thisAlbumData);
 
     clearSpotlight();
@@ -54,6 +68,7 @@ if (Favorites && years.length > 0) {
             let thisYearList = ThisYear.getElementsByClassName("album-list")[0].children;
 
             for (let a = 0; a < thisYearList.length; a++) {
+                // console.log(window.getComputedStyle(thisYearList[a]));
 
                 let ThisAlbumBtn = thisYearList[a].getElementsByClassName("album__button")[0],
                     thisAlbumData = ThisAlbumBtn.dataset,
@@ -97,7 +112,7 @@ if (Favorites && years.length > 0) {
 
     // Album click behavior
     for (let i = 0; i < yearButtons.length; i++) {
-        yearButtons[i].addEventListener("click", yearButtonClick);
+        yearButtons[i].addEventListener("click", albumButtonClick);
     }
 
     // Close spotlight behavior
