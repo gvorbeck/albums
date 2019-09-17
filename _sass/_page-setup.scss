@@ -246,10 +246,16 @@ main {
 
     ul {
         display: flex;
+        justify-content: space-around;
+        width: max-content;
     }
 
-    li + li {
-        margin-left: 1rem;
+    li {
+        margin-right: 1rem;
+
+        &:last-child {
+            margin-right: 0;
+        }
     }
 
     svg {
