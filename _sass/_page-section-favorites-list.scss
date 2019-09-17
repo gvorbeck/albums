@@ -4,7 +4,7 @@
 
     @for $i from 1 through length($colors--year-block) {
 
-        .favorites__item:nth-child(#{length($colors--year-block)}n+#{$i}) {
+        .favorites__item:nth-child(#{length($colors--year-block)}n + #{$i}) {
             background-color: nth($colors--year-block, $i);
             background: linear-gradient(135deg, nth($colors--year-block, $i), darken(nth($colors--year-block, $i), 20%));
             @if (lightness(nth($colors--year-block, $i)) > 58) {
@@ -21,32 +21,24 @@
                 }
             }
 
+            // This is here only for JS to get a computed background-color and color styles for the Spotlight.
+            &::before {
+                @include pseudo;
+                background-color: nth($colors--year-block, $i);
+                @if (lightness(nth($colors--year-block, $i)) > 58) {
+                    border-color: darken(nth($colors--year-block, $i), 28%);
+                    color: lighten(nth($colors--year-block, $i), 35%);
+                } @else {
+                    border-color: lighten(nth($colors--year-block, $i), 35%);
+                    color: darken(nth($colors--year-block, $i), 28%);
+                }
+            }
+
             .album-list__item {
                 background-color: darken(nth($colors--year-block, $i), 25%);
 
                 svg {
                     fill: darken(nth($colors--year-block, $i), 15%);
-                }
-
-                // This is here only for JS to get a computed background-color and color styles for the Spotlight.
-                &::before {
-                    @include pseudo;
-                    background: nth($colors--year-block, $i);
-                    @if (lightness(nth($colors--year-block, $i)) > 58) {
-                        color: darken(nth($colors--year-block, $i), 45%);
-                    } @else {
-                        color: lighten(nth($colors--year-block, $i), 45%);
-                    }
-                }
-                // This is here only for JS to get a computed background-color and color styles for the Spotlight.
-                &::after {
-                    @include pseudo;
-                    background: nth($colors--year-block, $i);
-                    @if (lightness(nth($colors--year-block, $i)) <= 58) {
-                        color: darken(nth($colors--year-block, $i), 25%);
-                    } @else {
-                        color: lighten(nth($colors--year-block, $i), 25%);
-                    }
                 }
             }
         }

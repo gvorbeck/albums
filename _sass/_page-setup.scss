@@ -98,12 +98,14 @@ main {
         height: $dimension;
         cursor: pointer;
         position: relative;
+        background-color: #000000;
 
         div {
             position: absolute;
             width: 50%;
             height: .5rem;
             right: 0;
+            background-color: #FFFFFF;
 
             &:first-child {
                 transform: rotate(45deg);
@@ -221,6 +223,7 @@ main {
         grid-row-start: 1;
         margin: 0;
         padding: 1rem;
+        background-color: #666666;
 
         @include media(s) {
             grid-row-start: 2;
