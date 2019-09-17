@@ -88,44 +88,101 @@ main {
     margin-bottom: 1rem;
 }
 
+.spotlight__nav {
+    $dimension: 3rem;
+    display: flex;
+    justify-content: flex-end;
+
+    button {
+        width: $dimension;
+        height: $dimension;
+        cursor: pointer;
+        position: relative;
+        background-color: #000000;
+
+        div {
+            position: absolute;
+            width: 50%;
+            height: .5rem;
+            right: 0;
+            background-color: #FFFFFF;
+
+            &:first-child {
+                transform: rotate(45deg);
+            }
+
+            &:last-child {
+                transform: rotate(-45deg);
+            }
+        }
+
+        & + button {
+            margin-left: 1rem;
+        }
+    }
+
+    .spotlight__close {
+
+        div {
+            width: $dimension;
+        }
+    }
+
+    .spotlight__nav-button {
+
+        div {
+            right: rem(12px);
+        }
+    }
+}
+
+.spotlight__nav-button {
+
+    &[disabled] {
+        opacity: .5;
+        cursor: pointer;
+    }
+
+    &:first-child {
+
+        div:first-child {
+            transform: rotate(-45deg);
+        }
+
+        div:last-child {
+            transform: rotate(45deg);
+        }
+    }
+
+    div {
+
+        &:first-child {
+            top: rem(14px);
+        }
+
+        &:last-child {
+            bottom: rem(14px);
+        }
+    }
+}
+
+.spotlight__close {
+
+    div {
+        top: rem(20px);
+    }
+}
+
 .spotlight__title {
     font-family: 'Merriweather', serif;
     font-size: 2rem;
     line-height: 1.25;
-    margin-right: 5rem;
 }
 
 .spotlight__album {
     font-size: 3rem;
     font-weight: 700;
     display: block;
-}
-
-.spotlight__close {
-    $width: 3rem;
-    width: $width;
-    height: $width;
-    position: absolute;
-    cursor: pointer;
-    outline: none;
-    top: 0;
-    right: 0;
-
-    div {
-        position: absolute;
-        width: $width;
-        height: .5rem;
-        top: rem(20px);
-        right: 0;
-
-        &:first-child{
-            transform: rotate(45deg);
-        }
-
-        &:last-child{
-            transform: rotate(-45deg);
-        }
-    }
 }
 
 .spotlight__content {
@@ -166,6 +223,7 @@ main {
         grid-row-start: 1;
         margin: 0;
         padding: 1rem;
+        background-color: #666666;
 
         @include media(s) {
             grid-row-start: 2;
@@ -188,10 +246,16 @@ main {
 
     ul {
         display: flex;
+        justify-content: space-around;
+        width: max-content;
     }
 
-    li + li {
-        margin-left: 1rem;
+    li {
+        margin-right: 1rem;
+
+        &:last-child {
+            margin-right: 0;
+        }
     }
 
     svg {

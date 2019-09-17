@@ -1,19 +1,22 @@
+let albumButtons = document.getElementsByClassName("album__button"),
+    yearButtons  = document.getElementsByClassName("year__button"),
+    btnInContext = 0;
+
+const SpotlightNav = document.getElementsByClassName("spotlight__nav")[0],
+      SpotlightLinks = document.getElementsByClassName("spotlight__links")[0],
+      SpotlightTags = document.getElementsByClassName("spotlight__tags")[0],
+      SpotlightTrack = document.getElementsByClassName("spotlight__track")[0],
+      SpotlightReview = document.getElementsByClassName("spotlight__review")[0],
+      SpotlightInfo = document.getElementsByClassName("spotlight__info")[0],
+      SpotlightCover = document.getElementsByClassName("spotlight__cover")[0],
+      navButtons = SpotlightNav.getElementsByClassName("spotlight__nav-button");
+
 // Function to find closest parent/child element.
-function getClosest(elem, selector, dir="parent") {
-    if (dir === "parent") {
-        for (; elem && elem !== document; elem = elem.parentNode) {
-            if (elem.matches(selector)) {
-                return elem;
-            }
+function getClosest(elem, selector) {
+    for (; elem && elem !== document; elem = elem.parentNode) {
+        if (elem.matches(selector)) {
+            return elem;
         }
-    } else if (dir === "child") {
-        for (; elem && elem !== document; elem = elem.firstElementChild) {
-            if (elem.matches(selector)) {
-                return elem;
-            }
-        }
-    } else {
-        return null;
     }
 }
 
@@ -34,208 +37,200 @@ function getJSON(url, callback) {
     xhr.send();
 }
 
-// Get information from API source and
-function setAlbumData() {
-    if (YearList){
-        for (let i = 0; i < YearList.children.length; i++) {
-            // Determin if this .year element is opened.
-            if (YearList.children[i].firstElementChild.classList.contains("year--open")) {
-                for (let x = 0; x < YearList.children[i].getElementsByClassName("album-list__item").length; x++) {
+function closeSpotlight() {
+    document.body.classList.remove("spotlight--open");
+}
 
-                    let ThisAlbumItem   = YearList.children[i].getElementsByClassName("album-list__item")[x],
-                        ThisAlbumButton = ThisAlbumItem.getElementsByClassName("album__button")[0],
-                        thisAlbumTitle  = ThisAlbumItem.dataset.album,
-                        thisAlbumArtist = ThisAlbumItem.dataset.artist,
-                        apiRequest      = jsonURL + "?method=album.getinfo" + "&api_key=" + apiKey + "&artist=" + thisAlbumArtist + "&album=" + thisAlbumTitle + "&format=json";
+function clearSpotlight() {
+    document.getElementsByClassName("spotlight__album")[0].innerHTML = "";
+    document.getElementsByClassName("spotlight__artist")[0].innerHTML = "";
+    SpotlightCover.getElementsByTagName("IMG")[0].setAttribute("src", "");
+    SpotlightTags.getElementsByTagName("DIV")[0].innerHTML = "";
+    SpotlightTrack.getElementsByTagName("DIV")[0].innerHTML = "";
+    SpotlightReview.getElementsByTagName("DIV")[0].innerHTML = "";
+}
 
-                    // Test if this item has already received API source data, allowing us to skip redundant calls.
-                    if (!ThisAlbumItem.classList.contains("album-list__item--applied")) {
-                        getJSON(apiRequest,
-                        function(err, data) {
-                            // Check for request errors.
-                            if (err !== null) {
-                                console.log("Something went wrong: " + err);
-                            } else {
-                                // Check for data errors.
-                                if (data.error) {
-                                    console.log(data.message);
-                                    switch (data.error) {
-                                        case 6:
-                                            console.log("Invalid parameters - Your request is missing a required parameter");
-                                            console.log(apiRequest);
-                                            break;
-                                        default:
-                                            console.log("unknown error");
-                                    }
-                                } else {
-                                    if (!ThisAlbumButton.dataset.thumb && data.album.image[3]["#text"]) {
-                                        ThisAlbumButton.dataset.thumb = data.album.image[3]["#text"];
-                                    }
-                                    if (data.album.wiki) {
-                                        ThisAlbumButton.dataset.info = data.album.wiki.summary;
-                                    }
-                                    if (data.album.url.length) {
-                                        ThisAlbumButton.dataset.lastfm = data.album.url;
-                                    }
-                                }
+function populateSpotlight(data, colors) {
+    clearSpotlight();
 
-                                ThisAlbumButton.style.backgroundImage = "url('" + ThisAlbumButton.dataset.thumb + "')";
-                                ThisAlbumItem.classList.add("album-list__item--applied");
-                            }
-                        });
-                    }
-                }
+    // Navigate Buttons behavior
+    let thisAlbumItem = getClosest(btnInContext, ".album-list__item"),
+        thisAlbumList = getClosest(thisAlbumItem, ".album-list");
+    for (let i = 0; i < navButtons.length; i++) {
+        navButtons[i].disabled = true;
+    }
+    for (let i = 0; i < thisAlbumList.children.length; i++) {
+        if (thisAlbumItem === thisAlbumList.children[i] && thisAlbumList.children.length > 1) {
+            if (i === 0) {
+                navButtons[i+1].disabled = false;
+            } else if (i === thisAlbumList.children.length - 1) {
+                navButtons[0].disabled = false;
+            } else {
+                navButtons[0].disabled = false;
+                navButtons[1].disabled = false;
             }
+        }
+    }
+
+    // Colors!
+    document.getElementsByClassName("spotlight__box")[0].style.backgroundColor = colors[0];
+    document.getElementsByClassName("spotlight__box")[0].style.color = colors[1];
+
+    document.getElementsByClassName("spotlight__quick")[0].style.backgroundColor = colors[1];
+    document.getElementsByClassName("spotlight__quick")[0].style.color = colors[2];
+
+    for (let i = 0; i < SpotlightNav.getElementsByTagName("BUTTON").length; i++) {
+        SpotlightNav.getElementsByTagName("BUTTON")[i].style.backgroundColor = colors[2];
+    }
+    for (let i = 0; i < SpotlightNav.getElementsByTagName("DIV").length; i++) {
+        SpotlightNav.getElementsByTagName("DIV")[i].style.backgroundColor = colors[0];
+    }
+    for (let i = 0; i < SpotlightLinks.getElementsByTagName("LI").length; i++) {
+        SpotlightLinks.getElementsByTagName("A")[i].firstElementChild.style.fill = colors[0];
+    }
+
+    // Album title and artist (headline)
+    document.getElementsByClassName("spotlight__album")[0].appendChild(document.createTextNode(data.album));
+    document.getElementsByClassName("spotlight__artist")[0].appendChild(document.createTextNode(data.artist));
+    // Album cover
+    if (data.thumb) {
+        SpotlightCover.getElementsByTagName("IMG")[0].setAttribute("src", data.thumb);
+    }
+    // External links
+    if (data.lastfm || data.genius || data.spotify) {
+        const thisAlbumLinks = {lastfm:data.lastfm, genius:data.genius, spotify:data.spotify};
+
+        for (let i in thisAlbumLinks) {
+            let link = SpotlightLinks.getElementsByClassName(i)[0];
+            if (thisAlbumLinks[i] === undefined) {
+                link.parentNode.style.display = "none";
+            } else {
+                link.parentNode.style.display = "block";
+                link.setAttribute("href", thisAlbumLinks[i]);
+                link.setAttribute("title", i);
+            }
+        }
+    }
+    // Tags
+    if (data.tags) {
+        SpotlightTags.style.display = "block";
+        SpotlightTags.getElementsByTagName("DIV")[0].appendChild(document.createTextNode(data.tags));
+    } else {
+        SpotlightTags.style.display = "none";
+    }
+    // Add favorite track.
+    if (data.track) {
+        SpotlightTrack.style.display = "block";
+        SpotlightTrack.getElementsByTagName("DIV")[0].appendChild(document.createTextNode(data.track));
+    } else {
+        SpotlightTrack.style.display = "none";
+    }
+    // Add review.
+    if (data.review) {
+        SpotlightReview.style.display = "block";
+        SpotlightReview.getElementsByTagName("DIV")[0].innerHTML = data.review;
+    } else {
+        SpotlightReview.style.display = "none";
+    }
+    // Add wiki info.
+    if (data.wiki) {
+        SpotlightInfo.style.display = "block";
+        SpotlightInfo.getElementsByTagName("DIV")[0].innerHTML = data.wiki;
+    } else {
+        SpotlightInfo.style.display = "none";
+    }
+}
+
+function searchForEmptyOpenYears() {
+    for (let i = 0; i < document.getElementsByClassName("favorites")[0].children.length; i++) {
+        if (document.getElementsByClassName("favorites")[0].children[i].classList.contains("favorites__item--open") && !document.getElementsByClassName("favorites")[0].children[i].classList.contains("favorites__item--populated")) {
+            getAPIData(document.getElementsByClassName("favorites")[0].children[i]);
         }
     }
 }
 
-// Depopulate .spotlight.
-function closeClearSpotlight() {
-    document.body.classList.remove("spotlight--open");
-    SpotlightAlbum.innerHTML = "";
-    SpotlightArtist.innerHTML = "";
-    SpotlightTags.getElementsByTagName("DIV")[0].innerHTML = "";
-    SpotlightTrack.getElementsByTagName("DIV")[0].innerHTML = "";
-    SpotlightReview.getElementsByTagName("DIV")[0].innerHTML = "";
-    SpotlightInfo.getElementsByTagName("DIV")[0].innerHTML = "";
-}
+function getAPIData(yearBlock) {
+    let ThisAlbumList = yearBlock.getElementsByClassName("album-list")[0];
+    for (let i = 0; i < ThisAlbumList.children.length; i++) {
+        let apiRequest = "https://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=6a163345d35cda2e6eefb42202119d35&artist=" + ThisAlbumList.children[i].getElementsByTagName("BUTTON")[0].dataset.artistUrl + "&album=" + ThisAlbumList.children[i].getElementsByTagName("BUTTON")[0].dataset.albumUrl + "&format=json";
 
-const jsonURL          = "https://ws.audioscrobbler.com/2.0/",
-      apiKey           = "6a163345d35cda2e6eefb42202119d35",
-      YearList         = document.getElementsByClassName("favorites")[0],
-      yearButtons      = document.getElementsByClassName("year__button"),
-      albumButtons     = document.getElementsByClassName("album__button"),
-      SpotlightBox     = document.getElementsByClassName("spotlight__box")[0],
-      SpotlightAlbum   = document.getElementsByClassName("spotlight__album")[0],
-      SpotlightArtist  = document.getElementsByClassName("spotlight__artist")[0],
-      SpotlightClose   = document.getElementsByClassName("spotlight__close")[0],
-      SpotlightContent = document.getElementsByClassName("spotlight__content")[0],
-      SpotlightQuick   = SpotlightContent.getElementsByClassName("spotlight__quick")[0],
-      SpotlightLinks   = SpotlightQuick.getElementsByClassName("spotlight__links")[0],
-      SpotlightTags    = SpotlightQuick.getElementsByClassName("spotlight__tags")[0],
-      SpotlightTrack   = SpotlightQuick.getElementsByClassName("spotlight__track")[0],
-      SpotlightReview  = SpotlightContent.getElementsByClassName("spotlight__review")[0],
-      SpotlightInfo    = SpotlightContent.getElementsByClassName("spotlight__info")[0];
-
-// Create event listeners for each .year__button.
-for (let i = 0; i < yearButtons.length; i++) {
-    yearButtons[i].addEventListener("click", function() {
-        let ThisYear             = getClosest(this, ".year", "parent"),
-            thisYearAlbumButtons = ThisYear.getElementsByClassName("album__button");
-
-        // Test each button's tabindex so that users cannot tab through a closed year's albums.
-        for (let x = 0; x < thisYearAlbumButtons.length; x++) {
-            if (thisYearAlbumButtons[x].getAttribute("tabindex")) {
-                thisYearAlbumButtons[x].removeAttribute("tabindex");
+        getJSON(apiRequest, function(err, data) {
+            // Check for request errors.
+            if (err !== null) {
+                console.log("Something went wrong: " + err);
             } else {
-                thisYearAlbumButtons[x].setAttribute("tabindex", -1);
+                getAlbumData(data.album, ThisAlbumList.children[i].getElementsByTagName("BUTTON")[0]);
             }
-        }
-
-        // Open/close a year of albums.
-        ThisYear.classList.toggle("year--open");
-        setAlbumData();
-    });
+        });
+    }
+    yearBlock.classList.add("favorites__item--populated");
 }
 
-// Create event listeners for each .album__button in order to open the .spotlight.
+function getAlbumData(data, btn) {
+    if (!btn.dataset.thumb) {
+        btn.setAttribute("data-thumb", data.image[3]["#text"]);
+    }
+    if (data.wiki && data.wiki.summary) {
+        btn.setAttribute("data-wiki", data.wiki.summary);
+    }
+    btn.style.backgroundImage = "url(" + btn.dataset.thumb + ")";
+}
+
+// Album button behavior
 for (let i = 0; i < albumButtons.length; i++) {
     albumButtons[i].addEventListener("click", function() {
-        // Add album name.
-        SpotlightAlbum.appendChild(document.createTextNode(this.dataset.album));
-        // Add album artist.
-        SpotlightArtist.appendChild(document.createTextNode(this.dataset.artist));
-        // Add album cover.
-        if (this.dataset.thumb) {
-            let AlbumCover = SpotlightContent.getElementsByClassName("spotlight__cover")[0],
-                  AlbumCoverImage = AlbumCover.getElementsByTagName("IMG")[0];
+        // Allows user to navigate spotlight.
+        btnInContext = this;
 
-            AlbumCoverImage.setAttribute("src", this.dataset.thumb);
-            AlbumCoverImage.setAttribute("alt", this.dataset.album);
-        }
-        // Add last.fm link.
-        // Add spotify link.
-        // Add genius link.
-        if (this.dataset.lastfm || this.dataset.genius || this.dataset.spotify) {
-            const albumLinksServices = {lastfm:this.dataset.lastfm, genius:this.dataset.genius, spotify:this.dataset.spotify};
+        let colorDataContainer = window.getComputedStyle(getClosest(this, ".favorites__item"), ":before"),
+            colors             = [colorDataContainer.getPropertyValue('background-color'),
+                                  colorDataContainer.getPropertyValue('color'),
+                                  colorDataContainer.getPropertyValue('border-color')];
 
-            for (let i in albumLinksServices) {
-                let link = SpotlightLinks.getElementsByClassName(i)[0];
-                if (albumLinksServices[i] === undefined) {
-                    link.parentNode.style.display = "none";
-                } else {
-                    link.parentNode.style.display = "block";
-                    link.setAttribute("href", albumLinksServices[i]);
-                    link.setAttribute("title", i);
-                }
-            }
-        }
-        // Add tags.
-        if (this.dataset.tags) {
-            SpotlightTags.style.display = "block";
-            SpotlightTags.getElementsByTagName("DIV")[0].appendChild(document.createTextNode(this.dataset.tags));
-        } else {
-            SpotlightTags.style.display = "none";
-        }
-        // Add favorite track.
-        if (this.dataset.track) {
-            SpotlightTrack.style.display = "block";
-            SpotlightTrack.getElementsByTagName("DIV")[0].appendChild(document.createTextNode(this.dataset.track));
-        } else {
-            SpotlightTrack.style.display = "none";
-        }
-        // Add review.
-        if (this.dataset.review) {
-            SpotlightReview.style.display = "block";
-            SpotlightReview.getElementsByTagName("DIV")[0].innerHTML = this.dataset.review;
-        } else {
-            SpotlightReview.style.display = "none";
-        }
-        // Add wiki info.
-        if (this.dataset.info) {
-            SpotlightInfo.style.display = "block";
-            SpotlightInfo.getElementsByTagName("DIV")[0].innerHTML = this.dataset.info;
-        } else {
-            SpotlightInfo.style.display = "none";
-        }
-
-        // Get computed background-color and color styles from hidden .album-list__item::before for .spotlight__box.
-        let color      = window.getComputedStyle(getClosest(this, ".album-list__item", "parent"), ":before").getPropertyValue('background-color'),
-            colorLight = window.getComputedStyle(getClosest(this, ".album-list__item", "parent"), ":before").getPropertyValue('color'),
-            colorDark  = window.getComputedStyle(getClosest(this, ".album-list__item", "parent"), ":after").getPropertyValue('color'),
-            spotlightQuickStyleString = "background-color: " + colorDark + "; color: " + colorLight + ";",
-            spotlightBoxStylesString  = "background-color: " + color + "; color: " + colorLight + ";";
-
-        SpotlightBox.style.cssText           = spotlightBoxStylesString;
-        SpotlightClose.style.backgroundColor = colorLight;
-        SpotlightQuick.style.cssText         = spotlightQuickStyleString;
-        for (let x = 0; x < SpotlightLinks.getElementsByTagName("A").length; x++) {
-            SpotlightLinks.getElementsByTagName("A")[x].firstElementChild.style.fill = color;
-        }
-        SpotlightClose.getElementsByTagName("DIV")[0].style.backgroundColor = color;
-        SpotlightClose.getElementsByTagName("DIV")[1].style.backgroundColor = color;
-
+        populateSpotlight(this.dataset, colors);
         document.body.classList.add("spotlight--open");
     });
 }
 
-// depopulate spotlight event trigger
-SpotlightClose.addEventListener("click", function() {
-    closeClearSpotlight();
-});
-// depopulate spotlight event trigger
-document.onkeydown = function(e) {
-    e = e || window.event;
-    if (e.keyCode == 27) {
-        closeClearSpotlight();
+// Year button behavior
+for (let i = 0; i < yearButtons.length; i++) {
+    yearButtons[i].addEventListener("click", function() {
+        getClosest(this, ".favorites__item").classList.toggle("favorites__item--open");
+        searchForEmptyOpenYears();
+    })
+}
+
+// Spotlight navigation controls.
+for (let i = 0; i < navButtons.length; i++) {
+    navButtons[i].addEventListener("click", function() {
+        let thisAlbumItem = getClosest(btnInContext, ".album-list__item"),
+            thisAlbumList = getClosest(thisAlbumItem, ".album-list");
+        for (let a = 0; a < thisAlbumList.children.length; a++) {
+            if (thisAlbumList.children[a] === thisAlbumItem) {
+                if (i === 0) {
+                    thisAlbumList.children[a - 1].getElementsByTagName("BUTTON")[0].click();
+                } else if (i === 1) {
+                    thisAlbumList.children[a + 1].getElementsByTagName("BUTTON")[0].click();
+                }
+            }
+        }
+    });
+}
+// Close controls
+document.getElementsByClassName("spotlight__close")[0].addEventListener("click", closeSpotlight);
+document.onkeydown = function(event) {
+    event = event || window.event;
+    if (event.keyCode == 27) {
+        closeSpotlight();
     }
 };
-// depopulate spotlight event trigger
 document.addEventListener("click", function(event) {
     if (event.target == document.getElementsByClassName("spotlight")[0]) {
-        closeClearSpotlight();
+        closeSpotlight();
     }
 });
 
-setAlbumData();
+// If the site loaded with a populated ul.favorites
+if (document.getElementsByClassName("favorites")[0].children.length) {
+    searchForEmptyOpenYears();
+}
