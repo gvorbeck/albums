@@ -1,56 +1,3 @@
-#- year: 2019
-#  list:
-
-#  - album: III
-#    artist: Masked Intruder
-#    text: |
-#      As a concept band, Masked Intruder
-
-#  - album: LP3
-#    artist: American Football
-
-#  - album: Pheonix
-#    artist: Pedro the Lion
-
-#  - album: Gold & Grey
-#    artist: Baroness
-
-#  - album: There's Nothing Great About Britain
-#    artist: slowthai
-
-#  - album: The Fleeting Light of Impermanence
-#    artist: The Appleseed Cast
-
-#  - album: BENT
-#    artist: Stonefield
-
-#  - album: Floating Being
-#    artist: Earth Tongue
-
-#  - album: Fishing For Fishies
-#    artist: King Gizzard & The Lizard Wizard
-
-#  - album: Let's Rock
-#    artist: The Black Keys
-
-#  - album: ZAM
-#    artist: Frankie and the Witch Fingers
-
-#  - album: Reader As Detective
-#    artist: Generationals
-
-#  - album: The Beast You Are
-#    artist: Big Business
-
-#  - album: The Center Wont Hold
-#    artist: Sleater-Kinney
-
-#  - album: No Ground To Walk Upon
-#    artist: Here Lies Man
-
-#  - album: the first glass beach album
-#    artist: glass beach
-
 - year: 2018
   list:
   - album: Loved to Death
@@ -91,11 +38,14 @@
 
   - album: Love Is Dead
     artist: CHVRCHES
+    favorite_track: Graves
     tags:
     - synth.pop
     - electronic
     - indie.pop
     - pop
+    text: |
+      This band has such an uplifting and victorious sound. I don't even care that they have a ton of mainstream appeal or that everyone and their mother has heard a CHVRCHES song. Their third record is just as pleasing as their previous offerings. My old roommate would blast this band on hot summer mornings while she cleaned and I think of her whenever they play.
     spotify_link: spotify:album:7EchhykwUf4ACDDABEDa7o
     genius_link: https://genius.com/albums/Chvrches/Love-is-dead
 
@@ -264,10 +214,15 @@
   list:
   - artist: Andy Shauf
     album: The Party
+    tags:
+    - lounge
+    - indie.pop
     spotify_link: spotify:album:35FWLG8Ysjj1BF3sx4F6zM
 
   - artist: Baroness
     album: Purple
+    tags:
+    - metal
     spotify_link: spotify:album:25FRZSpdZCczTURlAcMm6r
 
   - artist: David Bazan
@@ -276,6 +231,11 @@
 
   - artist: King Gizzard & the Lizard Wizard
     album: Nonagon Infinity
+    tags:
+    - garage.rock
+    - psychedelic.rock
+    - experimental
+    - looping
     spotify_link: spotify:album:438JijxKCWYrtvpB5A5071
 
   - artist: Matt Pond PA
@@ -284,6 +244,8 @@
 
   - artist: Mean Jeans
     album: Tight New Dimension
+    tags:
+    - punk.rock
     spotify_link: spotify:album:3Ln9Fg9iSUANrwXliqolmH
 
   - artist: Mrs. Magician
@@ -310,6 +272,9 @@
 
   - artist: King Gizzard & The Lizard Wizard
     album: Paper Mâché Dream Balloon
+    tags:
+    - psychedelic.folk
+    - acoustic
     spotify_link: spotify:album:0RyezpNCj0HGTv2Mrwaat5
 
   - artist: Radioactivity
@@ -485,6 +450,10 @@
   - artist: Pennywise
     album: All Or Nothing
     spotify_link: spotify:album:3k0DvRgQzEtUXFCrCDB8qa
+
+  - artist: Teenage Bottlerocket
+    album: Freak Out!
+    spotify_link: spotify:album:14XskGyGbsFkXyX7Tb5zFd
 
 - year: 2011
   list:
@@ -1238,3 +1207,7 @@
   - artist: Millencolin
     album: Pennybridge Pioneers
     spotify_link: spotify:album:5VWyJbfC4DUsnC1NLSjuWC
+
+  - artist: Teen Idols
+    album: Full Leather Jacket
+    spotify_link: spotify:album:26EAfY3Entzcgk9UgU2K9a
