@@ -167,11 +167,13 @@ function getAPIData(yearBlock) {
 }
 
 function getAlbumData(data, btn) {
-    if (!btn.dataset.thumb) {
-        btn.setAttribute("data-thumb", data.image[3]["#text"]);
-    }
-    if (data.wiki && data.wiki.summary) {
-        btn.setAttribute("data-wiki", data.wiki.summary);
+    if (data) {
+        if (!btn.dataset.thumb) {
+            btn.setAttribute("data-thumb", data.image[3]["#text"]);
+        }
+        if (data.wiki && data.wiki.summary) {
+            btn.setAttribute("data-wiki", data.wiki.summary);
+        }
     }
     btn.style.backgroundImage = "url(" + btn.dataset.thumb + ")";
 }
