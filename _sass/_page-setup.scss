@@ -119,6 +119,15 @@ main {
         & + button {
             margin-left: 1rem;
         }
+
+        &:hover {
+            // Marked !important because js changes the colors and want to force hover states.
+            background-color: $color--background !important;
+
+            div {
+                background-color: $color--logo !important;
+            }
+        }
     }
 
     .spotlight__close {

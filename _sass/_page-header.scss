@@ -76,7 +76,7 @@
         bottom: rem(-15px);
         right: 0;
         outline: none;
-        
+
         @include media(s) {
             bottom: rem(-11px);
         }
@@ -87,7 +87,7 @@
             fill: $color--base;
 
             &:hover {
-                opacity: 1;
+                fill: $color--logo;
             }
         }
     }
