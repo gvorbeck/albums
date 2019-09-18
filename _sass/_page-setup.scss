@@ -92,6 +92,7 @@ main {
     $dimension: 3rem;
     display: flex;
     justify-content: flex-end;
+    margin-bottom: 1rem;
 
     button {
         width: $dimension;
