@@ -20,7 +20,7 @@
                     data-review="{{ albumItem.text | markdownify }}"
                 {% endif %}
                 {% if albumItem.tags %}
-                    data-tags="{{ albumItem.tags }}"
+                    data-tags="{{- albumItem.tags | join: ', '}}"
                 {% endif %}
                 {% if albumItem.genius_link %}
                     data-genius="{{ albumItem.genius_link }}"

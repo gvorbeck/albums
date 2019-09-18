@@ -55,14 +55,24 @@
   list:
   - album: Loved to Death
     artist: Dance With the Dead
-    tags: horror rock dance electronic
+    tags:
+    - horror
+    - rock
+    - dance
+    - electronic
     spotify_link: spotify:album:1lnSh8xb06nXe4ZxRSvQhn
     text: |
       I spent a good chunk of time in 2018 trying to write a horror novel. Imposter syndrome and writer's block worked in concert together to prevent anything substantial from being produced and the story lives in my head to this day, taunting me. One useful culprit for keeping this story from disappearing entirely from my mind is Dance With the Dead's _Loved to Death_. It's campy horror sound hints at the feel I wanted to capture in my writing. Riding a line between techno/dance and power metal, this California-based duo really gave me something to feed off of in my creative moments, much in the same way _The Grid_ by Mega Drive did in the previous year. The tense and victorious rhthyms kept me focused, and the songs seem to demand a story all by themselves. Perhaps one day I'll get that story written.
 
   - album: Ordinary Corrupt Human Love
     artist: Deafheaven
-    tags: post.rock rock black.metal metal ambient experimental
+    tags:
+    - post.rock
+    - rock
+    - black.metal
+    - metal
+    - ambient
+    - experimental
     spotify_link: spotify:album:2iA7rzpQsOfAPkfH4Ekp7f
     genius_link: https://genius.com/albums/Deafheaven/Ordinary-corrupt-human-love
     text: |
@@ -70,7 +80,10 @@
 
   - album: Crown of Nothing
     artist: Direct Hit!
-    tags: pop.punk.rock punk.rock rock
+    tags:
+    - pop.punk
+    - punk.rock
+    - rock
     spotify_link: spotify:album:1EFnZuLUzXx0B6ZsL9aqum
     genius_link: https://genius.com/albums/Direct-hit/Crown-of-nothing
     text: |
@@ -78,19 +91,31 @@
 
   - album: Love Is Dead
     artist: CHVRCHES
-    tags: synth.pop electronic indie.pop pop
+    tags:
+    - synth.pop
+    - electronic
+    - indie.pop
+    - pop
     spotify_link: spotify:album:7EchhykwUf4ACDDABEDa7o
     genius_link: https://genius.com/albums/Chvrches/Love-is-dead
 
   - album: Double Negative
     artist: Low
-    tags: slowcore indie.rock rock ambient post.rock
+    tags:
+    - slowcore
+    - indie.rock
+    - rock
+    - ambient
+    - post.rock
     spotify_link: spotify:album:1zTkgOHx3mjrUvrhxq4osf
     genius_link: https://genius.com/albums/Low/Double-negative
 
   - album: "'Til the End"
     artist: MiTis
-    tags: electronic edm concept.album
+    tags:
+    - electronic
+    - edm
+    - concept.album
     spotify_link: spotify:album:09dfll1eY4PRh0nSWIuFBi
     genius_link: https://genius.com/albums/Mitis/Til-the-end
     text: |
@@ -98,13 +123,18 @@
 
   - album: Clean
     artist: Soccer Mommy
-    tags: indie.rock
+    tags:
+    - indie.rock
     spotify_link: spotify:album:36NLDBi2kX7XRHnyLzLOS8
     genius_link: https://genius.com/albums/Soccer-mommy/Clean
 
   - album: ROCKNROLL MACHINE
     artist: Turbonegro
-    tags: rocknroll punk.rock rock glam.rock
+    tags:
+    - rocknroll
+    - punk.rock
+    - rock
+    - glam.rock
     spotify_link: spotify:album:424KFQolDBYGCXPJID48Fm
 
   - album: When I Think Of You In A Castle
@@ -114,7 +144,11 @@
   - album: Everybody!!
     artist: WANIMA
     favorite_track: OLE!!
-    tags: pop.punk.rock punk.rock rock japan
+    tags:
+    - pop.punk
+    - punk.rock
+    - rock
+    - japan
     spotify_link: spotify:album:1spFHTdEd1oA8htGJxeIac
     text: |
       This is pure saccharine for me. The energy coming off of each of these tracks hits me right in that spot that craves Japanese Pop Punk.
@@ -123,38 +157,53 @@
   list:
   - artist: Bad Cop, Bad Cop
     album: Warriors
-    tags: punk.rock feminist rock
+    tags:
+    - punk.rock
+    - feminist
+    - rock
     spotify_link: spotify:album:2PNMwU8deGSm3ZylzdOcZQ
 
   - artist: Can't Swim
     album: Fail You Again
-    tags: pop.punk punk.rock rock
+    tags:
+    - pop.punk
+    - punk.rock
+    - rock
     spotify_link: spotify:album:2R1KjAoMCoz6QmhwhEZuYV
 
   - artist: Communions
     album: Blue
-    tags: post.punk new.wave indie.rock
+    tags:
+    - post.punk
+    - new.wave
+    - indie.rock
     spotify_link: spotify:album:2gGVKRwFVfp8KhTUrMBGZq
 
   - artist: Future Islands
     album: The Far Field
-    tags: synth.pop indie.pop
+    tags:
+    - synth.pop
+    - indie.pop
     spotify_link: spotify:album:5fhDKNsP4aDsSLjd4JLXrz
 
   - artist: Iya Terra
     album: Sacred Sound
-    tags: reggae
+    tags:
+    - reggae
     spotify_link: spotify:album:1mWCAdn4pHhjEHl9yVY796
 
   - artist: Mega Drive
     album: The Grid
-    tags: electronic
+    tags:
+    - electronic
     spotify_link: spotify:album:2H7l9M4tzeVQdqKfEYghaR
 
   - artist: The Menzingers
     album: After The Party
     favorite_track: Tellin' Lies
-    tags: pop.punk rock
+    tags:
+    - pop.punk
+    - rock
     spotify_link: spotify:album:1nzDVfQopF9YBkpPAfUck3
     genius_link: https://genius.com/albums/The-menzingers/After-the-party
 
@@ -164,29 +213,45 @@
 
   - artist: Teenage Bottlerocket
     album: Stealing the Covers
-    tags: pop.punk punk.rock
+    tags:
+    - pop.punk
+    - punk.rock
+    - cover.album
     spotify_link: spotify:album:1bakZAEZ9c6WC8jnkbXDF3
 
   - artist: Tigers Jaw
     album: spin
-    tags: indie.rock indie.pop
+    tags:
+    - indie.rock
+    - indie.pop
     favorite_track: Bullet
     spotify_link: spotify:album:2xSppFiPUTWqZ9cdF6CQnY
     genius_link: https://genius.com/albums/Tigers-jaw/Spin
 
   - artist: King Gizzard & The Lizard Wizard
     album: Flying Microtonal Banana
-    tags: psychedelic.rock microtonal rock progressive.rock
+    tags:
+    - psychedelic.rock
+    - microtonal.instruments
+    - rock
+    - progressive.rock
     spotify_link: spotify:album:4G9ANFGk9579p2uirMbVT0
 
   - artist: King Gizzard & The Lizard Wizard
     album: Polygondwanaland
-    tags: psychedelic.rock rock progressive.rock
+    tags:
+    - psychedelic.rock
+    - rock
+    - progressive.rock
     spotify_link: spotify:album:3esB4Gl0K2LKCgACUJa3mu
 
   - artist: King Gizzard & The Lizard Wizard
     album: Murder Of The Universe
-    tags: psychedelic.rock rock progressive.rock concept.album spoken.word
+    tags:
+    - psychedelic.rock
+    - rock progressive.rock
+    - concept.album
+    - spoken.word
     spotify_link: spotify:album:61ZDWEphPwgz6Hzmt6ZK8y
     text: |
       I am quite biased when it comes to **KG&TLW**, so finding them on any list of mine is basically a foregone conclusion. The band is so prolific that often the decision is not whether or not their latest record belongs in this year's list, it's which one belongs there. But the idea of these guys putting together a narrative-driven concept album based on fantastic stories of human-animal hybrids, lightning battles, and a universe murdered by vomit, I didn't even need to hear the record to know it was one of my favorites. The chaotic rhythms and breakneck tempos are to be expected from **King Gizz**, but what sets this record apart from their other albums is the spoken-word narrators, something they haven't done since _Eyes Like the Sky_
@@ -580,7 +645,9 @@
 
   - artist: Killswitch Engage
     album: Killswitch Engage
-    tags: metalcore metal
+    tags:
+    - metalcore
+    - metal
     spotify_link: spotify:album:0Vj4E53uI59Q4hnxiIpZrl
 
   - artist: Enter Shikari
@@ -593,12 +660,17 @@
 
   - artist: The Avett Brothers
     album: I and Love and You
-    tags: folk bluegrass
+    tags:
+    - folk
+    - bluegrass
     spotify_link: spotify:album:2PPFtYUnnqMYflIEn3b7ON
 
   - artist: This Is A Standoff
     album: Be Disappointed
-    tags: punk.rock technical rock
+    tags:
+    - punk.rock
+    - technical
+    - rock
     spotify_link: spotify:album:5Id9ufhL4RNLbNxv5jNha6
 
   - artist: The Raveonettes
@@ -607,7 +679,10 @@
 
   - artist: Mumford & Sons
     album: Sigh No More
-    tags: folk uk
+    tags:
+    - folk
+    - folk.revival
+    - uk
     spotify_link: spotify:album:6w5W6ZGTvDsppKUOiGMuMo
 
 - year: 2008
@@ -992,7 +1067,11 @@
 
   - artist: Pedro The Lion
     album: Control
-    tags: indie.rock rock concept.album gold
+    tags:
+    - indie.rock
+    - rock
+    - concept.album
+    - pure.gold
     text: |
       Bazan's _Control_ is one of the most influential and powerful records I've ever listened to. The record's depiction of relationships and their entropic conclusions was a relatable subject during my teens as the child of bitterly divorced parents. Listening to an (at the time) Christian artist that was willing to talk about these kinds of subjects was therapeutic. I could relate to a lot of his frustrations of being a believer disillusioned with modern American Christianity and wondering what that meant (A subject further explored in his subsequent albums and career). The crunching mid-tempo droning rock is a departure for **Pedro the Lion** that allowed the instrumentation of his songs reflect a lot of the violence told in these songs. The brutal honesty of tragic vanity is hammered home in each track as the loose narrative of a failed businessman who destroys his marriage and family with his infidelity, a path that ultimately leads him to finally be killed by his wife during an argument. I was lucky enough to watch a reunited **Pedro** play the _Control_ album in its entirety live in 2012 and loved watching these songs performed after spending so many evenings listening to this record.
     spotify_link: spotify:album:3WPhii5HmncMeCKLHZUePr
