@@ -25,7 +25,7 @@
             &::before {
                 @include pseudo;
                 background-color: nth($colors--year-block, $i);
-                @if (lightness(nth($colors--year-block, $i)) > 58) {
+                @if (lightness(nth($colors--year-block, $i)) > 75) {
                     border-color: darken(nth($colors--year-block, $i), 28%);
                     color: lighten(nth($colors--year-block, $i), 35%);
                 } @else {
