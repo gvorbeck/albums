@@ -1,5 +1,8 @@
 - year: 2019
   list:
+  - album: Look Me In The Eye
+    artist: Mermaidens
+
   - album: III
     artist: Masked Intruder
     favorite_track: Just so You Know
@@ -7,20 +10,20 @@
       As a concept band, Masked Intruder songs will always be about crime perpetrated in the name of unrequited love. It's problematic if you think too hard on the subject matter, but it seems clear from their bubble-gum pop punk songs that they'd prefer if you thought of them as a group of lovable rascals that just don't know any better. Their third album, appropriately titled _III_ is their best effort yet, with every song refusing to kick anything less than my whole ass. From taunting police with a lack of evidence, inviting your lover to become your literal partner in crime, to regretfully bidding farewell as singer Blue starts another bid in prison. I spent a good deal of 2019 in rehearsal spaces drumming along to these songs and trying to rationalize loving a pop-punk record this much in 2019.
     spotify_link: spotify:album:4MA9n8Jv7aYULdMd7aw1b0
 
-  - album: Stay Rad!
-    artist: Teenage Bottlerocket
+  # - album: Stay Rad!
+  #   artist: Teenage Bottlerocket
 
   - album: Manic Candid Episode
     artist: The Murlocs
 
-  - album: And Now for the Whatchamacallit
-    artist: Psychedelic Porn Crumpets
+  # - album: And Now for the Whatchamacallit
+  #   artist: Psychedelic Porn Crumpets
 
-  - album: Modern Mirror
-    artist: Drab Majesty
+  # - album: Modern Mirror
+  #   artist: Drab Majesty
 
-  - album: First Taste
-    artist: Ty Segall
+  # - album: First Taste
+  #   artist: Ty Segall
 
   - album: Mystifier Deluxe
     artist: Loudness War
@@ -78,6 +81,7 @@
 
 - year: 2018
   list:
+
   - album: Loved to Death
     artist: Dance With the Dead
     tags:
