@@ -1,7 +1,61 @@
 - year: 2019
   list:
-  - album: Look Me In The Eye
-    artist: Mermaidens
+  - album: LP3
+    artist: American Football
+
+  - album: Back in Texas
+    artist: Andrew Cashen
+
+  - album: Gold & Grey
+    artist: Baroness
+
+  - album: A Gaze Among Them
+    artist: Big Brave
+
+  - album: The Beast You Are
+    artist: Big Business
+
+  # - album: Young Enough
+  #   artist: Charly Bliss
+
+  # - album: Three
+  #   artist: Dan Vapid & the Cheats
+
+  - album: Floating Being
+    artist: Earth Tongue
+
+  - album: ZAM
+    artist: Frankie and the Witch Fingers
+
+  # - album: Reader As Detective
+  #   artist: Generationals
+
+  - album: the first glass beach album
+    artist: glass beach
+
+  - album: No Ground To Walk Upon
+    artist: Here Lies Man
+
+  - album: Four Bibles
+    artist: Hey Colossus
+
+  - album: Love & the Dark
+    artist: Jason Hawk Harris
+
+  - album: Strangers from the Far East
+    artist: Khana Bierbood
+
+  # - album: Infest The Rats' Nest
+  #   artist: King Gizzard & The Lizard Wizard
+
+  - album: Fishing For Fishies
+    artist: King Gizzard & The Lizard Wizard
+
+  - album: Kharrub
+    artist: Kooba Tercu
+
+  - album: Mystifier Deluxe
+    artist: Loudness War
 
   - album: III
     artist: Masked Intruder
@@ -10,74 +64,38 @@
       As a concept band, Masked Intruder songs will always be about crime perpetrated in the name of unrequited love. It's problematic if you think too hard on the subject matter, but it seems clear from their bubble-gum pop punk songs that they'd prefer if you thought of them as a group of lovable rascals that just don't know any better. Their third album, appropriately titled _III_ is their best effort yet, with every song refusing to kick anything less than my whole ass. From taunting police with a lack of evidence, inviting your lover to become your literal partner in crime, to regretfully bidding farewell as singer Blue starts another bid in prison. I spent a good deal of 2019 in rehearsal spaces drumming along to these songs and trying to rationalize loving a pop-punk record this much in 2019.
     spotify_link: spotify:album:4MA9n8Jv7aYULdMd7aw1b0
 
-  # - album: Stay Rad!
-  #   artist: Teenage Bottlerocket
-
-  - album: Manic Candid Episode
-    artist: The Murlocs
-
-  # - album: And Now for the Whatchamacallit
-  #   artist: Psychedelic Porn Crumpets
-
-  # - album: Modern Mirror
-  #   artist: Drab Majesty
-
-  # - album: First Taste
-  #   artist: Ty Segall
-
-  - album: Mystifier Deluxe
-    artist: Loudness War
-
-  - album: LP3
-    artist: American Football
+  - album: Look Me In The Eye
+    artist: Mermaidens
 
   - album: Phoenix
     artist: Pedro the Lion
 
-  - album: Gold & Grey
-    artist: Baroness
-
-  - album: Nothing Great About Britain
-    artist: slowthai
-
-  - album: The Fleeting Light of Impermanence
-    artist: The Appleseed Cast
-
-  - album: BENT
-    artist: Stonefield
-
-  - album: Floating Being
-    artist: Earth Tongue
-
-  - album: Infest The Rats' Nest
-    artist: King Gizzard & The Lizard Wizard
-
-  - album: Fishing For Fishies
-    artist: King Gizzard & The Lizard Wizard
-
-  - album: Let's Rock
-    artist: The Black Keys
-
-  - album: ZAM
-    artist: Frankie and the Witch Fingers
-
-  - album: Reader As Detective
-    artist: Generationals
-
-  - album: The Beast You Are
-    artist: Big Business
+  - album: And Now for the Whatchamacallit
+    artist: Psychedelic Porn Crumpets
 
   - album: The Center Won't Hold
     artist: Sleater-Kinney
 
-  - album: No Ground To Walk Upon
-    artist: Here Lies Man
+  - album: Nothing Great About Britain
+    artist: slowthai
 
-  - album: the first glass beach album
-    artist: glass beach
+  - album: BENT
+    artist: Stonefield
 
-  - album: Four Bibles
-    artist: Hey Colossus
+  # - album: This Mess Is a Place
+  #   artist: Tacocat
+
+  - album: The Fleeting Light of Impermanence
+    artist: The Appleseed Cast
+
+  - album: Let's Rock
+    artist: The Black Keys
+
+  - album: Mother Nature
+    artist: The Dangerous Summer
+
+  # - album: Hello Exile
+  #   artist: The Menzingers
 
 - year: 2018
   list:
