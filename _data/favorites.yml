@@ -100,6 +100,13 @@
 - year: 2018
   list:
 
+  - album: All at Once
+    artist: Screaming Females
+    tags:
+    - punk.rock
+    spotify_link: spotify:album:1fOxg0lovMu0CPUT2G1WCL
+    favorite_track: Black Moon
+
   - album: Loved to Death
     artist: Dance With the Dead
     tags:
