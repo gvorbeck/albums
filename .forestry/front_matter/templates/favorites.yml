@@ -28,13 +28,6 @@ fields:
       description: The name(s) of the Artists involved with this album.
       config:
         required: true
-    - type: list
-      name: tags
-      label: Genre/Organization Tags
-      config:
-        use_select: true
-        source:
-          type: simple
     - type: text
       name: spotify_link
       label: Spotify URI
@@ -55,6 +48,11 @@ fields:
           format: markdown
       label: Review
       description: Why is this album here?
+    - name: tags
+      type: tag_list
+      default: []
+      label: test
+      description: Tags are all lower-cased with periods between words.
     config:
       labelField: album
       min: '1'
