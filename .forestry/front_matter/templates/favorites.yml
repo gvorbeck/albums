@@ -6,15 +6,12 @@ fields:
   name: Favorites
   label: Favorites
   fields:
-  - type: number
-    name: year
-    label: Year
+  - name: year
+    type: text
     config:
-      min: '2000'
-      max: ''
-      step: '1'
-      required: true
-    description: The year these favorites were released.
+      required: false
+    label: Year
+    description: The year these albums were released.
   - type: field_group_list
     name: list
     label: Year's List
@@ -58,5 +55,7 @@ fields:
       labelField: album
       min: '1'
     description: The list of this year's favorite albums.
+  config:
+    labelField: year
 pages:
 - _data/favorites.yml
