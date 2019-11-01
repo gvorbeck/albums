@@ -44,7 +44,7 @@ fields:
       name: favorite_track
       label: Favorite Track
       description: Favorite song on the album.
-    - name: review
+    - name: text
       type: textarea
       default: ''
       config:
