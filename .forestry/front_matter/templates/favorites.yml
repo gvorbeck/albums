@@ -55,6 +55,6 @@ fields:
       label: Review
       description: Why is this album here?
     config:
-      labelField: album
+      labelField: ''
       min: '1'
     description: The list of this year's favorite albums.
