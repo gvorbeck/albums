@@ -31,6 +31,10 @@ fields:
     - type: list
       name: tags
       label: Genre/Organization Tags
+      config:
+        use_select: true
+        source:
+          type: simple
     - type: text
       name: spotify_link
       label: Spotify URI
