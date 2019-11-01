@@ -1183,9 +1183,26 @@
   - artist: Brandtson
     album: Hello, Control
     spotify_link: spotify:album:6vfntMjrhjePcDe48vXOwz
-    tags: []
-    favorite_track: ''
-    text: ''
+    tags:
+    - emo
+    - indie.pop
+    - dance.punk
+    - punk.adjacent
+    - new.wave
+    favorite_track: Earthquakes and Sharks
+    text: "Brandtson's original midwest emo sound is virtually erased in this album.
+      The evolution that began in their previous album, _Send Us a Signal_, is further
+      fleshed out in this release. You would never suspect this was the same group
+      of kids that put out _Dial In Sounds_ just a few years before. Heavy synth dance
+      beats compete with and compliment Jolley's drumming and vocals on tracks like
+      _Nobody Dances Anymore, Here We Go,_ and _The Secret_. Only in a couple places
+      can you hear traces of their original emo sound. \n\nIt's always risky when
+      a band completely changes their sound, but in this case I really loved how Brandtson's
+      sound was maturing with their last two albums and the EP _Death & Taxes_. Ultimately,
+      the band broke up after recording a follow-up album that was never released,
+      so this is all we'll ever get to see from them. \n\n_Hello Control_ is a hook-heavy
+      and danceable album that is a lot of fun and delivers on every track. Each song
+      has something to add to the album and I still keep returning to it years later."
   - artist: New Found Glory
     album: Coming Home
     spotify_link: spotify:album:1rRe0RrLHXpYhOSQeiGgGK
