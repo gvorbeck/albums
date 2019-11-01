@@ -1,5 +1,5 @@
 ---
-- year: 2018
+- year: "2018"
   list:
   - album: All at Once
     artist: Screaming Females
@@ -166,7 +166,7 @@
       kickflips off the curb.
 
 '
-- year: 2017
+- year: "2017"
   list:
   - artist: Bad Cop, Bad Cop
     album: Warriors
@@ -303,7 +303,7 @@
     tags: []
     favorite_track: ''
     text: ''
-- year: 2016
+- year: "2016"
   list:
   - artist: Andy Shauf
     album: The Party
@@ -367,7 +367,7 @@
     tags: []
     favorite_track: ''
     text: ''
-- year: 2015
+- year: "2015"
   list:
   - artist: Enter Shikari
     album: The Mindsweep
@@ -437,7 +437,7 @@
     tags: []
     favorite_track: ''
     text: ''
-- year: 2014
+- year: "2014"
   list:
   - artist: Architecture in Helsinki
     album: Now + 4eva
@@ -505,7 +505,7 @@
     tags: []
     favorite_track: ''
     text: ''
-- year: 2013
+- year: "2013"
   list:
   - artist: The Appleseed Cast
     album: Illumination Ritual
@@ -567,7 +567,7 @@
     tags: []
     favorite_track: ''
     text: ''
-- year: 2012
+- year: "2012"
   list:
   - artist: The Tower and The Fool
     album: How Long
@@ -653,7 +653,7 @@
     tags: []
     favorite_track: ''
     text: ''
-- year: 2011
+- year: "2011"
   list:
   - artist: Ever Forthright
     album: Ever Forthright
@@ -757,7 +757,7 @@
     tags: []
     favorite_track: ''
     text: ''
-- year: 2010
+- year: "2010"
   list:
   - artist: Decibully
     album: World Travels Fast
@@ -831,7 +831,7 @@
     tags: []
     favorite_track: ''
     text: ''
-- year: 2009
+- year: "2009"
   list:
   - artist: David Bazan
     album: Curse Your Branches
@@ -939,7 +939,7 @@
     spotify_link: spotify:album:6w5W6ZGTvDsppKUOiGMuMo
     favorite_track: ''
     text: ''
-- year: 2008
+- year: "2008"
   list:
   - artist: The Teenagers
     album: Reality Check
@@ -1032,7 +1032,7 @@
     tags: []
     favorite_track: ''
     text: ''
-- year: 2007
+- year: "2007"
   list:
   - artist: Lavender Diamond
     album: Imagine Our Love
@@ -1100,7 +1100,7 @@
     tags: []
     favorite_track: ''
     text: ''
-- year: 2006
+- year: "2006"
   list:
   - artist: David Bazan
     album: Fewer Moving Parts
@@ -1198,7 +1198,7 @@
     tags: []
     favorite_track: ''
     text: ''
-- year: 2005
+- year: "2005"
   list:
   - artist: Bright Eyes
     album: Digital Ash In A Digital Urn
@@ -1278,7 +1278,7 @@
     tags: []
     favorite_track: ''
     text: ''
-- year: 2004
+- year: "2004"
   list:
   - artist: Brandtson
     album: Send Us A Signal
@@ -1301,7 +1301,8 @@
   - artist: Interpol
     album: Antics
     spotify_link: spotify:album:58fDEyJ5XSau8FRA3y8Bps
-    tags: []
+    tags:
+    - post.punk
     favorite_track: ''
     text: ''
   - artist: Midtown
@@ -1376,7 +1377,7 @@
     tags: []
     favorite_track: ''
     text: ''
-- year: 2003
+- year: "2003"
   list:
   - artist: Copeland
     album: Beneath Medicine Tree
@@ -1474,7 +1475,7 @@
     tags: []
     favorite_track: ''
     text: ''
-- year: 2002
+- year: "2002"
   list:
   - artist: All-Time Quarterback
     album: All-Time Quarterback
@@ -1600,7 +1601,7 @@
     tags: []
     favorite_track: ''
     text: ''
-- year: 2001
+- year: "2001"
   list:
   - artist: Black Rebel Motorcycle Club
     album: B.R.M.C.
@@ -1706,7 +1707,7 @@
     tags: []
     favorite_track: ''
     text: ''
-- year: 2000
+- year: "2000"
   list:
   - artist: Blindside
     album: A Thought Crushed My Mind
