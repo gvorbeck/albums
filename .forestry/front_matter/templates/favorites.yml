@@ -29,12 +29,6 @@ fields:
       config:
         required: true
     - type: text
-      name: spotify_link
-      label: Spotify URI
-      description: Spotify app link. Spotify:Share -> Copy Spotify URI
-      config:
-        required: false
-    - type: text
       name: favorite_track
       label: Favorite Track
       description: Favorite song on the album.
@@ -51,8 +45,14 @@ fields:
     - name: tags
       type: tag_list
       default: []
-      label: test
       description: Tags are all lower-cased with periods between words.
+      label: Tags
+    - type: text
+      name: spotify_link
+      label: Spotify URI
+      description: Spotify app link. Spotify:Share -> Copy Spotify URI
+      config:
+        required: false
     config:
       labelField: album
       min: '1'
