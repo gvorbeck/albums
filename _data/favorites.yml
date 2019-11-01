@@ -1321,7 +1321,8 @@
   - artist: Pedro The Lion
     album: Achilles' Heel
     spotify_link: spotify:album:6cRhboSBQIIQwuexf2OOOV
-    tags: []
+    tags:
+    - indie.rock
     favorite_track: ''
     text: ''
   - artist: Ratatat
