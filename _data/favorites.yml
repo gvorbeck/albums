@@ -1,112 +1,13 @@
-# - year: 2019
-#   list:
-#   - album: LP3
-#     artist: American Football
-#
-#   - album: Back in Texas
-#     artist: Andrew Cashen
-#
-#   - album: Gold & Grey
-#     artist: Baroness
-#
-#   - album: A Gaze Among Them
-#     artist: Big Brave
-#
-#   - album: The Beast You Are
-#     artist: Big Business
-
-  # - album: Young Enough
-  #   artist: Charly Bliss
-
-  # - album: Three
-  #   artist: Dan Vapid & the Cheats
-
-  # - album: Floating Being
-  #   artist: Earth Tongue
-  #
-  # - album: ZAM
-  #   artist: Frankie and the Witch Fingers
-
-  # - album: Reader As Detective
-  #   artist: Generationals
-
-  # - album: the first glass beach album
-  #   artist: glass beach
-  #
-  # - album: No Ground To Walk Upon
-  #   artist: Here Lies Man
-  #
-  # - album: Four Bibles
-  #   artist: Hey Colossus
-  #
-  # - album: Love & the Dark
-  #   artist: Jason Hawk Harris
-  #
-  # - album: Strangers from the Far East
-  #   artist: Khana Bierbood
-  #
-  # # - album: Infest The Rats' Nest
-  # #   artist: King Gizzard & The Lizard Wizard
-  #
-  # - album: Fishing For Fishies
-  #   artist: King Gizzard & The Lizard Wizard
-  #
-  # - album: Kharrub
-  #   artist: Kooba Tercu
-  #
-  # - album: Mystifier Deluxe
-  #   artist: Loudness War
-  #
-  # - album: III
-  #   artist: Masked Intruder
-  #   favorite_track: Just so You Know
-  #   text: |
-  #     As a concept band, Masked Intruder songs will always be about crime perpetrated in the name of unrequited love. It's problematic if you think too hard on the subject matter, but it seems clear from their bubble-gum pop punk songs that they'd prefer if you thought of them as a group of lovable rascals that just don't know any better. Their third album, appropriately titled _III_ is their best effort yet, with every song refusing to kick anything less than my whole ass. From taunting police with a lack of evidence, inviting your lover to become your literal partner in crime, to regretfully bidding farewell as singer Blue starts another bid in prison. I spent a good deal of 2019 in rehearsal spaces drumming along to these songs and trying to rationalize loving a pop-punk record this much in 2019.
-  #   spotify_link: spotify:album:4MA9n8Jv7aYULdMd7aw1b0
-  #
-  # - album: Look Me In The Eye
-  #   artist: Mermaidens
-  #
-  # - album: Phoenix
-  #   artist: Pedro the Lion
-  #
-  # - album: And Now for the Whatchamacallit
-  #   artist: Psychedelic Porn Crumpets
-  #
-  # - album: The Center Won't Hold
-  #   artist: Sleater-Kinney
-  #
-  # - album: Nothing Great About Britain
-  #   artist: slowthai
-  #
-  # - album: BENT
-  #   artist: Stonefield
-
-  # - album: This Mess Is a Place
-  #   artist: Tacocat
-
-  # - album: The Fleeting Light of Impermanence
-  #   artist: The Appleseed Cast
-  #
-  # - album: Let's Rock
-  #   artist: The Black Keys
-  #
-  # - album: Mother Nature
-  #   artist: The Dangerous Summer
-
-  # - album: Hello Exile
-  #   artist: The Menzingers
-
+---
 - year: 2018
   list:
-
   - album: All at Once
     artist: Screaming Females
     tags:
     - punk.rock
     spotify_link: spotify:album:1fOxg0lovMu0CPUT2G1WCL
     favorite_track: Black Moon
-
+    text: ''
   - album: Loved to Death
     artist: Dance With the Dead
     tags:
@@ -115,9 +16,20 @@
     - dance
     - electronic
     spotify_link: spotify:album:1lnSh8xb06nXe4ZxRSvQhn
-    text: |
-      I spent a good chunk of time in 2018 trying to write a horror novel. Imposter syndrome and writer's block worked in concert together to prevent anything substantial from being produced and the story lives in my head to this day, taunting me. One useful culprit for keeping this story from disappearing entirely from my mind is Dance With the Dead's _Loved to Death_. It's campy horror sound hints at the feel I wanted to capture in my writing. Riding a line between techno/dance and power metal, this California-based duo really gave me something to feed off of in my creative moments, much in the same way _The Grid_ by Mega Drive did in the previous year. The tense and victorious rhthyms kept me focused, and the songs seem to demand a story all by themselves. Perhaps one day I'll get that story written.
+    text: 'I spent a good chunk of time in 2018 trying to write a horror novel. Imposter
+      syndrome and writer''s block worked in concert together to prevent anything
+      substantial from being produced and the story lives in my head to this day,
+      taunting me. One useful culprit for keeping this story from disappearing entirely
+      from my mind is Dance With the Dead''s _Loved to Death_. It''s campy horror
+      sound hints at the feel I wanted to capture in my writing. Riding a line between
+      techno/dance and power metal, this California-based duo really gave me something
+      to feed off of in my creative moments, much in the same way _The Grid_ by Mega
+      Drive did in the previous year. The tense and victorious rhthyms kept me focused,
+      and the songs seem to demand a story all by themselves. Perhaps one day I''ll
+      get that story written.
 
+'
+    favorite_track: ''
   - album: Ordinary Corrupt Human Love
     artist: Deafheaven
     tags:
@@ -129,9 +41,19 @@
     - experimental
     spotify_link: spotify:album:2iA7rzpQsOfAPkfH4Ekp7f
     genius_link: https://genius.com/albums/Deafheaven/Ordinary-corrupt-human-love
-    text: |
-      I would never have thought one of the most beautiful albums I'd listen to would have so much black metal in it. I loved _Sunbather_ when it came out in 2013 but never really had a moment to myself where the thought occured that "Hey, I like this band." I let _New Bermuda_ come and go without any attention, but for some reason found myself chained to _Ordinary Corrupt Human Love_ throughout the summer. I think it will always remind me of the long walks along the streets of Astoria, Queens that I took while listening to this album. It's hopeful and beautiful lyrics are hard to decipher through Clarke's static screams, but the heart of this record is found in every element of its makeup. This record, more than any of the others I listened to this year, feels like a piece of art.
+    text: 'I would never have thought one of the most beautiful albums I''d listen
+      to would have so much black metal in it. I loved _Sunbather_ when it came out
+      in 2013 but never really had a moment to myself where the thought occured that
+      "Hey, I like this band." I let _New Bermuda_ come and go without any attention,
+      but for some reason found myself chained to _Ordinary Corrupt Human Love_ throughout
+      the summer. I think it will always remind me of the long walks along the streets
+      of Astoria, Queens that I took while listening to this album. It''s hopeful
+      and beautiful lyrics are hard to decipher through Clarke''s static screams,
+      but the heart of this record is found in every element of its makeup. This record,
+      more than any of the others I listened to this year, feels like a piece of art.
 
+'
+    favorite_track: ''
   - album: Crown of Nothing
     artist: Direct Hit!
     tags:
@@ -140,9 +62,17 @@
     - rock
     spotify_link: spotify:album:1EFnZuLUzXx0B6ZsL9aqum
     genius_link: https://genius.com/albums/Direct-hit/Crown-of-nothing
-    text: |
-      Starting with a choral echo backed bass thump that would feel more at home on a new blink-182 album, this record is Direct Hit!'s most dynamic and mature record yet. Frequently wrestling with themes of death and the meaning of life, this existentialism-as-concept-album shows a band reaching for something higher than another pop punk album with a hard candy shell. Revelling in their nihilist refutations of our traditional conceptions of heaven and hell, Direct Hit! asks us to enjoy what we can in this terrible world before we inevitably shuffle off this mortal coil, and that's cool with me.
+    text: 'Starting with a choral echo backed bass thump that would feel more at home
+      on a new blink-182 album, this record is Direct Hit!''s most dynamic and mature
+      record yet. Frequently wrestling with themes of death and the meaning of life,
+      this existentialism-as-concept-album shows a band reaching for something higher
+      than another pop punk album with a hard candy shell. Revelling in their nihilist
+      refutations of our traditional conceptions of heaven and hell, Direct Hit! asks
+      us to enjoy what we can in this terrible world before we inevitably shuffle
+      off this mortal coil, and that''s cool with me.
 
+'
+    favorite_track: ''
   - album: Love Is Dead
     artist: CHVRCHES
     favorite_track: Graves
@@ -151,11 +81,15 @@
     - electronic
     - indie.pop
     - pop
-    text: |
-      This band has such an uplifting and victorious sound. I don't even care that they have a ton of mainstream appeal or that everyone and their mother has heard a CHVRCHES song. Their third record is just as pleasing as their previous offerings. My old roommate would blast this band on hot summer mornings while she cleaned and I think of her whenever they play.
+    text: 'This band has such an uplifting and victorious sound. I don''t even care
+      that they have a ton of mainstream appeal or that everyone and their mother
+      has heard a CHVRCHES song. Their third record is just as pleasing as their previous
+      offerings. My old roommate would blast this band on hot summer mornings while
+      she cleaned and I think of her whenever they play.
+
+'
     spotify_link: spotify:album:7EchhykwUf4ACDDABEDa7o
     genius_link: https://genius.com/albums/Chvrches/Love-is-dead
-
   - album: Double Negative
     artist: Low
     tags:
@@ -166,7 +100,8 @@
     - post.rock
     spotify_link: spotify:album:1zTkgOHx3mjrUvrhxq4osf
     genius_link: https://genius.com/albums/Low/Double-negative
-
+    favorite_track: ''
+    text: ''
   - album: "'Til the End"
     artist: MiTis
     tags:
@@ -175,16 +110,28 @@
     - concept.album
     spotify_link: spotify:album:09dfll1eY4PRh0nSWIuFBi
     genius_link: https://genius.com/albums/Mitis/Til-the-end
-    text: |
-      Through the thumping crecendos and and past the creative synths, this record is very pretty and very sad. I don't listen to a lot to EDM, but _'Til the End_ caught my attention for it's ability to constantly pull my attention back with its narrative. Woven between instrumentals, the break-up of a relationship unfolds via MitiS's guest singers while the tracks themselves dance around the subject at hand. The desperate bargaining of _By My Side_ describes that terror of impending heartbreak, while it is harshly rebutted in _For Miles & Miles_ telling the listener to "Don't think just walk away and forget me." _Embers_ ends the story with romanticized denial finally giving way to acceptance, and the record leaves us with a victorious few minutes to contemplate where we go now in _Dreams_.
+    text: 'Through the thumping crecendos and and past the creative synths, this record
+      is very pretty and very sad. I don''t listen to a lot to EDM, but _''Til the
+      End_ caught my attention for it''s ability to constantly pull my attention back
+      with its narrative. Woven between instrumentals, the break-up of a relationship
+      unfolds via MitiS''s guest singers while the tracks themselves dance around
+      the subject at hand. The desperate bargaining of _By My Side_ describes that
+      terror of impending heartbreak, while it is harshly rebutted in _For Miles &
+      Miles_ telling the listener to "Don''t think just walk away and forget me."
+      _Embers_ ends the story with romanticized denial finally giving way to acceptance,
+      and the record leaves us with a victorious few minutes to contemplate where
+      we go now in _Dreams_.
 
+'
+    favorite_track: ''
   - album: Clean
     artist: Soccer Mommy
     tags:
     - indie.rock
     spotify_link: spotify:album:36NLDBi2kX7XRHnyLzLOS8
     genius_link: https://genius.com/albums/Soccer-mommy/Clean
-
+    favorite_track: ''
+    text: ''
   - album: ROCKNROLL MACHINE
     artist: Turbonegro
     tags:
@@ -193,11 +140,14 @@
     - rock
     - glam.rock
     spotify_link: spotify:album:424KFQolDBYGCXPJID48Fm
-
+    favorite_track: ''
+    text: ''
   - album: When I Think Of You In A Castle
     artist: Post Animal
     spotify_link: spotify:album:6OwMRrwnUsiIAQxdiIMuik
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - album: Everybody!!
     artist: WANIMA
     favorite_track: OLE!!
@@ -207,9 +157,15 @@
     - rock
     - japan
     spotify_link: spotify:album:1spFHTdEd1oA8htGJxeIac
-    text: |
-      This is pure saccharine for me. The energy coming off of each of these tracks hits me right in that spot that craves Japanese Pop Punk. The phrenetic energy in Japanese pop-punk awakens that 90's kid in me that had just listened to his first Vandals record. I don't speak Japanese and haven't looked up any translations, so I can't comment on the lyrics but the harmonizing and break-neck cadence is exactly what I need to feel like trying to re-master doing kickflips off the curb.
+    text: 'This is pure saccharine for me. The energy coming off of each of these
+      tracks hits me right in that spot that craves Japanese Pop Punk. The phrenetic
+      energy in Japanese pop-punk awakens that 90''s kid in me that had just listened
+      to his first Vandals record. I don''t speak Japanese and haven''t looked up
+      any translations, so I can''t comment on the lyrics but the harmonizing and
+      break-neck cadence is exactly what I need to feel like trying to re-master doing
+      kickflips off the curb.
 
+'
 - year: 2017
   list:
   - artist: Bad Cop, Bad Cop
@@ -219,9 +175,11 @@
     - feminist
     - rock
     spotify_link: spotify:album:2PNMwU8deGSm3ZylzdOcZQ
-    text: |
-      I think this is a record that really reflects the time in which it was written. TBC.
+    text: 'I think this is a record that really reflects the time in which it was
+      written. TBC.
 
+'
+    favorite_track: ''
   - artist: Can't Swim
     album: Fail You Again
     tags:
@@ -229,7 +187,8 @@
     - punk.rock
     - rock
     spotify_link: spotify:album:2R1KjAoMCoz6QmhwhEZuYV
-
+    favorite_track: ''
+    text: ''
   - artist: Communions
     album: Blue
     tags:
@@ -237,28 +196,34 @@
     - new.wave
     - indie.rock
     spotify_link: spotify:album:2gGVKRwFVfp8KhTUrMBGZq
-
+    favorite_track: ''
+    text: ''
   - artist: Future Islands
     album: The Far Field
     tags:
     - synth.pop
     - indie.pop
     spotify_link: spotify:album:5fhDKNsP4aDsSLjd4JLXrz
-
+    favorite_track: ''
+    text: ''
   - artist: Iya Terra
     album: Sacred Sound
     tags:
     - reggae
     spotify_link: spotify:album:1mWCAdn4pHhjEHl9yVY796
-
+    favorite_track: ''
+    text: ''
   - artist: Mega Drive
     album: The Grid
     tags:
     - electronic
     spotify_link: spotify:album:2H7l9M4tzeVQdqKfEYghaR
-    text: |
-      Call me an aging Millenial that enjoys a bit of nostalgia, I guess. Retro-futurism straight out of a grimdark reboot of Back To The Future. No one's asking for it, but we'd all check it out.
+    text: 'Call me an aging Millenial that enjoys a bit of nostalgia, I guess. Retro-futurism
+      straight out of a grimdark reboot of Back To The Future. No one''s asking for
+      it, but we''d all check it out.
 
+'
+    favorite_track: ''
   - artist: The Menzingers
     album: After The Party
     favorite_track: Tellin' Lies
@@ -267,11 +232,13 @@
     - rock
     spotify_link: spotify:album:1nzDVfQopF9YBkpPAfUck3
     genius_link: https://genius.com/albums/The-menzingers/After-the-party
-
+    text: ''
   - artist: San Fermin
     album: Belong
     spotify_link: spotify:album:22sKyWyE7QGrAtfPHDboXV
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Teenage Bottlerocket
     album: Stealing the Covers
     tags:
@@ -279,7 +246,8 @@
     - punk.rock
     - cover.album
     spotify_link: spotify:album:1bakZAEZ9c6WC8jnkbXDF3
-
+    favorite_track: ''
+    text: ''
   - artist: Tigers Jaw
     album: spin
     tags:
@@ -288,7 +256,7 @@
     favorite_track: Bullet
     spotify_link: spotify:album:2xSppFiPUTWqZ9cdF6CQnY
     genius_link: https://genius.com/albums/Tigers-jaw/Spin
-
+    text: ''
   - artist: King Gizzard & The Lizard Wizard
     album: Flying Microtonal Banana
     tags:
@@ -297,7 +265,8 @@
     - rock
     - progressive.rock
     spotify_link: spotify:album:4G9ANFGk9579p2uirMbVT0
-
+    favorite_track: ''
+    text: ''
   - artist: King Gizzard & The Lizard Wizard
     album: Polygondwanaland
     tags:
@@ -305,7 +274,8 @@
     - rock
     - progressive.rock
     spotify_link: spotify:album:3esB4Gl0K2LKCgACUJa3mu
-
+    favorite_track: ''
+    text: ''
   - artist: King Gizzard & The Lizard Wizard
     album: Murder Of The Universe
     tags:
@@ -314,13 +284,25 @@
     - concept.album
     - spoken.word
     spotify_link: spotify:album:61ZDWEphPwgz6Hzmt6ZK8y
-    text: |
-      I am quite biased when it comes to **KG&TLW**, so finding them on any list of mine is basically a foregone conclusion. The band is so prolific that often the decision is not whether or not their latest record belongs in this year's list, it's which one belongs there. But the idea of these guys putting together a narrative-driven concept album based on fantastic stories of human-animal hybrids, lightning battles, and a universe murdered by vomit, I didn't even need to hear the record to know it was one of my favorites. The chaotic rhythms and breakneck tempos are to be expected from **King Gizz**, but what sets this record apart from their other albums is the spoken-word narrators, something they haven't done since _Eyes Like the Sky_
+    text: 'I am quite biased when it comes to **KG&TLW**, so finding them on any list
+      of mine is basically a foregone conclusion. The band is so prolific that often
+      the decision is not whether or not their latest record belongs in this year''s
+      list, it''s which one belongs there. But the idea of these guys putting together
+      a narrative-driven concept album based on fantastic stories of human-animal
+      hybrids, lightning battles, and a universe murdered by vomit, I didn''t even
+      need to hear the record to know it was one of my favorites. The chaotic rhythms
+      and breakneck tempos are to be expected from **King Gizz**, but what sets this
+      record apart from their other albums is the spoken-word narrators, something
+      they haven''t done since _Eyes Like the Sky_
 
+'
+    favorite_track: ''
   - artist: Japandroids
     album: Near To The Wild Heart Of Life
     spotify_link: spotify:album:26hqnB0XF1ZFc31zY6NAgf
-
+    tags: []
+    favorite_track: ''
+    text: ''
 - year: 2016
   list:
   - artist: Andy Shauf
@@ -329,17 +311,21 @@
     - lounge
     - indie.pop
     spotify_link: spotify:album:35FWLG8Ysjj1BF3sx4F6zM
-
+    favorite_track: ''
+    text: ''
   - artist: Baroness
     album: Purple
     tags:
     - metal
     spotify_link: spotify:album:25FRZSpdZCczTURlAcMm6r
-
+    favorite_track: ''
+    text: ''
   - artist: David Bazan
     album: Blanco
     spotify_link: spotify:album:33kDKilTTOHjFDJvNBbiWi
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: King Gizzard & the Lizard Wizard
     album: Nonagon Infinity
     tags:
@@ -348,403 +334,587 @@
     - experimental
     - looping
     spotify_link: spotify:album:438JijxKCWYrtvpB5A5071
-
+    favorite_track: ''
+    text: ''
   - artist: Matt Pond PA
     album: Winter Lives
     spotify_link: spotify:album:62hP0p3napMAE06DsYt2fg
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Mean Jeans
     album: Tight New Dimension
     tags:
     - punk.rock
     spotify_link: spotify:album:3Ln9Fg9iSUANrwXliqolmH
-
+    favorite_track: ''
+    text: ''
   - artist: Mrs. Magician
     album: Bermuda
     spotify_link: spotify:album:2Vp7l22Ljza3OH80HJq6dC
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Rebelution
     album: Falling Into Place
     spotify_link: spotify:album:3TsqZMEQhGAnQ1nph9M22A
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Tiger Army
     album: V
     spotify_link: spotify:album:6PYN4eAuXbcMq3h29h9spJ
-
+    tags: []
+    favorite_track: ''
+    text: ''
 - year: 2015
   list:
   - artist: Enter Shikari
     album: The Mindsweep
     spotify_link: spotify:album:3068M4yetJhtaANBT34sYr
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Fetty Wap
     album: Fetty Wap
     spotify_link: spotify:album:2gKQvajkEEaDtkqJ8FJ4uw
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: King Gizzard & The Lizard Wizard
     album: Paper Mâché Dream Balloon
     tags:
     - psychedelic.folk
     - acoustic
     spotify_link: spotify:album:0RyezpNCj0HGTv2Mrwaat5
-
+    favorite_track: ''
+    text: ''
   - artist: Radioactivity
     album: Silent Kill
     spotify_link: spotify:album:1pcM7NFV8ZaZkfNUpcY13P
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: MisterWives
     album: Our Own House
     spotify_link: spotify:album:726GB3GTBwPdsGr5XzOQbz
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Teenage Bottlerocket
     album: Tales From Wyoming
     spotify_link: spotify:album:6EcpmYvGlUa8AIlcvm1Ds9
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: The Decline
     album: Resister
     spotify_link: spotify:album:5ot4933neHbkPcSEDCeFTM
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: The Expanders
     album: Hustling Culture
     spotify_link: spotify:album:7bdBUhd3ojfCJJdAQqtgON
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Foxing
     album: Dealer
     spotify_link: spotify:album:7nVLbTV7JrJ5ohUbPjvSlN
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Smallpools
     album: LOVETAP!
     spotify_link: spotify:album:59xqFRG2IgFTsZtQ73yIp6
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: CHVRCHES
     album: Every Open Eye
     spotify_link: spotify:album:6pcfjrxlkf7fk9irlvJUzG
-
+    tags: []
+    favorite_track: ''
+    text: ''
 - year: 2014
   list:
   - artist: Architecture in Helsinki
     album: Now + 4eva
     spotify_link: spotify:album:2CslpGBJenq4K5NtuMXMgM
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Bear Hands
     album: Distraction
     spotify_link: spotify:album:2g0SR4SuVcPKgzigzzpw5d
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Bleachers
     album: Strange Desire
     spotify_link: spotify:album:0cnNCK2xpudXjB8pzsrYy9
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: The Copyrights
     album: Report
     spotify_link: spotify:album:77Li4A2uUeoDFeTtYCf6U7
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Deleted Scenes
     album: Lithium Burn
     spotify_link: spotify:album:6oZkQ4pJBWmaXAltXcRIpT
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: King Gizzard & The Lizard Wizard
     album: Oddments
     spotify_link: spotify:album:2DKCPWXAyXPq2dr1ZahO9p
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Future Islands
     album: Singles
     spotify_link: spotify:album:1dKh4z5Aayt8FFDWjO5FDh
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Lo-Fang
     album: Blue Film
     spotify_link: spotify:album:66BEZ127VgaQbxxRJijFZg
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Skaters
     album: Manhattan
     spotify_link: spotify:album:2yZx85NwXdqZu3roJ0vH6J
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: SOJA
     album: Amid The Noise And Haste
     spotify_link: spotify:album:5OkMrvt48nB8iMDN6Mx3HL
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Tokyo Police Club
     album: Forcefield
     spotify_link: spotify:album:55pj3OVrpwedZVi8GUrChK
-
+    tags: []
+    favorite_track: ''
+    text: ''
 - year: 2013
   list:
   - artist: The Appleseed Cast
     album: Illumination Ritual
     spotify_link: spotify:album:4ZUpacHZD1ts1H37ms8iiG
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Banquets
     album: Banquets
     spotify_link: spotify:album:6KRKbkw6ZxW1U6aAuV4DyF
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Conditions
     album: Full Of War
     spotify_link: spotify:album:5XlMI2QVBxFS0vh5oJxBYc
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: The Fourth Estate
     album: The Costs of Living
     spotify_link: spotify:album:45RLzeKuX9YcmdwKcbTu8T
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Har Mar Superstar
     album: Bye Bye 17
     spotify_link: spotify:album:2GC0D9Deyx1L8UHrskFbEi
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Old Man Markley
     album: Down Side Up
     spotify_link: spotify:album:3iJLMNGT4uSpG5I0lxthQm
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Radioactivity
     album: Radioactivity
     spotify_link: spotify:album:0atZuxlHAR1UaMAksmJS5Y
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Sarabix
     album: Krakatoa
     spotify_link: spotify:album:49OwlsWqHDtsIKkliRuiOr
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Sigur Rós
     album: Kveikur
     spotify_link: spotify:album:1rRNqn4MTZfh393GzGvBtY
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: This Town Needs Guns
     album: 13.0.0.0.0
     spotify_link: spotify:album:3QQOkN9iqJJrwXohbNYRiP
-
+    tags: []
+    favorite_track: ''
+    text: ''
 - year: 2012
   list:
   - artist: The Tower and The Fool
     album: How Long
     spotify_link: spotify:album:3XkhvmeGUwG2IZbxkQnsDH
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Athletics
     album: Who You Are Is Not Enough
     spotify_link: spotify:album:3XkhvmeGUwG2IZbxkQnsDH
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Enter Shikari
     album: A Flash Flood Of Colour
     spotify_link: spotify:album:4bRbfjARi12Jm0EoAV2t3u
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Belie My Burial
     album: Pale Beyond
     spotify_link: spotify:album:1hjCFXjEpjlHLj7Q9jBZGa
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Sigur Rós
     album: Valtari
     spotify_link: spotify:album:0ZHkshyLAi9f8DXdj3Z5ph
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Paul Banks
     album: Banks
     spotify_link: spotify:album:5AXP2zfIyBQifia7ELGZbK
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Symphony Of Distraction
     album: Call It Off, John
     spotify_link: spotify:album:3Ozi0IBL8NtRaxuYPmG79X
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Topsy Turvy's
     album: You Better Believe It, You're In
     spotify_link: spotify:album:36h8ZFmbawTFTYwe2kiXCB
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Pinback
     album: Information Retrieved
     spotify_link: spotify:album:3J1E7sOzCfnv9LaJNlFdwI
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Voodoo Glow Skulls
     album: Break The Spell
     spotify_link: spotify:album:3r65OXZa8o8mK92m7uB1m7
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: The Menzingers
     album: On The Impossible Past
     spotify_link: spotify:album:4Jh3PDPicP3QwWpktQS7Yh
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Lana Del Rey
     album: Born To Die
     spotify_link: spotify:album:4X8hAqIWpQyQks2yRhyqs4
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Pennywise
     album: All Or Nothing
     spotify_link: spotify:album:3k0DvRgQzEtUXFCrCDB8qa
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Teenage Bottlerocket
     album: Freak Out!
     spotify_link: spotify:album:14XskGyGbsFkXyX7Tb5zFd
-
+    tags: []
+    favorite_track: ''
+    text: ''
 - year: 2011
   list:
   - artist: Ever Forthright
     album: Ever Forthright
     spotify_link: spotify:artist:13D2d4O3SXaCtDgVn3AbgX
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: The Vaccines
     album: What Did You Expect from the Vaccines?
     spotify_link: spotify:album:6eWtdQm0hSlTgpkbw4LaBG
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Black Lips
     album: Arabia Mountain
     spotify_link: spotify:album:2gfAAM6Uwp2XR1PjJscw33
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: The Bride
     album: President Rd
     spotify_link: spotify:album:4LM8ofSW0JjPZasZLkTbUe
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Five O'Clock Heroes
     album: Different Times
     spotify_link: spotify:album:6GvdlYJmJzRiNEx67nvHVF
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: David Bazan
     album: Strange Negotiations
     spotify_link: spotify:album:0teCneZSSxaicWL96S1bfH
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Tennis
     album: Cape Dory
     spotify_link: spotify:album:7EdH3HFfkPD44j2uh4HYNr
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: The Decline
     album: Are You Gonna Eat That?
     spotify_link: spotify:album:7eWdY196pAYZun7x4RqLS9
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Hands
     album: Give Me Rest
     spotify_link: spotify:album:7kxHA6L2NxB1YBvlp7Je4L
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: The Expanders
     album: The Expanders
     spotify_link: spotify:album:1zKyHrPc54uJDWDSreBC9T
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Dirty Beaches
     album: Badlands
     spotify_link: spotify:album:5PV54mAI2Vrlbp1SfjeD6a
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Forus
     album: We
     spotify_link: spotify:album:6NA02zLUglUSYEzpaIUJux
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: I See Stars
     album: The End Of The World Party
     spotify_link: spotify:album:493Zvo4Sf1VF0RCYFlQ5yd
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Scattered Trees
     album: Sympathy
     spotify_link: spotify:album:0Y4JXu4tfVTDhZCgZRCe2I
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: The Pains Of Being Pure At Heart
     album: Belong
     spotify_link: spotify:album:7Hif0SCVj3oHys2QsTSWiZ
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: How Dare You
     album: The King, the Clown and Colonel
     spotify_link: spotify:album:6vxQr0zsENULpdu32O9gpJ
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Nothington
     album: Borrowed Time
     spotify_link: spotify:album:3sAjsBpcWPDJPSZHGwOgrD
-
+    tags: []
+    favorite_track: ''
+    text: ''
 - year: 2010
   list:
   - artist: Decibully
     album: World Travels Fast
     spotify_link: spotify:album:5I2qbAY6jdllUaIMPEehmZ
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Affiance
     album: No Secret Revealed
     spotify_link: spotify:album:3WqXOKjQ371qGFVQE94ZsF
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: The Black Keys
     album: Brothers
     spotify_link: spotify:album:7qE6RXYyz5kj5Tll7mJU0v
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Conditions
     album: Fluorescent Youth
     spotify_link: spotify:album:06fCkwSB0j0dsZmUmbhC1B
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: The Decline
     album: I'm Not Gonna Lie to You
     spotify_link: spotify:album:5ZdOCRZVJc5slPXXlqA56q
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Fifty Stars Anger
     album: Mind Grenades for The Revolution
-
+    tags: []
+    spotify_link: ''
+    favorite_track: ''
+    text: ''
   - artist: Golliwog
     album: Plague Allegiance
     spotify_link: spotify:album:2d4PJzmFbgb5XDAjS7F3Mg
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: The Growlers
     album: Hot Tropics
     spotify_link: spotify:album:02KuwrUe9r1knIfI0rVf7c
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: La Vida Bohème
     album: Nuestra
     spotify_link: spotify:album:7kSxnf1JIMeFMIKKC5xDtt
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Miami Horror
     album: Illumination
     spotify_link: spotify:album:1Nb8xRzI4OVThbG3ewobwY
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Various Artists
     album: Red Dead Redemption Original Soundtrack
     spotify_link: spotify:album:22H5XKyHXkxHbty4jtBibg
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Against Me!
     album: White Crosses
     spotify_link: spotify:album:5VLEp4UIDkIowATwaveKUQ
-
+    tags: []
+    favorite_track: ''
+    text: ''
 - year: 2009
   list:
   - artist: David Bazan
     album: Curse Your Branches
     spotify_link: spotify:album:3jSLRsQ0xqfbktpEoFGIcV
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Horse The Band
     album: Desperate Living
     spotify_link: spotify:album:4rNTleyIYz0fJKLaSxSe8Z
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Edward Sharpe & The Magnetic Zeros
     album: Up from Below
     spotify_link: spotify:album:39xrkt8RILtwa9DMyLkv32
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Propagandhi
     album: Supporting Caste
     spotify_link: spotify:album:2XD0u81Bu0cnddlaYXUOT5
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: fun.
     album: Aim and Ignite
     spotify_link: spotify:album:68Q6uG6exOAUqF4Q7aNUEY
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Julian Plenti
     album: Julian Plenti Is... Skyscraper
     spotify_link: spotify:album:2xLmsfiCmieCud4cj8yMrl
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Cobra Skulls
     album: American Rubicon
     spotify_link: spotify:album:1OLg3WMwHfRa9va84rA2Vq
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: La Roux
     album: La Roux
     spotify_link: spotify:album:3elHo10HDaxn13uuVhiTWH
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Imogen Heap
     album: Ellipse
     spotify_link: spotify:album:5AYKGPzPBJNHeKehCxMaq0
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Killswitch Engage
     album: Killswitch Engage
     tags:
     - metalcore
     - metal
     spotify_link: spotify:album:0Vj4E53uI59Q4hnxiIpZrl
-
+    favorite_track: ''
+    text: ''
   - artist: Enter Shikari
     album: Common Dreads
     spotify_link: spotify:album:1NuzPVEhVfDYdu49gmxrzd
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Strike Anywhere
     album: Iron Front
     spotify_link: spotify:album:5AUGZyMmBtTVMRGx058Mkk
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: The Avett Brothers
     album: I and Love and You
     tags:
     - folk
     - bluegrass
     spotify_link: spotify:album:2PPFtYUnnqMYflIEn3b7ON
-
+    favorite_track: ''
+    text: ''
   - artist: This Is A Standoff
     album: Be Disappointed
     tags:
@@ -752,11 +922,14 @@
     - technical
     - rock
     spotify_link: spotify:album:5Id9ufhL4RNLbNxv5jNha6
-
+    favorite_track: ''
+    text: ''
   - artist: The Raveonettes
     album: In And Out Of Control
     spotify_link: spotify:album:44VzVHBsqOAWWS6gnTOXbv
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Mumford & Sons
     album: Sigh No More
     tags:
@@ -764,387 +937,581 @@
     - folk.revival
     - uk
     spotify_link: spotify:album:6w5W6ZGTvDsppKUOiGMuMo
-
+    favorite_track: ''
+    text: ''
 - year: 2008
   list:
   - artist: The Teenagers
     album: Reality Check
     spotify_link: spotify:album:5pUFwCxqMKYeNewTY9j1DG
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: No Use For A Name
     album: The Feel Good Record of the Year
     spotify_link: spotify:album:4u8maWk9uRQ7ipjkKTVHup
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Jay Tholen
     album: Epidemic
     spotify_link: spotify:album:41gWYyywW8PNVU9Bl7vFx4
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Kanye West
     album: 808s & Heartbreak
     spotify_link: spotify:album:3WFTGIO6E3Xh4paEOBY9OU
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Paul Gonzenbach / Baby Panda
     album: Avalanche Kiss
     thumb: avalanche_kiss.jpeg
     spotify_link: spotify:album:5JylMXQ2Zqt63KROfogBP2
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Smash the Statues
     album: When Fear Is All Around Us
     spotify_link: spotify:album:3JcjYNoUVD0CPjnAeIUwqg
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Black President
     album: Black President
-
+    tags: []
+    spotify_link: ''
+    favorite_track: ''
+    text: ''
   - artist: Pendulum
     album: In Silico
     spotify_link: spotify:album:6eRDE48ttoLqN2VfkEpPOJ
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Crystal Castles
     album: Crystal Castles
     spotify_link: spotify:album:5nM3cUPxqg7iqjaoyeCWtN
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Dillinger Four
     album: C I V I L W A R
     spotify_link: spotify:album:3qIFEGF5cuip70vU7zatpb
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Atlas Losing Grip
     album: Shut the World Out
     spotify_link: spotify:album:4iIUmm3xcHgH8wuvi1LGt5
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Frightened Rabbit
     album: The Midnight Organ Fight
     spotify_link: spotify:album:69voh97i16t9SrQeHWIqrY
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Handheld
     album: Handheld
     spotify_link: spotify:album:3tz4aUyqS5QhHPtTo6FxMl
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Santigold
     album: Santigold
     spotify_link: spotify:album:4yATru0hY3VgRHSreswbGj
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Xploding Plastix
     album: Treated Timber Resists Rot
     spotify_link: spotify:album:3ailWW6LnksSpjrPM3tLHt
-
+    tags: []
+    favorite_track: ''
+    text: ''
 - year: 2007
   list:
   - artist: Lavender Diamond
     album: Imagine Our Love
     spotify_link: spotify:album:77KZTEqXuLNDX9nLPL8Wba
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Cobra Skulls
     album: Sitting Army
     spotify_link: spotify:album:06XizyvLh1GN1Cr237MtQl
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Grouper
     album: Cover the Windows and the Walls
     spotify_link: spotify:album:6FDT9qQNRT6ntiEhTI8SI6
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Murcof
     album: Cosmos
     spotify_link: spotify:album:5CPMjEHl3GxbZufnQdgylB
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Chief
     album: Provocation Of The Nation
     spotify_link: spotify:album:72NmrcAzL2nWxQ6quUPKXP
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Robert Plant & Alison Krauss
     album: Raising Sand
     spotify_link: spotify:album:54GfJ3ZEY2b6PKmvETmj1n
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Explosions In The Sky
     album: All of a Sudden I Miss Everyone
     spotify_link: spotify:album:34RLNUE77WOvP9na4nf7Ua
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Angels & Airwaves
     album: I-Empire
     spotify_link: spotify:album:7E31adfdc3ljGnxjZVF6et
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Aspects of Physics
-    album: "Marginalized Information Forms 2: Cummulative ErRror"
+    album: 'Marginalized Information Forms 2: Cummulative ErRror'
     spotify_link: spotify:album:4MaEYv5Uh7ERcsk60J9jsE
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Tegan and Sara
     album: The Con
     spotify_link: spotify:album:4QjGIZZqvNrdkgw4LZKLZK
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Pour Habit
     album: Suiticide
     spotify_link: spotify:album:2aC8u1cEMH8i09wtOvq1S9
-
+    tags: []
+    favorite_track: ''
+    text: ''
 - year: 2006
   list:
   - artist: David Bazan
     album: Fewer Moving Parts
     spotify_link: spotify:album:3FMPXrI0idOKmTZxqbUgu2
-    text: |
-      When **Pedro the Lion** announced their breakup, I was pretty sad. I mean, I had always understood **PTL** to be David Bazan's musical vehicle and any other musician accompanying him was merely a temporary passenger, so it was confusing that it even _could_ breakup. I eventually understood that Bazan had simply tired of the moniker and wished to be honest about what this really was. Explaining his decision in his first solo release, Bazan sings "I still run the show / Don't you forget it / So I had to let some go / Don't think I don't regret it / Because I do and I don't / Think I'm better off alone" and makes it pretty clear. Bazan had shed his faith and was now shedding any pretense of even being in a band and this would allow him to go beyond what he had created **Pedro the Lion** for.
+    text: 'When **Pedro the Lion** announced their breakup, I was pretty sad. I mean,
+      I had always understood **PTL** to be David Bazan''s musical vehicle and any
+      other musician accompanying him was merely a temporary passenger, so it was
+      confusing that it even _could_ breakup. I eventually understood that Bazan had
+      simply tired of the moniker and wished to be honest about what this really was.
+      Explaining his decision in his first solo release, Bazan sings "I still run
+      the show / Don''t you forget it / So I had to let some go / Don''t think I don''t
+      regret it / Because I do and I don''t / Think I''m better off alone" and makes
+      it pretty clear. Bazan had shed his faith and was now shedding any pretense
+      of even being in a band and this would allow him to go beyond what he had created
+      **Pedro the Lion** for.
 
+'
+    tags: []
+    favorite_track: ''
   - artist: DragonForce
     album: Inhuman Rampage
     spotify_link: spotify:album:28YBgZU6HDhnkf6ZZXbY3y
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Angels & Airwaves
     album: We Don't Need To Whisper
     spotify_link: spotify:album:55drvPTRV1FgJkuaztyS5X
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: The Sounds
     album: Dying To Say This To You
     spotify_link: spotify:album:45obbcVIa3428mdxaNLmly
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: NOFX
     album: Wolves in Wolves' Clothing
     spotify_link: spotify:album:0bb9iLMHdUJhFIVwOars3P
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Killswitch Engage
     album: As Daylight Dies
     spotify_link: spotify:album:6iJEtgHTEbVlSS5isIS71z
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Kevin Carafa
     album: Sick Sad World
-    spotify_link:
-
+    spotify_link: ''
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: The Format
     album: Dog Problems
     spotify_link: spotify:album:6VPLqG06SlXc1FzVzzcuZB
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: The Streets
     album: The Hardest Way to Make An Easy Living
     spotify_link: spotify:album:7EZnqnThnWnSG4MJMd0Gug
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: The Fratellis
     album: Costello Music
     spotify_link: spotify:album:6R6pjR9ocMYuqSuNx5e4mg
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Anti-Flag
     album: For Blood And Empire
     spotify_link: spotify:album:3B3gJszXnaDZMz8YVRZ1J2
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Brandtson
     album: Hello, Control
     spotify_link: spotify:album:6vfntMjrhjePcDe48vXOwz
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: New Found Glory
     album: Coming Home
     spotify_link: spotify:album:1rRe0RrLHXpYhOSQeiGgGK
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: The Coup
     album: Pick A Bigger Weapon
     spotify_link: spotify:album:5EExWVfD5JW4QI95Upzx6v
-
+    tags: []
+    favorite_track: ''
+    text: ''
 - year: 2005
   list:
   - artist: Bright Eyes
     album: Digital Ash In A Digital Urn
     spotify_link: spotify:album:69uTyNumTCoUWD1qvfoMNb
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Grouper
     album: Way Their Crept
     spotify_link: spotify:album:2UbTwil7eR6Lov37LRyVhb
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Headphones
     album: Headphones
     spotify_link: spotify:album:4O9EVQ1g2RhYW2ouZGb7tE
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Johnathan Rice
     album: Trouble Is Real
     spotify_link: spotify:album:6FYx7TOhsQ8lcUHamp1CRI
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Murcof
     album: Remembranza
     spotify_link: spotify:album:1eZVS1l222WHIDbzYBnXjH
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: MxPx
     album: Panic
     spotify_link: spotify:album:4AbGeI8xFWJ7CwQMnhw7Fe
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Pendulum
     album: Hold Your Colour
     spotify_link: spotify:album:4FAfNNU21dqtKKhHWB2eOa
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Team Sleep
     album: Team Sleep
     spotify_link: spotify:album:7BORauiIbjPkOVRzSq38DP
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: The Jim Yoshii Pile-Up
     album: Picks Us Apart
     spotify_link: spotify:album:43GUr6TsgkHmFknRysakoM
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: VNV Nation
     album: Matter + Form
     spotify_link: spotify:album:0ePUvI74Sz0awGfcjoHZP2
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: A Wilhelm Scream
     album: Ruiner
     spotify_link: spotify:album:4SWFv2A7yGx4XlIW8vxRMV
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Reggie And The Full Effect
     album: Songs Not to Get Married to
     spotify_link: spotify:album:5E5OzJiE0UVmEkIO6csUb2
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: The Rocket Summer
     album: Hello, Good Friend.
     spotify_link: spotify:album:4yFoGX4PpiDBfbyaCxV340
-
+    tags: []
+    favorite_track: ''
+    text: ''
 - year: 2004
   list:
   - artist: Brandtson
     album: Send Us A Signal
     spotify_link: spotify:album:2qovT11lhlesvJbUKr4Mea
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Chad Vangaalen
     album: Infiniheart
     spotify_link: spotify:album:28o7tifPOuNz4vgr2ULjlG
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Further Seems Forever
     album: Hide Nothing
     spotify_link: spotify:album:7HWx9lE5B0uyMWbbeZ2qHv
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Interpol
     album: Antics
     spotify_link: spotify:album:58fDEyJ5XSau8FRA3y8Bps
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Midtown
     album: Forget What You Know
     spotify_link: spotify:album:0kzHDUWg9XKx5ianlRedvu
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Muse
     album: Absolution
     spotify_link: spotify:album:0HcHPBu9aaF1MxOiZmUQTl
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Pedro The Lion
     album: Achilles' Heel
     spotify_link: spotify:album:6cRhboSBQIIQwuexf2OOOV
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Ratatat
     album: Ratatat
     spotify_link: spotify:album:4JKPD5CoWpBbzf2WwokRSp
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: The Killers
     album: Hot Fuss
     spotify_link: spotify:album:4undIeGmofnAYKhnDclN1w
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: The Streets
     album: A Grand Don't Come For Free
     spotify_link: spotify:album:365ETCJBUmEWroc4UGBS1u
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Death From Above 1979
     album: You're A Woman, I'm A Machine
     spotify_link: spotify:album:07sQdQsdK2Pxh48FOvYgce
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Joy Electric
     album: Hello Mannequin
     spotify_link: spotify:album:6VBKnjq4HOZWViBDQVrUpA
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Killswitch Engage
     album: The End Of Heartache
     spotify_link: spotify:album:6NrMjaGIZAKZLMzVnkNY4V
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Kings of Leon
     album: Aha Shake Heartbreak
     spotify_link: spotify:album:1pIUIkBJsyKvNYNqw7oY4k
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Pinback
     album: Summer In Abaddon
     spotify_link: spotify:album:3XLn9BkDkwq4icsUye2Krp
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Say Anything
-    album: ...Is a Real Boy
+    album: "...Is a Real Boy"
     spotify_link: spotify:album:2dEa0qjnAkSjGhD4wY16QT
-
+    tags: []
+    favorite_track: ''
+    text: ''
 - year: 2003
   list:
   - artist: Copeland
     album: Beneath Medicine Tree
     spotify_link: spotify:album:5aF786F2yHxfNbto7ej8d0
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Cursive
     album: The Ugly Organ
     spotify_link: spotify:album:3ZoVW62G8g8GC0yzpXOcKz
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Dolorean
     album: Not Exotic
     spotify_link: spotify:album:7iQ43gTJrpabjE2D8p7VaY
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: M83
     album: Dead Cities, Red Seas & Lost Ghosts
     spotify_link: spotify:album:44Sy39wQjQFX0jJOufXTvv
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: The Mars Volta
     album: Deloused in the Comatorium
     spotify_link: spotify:album:0CA2EVHhRPR5VPV78KZw89
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: The Microphones
     album: Mount Eerie
     spotify_link: spotify:album:5qvuDzzdqHFID4IlUMGZcb
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: The Sounds
     album: Living In America
     spotify_link: spotify:album:7xvl4BcHImqxCOeMr31DoU
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: The Wrens
     album: The Meadowlands
     spotify_link: spotify:album:4Olz2cm8ncBqhnRcDwqVFK
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Wolfsheim
     album: Casting Shadows
     spotify_link: spotify:album:0qn895MQagZ5qZ5iNEacON
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Vaux
     album: There Must be Some Way to Stop Them
     spotify_link: spotify:album:0jvXBuQqgkynqt81V79zGj
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Azure Ray
     album: Hold On Love
     spotify_link: spotify:album:002VxJYn0PuESip7EnYZ5V
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: The Postal Service
     album: Give Up
     spotify_link: spotify:album:4ssF0ppdJnMTtL2hg1CLKX
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Cex
     album: Being Ridden
     spotify_link: spotify:album:2Vm9o3t0fRSfQdM01YVPLR
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Horse The Band
     album: R. Borlax
     spotify_link: spotify:album:7d8CDV3sAMg0BE0T6hziFk
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: The Format
     album: Interventions and Lullabies
     spotify_link: spotify:album:5B6SoTwBaUBoJbUFycg0Oa
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: The Rocket Summer
     album: Calendar Days
     spotify_link: spotify:album:6NiF6BfePelczZlw5vVBb1
-
+    tags: []
+    favorite_track: ''
+    text: ''
 - year: 2002
   list:
   - artist: All-Time Quarterback
     album: All-Time Quarterback
     spotify_link: spotify:album:0ABeJqqeCoD5TR8oYSvSCr
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Damien Jurado
     album: I Break Chairs
     spotify_link: spotify:album:3ecFpF2SYYIzD64ubfxRID
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Hot Rod Circuit
     album: Sorry About Tomorrow
     spotify_link: spotify:album:6fYGFmyMFVEZvS7F95lLD2
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Iron & Wine
     album: The Creek Drank the Cradle
     spotify_link: spotify:album:7ElvlLVKEhWaSGcTAGiCf7
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Kind of Like Spitting
     album: One Hundred Dollar Room
     spotify_link: spotify:album:46fE8REBgbaRVqTq5m3YEj
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: No Use For A Name
     album: Hard Rock Bottom
     spotify_link: spotify:album:6TdS0Yfp7GcukVlZJfjmo3
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Pedro The Lion
     album: Control
     tags:
@@ -1152,173 +1519,282 @@
     - rock
     - concept.album
     - pure.gold
-    text: |
-      Bazan's _Control_ is one of the most influential and powerful records I've ever listened to. The record's depiction of relationships and their entropic conclusions was a relatable subject during my teens as the child of bitterly divorced parents. Listening to an (at the time) Christian artist that was willing to talk about these kinds of subjects was therapeutic. I could relate to a lot of his frustrations of being a believer disillusioned with modern American Christianity and wondering what that meant (A subject further explored in his subsequent albums and career). The crunching mid-tempo droning rock is a departure for **Pedro the Lion** that allowed the instrumentation of his songs reflect a lot of the violence told in these songs. The brutal honesty of tragic vanity is hammered home in each track as the loose narrative of a failed businessman who destroys his marriage and family with his infidelity, a path that ultimately leads him to finally be killed by his wife during an argument. I was lucky enough to watch a reunited **Pedro** play the _Control_ album in its entirety live in 2012 and loved watching these songs performed after spending so many evenings listening to this record.
-    spotify_link: spotify:album:3WPhii5HmncMeCKLHZUePr
+    text: 'Bazan''s _Control_ is one of the most influential and powerful records
+      I''ve ever listened to. The record''s depiction of relationships and their entropic
+      conclusions was a relatable subject during my teens as the child of bitterly
+      divorced parents. Listening to an (at the time) Christian artist that was willing
+      to talk about these kinds of subjects was therapeutic. I could relate to a lot
+      of his frustrations of being a believer disillusioned with modern American Christianity
+      and wondering what that meant (A subject further explored in his subsequent
+      albums and career). The crunching mid-tempo droning rock is a departure for
+      **Pedro the Lion** that allowed the instrumentation of his songs reflect a lot
+      of the violence told in these songs. The brutal honesty of tragic vanity is
+      hammered home in each track as the loose narrative of a failed businessman who
+      destroys his marriage and family with his infidelity, a path that ultimately
+      leads him to finally be killed by his wife during an argument. I was lucky enough
+      to watch a reunited **Pedro** play the _Control_ album in its entirety live
+      in 2012 and loved watching these songs performed after spending so many evenings
+      listening to this record.
 
+'
+    spotify_link: spotify:album:3WPhii5HmncMeCKLHZUePr
+    favorite_track: ''
   - artist: Scientific
     album: From the Nest of Idea
     thumb: from_the_nest_of_idea.jpeg
     spotify_link: spotify:album:4QkCqeFmgsJHlyzgPu9ge4
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: The Anniversary
     album: Your Majesty
-    text: |
-      There are records that can encapsulate entire periods of your life if you allow them. Listening to them again transports you right back to that moment, and you feel everything all over again as if for the first time. This record came out right as I was experiencing my first break-up in high school. Listening to _Your Majesty_ puts me right back in that desperate first heart-break and I can see myself wandering the small town in Florida I grew up in searching for an identity that hurt less. Being reminded that "I always will be haunted by the ones I've loved" was exactly the record I needed at that time which, along with **Hot Rod Circuit's** _Sorry About Tomorrow_, allowed me to feel and preserve that experience in a way that I can nostalgically revisit with these songs.
-    spotify_link: spotify:album:1UIrwwVo9RnXDgVahgHic3
+    text: 'There are records that can encapsulate entire periods of your life if you
+      allow them. Listening to them again transports you right back to that moment,
+      and you feel everything all over again as if for the first time. This record
+      came out right as I was experiencing my first break-up in high school. Listening
+      to _Your Majesty_ puts me right back in that desperate first heart-break and
+      I can see myself wandering the small town in Florida I grew up in searching
+      for an identity that hurt less. Being reminded that "I always will be haunted
+      by the ones I''ve loved" was exactly the record I needed at that time which,
+      along with **Hot Rod Circuit''s** _Sorry About Tomorrow_, allowed me to feel
+      and preserve that experience in a way that I can nostalgically revisit with
+      these songs.
 
+'
+    spotify_link: spotify:album:1UIrwwVo9RnXDgVahgHic3
+    tags: []
+    favorite_track: ''
   - artist: Interpol
     album: Turn On The Bright Lights
     spotify_link: spotify:album:79deKDaslwLfH3yPR2T3SB
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Bright Eyes
     album: Lifted or The Story Is in the Soil, Keep Your Ear to the Ground
     spotify_link: spotify:album:3D9lWF6r92UhRESvgte65y
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Coldplay
     album: A Rush of Blood to the Head
     spotify_link: spotify:album:0RHX9XECH8IVI3LNgWDpmQ
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Hot Hot Heat
     album: Make Up The Breakdown
     spotify_link: spotify:album:6MN4QYFWo1cLuZRiv2sedC
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Seldom
     album: Romance
-    spotify_link:
-
+    spotify_link: ''
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Unsung Zeros
     album: The People Mover
     spotify_link: spotify:album:6qtTGdLm4VMUT0hnUUU9gp
-
+    tags: []
+    favorite_track: ''
+    text: ''
 - year: 2001
   list:
   - artist: Black Rebel Motorcycle Club
     album: B.R.M.C.
     spotify_link: spotify:album:5yMBrh34J9x9xG4NQN0DNk
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Andrew W.K.
     album: I Get Wet
     spotify_link: spotify:album:6BQMUDC55fjjnApdWtZYZM
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Craig's Brother
     album: Lost At Sea
     spotify_link: spotify:album:7M9Q57z3E9ylSBg1DpcQ7e
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Dashboard Confessional
     album: The Places You Have Come to Fear the Most
     spotify_link: spotify:album:3aH8aeNdQQO2bdLfhuL65w
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Five Iron Frenzy
-    album: "Five Iron Frenzy 2: Electric Boogaloo"
+    album: 'Five Iron Frenzy 2: Electric Boogaloo'
     spotify_link: spotify:album:26Rf3n2qppspfPUGKYx56Z
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Onesidezero
     album: Is This Room Getting Smaller?
     spotify_link: spotify:album:4RTup2e5U7iVJM49P0WXdd
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Osker
     album: Idle Will Kill
     spotify_link: spotify:album:0BGdKihwQAFBRn5QGzgkbQ
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Pinback
     album: Blue Screen Life
     spotify_link: spotify:album:0RSUOK3VQn1HR4Vb0lMWFD
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Saves The Day
     album: Stay What You Are
     spotify_link: spotify:album:39gFAYxTjxzx9FK57VpsRK
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: The Appleseed Cast
     album: Low Level Owl
     spotify_link: spotify:album:3N9rSlRPoCSyXwZ6u18Xa8
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: The Jim Yoshii Pile-Up
     album: It's Winter Here
     spotify_link: spotify:album:5RBB59IdmJ35fVokeQMu86
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Alkaline Trio
     album: From Here to Infirmary
     spotify_link: spotify:album:74FavWuKZGG8tp3jpMVzN4
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: The Ataris
     album: End Is Forever
     spotify_link: spotify:album:3Xe3ERA3WSRcRrbQw1VsRO
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Explosions In The Sky
-    album: Those Who Tell the Truth Shall Die, Those Who Tell the Truth Shall Live Forever
+    album: Those Who Tell the Truth Shall Die, Those Who Tell the Truth Shall Live
+      Forever
     spotify_link: spotify:album:0HxOFNk6NIHydHAer8y01M
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Further Seems Forever
     album: The Moon Is Down
     spotify_link: spotify:album:7JJNQLAixkJUjc5vCj19rP
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: My Hotel Year
     album: The Composition of Ending and Phrasing
     thumb: the_composition_of_ending_and_phrasing.jpeg
     spotify_link: spotify:album:0ntqqxkwnFBHrluwekQv9G
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: System Of A Down
     album: Toxicity
     spotify_link: spotify:album:6jWde94ln40epKIQCd8XUh
-
+    tags: []
+    favorite_track: ''
+    text: ''
 - year: 2000
   list:
   - artist: Blindside
     album: A Thought Crushed My Mind
-
+    tags: []
+    spotify_link: ''
+    favorite_track: ''
+    text: ''
   - artist: Coldplay
     album: Parachutes
     spotify_link: spotify:album:6ZG5lRT77aJ3btmArcykra
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Dogwood
     album: Building A Better Me
     spotify_link: spotify:album:4DSY3DcUKKJgkAtO6PMCBM
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Elliott
     album: False Cathedrals
     spotify_link: spotify:album:6s2VrdrRwXXB1kr6RcrKfv
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Godspeed You! Black Emperor
     album: Lift Your Skinny Fists Like Antennas to Heaven
     spotify_link: spotify:album:2rT82YYlV9UoxBYLIezkRq
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: MxPx
     album: The Ever Passing Moment
     spotify_link: spotify:album:0C5IaBCCHezbc3KY8N93un
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: New Found Glory
     album: New Found Glory
     spotify_link: spotify:album:485PPCvKNtmAJBfzpyw3wk
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Pedro The Lion
     album: Winners Never Quit
     spotify_link: spotify:album:09iUbAL6vQRsL6eLvKtoKB
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Sunny Day Real Estate
     album: The Rising Tide
     spotify_link: spotify:album:6qF8IcGGO3Y4YuNx33DJA2
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: The White Octave
     album: Style No. 6312
     spotify_link: spotify:album:1xsOA9nS2z9wSdt6eGIVut
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Dead Prez
     album: Let's Get Free
     spotify_link: spotify:album:7gXuElmegVReY7imkb5bf8
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Slick Shoes
     album: Wake Up Screaming
     spotify_link: spotify:album:5p31d39Lkx9Fy1gi8MEtVr
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: NOFX
     album: Pump Up The Valuum
     spotify_link: spotify:album:37hvw6OVfRLktCmFcU9zHE
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Millencolin
     album: Pennybridge Pioneers
     spotify_link: spotify:album:5VWyJbfC4DUsnC1NLSjuWC
-
+    tags: []
+    favorite_track: ''
+    text: ''
   - artist: Teen Idols
     album: Full Leather Jacket
     spotify_link: spotify:album:26EAfY3Entzcgk9UgU2K9a
+    tags: []
+    favorite_track: ''
+    text: ''

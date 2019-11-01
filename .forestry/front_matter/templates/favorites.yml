@@ -58,3 +58,5 @@ fields:
       labelField: ''
       min: '1'
     description: The list of this year's favorite albums.
+pages:
+- _data/favorites.yml
