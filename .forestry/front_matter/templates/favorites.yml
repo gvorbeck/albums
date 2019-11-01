@@ -8,23 +8,53 @@ fields:
   fields:
   - type: number
     name: year
-    label: year
+    label: Year
+    config:
+      min: '2000'
+      max: ''
+      step: '1'
+      required: true
+    description: The year these favorites were released.
   - type: field_group_list
     name: list
-    label: list
+    label: Year's List
     fields:
     - type: text
       name: album
-      label: album
+      label: Album Name
+      description: The name of the album.
+      config:
+        required: true
     - type: text
       name: artist
-      label: artist
+      label: Artist Name(s)
+      description: The name(s) of the Artists involved with this album.
+      config:
+        required: true
     - type: list
       name: tags
-      label: tags
+      label: Genre/Organization Tags
     - type: text
       name: spotify_link
-      label: spotify_link
+      label: Spotify URI
+      description: Spotify app link. Spotify:Share -> Copy Spotify URI
+      config:
+        required: false
     - type: text
       name: favorite_track
-      label: favorite_track
+      label: Favorite Track
+      description: Favorite song on the album.
+    - name: review
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: markdown
+      label: Review
+      description: Why is this album here?
+    config:
+      labelField: album
+      min: '1'
+    description: The list of this year's favorite albums.
