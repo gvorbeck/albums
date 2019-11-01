@@ -1,0 +1,30 @@
+---
+label: Favorites
+hide_body: true
+fields:
+- type: field_group_list
+  name: Favorites
+  label: Favorites
+  fields:
+  - type: number
+    name: year
+    label: year
+  - type: field_group_list
+    name: list
+    label: list
+    fields:
+    - type: text
+      name: album
+      label: album
+    - type: text
+      name: artist
+      label: artist
+    - type: list
+      name: tags
+      label: tags
+    - type: text
+      name: spotify_link
+      label: spotify_link
+    - type: text
+      name: favorite_track
+      label: favorite_track
