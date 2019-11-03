@@ -1786,9 +1786,21 @@
   - artist: Sunny Day Real Estate
     album: The Rising Tide
     spotify_link: spotify:album:6qF8IcGGO3Y4YuNx33DJA2
-    tags: []
-    favorite_track: ''
-    text: ''
+    tags:
+    - emo
+    - indie.rock
+    - post.rock
+    - alternative.rock
+    - prog.rock
+    favorite_track: Disappear
+    text: |-
+      My dad bought me this record. No, he wasn't a music nerd that decided his son needed to hear something _cool_. I brought it up to him in some retail store and asked for it, but it still means something, I think. It's certainly the first thing I think about when I play this album back now. I remember sitting in my brother's bedroom at my father's house and us eagerly listening to the opening crescendo that precedes a wall of electric guitar in the intro of _Killed By An Angel_.
+
+      It's certainly a polished **SDRE** album. A pretty album, even! Enigk's lyrics are actually discernible in a change of pace. The production value is higher than their previous works, and it's certainly more approachable for an audience that may not have been aware of previous iterations of this band. You can hear a lot of prog rock influences throughout, and I personally hear a lot of **Kansas** in this record.
+
+      I was _deeply_ into emo music at the time. I didn't know much about what emo was, but it didn't really matter to me then. I knew it kinda sounded like punk music, but was about dark shit and complex feelings. I was told to listen to **SDRE** and quickly found every track I could download on Napster. It sucked to learned they had broken up, but the promise of a reunion and new material was too much to pass up.
+
+      It's not my favorite **SDRE** album, but it still has something to look forward to in songs like _Disappear_ with it's driving beat and whining guitars that remind me of the band I know they once were. Writing this years later, the album hangs onto my memory fondly for how cool I felt getting this album.
   - artist: The White Octave
     album: Style No. 6312
     spotify_link: spotify:album:1xsOA9nS2z9wSdt6eGIVut
