@@ -1420,9 +1420,15 @@
   - artist: Dolorean
     album: Not Exotic
     spotify_link: spotify:album:7iQ43gTJrpabjE2D8p7VaY
-    tags: []
-    favorite_track: ''
-    text: ''
+    tags:
+    - folk
+    favorite_track: Hannibal, MO
+    text: |-
+      Al James' breathy whisper conveys such an aching pain in these songs, that a full listen to this album is guaranteed to bring me to tears. In the days that I was writing music for various bands, I longed to be able to convey an honest feeling such as James does here.
+
+      Throwing one's life away for a momentary pleasure as described in _Traded for Fire_ carries so much of the Christian guilt I had been raised with that I feel my hands shake when those first warbling piano keys strike, like an alarm bringing me out of a deep sleep.
+
+      So jealous of James' writing was I that I once lied to an old girlfriend that I had written _Hannibal, MO_ when she heard me sing it for her on a dark summer night during a power outage in Manhattan. His persistent belief that he is not worthy of redemption is so powerful here and his soft resignation to it strikes me right in my heart. A man sits in prison after the unfortunate death of his lover announces that "Her father says he'll shoot me down, if I don't do it myself."
   - artist: M83
     album: Dead Cities, Red Seas & Lost Ghosts
     spotify_link: spotify:album:44Sy39wQjQFX0jJOufXTvv
