@@ -1,6 +1,16 @@
 ---
 - year: "2019"
   list:
+  - album: LP3
+    artist: American Football
+    favorite_track: Uncomfortably Numb
+    text: ''
+    tags:
+    - post.rock
+    - indie.pop
+    - math.rock
+    spotify_link: spotify:album:7ki5b310cwDVVJBevBLwdw
+    genius_link: ''
   - album: BENT
     artist: Stonefield
     favorite_track: Dead Alive
