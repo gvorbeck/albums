@@ -1,6 +1,16 @@
 ---
 - year: "2019"
   list:
+  - album: Mystifier Deluxe
+    artist: Loudness War
+    favorite_track: Mystifier
+    text: ''
+    tags:
+    - fuzz.rock
+    - psychedelic.rock
+    - garage.rock
+    spotify_link: spotify:album:0VIP3urzp6fFVVaKzLw8sr
+    genius_link: ''
   - album: The Center Won't Hold
     artist: Sleater-Kinney
     favorite_track: Can I Go On
