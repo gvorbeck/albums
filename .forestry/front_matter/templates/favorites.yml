@@ -53,6 +53,11 @@ fields:
       description: Spotify app link. Spotify:Share -> Copy Spotify URI
       config:
         required: false
+    - name: genius_link
+      type: text
+      config:
+        required: false
+      label: Genius.com Link
     config:
       labelField: album
       min: '1'
