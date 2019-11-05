@@ -401,8 +401,10 @@
   - artist: Fetty Wap
     album: Fetty Wap
     spotify_link: spotify:album:2gKQvajkEEaDtkqJ8FJ4uw
-    tags: []
-    favorite_track: ''
+    tags:
+    - hip.hop
+    - trap
+    favorite_track: Trap Queen
     text: ''
   - artist: King Gizzard & The Lizard Wizard
     album: Paper Mâché Dream Balloon
