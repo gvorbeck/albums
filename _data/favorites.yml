@@ -1,6 +1,14 @@
 ---
 - year: "2019"
   list:
+  - album: Pheonix
+    artist: Pedro The Lion
+    favorite_track: ''
+    text: ''
+    tags:
+    - indie.rock
+    spotify_link: ''
+    genius_link: ''
   - album: Mystifier Deluxe
     artist: Loudness War
     favorite_track: Mystifier
