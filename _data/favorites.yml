@@ -1,6 +1,14 @@
 ---
 - year: "2019"
   list:
+  - album: The Center Won't Hold
+    artist: Sleater-Kinney
+    favorite_track: ''
+    text: ''
+    tags:
+    - indie.rock
+    spotify_link: spotify:album:6ArjrXMlLegKiAPOp34K58
+    genius_link: ''
   - album: Infest The Rats' Nest
     artist: King Gizzard & The Lizard Wizard
     favorite_track: ''
