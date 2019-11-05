@@ -1,0 +1,63 @@
+---
+label: Favorites
+hide_body: true
+fields:
+- type: field_group_list
+  name: Favorites
+  label: Favorites
+  fields:
+  - name: year
+    type: text
+    config:
+      required: false
+    label: Year
+    description: The year these albums were released.
+  - type: field_group_list
+    name: list
+    label: Year List
+    fields:
+    - type: text
+      name: album
+      label: Album Name
+      description: The name of the album.
+      config:
+        required: true
+    - type: text
+      name: artist
+      label: Artist Name(s)
+      description: The name(s) of the Artists involved with this album.
+      config:
+        required: true
+    - type: text
+      name: favorite_track
+      label: Favorite Track
+      description: Favorite song on the album.
+    - name: text
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: markdown
+      label: Review
+      description: Why is this album here?
+    - name: tags
+      type: tag_list
+      default: []
+      description: Tags are all lower-cased with periods between words.
+      label: Tags
+    - type: text
+      name: spotify_link
+      label: Spotify URI
+      description: Spotify app link. Spotify:Share -> Copy Spotify URI
+      config:
+        required: false
+    config:
+      labelField: album
+      min: '1'
+    description: The list of this year's favorite albums.
+  config:
+    labelField: year
+pages:
+- _data/favorites.yml

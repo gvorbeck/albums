@@ -298,6 +298,10 @@ main {
     strong {
         font-weight: 700;
     }
+
+    p + p {
+        margin-top: 1rem;
+    }
 }
 
 button {
