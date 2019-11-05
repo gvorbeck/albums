@@ -1,6 +1,14 @@
 ---
 - year: "2019"
   list:
+  - album: Love & the Dark
+    artist: Jason Hawk Harris
+    favorite_track: Giving In
+    text: ''
+    tags:
+    - country
+    spotify_link: ''
+    genius_link: ''
   - album: Look Me In The Eye
     artist: Mermaidens
     favorite_track: ''
