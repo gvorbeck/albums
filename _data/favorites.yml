@@ -1,6 +1,15 @@
 ---
 - year: "2019"
   list:
+  - album: And Now for the Whatchamacallit
+    artist: Psychedelic Porn Crumpets
+    favorite_track: ''
+    text: ''
+    tags:
+    - psychedelic.rock
+    - progressive.rock
+    spotify_link: ''
+    genius_link: ''
   - album: Gold & Grey
     artist: Baroness
     favorite_track: ''
