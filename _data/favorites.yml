@@ -1,6 +1,15 @@
 ---
 - year: "2019"
   list:
+  - album: The Beast You Are
+    artist: Big Business
+    favorite_track: ''
+    text: ''
+    tags:
+    - heavy.metal
+    - sludge.rock
+    spotify_link: ''
+    genius_link: ''
   - album: Floating Being
     artist: Earth Tongue
     favorite_track: ''
