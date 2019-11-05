@@ -14,7 +14,7 @@ fields:
     description: The year these albums were released.
   - type: field_group_list
     name: list
-    label: Year's List
+    label: Year List
     fields:
     - type: text
       name: album
