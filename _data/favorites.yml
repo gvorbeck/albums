@@ -1,6 +1,15 @@
 ---
 - year: "2019"
   list:
+  - album: Infest The Rats' Nest
+    artist: King Gizzard & The Lizard Wizard
+    favorite_track: ''
+    text: ''
+    tags:
+    - thrash.metal
+    - heavy.metal
+    spotify_link: spotify:album:5Bz2LxOp0wz7ov0T9WiRmc
+    genius_link: ''
   - album: The Beast You Are
     artist: Big Business
     favorite_track: ''
