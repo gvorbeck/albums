@@ -1,6 +1,15 @@
 ---
 - year: "2019"
   list:
+  - album: Floating Being
+    artist: Earth Tongue
+    favorite_track: ''
+    text: ''
+    tags:
+    - psychedelic.rock
+    - garage.rock
+    spotify_link: spotify:album:0hr8J6RIFkr9KMiTat5d6A
+    genius_link: ''
   - album: ZAM
     artist: Frankie and the Witch Fingers
     favorite_track: ''
