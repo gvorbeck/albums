@@ -1,6 +1,15 @@
 ---
 - year: "2019"
   list:
+  - album: '"Let''s Rock"'
+    artist: The Black Keys
+    favorite_track: ''
+    text: ''
+    tags:
+    - blues.rock
+    - garage.rock
+    spotify_link: spotify:album:0aA9rYw8PEv9G7tVIJ9dKg
+    genius_link: ''
   - album: And Now for the Whatchamacallit
     artist: Psychedelic Porn Crumpets
     favorite_track: ''
