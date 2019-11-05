@@ -1,6 +1,15 @@
 ---
 - year: "2019"
   list:
+  - album: Pony
+    artist: Orville Peck
+    favorite_track: ''
+    text: ''
+    tags:
+    - crooner
+    - country
+    spotify_link: spotify:album:7Jn1h8E5aT96pdyrPxrLWi
+    genius_link: ''
   - album: Back in Texas
     artist: Andrew Cashen
     favorite_track: ''
