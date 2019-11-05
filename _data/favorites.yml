@@ -1,6 +1,16 @@
 ---
 - year: "2019"
   list:
+  - album: Back in Texas
+    artist: Andrew Cashen
+    favorite_track: ''
+    text: ''
+    tags:
+    - crooner
+    - soul
+    - rock.n.roll
+    spotify_link: spotify:album:0dzjK4sdV1seHSLO5nX2cL
+    genius_link: ''
   - album: Love & the Dark
     artist: Jason Hawk Harris
     favorite_track: Giving In
