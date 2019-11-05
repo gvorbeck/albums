@@ -126,7 +126,7 @@ function populateSpotlight(data, colors) {
         SpotlightTrack.style.display = "none";
     }
     // Add review.
-    if (data.review) {
+    if (data.review.length > 1) {
         SpotlightReview.style.display = "block";
         SpotlightReview.getElementsByTagName("DIV")[0].innerHTML = data.review;
     } else {
