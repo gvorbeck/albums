@@ -1,6 +1,18 @@
 ---
 - year: "2019"
   list:
+  - album: Gold & Grey
+    artist: Baroness
+    favorite_track: ''
+    text: ''
+    tags:
+    - progressive.metal
+    - alternative.rock
+    - stoner.rock
+    - sludge.metal
+    - heavy.metal
+    spotify_link: spotify:album:7HReGutVsNY6vlihWZTzdY
+    genius_link: ''
   - album: Fishing For Fishies
     artist: King Gizzard & The Lizard Wizard
     favorite_track: Plastic Boogie
