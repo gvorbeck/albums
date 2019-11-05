@@ -1,6 +1,13 @@
 ---
 - year: "2019"
   list:
+  - album: Look Me In The Eye
+    artist: Mermaidens
+    favorite_track: ''
+    text: ''
+    tags: []
+    spotify_link: ''
+    genius_link: ''
   - album: Phoenix
     artist: Pedro The Lion
     favorite_track: ''
