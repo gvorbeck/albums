@@ -1,6 +1,15 @@
 ---
 - year: "2019"
   list:
+  - album: Nothing Great About Britain
+    artist: slowthai
+    favorite_track: Doorman
+    text: ''
+    tags:
+    - hip.hop
+    - grime
+    spotify_link: spotify:album:5Ki4YFQrUx7hCcQx1LJUQb
+    genius_link: ''
   - album: LP3
     artist: American Football
     favorite_track: Uncomfortably Numb
