@@ -1,6 +1,15 @@
 ---
 - year: "2019"
   list:
+  - album: BENT
+    artist: Stonefield
+    favorite_track: Dead Alive
+    text: ''
+    tags:
+    - psychedelic.rock
+    - heavy.metal
+    spotify_link: spotify:album:6VVAL3SpLw0I8PHXEByozv
+    genius_link: ''
   - album: The Fleeting Light of Impermanence
     artist: The Appleseed Cast
     favorite_track: Time The Destroyer
