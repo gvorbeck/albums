@@ -1,6 +1,15 @@
 ---
 - year: "2019"
   list:
+  - album: ZAM
+    artist: Frankie and the Witch Fingers
+    favorite_track: ''
+    text: ''
+    tags:
+    - psychedelic.rock
+    - progressive.rock
+    spotify_link: spotify:album:5mF6x8IIiW30Ypwi8ybe8m
+    genius_link: ''
   - album: '"Let''s Rock"'
     artist: The Black Keys
     favorite_track: ''
