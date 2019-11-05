@@ -1,6 +1,16 @@
 ---
 - year: "2019"
   list:
+  - album: Fishing For Fishies
+    artist: King Gizzard & The Lizard Wizard
+    favorite_track: Plastic Boogie
+    text: ''
+    tags:
+    - boogie.rock
+    - blues.rock
+    - psychedelic.rock
+    spotify_link: spotify:album:1Q5gtIhAPUYszJQveFEhRr
+    genius_link: ''
   - album: Nothing Great About Britain
     artist: slowthai
     favorite_track: Doorman
