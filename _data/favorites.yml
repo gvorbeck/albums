@@ -1,6 +1,15 @@
 ---
 - year: "2019"
   list:
+  - album: The Fleeting Light of Impermanence
+    artist: The Appleseed Cast
+    favorite_track: Time The Destroyer
+    text: ''
+    tags:
+    - post.rock
+    - indie.rock
+    spotify_link: spotify:album:1YIK4zD8nDqN210TJIyiPB
+    genius_link: ''
   - album: III
     artist: Masked Intruder
     favorite_track: So You Know
