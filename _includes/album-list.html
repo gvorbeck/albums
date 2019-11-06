@@ -1,9 +1,15 @@
 <ul class="album-list">
-    {% assign albums = include.list | sort:"artist" %}
+    {% assign albums = include.list | sort_natural: "artist" %}
     {% for albumItem in albums %}
         <li class="album-list__item">
             <div class="album">
                 {% include tape.svg %}
+                {% capture artistName %}
+                    {% if albumItem.switch_sort %}
+                    yay
+                    {% endif %}
+                {% endcapture %}
+                {{ artistName }}
                 <button class="album__button" aria-label="Open {{ albumItem.album }} by {{ albumItem.artist }}"
                 data-artist-url="{{ albumItem.artist | url_encode }}"
                 data-album-url="{{ albumItem.album | url_encode }}"
