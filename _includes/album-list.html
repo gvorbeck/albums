@@ -12,11 +12,11 @@
                         {{- albumItem.artist -}}
                     {%- endif -%}
                 {% endcapture %}
-                <button class="album__button" aria-label="Open {{ albumItem.album }} by {{ artistName }}"
+                <button class="album__button" aria-label="Open {{ albumItem.album | escape }} by {{ artistName | escape }}"
                 data-artist-url="{{ artistName | url_encode }}"
                 data-album-url="{{ albumItem.album | url_encode }}"
-                data-artist="{{ artistName }}"
-                data-album="{{ albumItem.album }}"
+                data-artist="{{ artistName | escape }}"
+                data-album="{{ albumItem.album | escape }}"
                 {% comment %}This precludes JS from adding a data-thumb attribute from last.fm.{% endcomment %}
                 {% if albumItem.thumb %}
                     data-thumb="assets/images/covers/{{ albumItem.thumb }}"
