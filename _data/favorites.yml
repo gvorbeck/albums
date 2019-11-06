@@ -1185,14 +1185,14 @@
     text: ''
     genius_link: ''
     switch_sort: false
-  - artist: The Black Keys
+  - artist: Black Keys, The
     album: Brothers
     spotify_link: spotify:album:7qE6RXYyz5kj5Tll7mJU0v
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
+    switch_sort: true
   - artist: Conditions
     album: Fluorescent Youth
     spotify_link: spotify:album:06fCkwSB0j0dsZmUmbhC1B
@@ -1201,14 +1201,14 @@
     text: ''
     genius_link: ''
     switch_sort: false
-  - artist: The Decline
+  - artist: Decline, The
     album: I'm Not Gonna Lie to You
     spotify_link: spotify:album:5ZdOCRZVJc5slPXXlqA56q
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
+    switch_sort: true
   - artist: Fifty Stars Anger
     album: Mind Grenades for The Revolution
     tags: []
@@ -1225,14 +1225,14 @@
     text: ''
     genius_link: ''
     switch_sort: false
-  - artist: The Growlers
+  - artist: Growlers, The
     album: Hot Tropics
     spotify_link: spotify:album:02KuwrUe9r1knIfI0rVf7c
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
+    switch_sort: true
   - artist: La Vida Bohème
     album: Nuestra
     spotify_link: spotify:album:7kSxnf1JIMeFMIKKC5xDtt
@@ -1267,14 +1267,14 @@
     switch_sort: false
 - year: "2009"
   list:
-  - artist: David Bazan
+  - artist: Bazan, David
     album: Curse Your Branches
     spotify_link: spotify:album:3jSLRsQ0xqfbktpEoFGIcV
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
+    switch_sort: true
   - artist: Horse The Band
     album: Desperate Living
     spotify_link: spotify:album:4rNTleyIYz0fJKLaSxSe8Z
@@ -1307,14 +1307,14 @@
     text: ''
     genius_link: ''
     switch_sort: false
-  - artist: Julian Plenti
+  - artist: Plenti, Julian
     album: Julian Plenti Is... Skyscraper
     spotify_link: spotify:album:2xLmsfiCmieCud4cj8yMrl
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
+    switch_sort: true
   - artist: Cobra Skulls
     album: American Rubicon
     spotify_link: spotify:album:1OLg3WMwHfRa9va84rA2Vq
@@ -1331,14 +1331,14 @@
     text: ''
     genius_link: ''
     switch_sort: false
-  - artist: Imogen Heap
+  - artist: Heap, Imogen
     album: Ellipse
     spotify_link: spotify:album:5AYKGPzPBJNHeKehCxMaq0
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
+    switch_sort: true
   - artist: Killswitch Engage
     album: Killswitch Engage
     tags:
@@ -1365,7 +1365,7 @@
     text: ''
     genius_link: ''
     switch_sort: false
-  - artist: The Avett Brothers
+  - artist: Avett Brothers, The
     album: I and Love and You
     tags:
     - folk
@@ -1374,7 +1374,7 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
+    switch_sort: true
   - artist: This Is A Standoff
     album: Be Disappointed
     tags:
@@ -1386,14 +1386,14 @@
     text: ''
     genius_link: ''
     switch_sort: false
-  - artist: The Raveonettes
+  - artist: Raveonettes, The
     album: In And Out Of Control
     spotify_link: spotify:album:44VzVHBsqOAWWS6gnTOXbv
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
+    switch_sort: true
   - artist: Mumford & Sons
     album: Sigh No More
     tags:
@@ -1407,14 +1407,14 @@
     switch_sort: false
 - year: "2008"
   list:
-  - artist: The Teenagers
+  - artist: Teenagers, The
     album: Reality Check
     spotify_link: spotify:album:5pUFwCxqMKYeNewTY9j1DG
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
+    switch_sort: true
   - artist: No Use For A Name
     album: The Feel Good Record of the Year
     spotify_link: spotify:album:4u8maWk9uRQ7ipjkKTVHup
@@ -1423,23 +1423,23 @@
     text: ''
     genius_link: ''
     switch_sort: false
-  - artist: Jay Tholen
+  - artist: Tholen, Jay
     album: Epidemic
     spotify_link: spotify:album:41gWYyywW8PNVU9Bl7vFx4
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
-  - artist: Kanye West
+    switch_sort: true
+  - artist: West, Kanye
     album: 808s & Heartbreak
     spotify_link: spotify:album:3WFTGIO6E3Xh4paEOBY9OU
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
-  - artist: Paul Gonzenbach / Baby Panda
+    switch_sort: true
+  - artist: Baby Panda / Paul Gonzenbach
     album: Avalanche Kiss
     thumb: avalanche_kiss.jpeg
     spotify_link: spotify:album:5JylMXQ2Zqt63KROfogBP2
@@ -1635,7 +1635,7 @@
     switch_sort: false
 - year: "2006"
   list:
-  - artist: David Bazan
+  - artist: Bazan, David
     album: Fewer Moving Parts
     spotify_link: spotify:album:3FMPXrI0idOKmTZxqbUgu2
     text: 'When **Pedro the Lion** announced their breakup, I was pretty sad. I mean,
@@ -1654,7 +1654,7 @@
     tags: []
     favorite_track: ''
     genius_link: ''
-    switch_sort: false
+    switch_sort: true
   - artist: DragonForce
     album: Inhuman Rampage
     spotify_link: spotify:album:28YBgZU6HDhnkf6ZZXbY3y
@@ -1671,14 +1671,14 @@
     text: ''
     genius_link: ''
     switch_sort: false
-  - artist: The Sounds
+  - artist: Sounds, The
     album: Dying To Say This To You
     spotify_link: spotify:album:45obbcVIa3428mdxaNLmly
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
+    switch_sort: true
   - artist: NOFX
     album: Wolves in Wolves' Clothing
     spotify_link: spotify:album:0bb9iLMHdUJhFIVwOars3P
@@ -1695,38 +1695,38 @@
     text: ''
     genius_link: ''
     switch_sort: false
-  - artist: Kevin Carafa
+  - artist: Carafa, Kevin
     album: Sick Sad World
     spotify_link: ''
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
-  - artist: The Format
+    switch_sort: true
+  - artist: Format, The
     album: Dog Problems
     spotify_link: spotify:album:6VPLqG06SlXc1FzVzzcuZB
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
-  - artist: The Streets
+    switch_sort: true
+  - artist: Streets, The
     album: The Hardest Way to Make An Easy Living
     spotify_link: spotify:album:7EZnqnThnWnSG4MJMd0Gug
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
-  - artist: The Fratellis
+    switch_sort: true
+  - artist: Fratellis, The
     album: Costello Music
     spotify_link: spotify:album:6R6pjR9ocMYuqSuNx5e4mg
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
+    switch_sort: true
   - artist: Anti-Flag
     album: For Blood And Empire
     spotify_link: spotify:album:3B3gJszXnaDZMz8YVRZ1J2
@@ -1768,14 +1768,14 @@
     text: ''
     genius_link: ''
     switch_sort: false
-  - artist: The Coup
+  - artist: Coup, The
     album: Pick A Bigger Weapon
     spotify_link: spotify:album:5EExWVfD5JW4QI95Upzx6v
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
+    switch_sort: true
 - year: "2005"
   list:
   - artist: Bright Eyes
@@ -1802,14 +1802,14 @@
     text: ''
     genius_link: ''
     switch_sort: false
-  - artist: Johnathan Rice
+  - artist: Rice, Johnathan
     album: Trouble Is Real
     spotify_link: spotify:album:6FYx7TOhsQ8lcUHamp1CRI
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
+    switch_sort: true
   - artist: Murcof
     album: Remembranza
     spotify_link: spotify:album:1eZVS1l222WHIDbzYBnXjH
@@ -1842,14 +1842,14 @@
     text: ''
     genius_link: ''
     switch_sort: false
-  - artist: The Jim Yoshii Pile-Up
+  - artist: Jim Yoshii Pile-Up, The
     album: Picks Us Apart
     spotify_link: spotify:album:43GUr6TsgkHmFknRysakoM
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
+    switch_sort: true
   - artist: VNV Nation
     album: Matter + Form
     spotify_link: spotify:album:0ePUvI74Sz0awGfcjoHZP2
@@ -1858,14 +1858,14 @@
     text: ''
     genius_link: ''
     switch_sort: false
-  - artist: A Wilhelm Scream
+  - artist: Wilhelm Scream, A
     album: Ruiner
     spotify_link: spotify:album:4SWFv2A7yGx4XlIW8vxRMV
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
+    switch_sort: true
   - artist: Reggie And The Full Effect
     album: Songs Not to Get Married to
     spotify_link: spotify:album:5E5OzJiE0UVmEkIO6csUb2
@@ -1874,14 +1874,14 @@
     text: ''
     genius_link: ''
     switch_sort: false
-  - artist: The Rocket Summer
+  - artist: Rocket Summer, The
     album: Hello, Good Friend.
     spotify_link: spotify:album:4yFoGX4PpiDBfbyaCxV340
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
+    switch_sort: true
 - year: "2004"
   list:
   - artist: Brandtson
@@ -1892,14 +1892,14 @@
     text: ''
     genius_link: ''
     switch_sort: false
-  - artist: Chad Vangaalen
+  - artist: Vangaalen, Chad
     album: Infiniheart
     spotify_link: spotify:album:28o7tifPOuNz4vgr2ULjlG
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
+    switch_sort: true
   - artist: Further Seems Forever
     album: Hide Nothing
     spotify_link: spotify:album:7HWx9lE5B0uyMWbbeZ2qHv
@@ -1958,22 +1958,22 @@
     text: ''
     genius_link: ''
     switch_sort: false
-  - artist: The Killers
+  - artist: Killers, The
     album: Hot Fuss
     spotify_link: spotify:album:4undIeGmofnAYKhnDclN1w
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
-  - artist: The Streets
+    switch_sort: true
+  - artist: Streets, The
     album: A Grand Don't Come For Free
     spotify_link: spotify:album:365ETCJBUmEWroc4UGBS1u
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
+    switch_sort: true
   - artist: Death From Above 1979
     album: You're A Woman, I'm A Machine
     spotify_link: spotify:album:07sQdQsdK2Pxh48FOvYgce
@@ -2078,22 +2078,22 @@
     text: ''
     genius_link: ''
     switch_sort: false
-  - artist: The Sounds
+  - artist: Sounds, The
     album: Living In America
     spotify_link: spotify:album:7xvl4BcHImqxCOeMr31DoU
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
-  - artist: The Wrens
+    switch_sort: true
+  - artist: Wrens, The
     album: The Meadowlands
     spotify_link: spotify:album:4Olz2cm8ncBqhnRcDwqVFK
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
+    switch_sort: true
   - artist: Wolfsheim
     album: Casting Shadows
     spotify_link: spotify:album:0qn895MQagZ5qZ5iNEacON
@@ -2118,14 +2118,14 @@
     text: ''
     genius_link: ''
     switch_sort: false
-  - artist: The Postal Service
+  - artist: Postal Service, The
     album: Give Up
     spotify_link: spotify:album:4ssF0ppdJnMTtL2hg1CLKX
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
+    switch_sort: true
   - artist: Cex
     album: Being Ridden
     spotify_link: spotify:album:2Vm9o3t0fRSfQdM01YVPLR
@@ -2142,22 +2142,22 @@
     text: ''
     genius_link: ''
     switch_sort: false
-  - artist: The Format
+  - artist: Format, The
     album: Interventions and Lullabies
     spotify_link: spotify:album:5B6SoTwBaUBoJbUFycg0Oa
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
-  - artist: The Rocket Summer
+    switch_sort: true
+  - artist: Rocket Summer, The
     album: Calendar Days
     spotify_link: spotify:album:6NiF6BfePelczZlw5vVBb1
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
+    switch_sort: true
 - year: "2002"
   list:
   - artist: All-Time Quarterback
@@ -2168,14 +2168,14 @@
     text: ''
     genius_link: ''
     switch_sort: false
-  - artist: Damien Jurado
+  - artist: Jurado, Damien
     album: I Break Chairs
     spotify_link: spotify:album:3ecFpF2SYYIzD64ubfxRID
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
+    switch_sort: true
   - artist: Hot Rod Circuit
     album: Sorry About Tomorrow
     spotify_link: spotify:album:6fYGFmyMFVEZvS7F95lLD2
@@ -2246,7 +2246,7 @@
     text: ''
     genius_link: ''
     switch_sort: false
-  - artist: The Anniversary
+  - artist: Anniversary, The
     album: Your Majesty
     text: 'There are records that can encapsulate entire periods of your life if you
       allow them. Listening to them again transports you right back to that moment,
@@ -2265,7 +2265,7 @@
     tags: []
     favorite_track: ''
     genius_link: ''
-    switch_sort: false
+    switch_sort: true
   - artist: Interpol
     album: Turn On The Bright Lights
     spotify_link: spotify:album:79deKDaslwLfH3yPR2T3SB
@@ -2324,14 +2324,14 @@
     text: ''
     genius_link: ''
     switch_sort: false
-  - artist: Andrew W.K.
+  - artist: W.K., Andrew
     album: I Get Wet
     spotify_link: spotify:album:6BQMUDC55fjjnApdWtZYZM
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
+    switch_sort: true
   - artist: Craig's Brother
     album: Lost At Sea
     spotify_link: spotify:album:7M9Q57z3E9ylSBg1DpcQ7e
@@ -2388,22 +2388,22 @@
     text: ''
     genius_link: ''
     switch_sort: false
-  - artist: The Appleseed Cast
+  - artist: Appleseed Cast, The
     album: Low Level Owl
     spotify_link: spotify:album:3N9rSlRPoCSyXwZ6u18Xa8
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
-  - artist: The Jim Yoshii Pile-Up
+    switch_sort: true
+  - artist: Jim Yoshii Pile-Up, The
     album: It's Winter Here
     spotify_link: spotify:album:5RBB59IdmJ35fVokeQMu86
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
+    switch_sort: true
   - artist: Alkaline Trio
     album: From Here to Infirmary
     spotify_link: spotify:album:74FavWuKZGG8tp3jpMVzN4
@@ -2412,14 +2412,14 @@
     text: ''
     genius_link: ''
     switch_sort: false
-  - artist: The Ataris
+  - artist: Ataris, The
     album: End Is Forever
     spotify_link: spotify:album:3Xe3ERA3WSRcRrbQw1VsRO
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
+    switch_sort: true
   - artist: Explosions In The Sky
     album: Those Who Tell the Truth Shall Die, Those Who Tell the Truth Shall Live
       Forever
@@ -2554,14 +2554,14 @@
       they once were."
     genius_link: ''
     switch_sort: false
-  - artist: The White Octave
+  - artist: White Octave, The
     album: Style No. 6312
     spotify_link: spotify:album:1xsOA9nS2z9wSdt6eGIVut
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
+    switch_sort: true
   - artist: Dead Prez
     album: Let's Get Free
     spotify_link: spotify:album:7gXuElmegVReY7imkb5bf8
