@@ -915,14 +915,14 @@
     switch_sort: false
 - year: "2012"
   list:
-  - artist: The Tower and The Fool
+  - artist: Tower and The Fool, The
     album: How Long
     spotify_link: spotify:album:3XkhvmeGUwG2IZbxkQnsDH
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
+    switch_sort: true
   - artist: Athletics
     album: Who You Are Is Not Enough
     spotify_link: spotify:album:3XkhvmeGUwG2IZbxkQnsDH
