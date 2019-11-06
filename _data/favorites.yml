@@ -472,7 +472,7 @@
     favorite_track: ''
     genius_link: ''
     switch_sort: false
-  - artist: The Menzingers
+  - artist: Menzingers, The
     album: After The Party
     favorite_track: Tellin' Lies
     tags:
@@ -481,7 +481,7 @@
     spotify_link: spotify:album:1nzDVfQopF9YBkpPAfUck3
     genius_link: https://genius.com/albums/The-menzingers/After-the-party
     text: ''
-    switch_sort: false
+    switch_sort: true
   - artist: San Fermin
     album: Belong
     spotify_link: spotify:album:22sKyWyE7QGrAtfPHDboXV
@@ -567,7 +567,7 @@
     switch_sort: false
 - year: "2016"
   list:
-  - artist: Andy Shauf
+  - artist: Shauf, Andy
     album: The Party
     tags:
     - lounge
@@ -576,7 +576,7 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
+    switch_sort: true
   - artist: Baroness
     album: Purple
     tags:
@@ -586,14 +586,14 @@
     text: ''
     genius_link: ''
     switch_sort: false
-  - artist: David Bazan
+  - artist: Bazan, David
     album: Blanco
     spotify_link: spotify:album:33kDKilTTOHjFDJvNBbiWi
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
+    switch_sort: true
   - artist: King Gizzard & the Lizard Wizard
     album: Nonagon Infinity
     tags:
@@ -701,22 +701,22 @@
     text: ''
     genius_link: ''
     switch_sort: false
-  - artist: The Decline
+  - artist: Decline, The
     album: Resister
     spotify_link: spotify:album:5ot4933neHbkPcSEDCeFTM
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
-  - artist: The Expanders
+    switch_sort: true
+  - artist: Expanders, The
     album: Hustling Culture
     spotify_link: spotify:album:7bdBUhd3ojfCJJdAQqtgON
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
+    switch_sort: true
   - artist: Foxing
     album: Dealer
     spotify_link: spotify:album:7nVLbTV7JrJ5ohUbPjvSlN
