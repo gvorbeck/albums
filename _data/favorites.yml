@@ -767,14 +767,14 @@
     text: ''
     genius_link: ''
     switch_sort: false
-  - artist: The Copyrights
+  - artist: Copyrights, The
     album: Report
     spotify_link: spotify:album:77Li4A2uUeoDFeTtYCf6U7
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
+    switch_sort: true
   - artist: Deleted Scenes
     album: Lithium Burn
     spotify_link: spotify:album:6oZkQ4pJBWmaXAltXcRIpT
@@ -833,14 +833,14 @@
     switch_sort: false
 - year: "2013"
   list:
-  - artist: The Appleseed Cast
+  - artist: Appleseed Cast, The
     album: Illumination Ritual
     spotify_link: spotify:album:4ZUpacHZD1ts1H37ms8iiG
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
+    switch_sort: true
   - artist: Banquets
     album: Banquets
     spotify_link: spotify:album:6KRKbkw6ZxW1U6aAuV4DyF
@@ -857,14 +857,14 @@
     text: ''
     genius_link: ''
     switch_sort: false
-  - artist: The Fourth Estate
+  - artist: Fourth Estate, The
     album: The Costs of Living
     spotify_link: spotify:album:45RLzeKuX9YcmdwKcbTu8T
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
+    switch_sort: true
   - artist: Har Mar Superstar
     album: Bye Bye 17
     spotify_link: spotify:album:2GC0D9Deyx1L8UHrskFbEi
@@ -1005,14 +1005,14 @@
     text: ''
     genius_link: ''
     switch_sort: false
-  - artist: Lana Del Rey
+  - artist: Del Rey, Lana
     album: Born To Die
     spotify_link: spotify:album:4X8hAqIWpQyQks2yRhyqs4
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
+    switch_sort: true
   - artist: Pennywise
     album: All Or Nothing
     spotify_link: spotify:album:3k0DvRgQzEtUXFCrCDB8qa
