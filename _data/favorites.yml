@@ -24,7 +24,7 @@
     genius_link: ''
     switch_sort: false
   - album: Pony
-    artist: Orville Peck
+    artist: Peck, Orville
     favorite_track: ''
     text: ''
     tags:
@@ -32,7 +32,7 @@
     - country
     spotify_link: spotify:album:7Jn1h8E5aT96pdyrPxrLWi
     genius_link: ''
-    switch_sort: false
+    switch_sort: true
   - album: Back in Texas
     artist: Cashen, Andrew
     favorite_track: ''
