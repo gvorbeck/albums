@@ -955,14 +955,14 @@
     text: ''
     genius_link: ''
     switch_sort: false
-  - artist: Paul Banks
+  - artist: Banks, Paul
     album: Banks
     spotify_link: spotify:album:5AXP2zfIyBQifia7ELGZbK
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
+    switch_sort: true
   - artist: Symphony Of Distraction
     album: Call It Off, John
     spotify_link: spotify:album:3Ozi0IBL8NtRaxuYPmG79X
