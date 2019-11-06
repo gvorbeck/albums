@@ -52,7 +52,7 @@
     - country
     spotify_link: ''
     genius_link: ''
-    switch_sort: false
+    switch_sort: true
   - album: Look Me In The Eye
     artist: Mermaidens
     favorite_track: ''
