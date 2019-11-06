@@ -1004,7 +1004,7 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
+    switch_sort: true
   - artist: Del Rey, Lana
     album: Born To Die
     spotify_link: spotify:album:4X8hAqIWpQyQks2yRhyqs4
