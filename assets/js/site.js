@@ -98,11 +98,11 @@ function populateSpotlight(data, colors) {
     }
     // External links
     if (data.lastfm || data.genius || data.spotify) {
-        const thisAlbumLinks = {lastfm:data.lastfm, genius:data.genius, spotify:data.spotify};
+        let thisAlbumLinks = { lastfm:data.lastfm, genius:data.genius, spotify:data.spotify };
 
         for (let i in thisAlbumLinks) {
             let link = SpotlightLinks.getElementsByClassName(i)[0];
-            if (thisAlbumLinks[i] === undefined) {
+            if (thisAlbumLinks[i] === undefined || thisAlbumLinks[i].length <= 1) {
                 link.parentNode.style.display = "none";
             } else {
                 link.parentNode.style.display = "block";
