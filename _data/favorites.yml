@@ -11,7 +11,6 @@
     - indie.pop
     spotify_link: spotify:album:113M3j7mkEpg5TUgXJDS79
     genius_link: ''
-    
     switch_sort: false
   - album: Cry
     artist: Cigarettes After Sex
@@ -23,7 +22,6 @@
     - slowcore
     spotify_link: spotify:album:6fUVptFdeOgcqDvCZzM2kC
     genius_link: ''
-
     switch_sort: false
   - album: Pony
     artist: Orville Peck
@@ -34,10 +32,9 @@
     - country
     spotify_link: spotify:album:7Jn1h8E5aT96pdyrPxrLWi
     genius_link: ''
-
     switch_sort: false
   - album: Back in Texas
-    artist: Andrew Cashen
+    artist: Cashen, Andrew
     favorite_track: ''
     text: ''
     tags:
@@ -46,8 +43,7 @@
     - rock.n.roll
     spotify_link: spotify:album:0dzjK4sdV1seHSLO5nX2cL
     genius_link: ''
-
-    switch_sort: false
+    switch_sort: true
   - album: Love & the Dark
     artist: Jason Hawk Harris
     favorite_track: Giving In
@@ -56,7 +52,6 @@
     - country
     spotify_link: ''
     genius_link: ''
-
     switch_sort: false
   - album: Look Me In The Eye
     artist: Mermaidens
@@ -65,7 +60,6 @@
     tags: []
     spotify_link: spotify:album:3H9GJuoxYaMziKU1XIDiuj
     genius_link: ''
-
     switch_sort: false
   - album: Phoenix
     artist: Pedro The Lion
@@ -75,7 +69,6 @@
     - indie.rock
     spotify_link: ''
     genius_link: ''
-
     switch_sort: false
   - album: Mystifier Deluxe
     artist: Loudness War
@@ -87,7 +80,6 @@
     - garage.rock
     spotify_link: spotify:album:0VIP3urzp6fFVVaKzLw8sr
     genius_link: ''
-
     switch_sort: false
   - album: The Center Won't Hold
     artist: Sleater-Kinney
@@ -97,7 +89,6 @@
     - indie.rock
     spotify_link: spotify:album:6ArjrXMlLegKiAPOp34K58
     genius_link: ''
-
     switch_sort: false
   - album: Infest The Rats' Nest
     artist: King Gizzard & The Lizard Wizard
@@ -108,7 +99,6 @@
     - heavy.metal
     spotify_link: spotify:album:5Bz2LxOp0wz7ov0T9WiRmc
     genius_link: ''
-
     switch_sort: false
   - album: The Beast You Are
     artist: Big Business
@@ -119,7 +109,6 @@
     - sludge.rock
     spotify_link: spotify:album:1m12AmKa2M2ZPefvbATdj8
     genius_link: ''
-
     switch_sort: false
   - album: Floating Being
     artist: Earth Tongue
@@ -132,7 +121,6 @@
     - fuzz.rock
     spotify_link: spotify:album:0hr8J6RIFkr9KMiTat5d6A
     genius_link: ''
-
     switch_sort: false
   - album: ZAM
     artist: Frankie and the Witch Fingers
@@ -143,7 +131,6 @@
     - progressive.rock
     spotify_link: spotify:album:5mF6x8IIiW30Ypwi8ybe8m
     genius_link: ''
-
     switch_sort: false
   - album: '"Let''s Rock"'
     artist: The Black Keys
@@ -154,7 +141,6 @@
     - garage.rock
     spotify_link: spotify:album:0aA9rYw8PEv9G7tVIJ9dKg
     genius_link: ''
-
     switch_sort: false
   - album: Gold & Grey
     artist: Baroness
@@ -168,7 +154,6 @@
     - heavy.metal
     spotify_link: spotify:album:7HReGutVsNY6vlihWZTzdY
     genius_link: ''
-
     switch_sort: false
   - album: Fishing For Fishies
     artist: King Gizzard & The Lizard Wizard
@@ -180,7 +165,6 @@
     - psychedelic.rock
     spotify_link: spotify:album:1Q5gtIhAPUYszJQveFEhRr
     genius_link: ''
-
     switch_sort: false
   - album: Nothing Great About Britain
     artist: slowthai
@@ -191,7 +175,6 @@
     - grime
     spotify_link: spotify:album:5Ki4YFQrUx7hCcQx1LJUQb
     genius_link: ''
-
     switch_sort: false
   - album: LP3
     artist: American Football
@@ -203,7 +186,6 @@
     - math.rock
     spotify_link: spotify:album:7ki5b310cwDVVJBevBLwdw
     genius_link: ''
-
     switch_sort: false
   - album: BENT
     artist: Stonefield
@@ -214,7 +196,6 @@
     - heavy.metal
     spotify_link: spotify:album:6VVAL3SpLw0I8PHXEByozv
     genius_link: ''
-
     switch_sort: false
   - album: The Fleeting Light of Impermanence
     artist: Appleseed Cast, The
@@ -225,7 +206,6 @@
     - indie.rock
     spotify_link: spotify:album:1YIK4zD8nDqN210TJIyiPB
     genius_link: ''
-
     switch_sort: true
   - album: III
     artist: Masked Intruder
@@ -235,7 +215,6 @@
     - pop.punk
     spotify_link: spotify:album:4MA9n8Jv7aYULdMd7aw1b0
     genius_link: ''
-
     switch_sort: false
 - year: "2018"
   list:
@@ -247,7 +226,6 @@
     favorite_track: Black Moon
     text: ''
     genius_link: ''
-
     switch_sort: false
   - album: Loved to Death
     artist: Dance With the Dead
@@ -272,7 +250,6 @@
 '
     favorite_track: ''
     genius_link: ''
-
     switch_sort: false
   - album: Ordinary Corrupt Human Love
     artist: Deafheaven
@@ -298,7 +275,6 @@
 
 '
     favorite_track: ''
-
     switch_sort: false
   - album: Crown of Nothing
     artist: Direct Hit!
@@ -319,7 +295,6 @@
 
 '
     favorite_track: ''
-
     switch_sort: false
   - album: Love Is Dead
     artist: CHVRCHES
@@ -338,7 +313,6 @@
 '
     spotify_link: spotify:album:7EchhykwUf4ACDDABEDa7o
     genius_link: https://genius.com/albums/Chvrches/Love-is-dead
-
     switch_sort: false
   - album: Double Negative
     artist: Low
@@ -352,7 +326,6 @@
     genius_link: https://genius.com/albums/Low/Double-negative
     favorite_track: ''
     text: ''
-
     switch_sort: false
   - album: "'Til the End"
     artist: MiTis
@@ -376,7 +349,6 @@
 
 '
     favorite_track: ''
-
     switch_sort: false
   - album: Clean
     artist: Soccer Mommy
@@ -386,7 +358,6 @@
     genius_link: https://genius.com/albums/Soccer-mommy/Clean
     favorite_track: ''
     text: ''
-
     switch_sort: false
   - album: ROCKNROLL MACHINE
     artist: Turbonegro
@@ -399,7 +370,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - album: When I Think Of You In A Castle
     artist: Post Animal
@@ -408,7 +378,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - album: Everybody!!
     artist: WANIMA
@@ -429,7 +398,6 @@
 
 '
     genius_link: ''
-
     switch_sort: false
 - year: "2017"
   list:
@@ -446,7 +414,6 @@
 '
     favorite_track: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Can't Swim
     album: Fail You Again
@@ -458,7 +425,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Communions
     album: Blue
@@ -484,7 +450,6 @@
       tracks like _Midnight Child_ or _Got to Be Free_ are less apparent than hits
       like _She's a Myth_."
     genius_link: ''
-
     switch_sort: false
   - artist: Future Islands
     album: The Far Field
@@ -495,7 +460,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Iya Terra
     album: Sacred Sound
@@ -505,7 +469,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Mega Drive
     album: The Grid
@@ -519,7 +482,6 @@
 '
     favorite_track: ''
     genius_link: ''
-
     switch_sort: false
   - artist: The Menzingers
     album: After The Party
@@ -530,7 +492,6 @@
     spotify_link: spotify:album:1nzDVfQopF9YBkpPAfUck3
     genius_link: https://genius.com/albums/The-menzingers/After-the-party
     text: ''
-
     switch_sort: false
   - artist: San Fermin
     album: Belong
@@ -539,7 +500,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Teenage Bottlerocket
     album: Stealing the Covers
@@ -551,7 +511,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Tigers Jaw
     album: spin
@@ -562,7 +521,6 @@
     spotify_link: spotify:album:2xSppFiPUTWqZ9cdF6CQnY
     genius_link: https://genius.com/albums/Tigers-jaw/Spin
     text: ''
-
     switch_sort: false
   - artist: King Gizzard & The Lizard Wizard
     album: Flying Microtonal Banana
@@ -575,7 +533,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: King Gizzard & The Lizard Wizard
     album: Polygondwanaland
@@ -587,7 +544,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: King Gizzard & The Lizard Wizard
     album: Murder Of The Universe
@@ -611,7 +567,6 @@
 '
     favorite_track: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Japandroids
     album: Near To The Wild Heart Of Life
@@ -620,7 +575,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
 - year: "2016"
   list:
@@ -633,7 +587,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Baroness
     album: Purple
@@ -643,7 +596,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: David Bazan
     album: Blanco
@@ -652,7 +604,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: King Gizzard & the Lizard Wizard
     album: Nonagon Infinity
@@ -665,7 +616,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Matt Pond PA
     album: Winter Lives
@@ -674,7 +624,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Mean Jeans
     album: Tight New Dimension
@@ -684,7 +633,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Mrs. Magician
     album: Bermuda
@@ -693,7 +641,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Rebelution
     album: Falling Into Place
@@ -702,7 +649,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Tiger Army
     album: V
@@ -711,7 +657,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
 - year: "2015"
   list:
@@ -722,7 +667,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Fetty Wap
     album: Fetty Wap
@@ -733,7 +677,6 @@
     favorite_track: Trap Queen
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: King Gizzard & The Lizard Wizard
     album: Paper Mâché Dream Balloon
@@ -744,7 +687,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Radioactivity
     album: Silent Kill
@@ -753,7 +695,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: MisterWives
     album: Our Own House
@@ -762,7 +703,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Teenage Bottlerocket
     album: Tales From Wyoming
@@ -771,7 +711,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: The Decline
     album: Resister
@@ -780,7 +719,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: The Expanders
     album: Hustling Culture
@@ -789,7 +727,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Foxing
     album: Dealer
@@ -798,7 +735,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Smallpools
     album: LOVETAP!
@@ -807,7 +743,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: CHVRCHES
     album: Every Open Eye
@@ -816,7 +751,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
 - year: "2014"
   list:
@@ -827,7 +761,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Bear Hands
     album: Distraction
@@ -836,7 +769,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Bleachers
     album: Strange Desire
@@ -845,7 +777,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: The Copyrights
     album: Report
@@ -854,7 +785,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Deleted Scenes
     album: Lithium Burn
@@ -863,7 +793,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: King Gizzard & The Lizard Wizard
     album: Oddments
@@ -872,7 +801,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Future Islands
     album: Singles
@@ -881,7 +809,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Lo-Fang
     album: Blue Film
@@ -890,7 +817,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Skaters
     album: Manhattan
@@ -899,7 +825,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: SOJA
     album: Amid The Noise And Haste
@@ -908,7 +833,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Tokyo Police Club
     album: Forcefield
@@ -917,7 +841,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
 - year: "2013"
   list:
@@ -928,7 +851,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Banquets
     album: Banquets
@@ -937,7 +859,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Conditions
     album: Full Of War
@@ -946,7 +867,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: The Fourth Estate
     album: The Costs of Living
@@ -955,7 +875,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Har Mar Superstar
     album: Bye Bye 17
@@ -964,7 +883,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Old Man Markley
     album: Down Side Up
@@ -973,7 +891,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Radioactivity
     album: Radioactivity
@@ -982,7 +899,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Sarabix
     album: Krakatoa
@@ -991,7 +907,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Sigur Rós
     album: Kveikur
@@ -1000,7 +915,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: This Town Needs Guns
     album: 13.0.0.0.0
@@ -1009,7 +923,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
 - year: "2012"
   list:
@@ -1020,7 +933,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Athletics
     album: Who You Are Is Not Enough
@@ -1029,7 +941,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Enter Shikari
     album: A Flash Flood Of Colour
@@ -1038,7 +949,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Belie My Burial
     album: Pale Beyond
@@ -1047,7 +957,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Sigur Rós
     album: Valtari
@@ -1056,7 +965,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Paul Banks
     album: Banks
@@ -1065,7 +973,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Symphony Of Distraction
     album: Call It Off, John
@@ -1074,7 +981,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Mrs. Magician
     album: Strange Heaven
@@ -1085,7 +991,6 @@
     favorite_track: There Is No God
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Pinback
     album: Information Retrieved
@@ -1094,7 +999,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Voodoo Glow Skulls
     album: Break The Spell
@@ -1103,7 +1007,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: The Menzingers
     album: On The Impossible Past
@@ -1112,7 +1015,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Lana Del Rey
     album: Born To Die
@@ -1121,7 +1023,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Pennywise
     album: All Or Nothing
@@ -1130,7 +1031,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Teenage Bottlerocket
     album: Freak Out!
@@ -1139,7 +1039,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
 - year: "2011"
   list:
@@ -1150,7 +1049,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: The Vaccines
     album: What Did You Expect from the Vaccines?
@@ -1159,7 +1057,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Black Lips
     album: Arabia Mountain
@@ -1168,7 +1065,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: The Bride
     album: President Rd
@@ -1177,7 +1073,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Five O'Clock Heroes
     album: Different Times
@@ -1186,7 +1081,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: David Bazan
     album: Strange Negotiations
@@ -1195,7 +1089,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Tennis
     album: Cape Dory
@@ -1204,7 +1097,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: The Decline
     album: Are You Gonna Eat That?
@@ -1213,7 +1105,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Hands
     album: Give Me Rest
@@ -1222,7 +1113,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: The Expanders
     album: The Expanders
@@ -1231,7 +1121,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Dirty Beaches
     album: Badlands
@@ -1240,7 +1129,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Forus
     album: We
@@ -1249,7 +1137,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: I See Stars
     album: The End Of The World Party
@@ -1258,7 +1145,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Scattered Trees
     album: Sympathy
@@ -1267,7 +1153,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: The Pains Of Being Pure At Heart
     album: Belong
@@ -1276,7 +1161,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: How Dare You
     album: The King, the Clown and Colonel
@@ -1285,7 +1169,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Nothington
     album: Borrowed Time
@@ -1294,7 +1177,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
 - year: "2010"
   list:
@@ -1305,7 +1187,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Affiance
     album: No Secret Revealed
@@ -1314,7 +1195,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: The Black Keys
     album: Brothers
@@ -1323,7 +1203,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Conditions
     album: Fluorescent Youth
@@ -1332,7 +1211,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: The Decline
     album: I'm Not Gonna Lie to You
@@ -1341,7 +1219,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Fifty Stars Anger
     album: Mind Grenades for The Revolution
@@ -1350,7 +1227,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Golliwog
     album: Plague Allegiance
@@ -1359,7 +1235,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: The Growlers
     album: Hot Tropics
@@ -1368,7 +1243,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: La Vida Bohème
     album: Nuestra
@@ -1377,7 +1251,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Miami Horror
     album: Illumination
@@ -1386,7 +1259,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Various Artists
     album: Red Dead Redemption Original Soundtrack
@@ -1395,7 +1267,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Against Me!
     album: White Crosses
@@ -1404,7 +1275,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
 - year: "2009"
   list:
@@ -1415,7 +1285,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Horse The Band
     album: Desperate Living
@@ -1424,7 +1293,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Edward Sharpe & The Magnetic Zeros
     album: Up from Below
@@ -1433,7 +1301,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Propagandhi
     album: Supporting Caste
@@ -1442,7 +1309,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: fun.
     album: Aim and Ignite
@@ -1451,7 +1317,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Julian Plenti
     album: Julian Plenti Is... Skyscraper
@@ -1460,7 +1325,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Cobra Skulls
     album: American Rubicon
@@ -1469,7 +1333,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: La Roux
     album: La Roux
@@ -1478,7 +1341,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Imogen Heap
     album: Ellipse
@@ -1487,7 +1349,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Killswitch Engage
     album: Killswitch Engage
@@ -1498,7 +1359,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Enter Shikari
     album: Common Dreads
@@ -1507,7 +1367,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Strike Anywhere
     album: Iron Front
@@ -1516,7 +1375,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: The Avett Brothers
     album: I and Love and You
@@ -1527,7 +1385,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: This Is A Standoff
     album: Be Disappointed
@@ -1539,7 +1396,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: The Raveonettes
     album: In And Out Of Control
@@ -1548,7 +1404,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Mumford & Sons
     album: Sigh No More
@@ -1560,7 +1415,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
 - year: "2008"
   list:
@@ -1571,7 +1425,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: No Use For A Name
     album: The Feel Good Record of the Year
@@ -1580,7 +1433,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Jay Tholen
     album: Epidemic
@@ -1589,7 +1441,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Kanye West
     album: 808s & Heartbreak
@@ -1598,7 +1449,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Paul Gonzenbach / Baby Panda
     album: Avalanche Kiss
@@ -1608,7 +1458,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Smash the Statues
     album: When Fear Is All Around Us
@@ -1617,7 +1466,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Black President
     album: Black President
@@ -1626,7 +1474,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Pendulum
     album: In Silico
@@ -1635,7 +1482,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Crystal Castles
     album: Crystal Castles
@@ -1644,7 +1490,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Dillinger Four
     album: C I V I L W A R
@@ -1653,7 +1498,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Atlas Losing Grip
     album: Shut the World Out
@@ -1662,7 +1506,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Frightened Rabbit
     album: The Midnight Organ Fight
@@ -1671,7 +1514,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Handheld
     album: Handheld
@@ -1680,7 +1522,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Santigold
     album: Santigold
@@ -1689,7 +1530,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Xploding Plastix
     album: Treated Timber Resists Rot
@@ -1698,7 +1538,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
 - year: "2007"
   list:
@@ -1709,7 +1548,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Cobra Skulls
     album: Sitting Army
@@ -1718,7 +1556,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Grouper
     album: Cover the Windows and the Walls
@@ -1742,7 +1579,6 @@
       What you're left with is a beautiful and mysterious soundscape that doesn't
       lend itself to singles, but rather must be taken as a whole work."
     genius_link: ''
-
     switch_sort: false
   - artist: Murcof
     album: Cosmos
@@ -1751,7 +1587,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Chief
     album: Provocation Of The Nation
@@ -1760,7 +1595,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Robert Plant & Alison Krauss
     album: Raising Sand
@@ -1769,7 +1603,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Explosions In The Sky
     album: All of a Sudden I Miss Everyone
@@ -1778,7 +1611,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Angels & Airwaves
     album: I-Empire
@@ -1787,7 +1619,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Aspects of Physics
     album: 'Marginalized Information Forms 2: Cummulative ErRror'
@@ -1796,7 +1627,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Tegan and Sara
     album: The Con
@@ -1805,7 +1635,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Pour Habit
     album: Suiticide
@@ -1814,7 +1643,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
 - year: "2006"
   list:
@@ -1837,7 +1665,6 @@
     tags: []
     favorite_track: ''
     genius_link: ''
-
     switch_sort: false
   - artist: DragonForce
     album: Inhuman Rampage
@@ -1846,7 +1673,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Angels & Airwaves
     album: We Don't Need To Whisper
@@ -1855,7 +1681,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: The Sounds
     album: Dying To Say This To You
@@ -1864,7 +1689,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: NOFX
     album: Wolves in Wolves' Clothing
@@ -1873,7 +1697,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Killswitch Engage
     album: As Daylight Dies
@@ -1882,7 +1705,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Kevin Carafa
     album: Sick Sad World
@@ -1891,7 +1713,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: The Format
     album: Dog Problems
@@ -1900,7 +1721,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: The Streets
     album: The Hardest Way to Make An Easy Living
@@ -1909,7 +1729,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: The Fratellis
     album: Costello Music
@@ -1918,7 +1737,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Anti-Flag
     album: For Blood And Empire
@@ -1927,7 +1745,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Brandtson
     album: Hello, Control
@@ -1953,7 +1770,6 @@
       and danceable album that is a lot of fun and delivers on every track. Each song
       has something to add to the album and I still keep returning to it years later."
     genius_link: ''
-
     switch_sort: false
   - artist: New Found Glory
     album: Coming Home
@@ -1962,7 +1778,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: The Coup
     album: Pick A Bigger Weapon
@@ -1971,7 +1786,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
 - year: "2005"
   list:
@@ -1982,7 +1796,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Grouper
     album: Way Their Crept
@@ -1991,7 +1804,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Headphones
     album: Headphones
@@ -2000,7 +1812,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Johnathan Rice
     album: Trouble Is Real
@@ -2009,7 +1820,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Murcof
     album: Remembranza
@@ -2018,7 +1828,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: MxPx
     album: Panic
@@ -2027,7 +1836,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Pendulum
     album: Hold Your Colour
@@ -2036,7 +1844,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Team Sleep
     album: Team Sleep
@@ -2045,7 +1852,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: The Jim Yoshii Pile-Up
     album: Picks Us Apart
@@ -2054,7 +1860,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: VNV Nation
     album: Matter + Form
@@ -2063,7 +1868,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: A Wilhelm Scream
     album: Ruiner
@@ -2072,7 +1876,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Reggie And The Full Effect
     album: Songs Not to Get Married to
@@ -2081,7 +1884,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: The Rocket Summer
     album: Hello, Good Friend.
@@ -2090,7 +1892,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
 - year: "2004"
   list:
@@ -2101,7 +1902,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Chad Vangaalen
     album: Infiniheart
@@ -2110,7 +1910,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Further Seems Forever
     album: Hide Nothing
@@ -2119,7 +1918,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Interpol
     album: Antics
@@ -2130,7 +1928,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Midtown
     album: Forget What You Know
@@ -2139,7 +1936,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Muse
     album: Absolution
@@ -2148,7 +1944,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Pedro The Lion
     album: Achilles' Heel
@@ -2165,7 +1960,6 @@
 
       The album is a collection of dark stories that list a number of weaknesses that Bazan was struggling with; whether they be his bandmates, his faith, drinking, or love.
     genius_link: ''
-
     switch_sort: false
   - artist: Ratatat
     album: Ratatat
@@ -2174,7 +1968,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: The Killers
     album: Hot Fuss
@@ -2183,7 +1976,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: The Streets
     album: A Grand Don't Come For Free
@@ -2192,7 +1984,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Death From Above 1979
     album: You're A Woman, I'm A Machine
@@ -2201,7 +1992,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Joy Electric
     album: Hello Mannequin
@@ -2210,7 +2000,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Killswitch Engage
     album: The End Of Heartache
@@ -2219,7 +2008,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Kings of Leon
     album: Aha Shake Heartbreak
@@ -2228,7 +2016,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Pinback
     album: Summer In Abaddon
@@ -2237,7 +2024,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Say Anything
     album: "...Is a Real Boy"
@@ -2246,7 +2032,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
 - year: "2003"
   list:
@@ -2257,7 +2042,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Cursive
     album: The Ugly Organ
@@ -2266,7 +2050,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Dolorean
     album: Not Exotic
@@ -2281,7 +2064,6 @@
 
       So jealous of James' writing was I that I once lied to an old girlfriend that I had written _Hannibal, MO_ when she heard me sing it for her on a dark summer night during a power outage in Manhattan. His persistent belief that he is not worthy of redemption is so powerful here and his soft resignation to it strikes me right in my heart. A man sits in prison after the unfortunate death of his lover announces that "Her father says he'll shoot me down, if I don't do it myself."
     genius_link: ''
-
     switch_sort: false
   - artist: M83
     album: Dead Cities, Red Seas & Lost Ghosts
@@ -2290,7 +2072,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: The Mars Volta
     album: Deloused in the Comatorium
@@ -2299,7 +2080,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: The Microphones
     album: Mount Eerie
@@ -2308,7 +2088,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: The Sounds
     album: Living In America
@@ -2317,7 +2096,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: The Wrens
     album: The Meadowlands
@@ -2326,7 +2104,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Wolfsheim
     album: Casting Shadows
@@ -2335,7 +2112,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Vaux
     album: There Must be Some Way to Stop Them
@@ -2344,7 +2120,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Azure Ray
     album: Hold On Love
@@ -2353,7 +2128,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: The Postal Service
     album: Give Up
@@ -2362,7 +2136,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Cex
     album: Being Ridden
@@ -2371,7 +2144,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Horse The Band
     album: R. Borlax
@@ -2380,7 +2152,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: The Format
     album: Interventions and Lullabies
@@ -2389,7 +2160,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: The Rocket Summer
     album: Calendar Days
@@ -2398,7 +2168,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
 - year: "2002"
   list:
@@ -2409,7 +2178,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Damien Jurado
     album: I Break Chairs
@@ -2418,7 +2186,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Hot Rod Circuit
     album: Sorry About Tomorrow
@@ -2427,7 +2194,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Iron & Wine
     album: The Creek Drank the Cradle
@@ -2436,7 +2202,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Kind of Like Spitting
     album: One Hundred Dollar Room
@@ -2445,7 +2210,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: No Use For A Name
     album: Hard Rock Bottom
@@ -2454,7 +2218,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Pedro The Lion
     album: Control
@@ -2484,7 +2247,6 @@
     spotify_link: spotify:album:3WPhii5HmncMeCKLHZUePr
     favorite_track: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Scientific
     album: From the Nest of Idea
@@ -2494,7 +2256,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: The Anniversary
     album: Your Majesty
@@ -2515,7 +2276,6 @@
     tags: []
     favorite_track: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Interpol
     album: Turn On The Bright Lights
@@ -2524,7 +2284,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Bright Eyes
     album: Lifted or The Story Is in the Soil, Keep Your Ear to the Ground
@@ -2533,7 +2292,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Coldplay
     album: A Rush of Blood to the Head
@@ -2542,7 +2300,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Hot Hot Heat
     album: Make Up The Breakdown
@@ -2551,7 +2308,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Seldom
     album: Romance
@@ -2560,7 +2316,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Unsung Zeros
     album: The People Mover
@@ -2569,7 +2324,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
 - year: "2001"
   list:
@@ -2580,7 +2334,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Andrew W.K.
     album: I Get Wet
@@ -2589,7 +2342,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Craig's Brother
     album: Lost At Sea
@@ -2598,7 +2350,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Dashboard Confessional
     album: The Places You Have Come to Fear the Most
@@ -2607,7 +2358,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Five Iron Frenzy
     album: 'Five Iron Frenzy 2: Electric Boogaloo'
@@ -2616,7 +2366,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Onesidezero
     album: Is This Room Getting Smaller?
@@ -2625,7 +2374,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Osker
     album: Idle Will Kill
@@ -2634,7 +2382,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Pinback
     album: Blue Screen Life
@@ -2643,7 +2390,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Saves The Day
     album: Stay What You Are
@@ -2652,7 +2398,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: The Appleseed Cast
     album: Low Level Owl
@@ -2661,7 +2406,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: The Jim Yoshii Pile-Up
     album: It's Winter Here
@@ -2670,7 +2414,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Alkaline Trio
     album: From Here to Infirmary
@@ -2679,7 +2422,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: The Ataris
     album: End Is Forever
@@ -2688,7 +2430,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Explosions In The Sky
     album: Those Who Tell the Truth Shall Die, Those Who Tell the Truth Shall Live
@@ -2698,7 +2439,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Further Seems Forever
     album: The Moon Is Down
@@ -2707,7 +2447,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: My Hotel Year
     album: The Composition of Ending and Phrasing
@@ -2717,7 +2456,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: System Of A Down
     album: Toxicity
@@ -2726,7 +2464,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
 - year: "2000"
   list:
@@ -2737,7 +2474,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Coldplay
     album: Parachutes
@@ -2746,7 +2482,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Dogwood
     album: Building A Better Me
@@ -2755,7 +2490,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Elliott
     album: False Cathedrals
@@ -2764,7 +2498,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Godspeed You! Black Emperor
     album: Lift Your Skinny Fists Like Antennas to Heaven
@@ -2773,7 +2506,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: MxPx
     album: The Ever Passing Moment
@@ -2782,7 +2514,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: New Found Glory
     album: New Found Glory
@@ -2791,7 +2522,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Pedro The Lion
     album: Winners Never Quit
@@ -2800,7 +2530,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Sunny Day Real Estate
     album: The Rising Tide
@@ -2835,7 +2564,6 @@
       with it's driving beat and whining guitars--that remind me of the band I know
       they once were."
     genius_link: ''
-
     switch_sort: false
   - artist: The White Octave
     album: Style No. 6312
@@ -2844,7 +2572,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Dead Prez
     album: Let's Get Free
@@ -2853,7 +2580,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Slick Shoes
     album: Wake Up Screaming
@@ -2862,7 +2588,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: NOFX
     album: Pump Up The Valuum
@@ -2871,7 +2596,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Millencolin
     album: Pennybridge Pioneers
@@ -2880,7 +2604,6 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
   - artist: Teen Idols
     album: Full Leather Jacket
@@ -2889,5 +2612,4 @@
     favorite_track: ''
     text: ''
     genius_link: ''
-
     switch_sort: false
