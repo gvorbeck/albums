@@ -39,8 +39,8 @@
     text: ''
     tags:
     - country
-    spotify_link: ''
-    genius_link: ''
+    spotify_link: spotify:album:5jKUF2OqTMo2P6pd9N8M1F
+    genius_link: https://genius.com/albums/Jason-hawk-harris/Love-the-dark
     switch_sort: true
   - album: Look Me In The Eye
     artist: Mermaidens
