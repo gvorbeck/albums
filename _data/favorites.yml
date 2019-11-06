@@ -1039,14 +1039,14 @@
     text: ''
     genius_link: ''
     switch_sort: false
-  - artist: The Vaccines
+  - artist: Vaccines, The
     album: What Did You Expect from the Vaccines?
     spotify_link: spotify:album:6eWtdQm0hSlTgpkbw4LaBG
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
+    switch_sort: true
   - artist: Black Lips
     album: Arabia Mountain
     spotify_link: spotify:album:2gfAAM6Uwp2XR1PjJscw33
@@ -1055,14 +1055,14 @@
     text: ''
     genius_link: ''
     switch_sort: false
-  - artist: The Bride
+  - artist: Bride, The
     album: President Rd
     spotify_link: spotify:album:4LM8ofSW0JjPZasZLkTbUe
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
+    switch_sort: true
   - artist: Five O'Clock Heroes
     album: Different Times
     spotify_link: spotify:album:6GvdlYJmJzRiNEx67nvHVF
@@ -1071,14 +1071,14 @@
     text: ''
     genius_link: ''
     switch_sort: false
-  - artist: David Bazan
+  - artist: Bazan, David
     album: Strange Negotiations
     spotify_link: spotify:album:0teCneZSSxaicWL96S1bfH
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
+    switch_sort: true
   - artist: Tennis
     album: Cape Dory
     spotify_link: spotify:album:7EdH3HFfkPD44j2uh4HYNr
@@ -1087,14 +1087,14 @@
     text: ''
     genius_link: ''
     switch_sort: false
-  - artist: The Decline
+  - artist: Decline, The
     album: Are You Gonna Eat That?
     spotify_link: spotify:album:7eWdY196pAYZun7x4RqLS9
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
+    switch_sort: true
   - artist: Hands
     album: Give Me Rest
     spotify_link: spotify:album:7kxHA6L2NxB1YBvlp7Je4L
@@ -1103,14 +1103,14 @@
     text: ''
     genius_link: ''
     switch_sort: false
-  - artist: The Expanders
+  - artist: Expanders, The
     album: The Expanders
     spotify_link: spotify:album:1zKyHrPc54uJDWDSreBC9T
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
+    switch_sort: true
   - artist: Dirty Beaches
     album: Badlands
     spotify_link: spotify:album:5PV54mAI2Vrlbp1SfjeD6a
@@ -1143,14 +1143,14 @@
     text: ''
     genius_link: ''
     switch_sort: false
-  - artist: The Pains Of Being Pure At Heart
+  - artist: Pains Of Being Pure At Heart, The
     album: Belong
     spotify_link: spotify:album:7Hif0SCVj3oHys2QsTSWiZ
     tags: []
     favorite_track: ''
     text: ''
     genius_link: ''
-    switch_sort: false
+    switch_sort: true
   - artist: How Dare You
     album: The King, the Clown and Colonel
     spotify_link: spotify:album:6vxQr0zsENULpdu32O9gpJ
