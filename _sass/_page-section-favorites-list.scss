@@ -45,6 +45,10 @@
     }
 }
 
+.favorites__item + .favorites__item {
+    box-shadow: 0 rem(-10px) rem(10px) rem(-6px) rgba(0,0,0,0.23)
+}
+
 .year__header {
     padding: 1rem;
 }

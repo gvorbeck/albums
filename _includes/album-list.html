@@ -4,6 +4,7 @@
         <li class="album-list__item">
             <div class="album">
                 {% include tape.svg %}
+                {% comment %}This is for reordering names that start with in/definite articles or personal names.{% endcomment %}
                 {% capture artistName %}
                     {%- if albumItem.switch_sort -%}
                         {{ albumItem.artist | split: ", " | last }} {{ albumItem.artist | split: ", " | first }}
