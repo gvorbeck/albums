@@ -28,6 +28,10 @@ fields:
       description: The name(s) of the Artists involved with this album.
       config:
         required: true
+    - name: last_name
+      type: boolean
+      label: Alphabetize by Last Name
+      description: Should this artist should be organized using a last name?
     - type: text
       name: favorite_track
       label: Favorite Track
