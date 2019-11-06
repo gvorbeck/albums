@@ -5,15 +5,16 @@
             <div class="album">
                 {% include tape.svg %}
                 {% capture artistName %}
-                    {% if albumItem.switch_sort %}
-                    yay
-                    {% endif %}
+                    {%- if albumItem.switch_sort -%}
+                        {{ albumItem.artist | split: ", " | last }} {{ albumItem.artist | split: ", " | first }}
+                    {%- else -%}
+                        {{- albumItem.artist -}}
+                    {%- endif -%}
                 {% endcapture %}
-                {{ artistName }}
-                <button class="album__button" aria-label="Open {{ albumItem.album }} by {{ albumItem.artist }}"
-                data-artist-url="{{ albumItem.artist | url_encode }}"
+                <button class="album__button" aria-label="Open {{ albumItem.album }} by {{ artistName }}"
+                data-artist-url="{{ artistName | url_encode }}"
                 data-album-url="{{ albumItem.album | url_encode }}"
-                data-artist="{{ albumItem.artist }}"
+                data-artist="{{ artistName }}"
                 data-album="{{ albumItem.album }}"
                 {% comment %}This precludes JS from adding a data-thumb attribute from last.fm.{% endcomment %}
                 {% if albumItem.thumb %}
@@ -38,7 +39,7 @@
                   tabindex=-1
                 {% endunless %}>
                     <p class="byline">
-                        <span class="byline__title">{{ albumItem.album }}</span> by <span class="byline__artist">{{ albumItem.artist }}</span>
+                        <span class="byline__title">{{ albumItem.album }}</span> by <span class="byline__artist">{{ artistName }}</span>
                     </p>
                 </button>
             </div>
