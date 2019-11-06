@@ -133,7 +133,7 @@
     genius_link: ''
     switch_sort: false
   - album: '"Let''s Rock"'
-    artist: The Black Keys
+    artist: Black Keys, The
     favorite_track: ''
     text: ''
     tags:
@@ -141,7 +141,7 @@
     - garage.rock
     spotify_link: spotify:album:0aA9rYw8PEv9G7tVIJ9dKg
     genius_link: ''
-    switch_sort: false
+    switch_sort: true
   - album: Gold & Grey
     artist: Baroness
     favorite_track: ''
