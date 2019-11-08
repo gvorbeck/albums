@@ -1,6 +1,17 @@
 ---
 - year: "2019"
   list:
+  - album: You Deserve Love
+    artist: White Reaper
+    switch_sort: false
+    favorite_track: ''
+    text: ''
+    tags:
+    - power.pop
+    - pop.punk
+    - garage.rock
+    spotify_link: spotify:album:2hzRKcoWZUPY5M1qMrgtmR
+    genius_link: ''
   - album: Cry
     artist: Cigarettes After Sex
     favorite_track: ''
