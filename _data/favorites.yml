@@ -1169,6 +1169,16 @@
     switch_sort: false
 - year: "2010"
   list:
+  - album: Crazy For You
+    artist: Best Coast
+    switch_sort: false
+    favorite_track: ''
+    text: ''
+    tags:
+    - surf.rock
+    - garage.rock
+    spotify_link: spotify:album:2lLjGAmDHjCNiydZ4Yp8bT
+    genius_link: ''
   - artist: Decibully
     album: World Travels Fast
     spotify_link: spotify:album:5I2qbAY6jdllUaIMPEehmZ
