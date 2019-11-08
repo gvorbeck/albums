@@ -2056,6 +2056,17 @@
     switch_sort: false
 - year: "2003"
   list:
+  - album: Guilt Beats Hate
+    artist: Benton Falls
+    switch_sort: false
+    favorite_track: ''
+    text: ''
+    tags:
+    - indie.rock
+    - punk.adjacent
+    - emo
+    spotify_link: spotify:album:2iCJk7cYHGIHHCuSzT8MOI
+    genius_link: ''
   - artist: Copeland
     album: Beneath Medicine Tree
     spotify_link: spotify:album:5aF786F2yHxfNbto7ej8d0
