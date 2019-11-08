@@ -390,6 +390,17 @@
     switch_sort: false
 - year: "2017"
   list:
+  - album: The Demonstration
+    artist: Drab Majesty
+    switch_sort: false
+    favorite_track: ''
+    text: ''
+    tags:
+    - synth.pop
+    - new.wave
+    - goth.wave
+    spotify_link: spotify:album:0FiYugoYnbpVfMw6Ade35J
+    genius_link: ''
   - artist: Bad Cop, Bad Cop
     album: Warriors
     tags:
