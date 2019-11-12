@@ -1,6 +1,17 @@
 ---
 - year: "2019"
   list:
+  - album: You Deserve Love
+    artist: White Reaper
+    switch_sort: false
+    favorite_track: ''
+    text: ''
+    tags:
+    - power.pop
+    - pop.punk
+    - garage.rock
+    spotify_link: spotify:album:2hzRKcoWZUPY5M1qMrgtmR
+    genius_link: ''
   - album: Cry
     artist: Cigarettes After Sex
     favorite_track: ''
@@ -390,6 +401,17 @@
     switch_sort: false
 - year: "2017"
   list:
+  - album: The Demonstration
+    artist: Drab Majesty
+    switch_sort: false
+    favorite_track: ''
+    text: ''
+    tags:
+    - synth.pop
+    - new.wave
+    - goth.wave
+    spotify_link: spotify:album:0FiYugoYnbpVfMw6Ade35J
+    genius_link: ''
   - artist: Bad Cop, Bad Cop
     album: Warriors
     tags:
@@ -1169,6 +1191,16 @@
     switch_sort: false
 - year: "2010"
   list:
+  - album: Crazy For You
+    artist: Best Coast
+    switch_sort: false
+    favorite_track: ''
+    text: ''
+    tags:
+    - surf.rock
+    - garage.rock
+    spotify_link: spotify:album:2lLjGAmDHjCNiydZ4Yp8bT
+    genius_link: ''
   - artist: Decibully
     album: World Travels Fast
     spotify_link: spotify:album:5I2qbAY6jdllUaIMPEehmZ
@@ -2024,6 +2056,17 @@
     switch_sort: false
 - year: "2003"
   list:
+  - album: Guilt Beats Hate
+    artist: Benton Falls
+    switch_sort: false
+    favorite_track: ''
+    text: ''
+    tags:
+    - indie.rock
+    - punk.adjacent
+    - emo
+    spotify_link: spotify:album:2iCJk7cYHGIHHCuSzT8MOI
+    genius_link: ''
   - artist: Copeland
     album: Beneath Medicine Tree
     spotify_link: spotify:album:5aF786F2yHxfNbto7ej8d0

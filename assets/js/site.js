@@ -98,7 +98,7 @@ function populateSpotlight(data, colors) {
     }
     // External links
     if (data.lastfm || data.genius || data.spotify) {
-        let thisAlbumLinks = { lastfm:data.lastfm, genius:data.genius, spotify:data.spotify };
+        let thisAlbumLinks = { lastfm: data.lastfm, genius: data.genius, spotify: data.spotify };
 
         for (let i in thisAlbumLinks) {
             let link = SpotlightLinks.getElementsByClassName(i)[0];
@@ -170,6 +170,9 @@ function getAlbumData(data, btn) {
     if (data) {
         if (!btn.dataset.thumb) {
             btn.setAttribute("data-thumb", data.image[3]["#text"]);
+        }
+        if (data.url) {
+            btn.setAttribute("data-lastfm", data.url);
         }
         if (data.wiki && data.wiki.summary) {
             btn.setAttribute("data-wiki", data.wiki.summary);
