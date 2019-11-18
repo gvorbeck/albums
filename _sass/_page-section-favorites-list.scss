@@ -1,7 +1,7 @@
 .favorites {
     border-radius: rem(5px);
     overflow: hidden;
-
+//
     @for $i from 1 through length($colors--year-block) {
 
         .favorites__item:nth-child(#{length($colors--year-block)}n + #{$i}) {
@@ -10,15 +10,15 @@
             @if (lightness(nth($colors--year-block, $i)) > 58) {
                 color: darken(nth($colors--year-block, $i), 45%);
 
-                button {
-                    color: darken(nth($colors--year-block, $i), 45%);
-                }
+                // button {
+                    // background-color: darken(nth($colors--year-block, $i), 45%);
+                // }
             } @else {
                 color: lighten(nth($colors--year-block, $i), 45%);
 
-                button {
-                    color: lighten(nth($colors--year-block, $i), 45%);
-                }
+                // button {
+                    // background-color: lighten(nth($colors--year-block, $i), 45%);
+                // }
             }
 
             // This is here only for JS to get a computed background-color and color styles for the Spotlight.
@@ -44,13 +44,13 @@
         }
     }
 }
-
-.favorites__item + .favorites__item {
-    box-shadow: 0 rem(-10px) rem(10px) rem(-6px) rgba(0,0,0,0.23)
-}
-
+//
+// .favorites__item + .favorites__item {
+//     box-shadow: 0 rem(-10px) rem(10px) rem(-6px) rgba(0,0,0,0.23)
+// }
+//
 .year__header {
-    padding: 1rem;
+    margin-bottom: 1rem;
 }
 
 .year__title {
@@ -61,13 +61,17 @@
 }
 
 .year__button {
+    color: #000000;
+    background-color: rgba(#FFFFFF, .8);
+    mix-blend-mode: screen;
     font-size: 3rem;
     font-weight: 700;
-    border: .3rem solid;
     padding: .25rem .35rem;
+    width: 50%;
+    max-width: rem(300px);
     cursor: pointer;
     box-shadow: 0 0 0 rgba(0,0,0,0), 0 0 0 rgba(0,0,0,0);
-    transition: box-shadow .2s;
+    transition: all .1s ease-in-out;
 
     &:focus {
         outline: 0;
@@ -76,27 +80,24 @@
 
     &:hover {
         box-shadow: 0 rem(3px) rem(6px) rgba(0,0,0,0.16), 0 rem(3px) rem(6px) rgba(0,0,0,0.23);
+        background-color: rgba(#FFFFFF, .5);
     }
 }
-
-.year__content {}
 
 .album-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 0;
     overflow: hidden;
     height: 0;
 
     .favorites__item--open & {
-        padding: 1rem 1rem 1rem 0;
         height: auto;
     }
 }
 
 .album-list__item {
-    margin: 0 0 1rem 1rem;
+    margin: 0 1rem 1rem;
 }
 
 .album {
@@ -124,7 +125,6 @@
     height: 100%;
     box-shadow: 0 rem(3px) rem(6px) rgba(0,0,0,0.16), 0 rem(3px) rem(6px) rgba(0,0,0,0.23);
     cursor: pointer;
-    text-align: left;
     transition: box-shadow .2s;
     background-size: contain;
 
@@ -143,17 +143,23 @@
 }
 
 .byline {
-    display: none;
-    background-color: rgba(0,0,0,.9);
+    font-family: 'Merriweather', serif;
+    background-color: rgba(#000000, .9);
     position: absolute;
     bottom: 0;
+    left: 0;
     width: 100%;
-    font-family: 'Merriweather', serif;
-    padding: .5rem;
+    padding: 1rem;
     font-size: 1.25rem;
     line-height: 1.5;
     transition: all .2s;
     color: #FFFFFF;
+    text-align: left;
+    opacity: 0;
+
+    button:hover > & {
+        opacity: 1;
+    }
 }
 
 .byline__title {

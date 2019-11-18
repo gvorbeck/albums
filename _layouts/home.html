@@ -5,18 +5,18 @@ layout: default
     {% assign favorites = site.data.favorites | sort:"year" | reverse %}
     {% for favoritesItem in favorites %}
         <li class="favorites__item{% if forloop.first == true %} favorites__item--open{% endif %}">
-            <div class="year">
-                <div class="year__header">
-                    <h3 class="year__title"><button aria-label="{{ favoritesItem.year }}" class="year__button" title="Expand">{{ favoritesItem.year }}</button></h3>
-                </div>
-                <div class="year__content">
+            <article class="year">
+                <header class="year__header">
+                    <h1 class="year__title"><button aria-label="{{ favoritesItem.year }}" class="year__button" title="Expand">{{ favoritesItem.year }}</button></h1>
+                </header>
+                <section class="year__content">
                     {% if forloop.first == true %}
                         {% include album-list.html list=favoritesItem.list tab="true" %}
                     {% else %}
                         {% include album-list.html list=favoritesItem.list tab="false" %}
                     {% endif %}
-                </div>
-            </div>
+                </section>
+            </article>
         </li>
     {% endfor %}
 </ul>
