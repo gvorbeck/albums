@@ -31,6 +31,8 @@
         opacity: .5;
         fill: $color--light;
         max-height: rem(280px);
+        height: 100%;
+        width: 100%;
         filter: blur(#{rem(3px)});
     }
 }
