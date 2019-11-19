@@ -1,6 +1,17 @@
 ---
 - year: "2019"
   list:
+  - album: Silencia
+    artist: Hammock
+    switch_sort: false
+    favorite_track: ''
+    text: ''
+    tags:
+    - instrumental
+    - ambient
+    - orchestral
+    spotify_link: spotify:album:66DqsCid51MqdyOwBfoMEY
+    genius_link: ''
   - album: Altogether
     artist: Turnover
     switch_sort: false
