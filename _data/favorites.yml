@@ -1,17 +1,32 @@
 ---
 - year: "2019"
   list:
-  - album: You Deserve Love
-    artist: White Reaper
+  - album: Altogether
+    artist: Turnover
     switch_sort: false
     favorite_track: ''
     text: ''
     tags:
-    - power.pop
-    - pop.punk
-    - garage.rock
+    - smooth.jazz
+    - indie.pop
+    - post.punk
+    spotify_link: spotify:album:322Gl8hhheihCL7dJ0vsqT
+    genius_link: https://genius.com/albums/Turnover/Altogether
+  - album: You Deserve Love
+    artist: White Reaper
+    favorite_track: ''
+    text: |-
+      An amazing feat in creating a band name that perfectly conveys the sound of your music. These tunes are near perfect distillation of intimate afterglow. Brooklyn-based **Cigarettes After Sex** offer a beautiful selection of tracks in their sophomore album _Cry_.
+
+      The distant jangling of Greg Gonzalez's guitar sound is at once soothing as well as catchy, giving listeners brief reminders of **Elliott**'s _False Cathedrals_
+    tags:
+    - ambient
+    - post.rock
+    - slowcore
+    - dream.pop
     spotify_link: spotify:album:2hzRKcoWZUPY5M1qMrgtmR
     genius_link: ''
+    switch_sort: false
   - album: Cry
     artist: Cigarettes After Sex
     favorite_track: ''
