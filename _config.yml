@@ -21,11 +21,11 @@ description: >- # this means to ignore newlines until "baseurl:"
   I like to make lists and I like to listen to music. Not always at the same
   time, but here we are. My favorite albums of the year. For a lot of years!
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://music.iamgarrett.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jgvorbeck
 github_username:  gvorbeck
 github_repo: https://github.com/gvorbeck/albums
-forestry_admin: https://music.iamgarrett.com/admin/
+forestry_admin: /admin/
 
 # Build settings
 markdown: kramdown
