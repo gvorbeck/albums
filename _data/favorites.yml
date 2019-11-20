@@ -1,6 +1,16 @@
 ---
 - year: "2019"
   list:
+  - album: Hello Exile
+    artist: Menzingers, The
+    switch_sort: true
+    favorite_track: ''
+    text: ''
+    tags:
+    - punk.adjacent
+    - rock
+    spotify_link: spotify:album:5baJxk2fGaLorySaf6173S
+    genius_link: ''
   - album: Silencia
     artist: Hammock
     switch_sort: false
