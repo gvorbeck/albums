@@ -159,16 +159,16 @@
     spotify_link: spotify:album:0hr8J6RIFkr9KMiTat5d6A
     genius_link: ''
     switch_sort: false
-  - album: ZAM
-    artist: Frankie and the Witch Fingers
+  - album: Mother Nature
+    artist: Dangerous Summer, The
     favorite_track: ''
     text: ''
     tags:
-    - psychedelic.rock
-    - progressive.rock
-    spotify_link: spotify:album:5mF6x8IIiW30Ypwi8ybe8m
+    - emo
+    - punk.adjacent
+    spotify_link: spotify:album:5Mh4kAFfP8BXkhS6PAfx6H
     genius_link: ''
-    switch_sort: false
+    switch_sort: true
   - album: '"Let''s Rock"'
     artist: Black Keys, The
     favorite_track: ''
