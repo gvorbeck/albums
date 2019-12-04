@@ -1,6 +1,17 @@
 ---
 - year: "2019"
   list:
+  - album: Swungert
+    artist: COLOSSAL SQUID
+    switch_sort: false
+    favorite_track: ''
+    text: ''
+    tags:
+    - experimental
+    - electronic
+    - idm
+    spotify_link: spotify:album:70oAlTTzfDriM99CuAT8um
+    genius_link: ''
   - album: Hello Exile
     artist: Menzingers, The
     switch_sort: true
