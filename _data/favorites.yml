@@ -141,7 +141,10 @@
   - album: Infest The Rats' Nest
     artist: King Gizzard & The Lizard Wizard
     favorite_track: ''
-    text: ''
+    text: |-
+      **KGATLW** released two full-length albums this year, both dealing heavily with the issue of environmentalism, and both coming at the problems our planet face from wildly different directions. _Infest the Rats' Nest_ is the second release and takes a much harsher tone than its predecessor, _Fishing For Fishies_. If the message of _FFF_ is 'listen everybody, we're doing some pretty terrible things to our world, and if we don't take some pretty drastic reforms things will only get worse,' then _ItRN_'s is essentially, 'WE FUCKING TOLD YOU THIS WAS GOING TO HAPPEN AND NOW OUR SKIN IS MELTING KILL EVERYTHING AND EVERYONE.'
+
+      The band's attempt at classic thrash metal combines an apocalyptic science fiction story with music influenced by Motörhead and Slayer
     tags:
     - thrash.metal
     - heavy.metal
@@ -904,6 +907,14 @@
     switch_sort: false
 - year: "2013"
   list:
+  - album: Voices
+    artist: Phantogram
+    switch_sort: false
+    favorite_track: ''
+    text: ''
+    tags: []
+    spotify_link: ''
+    genius_link: ''
   - artist: Appleseed Cast, The
     album: Illumination Ritual
     spotify_link: spotify:album:4ZUpacHZD1ts1H37ms8iiG
