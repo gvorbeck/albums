@@ -1,0 +1,23 @@
+.year-block {
+
+    &__header {
+        background: rgba(#FFFFFF, .8);
+        width: calc(20% - .2rem);
+    }
+
+    &__button {
+        border: 0;
+        background: transparent;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        font-size: rem(48px);
+        font-weight: bold;
+        cursor: pointer;
+
+        &:hover,
+        &:focus {
+            background: #FFFFFF;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.album-list {
+    margin: 1rem 1rem 0;
+    // padding: 0 0 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    height: 0;
+    overflow: hidden;
+
+    &__item {
+        width: calc(20% - .8rem);
+        margin: 0 0 0 1rem;
+
+        &:nth-child(5n + 1) {
+            margin: 0;
+        }
+
+        &:nth-child(n + 6) {
+            margin-top: 1rem;
+        }
+    }
+}

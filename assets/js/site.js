@@ -1,5 +1,5 @@
 let albumButtons = document.getElementsByClassName("album__button"),
-    yearButtons  = document.getElementsByClassName("year__button"),
+    yearButtons  = document.getElementsByClassName("year-block__button"),
     btnInContext = 0;
 
 const SpotlightNav = document.getElementsByClassName("spotlight__nav")[0],
@@ -18,6 +18,32 @@ function getClosest(elem, selector) {
             return elem;
         }
     }
+}
+
+// Convert RGB color values to hex.
+function RGBToHex(r,g,b) {
+  r = r.toString(16);
+  g = g.toString(16);
+  b = b.toString(16);
+
+  if (r.length == 1)
+    r = "0" + r;
+  if (g.length == 1)
+    g = "0" + g;
+  if (b.length == 1)
+    b = "0" + b;
+
+  return r + g + b;
+}
+
+// Lighten or darken hex colors.
+function LightenDarkenColor(col, amt) {
+  let num = parseInt(col, 16);
+  let r = (num >> 16) + amt;
+  let b = ((num >> 8) & 0x00FF) + amt;
+  let g = (num & 0x0000FF) + amt;
+  let newColor = g | (b << 8) | (r << 16);
+  return newColor.toString(16);
 }
 
 // Function to get JSON from API source.
@@ -50,7 +76,7 @@ function clearSpotlight() {
     SpotlightReview.getElementsByTagName("DIV")[0].innerHTML = "";
 }
 
-function populateSpotlight(data, colors) {
+function populateSpotlight(data, color) {
     clearSpotlight();
 
     // Navigate Buttons behavior
@@ -73,21 +99,22 @@ function populateSpotlight(data, colors) {
     }
 
     // Colors!
-    document.getElementsByClassName("spotlight__box")[0].style.backgroundColor = colors[0];
-    document.getElementsByClassName("spotlight__box")[0].style.color = colors[1];
-
-    document.getElementsByClassName("spotlight__quick")[0].style.backgroundColor = colors[1];
-    document.getElementsByClassName("spotlight__quick")[0].style.color = colors[2];
-
-    for (let i = 0; i < SpotlightNav.getElementsByTagName("BUTTON").length; i++) {
-        SpotlightNav.getElementsByTagName("BUTTON")[i].style.backgroundColor = colors[2];
-    }
-    for (let i = 0; i < SpotlightNav.getElementsByTagName("DIV").length; i++) {
-        SpotlightNav.getElementsByTagName("DIV")[i].style.backgroundColor = colors[0];
-    }
-    for (let i = 0; i < SpotlightLinks.getElementsByTagName("LI").length; i++) {
-        SpotlightLinks.getElementsByTagName("A")[i].firstElementChild.style.fill = colors[0];
-    }
+    document.getElementsByClassName("spotlight__box")[0].style.backgroundColor = "#" + color;
+    // document.getElementsByClassName("spotlight__box")[0].style.backgroundColor = "#" + LightenDarkenColor(color, -40);
+    // document.getElementsByClassName("spotlight__box")[0].style.color = colors[1];
+    //
+    // document.getElementsByClassName("spotlight__quick")[0].style.backgroundColor = colors[1];
+    // document.getElementsByClassName("spotlight__quick")[0].style.color = colors[2];
+    //
+    // for (let i = 0; i < SpotlightNav.getElementsByTagName("BUTTON").length; i++) {
+    //     SpotlightNav.getElementsByTagName("BUTTON")[i].style.backgroundColor = colors[2];
+    // }
+    // for (let i = 0; i < SpotlightNav.getElementsByTagName("DIV").length; i++) {
+    //     SpotlightNav.getElementsByTagName("DIV")[i].style.backgroundColor = colors[0];
+    // }
+    // for (let i = 0; i < SpotlightLinks.getElementsByTagName("LI").length; i++) {
+    //     SpotlightLinks.getElementsByTagName("A")[i].firstElementChild.style.fill = colors[0];
+    // }
 
     // Album title and artist (headline)
     document.getElementsByClassName("spotlight__album")[0].appendChild(document.createTextNode(data.album));
@@ -142,9 +169,9 @@ function populateSpotlight(data, colors) {
 }
 
 function searchForEmptyOpenYears() {
-    for (let i = 0; i < document.getElementsByClassName("favorites")[0].children.length; i++) {
-        if (document.getElementsByClassName("favorites")[0].children[i].classList.contains("favorites__item--open") && !document.getElementsByClassName("favorites")[0].children[i].classList.contains("favorites__item--populated")) {
-            getAPIData(document.getElementsByClassName("favorites")[0].children[i]);
+    for (let i = 0; i < document.getElementsByClassName("year-list")[0].children.length; i++) {
+        if (document.getElementsByClassName("year-list")[0].children[i].classList.contains("year-list__item--open") && !document.getElementsByClassName("year-list")[0].children[i].classList.contains("year-list__item--populated")) {
+            getAPIData(document.getElementsByClassName("year-list")[0].children[i]);
         }
     }
 }
@@ -163,7 +190,7 @@ function getAPIData(yearBlock) {
             }
         });
     }
-    yearBlock.classList.add("favorites__item--populated");
+    yearBlock.classList.add("year-list__item--populated");
 }
 
 function getAlbumData(data, btn) {
@@ -187,12 +214,10 @@ for (let i = 0; i < albumButtons.length; i++) {
         // Allows user to navigate spotlight.
         btnInContext = this;
 
-        let colorDataContainer = window.getComputedStyle(getClosest(this, ".favorites__item"), ":before"),
-            colors             = [colorDataContainer.getPropertyValue('background-color'),
-                                  colorDataContainer.getPropertyValue('color'),
-                                  colorDataContainer.getPropertyValue('border-color')];
+        let colorDataContainer = window.getComputedStyle(getClosest(this, ".year-list__item")).getPropertyValue("background-image").split(","),
+            color = RGBToHex(parseInt(colorDataContainer[1].slice(5)), parseInt(colorDataContainer[2].slice(1)), parseInt(colorDataContainer[3].slice(1).slice(0, -1)));
 
-        populateSpotlight(this.dataset, colors);
+        populateSpotlight(this.dataset, color);
         document.body.classList.add("spotlight--open");
     });
 }
@@ -200,7 +225,7 @@ for (let i = 0; i < albumButtons.length; i++) {
 // Year button behavior
 for (let i = 0; i < yearButtons.length; i++) {
     yearButtons[i].addEventListener("click", function() {
-        getClosest(this, ".favorites__item").classList.toggle("favorites__item--open");
+        getClosest(this, ".year-list__item").classList.toggle("year-list__item--open");
         searchForEmptyOpenYears();
     })
 }
@@ -235,7 +260,7 @@ document.addEventListener("click", function(event) {
     }
 });
 
-// If the site loaded with a populated ul.favorites
-if (document.getElementsByClassName("favorites")[0].children.length) {
+// If the site loaded with a populated ul.year-list
+if (document.getElementsByClassName("year-list")[0].children.length) {
     searchForEmptyOpenYears();
 }

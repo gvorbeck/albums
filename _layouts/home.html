@@ -1,21 +1,21 @@
 ---
 layout: default
 ---
-<ul class="favorites">
+<ul class="year-list">
     {% assign favorites = site.data.favorites | sort:"year" | reverse %}
     {% for favoritesItem in favorites %}
-        <li class="favorites__item{% if forloop.first == true %} favorites__item--open{% endif %}">
-            <article class="year">
-                <header class="year__header">
-                    <h1 class="year__title"><button aria-label="{{ favoritesItem.year }}" class="year__button" title="Expand">{{ favoritesItem.year }}</button></h1>
+        <li class="year-list__item{% if forloop.first == true %} year-list__item--open{% endif %}">
+            <article class="year-block">
+                <header class="year-block__header">
+                    <h1 class="year-block__title">
+                        <button class="year-block__button" title="Open/Close" aria-label="{{ favoritesItem.year }}">{{ favoritesItem.year }}</button>
+                    </h1>
                 </header>
-                <section class="year__content">
-                    {% if forloop.first == true %}
-                        {% include album-list.html list=favoritesItem.list tab="true" %}
-                    {% else %}
-                        {% include album-list.html list=favoritesItem.list tab="false" %}
-                    {% endif %}
-                </section>
+                {% if forloop.first == true %}
+                    {% include album-list.html list=favoritesItem.list tab="true" %}
+                {% else %}
+                    {% include album-list.html list=favoritesItem.list tab="false" %}
+                {% endif %}
             </article>
         </li>
     {% endfor %}

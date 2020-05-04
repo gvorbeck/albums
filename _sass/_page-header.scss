@@ -1,37 +1,69 @@
 .site-header {
-    font-size: 5rem;
-    font-weight: 700;
+    font-size: rem(80px);
+    line-height: 1.25;
+    font-weight: bold;
+    color: rgba(#FFFFFF, .5);
     text-transform: uppercase;
     position: relative;
 
-    @include media(s) {
-        font-size: 3rem;
-    }
-
-    &__pretitle {
-        opacity: .5;
-    }
-
     &__title {
         display: inline;
-        color: $color--light;
+        color: $color--title;
     }
 
     &__subtitle {
-        font-weight: 400;
+        color: rgba(#FFFFFF, 1);
         font-size: 1rem;
-        line-height: 1.5;
+        font-weight: normal;
     }
 
     &__logo {
+        $width: #{rem(500px)};
+        fill: $color--title;
+        width: $width;
+        opacity: .5;
+        filter: blur(#{rem(3px)});
         position: absolute;
         top: 0;
+        left: calc(50% - (#{$width} / 2));
         z-index: -1;
-        opacity: .5;
-        fill: $color--light;
-        max-height: rem(280px);
-        height: 100%;
-        width: 100%;
-        filter: blur(#{rem(3px)});
     }
 }
+
+// .site-header {
+//     font-size: 5rem;
+//     font-weight: 700;
+//     text-transform: uppercase;
+//     position: relative;
+//
+//     @include media(s) {
+//         font-size: 3rem;
+//     }
+//
+//     &__pretitle {
+//         opacity: .5;
+//     }
+//
+//     &__title {
+//         display: inline;
+//         color: $color--light;
+//     }
+//
+//     &__subtitle {
+//         font-weight: 400;
+//         font-size: 1rem;
+//         line-height: 1.5;
+//     }
+//
+//     &__logo {
+//         position: absolute;
+//         top: 0;
+//         z-index: -1;
+//         opacity: .5;
+//         fill: $color--light;
+//         max-height: rem(280px);
+//         height: 100%;
+//         width: 100%;
+//         filter: blur(#{rem(3px)});
+//     }
+// }
