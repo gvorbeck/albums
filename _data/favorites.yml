@@ -1,6 +1,70 @@
 ---
 - year: "2020"
   list:
+  - album: Celebration
+    artist: Music Band
+    switch_sort: false
+    favorite_track: ''
+    text: ''
+    tags: []
+    spotify_link: ''
+    genius_link: ''
+  - album: Starmaker
+    artist: Harper, Honey
+    switch_sort: true
+    favorite_track: ''
+    text: ''
+    tags: []
+    spotify_link: ''
+    genius_link: ''
+  - album: Field Recordings, Vol. 1
+    artist: Crockett, Charlie
+    switch_sort: true
+    favorite_track: ''
+    text: ''
+    tags: []
+    spotify_link: ''
+    genius_link: ''
+  - album: Ceremony
+    artist: Phantogram
+    switch_sort: false
+    favorite_track: ''
+    text: ''
+    tags: []
+    spotify_link: ''
+    genius_link: ''
+  - album: Lies Lies
+    artist: Lies Lies
+    switch_sort: false
+    favorite_track: ''
+    text: ''
+    tags: []
+    spotify_link: ''
+    genius_link: ''
+  - album: All Or Nothing
+    artist: Shopping
+    switch_sort: false
+    favorite_track: Initiative
+    text: ''
+    tags: []
+    spotify_link: ''
+    genius_link: ''
+  - album: Swimmer
+    artist: Tennis
+    switch_sort: false
+    favorite_track: ''
+    text: ''
+    tags: []
+    spotify_link: ''
+    genius_link: ''
+  - album: Forward Motion Godyssey
+    artist: Post Animal
+    switch_sort: false
+    favorite_track: Fitness
+    text: ''
+    tags: []
+    spotify_link: ''
+    genius_link: ''
   - album: The Neon Skyline
     artist: Shauf, Andy
     switch_sort: true
