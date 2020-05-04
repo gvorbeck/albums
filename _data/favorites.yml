@@ -1,4 +1,14 @@
 ---
+- year: "2020"
+  list:
+  - album: The Neon Skyline
+    artist: Shauf, Andy
+    switch_sort: true
+    favorite_track: Living Room
+    text: ''
+    tags: []
+    spotify_link: ''
+    genius_link: ''
 - year: "2019"
   list:
   - album: Swungert
