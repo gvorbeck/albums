@@ -34,6 +34,74 @@
             margin-left: 1rem;
             height: rem(64px);
             width: rem(64px);
+            cursor: pointer;
+
+            &:hover {
+                background-color: rgba(#000000, .6);
+
+                div::before,
+                div::after {
+                    background-color: rgba(#FFFFFF, .6);
+                }
+            }
+
+            div {
+                position: relative;
+            }
+
+            div::before,
+            div::after {
+                @include pseudo;
+                background-color: rgba(#000000, .6);
+            }
+
+            &.spotlight__close div::before,
+            &.spotlight__close div::after {
+                width: 3rem;
+                height: .5rem;
+                top: rem(-3px);
+                left: rem(-3px);
+            }
+
+            &.spotlight__close div::before {
+                transform: rotate(45deg);
+            }
+
+            &.spotlight__close div::after {
+                transform: rotate(-45deg);
+            }
+
+            &.spotlight__nav-button div::before,
+            &.spotlight__nav-button div::after {
+                width: 1.5rem;
+                height: .5rem;
+                top: 0;
+                left: 0;
+            }
+
+            &.spotlight__nav-button:first-child div::before {
+                transform: rotate(-45deg);
+                top: rem(-9px);
+                left: rem(8px);
+            }
+
+            &.spotlight__nav-button:first-child div::after {
+                transform: rotate(45deg);
+                top: rem(3px);
+                left: rem(8px);
+            }
+
+            &.spotlight__nav-button:nth-child(2) div::before {
+                transform: rotate(45deg);
+                top: rem(-9px);
+                left: rem(8px);
+            }
+
+            &.spotlight__nav-button:nth-child(2) div::after {
+                transform: rotate(-45deg);
+                top: rem(3px);
+                left: rem(8px);
+            }
         }
     }
 
@@ -58,6 +126,7 @@
         font-family: $font--serif;
         font-size: rem(40px);
         line-height: 1.25;
+        word-break: break-word;
     }
 
     &__title &__album {
@@ -80,9 +149,18 @@
             margin-bottom: 1rem;
         }
 
-        p {
+        p,
+        .spotlight__info > div {
             line-height: 1.5;
+
+            & + p {
+                margin-top: 1rem;
+            }
         }
+    }
+
+    &__quick {
+        grid-template-rows: min-content min-content auto;
     }
 
     &__links {
