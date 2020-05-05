@@ -1,6 +1,14 @@
 ---
 - year: "2020"
   list:
+  - album: A Different Kind of World
+    artist: Tygersounds
+    switch_sort: false
+    favorite_track: ''
+    text: ''
+    tags: []
+    spotify_link: ''
+    genius_link: ''
   - album: Viscerals
     artist: Pigs Pigs Pigs Pigs Pigs Pigs Pigs
     switch_sort: false
