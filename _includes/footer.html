@@ -1,13 +1,13 @@
 <footer class="site-footer">
   <div class="wrapper">
-    {% if site.author %}
+    <p>{% if site.author %}
       {{ site.author | escape }}
     {% else %}
       {{ site.title | escape }}
     {% endif %}
-    <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+    <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
     <p>{{ site.description | escape }}</p>
-    <p><a target="_blank" href="{{ site.url }}{{ site.forestry_admin }}" title="Admin">Admin</a> <a rel="noreferrer" target="_blank" href="{{ site.github_repo }}" title="Github repo">Github repo</a></p>
+    <p><a class="site-footer__admin" target="_blank" href="{{ site.url }}{{ site.forestry_admin }}" title="Admin">Admin</a> <a rel="noreferrer" target="_blank" href="{{ site.github_repo }}" title="Github repo">Github repo</a></p>
   </div>
 </footer>
 <script src="{{"/assets/js/site.js" | absolute_url }}"></script>

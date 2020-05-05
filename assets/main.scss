@@ -10,8 +10,6 @@
 @import "mixins";
 // GOOGLE FONTS
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed:400i|IBM+Plex+Sans:400,400i,700,700i');
-// SASS EXTENDS
-@import "extends";
 // PAGE SETUP
 @import "page-setup";
 // PAGE HEADER
@@ -26,7 +24,5 @@
 @import "album";
 // SPOTLIGHT
 @import "spotlight";
-// PAGE SECTION FAVORITES LIST
-// @import "page-section-favorites-list";
 // PAGE FOOTER
 @import "page-footer";

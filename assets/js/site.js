@@ -2,14 +2,13 @@ let albumButtons = document.getElementsByClassName("album__button"),
     yearButtons  = document.getElementsByClassName("year-block__button"),
     btnInContext = 0;
 
-const SpotlightNav = document.getElementsByClassName("spotlight__nav")[0],
-      SpotlightLinks = document.getElementsByClassName("spotlight__links")[0],
+const SpotlightLinks = document.getElementsByClassName("spotlight__links")[0],
       SpotlightTags = document.getElementsByClassName("spotlight__tags")[0],
       SpotlightTrack = document.getElementsByClassName("spotlight__track")[0],
       SpotlightReview = document.getElementsByClassName("spotlight__review")[0],
       SpotlightInfo = document.getElementsByClassName("spotlight__info")[0],
       SpotlightCover = document.getElementsByClassName("spotlight__cover")[0],
-      navButtons = SpotlightNav.getElementsByClassName("spotlight__nav-button");
+      navButtons = document.getElementsByClassName("spotlight__nav-button");
 
 // Function to find closest parent/child element.
 function getClosest(elem, selector) {
@@ -36,16 +35,6 @@ function RGBToHex(r,g,b) {
   return r + g + b;
 }
 
-// Lighten or darken hex colors.
-function LightenDarkenColor(col, amt) {
-  let num = parseInt(col, 16);
-  let r = (num >> 16) + amt;
-  let b = ((num >> 8) & 0x00FF) + amt;
-  let g = (num & 0x0000FF) + amt;
-  let newColor = g | (b << 8) | (r << 16);
-  return newColor.toString(16);
-}
-
 // Function to get JSON from API source.
 function getJSON(url, callback) {
     let xhr = new XMLHttpRequest();
@@ -68,12 +57,11 @@ function closeSpotlight() {
 }
 
 function clearSpotlight() {
-    document.getElementsByClassName("spotlight__album")[0].innerHTML = "";
-    document.getElementsByClassName("spotlight__artist")[0].innerHTML = "";
+    let spotlightClear = document.getElementsByClassName("spotlight--clear");
+    for (let i = 0; i < spotlightClear.length; i++) {
+        spotlightClear[i].innerHTML = "";
+    }
     SpotlightCover.getElementsByTagName("IMG")[0].setAttribute("src", "");
-    SpotlightTags.getElementsByTagName("DIV")[0].innerHTML = "";
-    SpotlightTrack.getElementsByTagName("DIV")[0].innerHTML = "";
-    SpotlightReview.getElementsByTagName("DIV")[0].innerHTML = "";
 }
 
 function populateSpotlight(data, color) {
@@ -100,21 +88,6 @@ function populateSpotlight(data, color) {
 
     // Colors!
     document.getElementsByClassName("spotlight__box")[0].style.backgroundColor = "#" + color;
-    // document.getElementsByClassName("spotlight__box")[0].style.backgroundColor = "#" + LightenDarkenColor(color, -40);
-    // document.getElementsByClassName("spotlight__box")[0].style.color = colors[1];
-    //
-    // document.getElementsByClassName("spotlight__quick")[0].style.backgroundColor = colors[1];
-    // document.getElementsByClassName("spotlight__quick")[0].style.color = colors[2];
-    //
-    // for (let i = 0; i < SpotlightNav.getElementsByTagName("BUTTON").length; i++) {
-    //     SpotlightNav.getElementsByTagName("BUTTON")[i].style.backgroundColor = colors[2];
-    // }
-    // for (let i = 0; i < SpotlightNav.getElementsByTagName("DIV").length; i++) {
-    //     SpotlightNav.getElementsByTagName("DIV")[i].style.backgroundColor = colors[0];
-    // }
-    // for (let i = 0; i < SpotlightLinks.getElementsByTagName("LI").length; i++) {
-    //     SpotlightLinks.getElementsByTagName("A")[i].firstElementChild.style.fill = colors[0];
-    // }
 
     // Album title and artist (headline)
     document.getElementsByClassName("spotlight__album")[0].appendChild(document.createTextNode(data.album));
@@ -227,7 +200,7 @@ for (let i = 0; i < yearButtons.length; i++) {
     yearButtons[i].addEventListener("click", function() {
         getClosest(this, ".year-list__item").classList.toggle("year-list__item--open");
         searchForEmptyOpenYears();
-    })
+    });
 }
 
 // Spotlight navigation controls.
