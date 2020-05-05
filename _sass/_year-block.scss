@@ -1,0 +1,42 @@
+.year-block {
+
+    &__header {
+        background: rgba(#FFFFFF, .8);
+
+        @media (min-width: 1200px) {
+            width: calc(20% - .2rem);
+        }
+
+        @media (max-width: 1199px) and (min-width: 975px) {
+            width: calc(25% - .2rem);
+        }
+
+        @media (max-width: 974px) and (min-width: 725px) {
+            width: calc(33.33% - .333rem);
+        }
+
+        @media (max-width: 724px) and (min-width: 490px) {
+            width: calc(50% - .5rem);
+        }
+
+        @media (max-width: 489px) {
+            width: 100%;
+        }
+    }
+
+    &__button {
+        border: 0;
+        background: transparent;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        font-size: rem(48px);
+        font-weight: bold;
+        cursor: pointer;
+
+        &:hover,
+        &:focus {
+            background: #FFFFFF;
+        }
+    }
+}

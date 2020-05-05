@@ -1,37 +1,44 @@
 .site-header {
-    font-size: 5rem;
-    font-weight: 700;
+    line-height: 1.25;
+    font-weight: bold;
+    color: rgba(#FFFFFF, .5);
     text-transform: uppercase;
     position: relative;
+    font-size: rem(80px);
 
-    @include media(s) {
-        font-size: 3rem;
+    @media (max-width: 1500px) {
+        font-size: 4.5rem;
     }
 
-    &__pretitle {
-        opacity: .5;
+    @media (max-width: 1200px) {
+        font-size: 4rem;
+    }
+
+    @media (max-width: 900px)  {
+        font-size: 3rem;
     }
 
     &__title {
         display: inline;
-        color: $color--light;
+        color: $color--title;
     }
 
     &__subtitle {
-        font-weight: 400;
+        color: rgba(#FFFFFF, 1);
         font-size: 1rem;
-        line-height: 1.5;
+        font-weight: normal;
     }
 
     &__logo {
+        // $width: #{rem(500px)};
+        fill: $color--title;
+        width: 100%;
+        max-height: rem(215px);
+        opacity: .5;
+        filter: blur(#{rem(3px)});
         position: absolute;
         top: 0;
+        // left: calc(50% - (#{$width} / 2));
         z-index: -1;
-        opacity: .5;
-        fill: $color--light;
-        max-height: rem(280px);
-        height: 100%;
-        width: 100%;
-        filter: blur(#{rem(3px)});
     }
 }
