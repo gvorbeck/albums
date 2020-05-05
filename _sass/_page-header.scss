@@ -1,10 +1,22 @@
 .site-header {
-    font-size: rem(80px);
     line-height: 1.25;
     font-weight: bold;
     color: rgba(#FFFFFF, .5);
     text-transform: uppercase;
     position: relative;
+    font-size: rem(80px);
+
+    @media (max-width: 1500px) {
+        font-size: 4.5rem;
+    }
+
+    @media (max-width: 1200px) {
+        font-size: 4rem;
+    }
+
+    @media (max-width: 900px)  {
+        font-size: 3rem;
+    }
 
     &__title {
         display: inline;
@@ -18,14 +30,15 @@
     }
 
     &__logo {
-        $width: #{rem(500px)};
+        // $width: #{rem(500px)};
         fill: $color--title;
-        width: $width;
+        width: 100%;
+        max-height: rem(215px);
         opacity: .5;
         filter: blur(#{rem(3px)});
         position: absolute;
         top: 0;
-        left: calc(50% - (#{$width} / 2));
+        // left: calc(50% - (#{$width} / 2));
         z-index: -1;
     }
 }

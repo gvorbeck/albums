@@ -226,6 +226,12 @@ document.onkeydown = function(event) {
     if (event.keyCode == 27) {
         closeSpotlight();
     }
+    else if (event.keyCode == 37 && document.body.classList.contains("spotlight--open")) {
+        document.getElementsByClassName("spotlight__nav-button")[0].click();
+    }
+    else if (event.keyCode == 39 && document.body.classList.contains("spotlight--open")) {
+        document.getElementsByClassName("spotlight__nav-button")[1].click();
+    }
 };
 document.addEventListener("click", function(event) {
     if (event.target == document.getElementsByClassName("spotlight")[0]) {

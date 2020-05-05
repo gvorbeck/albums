@@ -3,12 +3,19 @@ body {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     font-family: $font--sans;
+    max-width: rem(1680px);
+    margin: 0 auto;
 
     & > header,
     & > main,
     & > footer {
         grid-column-start: 2;
         grid-column-end: 12;
+
+        @media (max-width: 500px) {
+            grid-column-start: 1;
+            grid-column-end: 13;
+        }
     }
 
     & > header,
