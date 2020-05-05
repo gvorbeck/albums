@@ -1,6 +1,22 @@
 ---
 - year: "2020"
   list:
+  - album: Viscerals
+    artist: Pigs Pigs Pigs Pigs Pigs Pigs Pigs
+    switch_sort: false
+    favorite_track: ''
+    text: ''
+    tags: []
+    spotify_link: ''
+    genius_link: ''
+  - album: Ditches
+    artist: Ditches
+    switch_sort: false
+    favorite_track: ''
+    text: ''
+    tags: []
+    spotify_link: ''
+    genius_link: ''
   - album: New Petal Instants
     artist: Arbor Labor Union
     switch_sort: false
