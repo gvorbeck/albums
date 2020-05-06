@@ -1,6 +1,14 @@
 ---
 - year: "2020"
   list:
+  - album: R.Y.C
+    artist: Mura Masa
+    switch_sort: false
+    favorite_track: ''
+    text: ''
+    tags: []
+    spotify_link: ''
+    genius_link: ''
   - album: Guardian Singles
     artist: Guardian Singles
     switch_sort: false
