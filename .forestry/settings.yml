@@ -9,7 +9,7 @@ sections:
   label: Data
   create: all
   match: "**/*"
-upload_dir: covers
+upload_dir: assets/images/covers
 public_path: "/assets/images/covers"
 front_matter_path: ''
 use_front_matter_path: false
