@@ -1,6 +1,16 @@
 ---
 - year: "2020"
   list:
+  - hide: true
+    album: Either Light
+    artist: Vundabar
+    switch_sort: false
+    favorite_track: ''
+    text: ''
+    tags: []
+    spotify_link: ''
+    genius_link: ''
+    album_cover_override: ''
   - album: R.Y.C
     artist: Masa, Mura
     switch_sort: true
