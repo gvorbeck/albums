@@ -59,7 +59,7 @@
     tags: []
     spotify_link: ''
     genius_link: ''
-    album_cover_override: ''
+    album_cover_override: "/assets/images/covers/a_different_kind_of_world.jpeg"
     hide: false
   - album: Viscerals
     artist: Pigs Pigs Pigs Pigs Pigs Pigs Pigs
