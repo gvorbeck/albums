@@ -1,6 +1,14 @@
 ---
 - year: "2020"
   list:
+  - album: Sing In A World That's Falling Apart
+    artist: Black Lips
+    switch_sort: false
+    favorite_track: ''
+    text: ''
+    tags: []
+    spotify_link: ''
+    genius_link: ''
   - album: A Different Kind of World
     artist: Tygersounds
     switch_sort: false
