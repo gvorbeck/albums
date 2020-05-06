@@ -2,8 +2,8 @@
 - year: "2020"
   list:
   - album: R.Y.C
-    artist: Mura Masa
-    switch_sort: false
+    artist: Masa, Mura
+    switch_sort: true
     favorite_track: ''
     text: ''
     tags: []
