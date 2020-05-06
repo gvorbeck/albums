@@ -1,6 +1,14 @@
 ---
 - year: "2020"
   list:
+  - album: Countless Branches
+    artist: Fay, Bill
+    switch_sort: true
+    favorite_track: ''
+    text: ''
+    tags: []
+    spotify_link: ''
+    genius_link: ''
   - album: Like New
     artist: Purr
     switch_sort: false
