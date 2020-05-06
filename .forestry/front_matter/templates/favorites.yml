@@ -62,6 +62,13 @@ fields:
       config:
         required: false
       label: Genius.com Link
+    - name: album_cover_override
+      type: file
+      config:
+        maxSize: 64
+      label: Album Cover Override
+      description: If no cover is available or the wrong cover shows, use this to
+        override API image results.
     config:
       labelField: album
       min: '1'
