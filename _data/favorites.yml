@@ -3266,7 +3266,7 @@
     text: ''
     genius_link: ''
     switch_sort: false
-    album_cover_override: ''
+    album_cover_override: "/assets/images/covers/the_composition_of_ending_and_phrasing.jpeg"
     hide: false
   - artist: System Of A Down
     album: Toxicity
