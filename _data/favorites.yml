@@ -20,7 +20,7 @@
     spotify_link: ''
     genius_link: ''
     album_cover_override: ''
-    hide: false
+    hide: true
   - album: Countless Branches
     artist: Fay, Bill
     switch_sort: true
@@ -30,7 +30,7 @@
     spotify_link: ''
     genius_link: ''
     album_cover_override: ''
-    hide: false
+    hide: true
   - album: Like New
     artist: Purr
     switch_sort: false
@@ -50,7 +50,7 @@
     spotify_link: ''
     genius_link: ''
     album_cover_override: ''
-    hide: false
+    hide: true
   - album: A Different Kind of World
     artist: Tygersounds
     switch_sort: false
@@ -70,7 +70,7 @@
     spotify_link: ''
     genius_link: ''
     album_cover_override: ''
-    hide: false
+    hide: true
   - album: Ditches
     artist: Ditches
     switch_sort: false
@@ -80,7 +80,7 @@
     spotify_link: ''
     genius_link: ''
     album_cover_override: ''
-    hide: false
+    hide: true
   - album: New Petal Instants
     artist: Arbor Labor Union
     switch_sort: false
@@ -100,7 +100,7 @@
     spotify_link: ''
     genius_link: ''
     album_cover_override: ''
-    hide: false
+    hide: true
   - album: Starmaker
     artist: Harper, Honey
     switch_sort: true
