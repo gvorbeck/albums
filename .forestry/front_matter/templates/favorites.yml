@@ -16,6 +16,10 @@ fields:
     name: list
     label: Year List
     fields:
+    - name: hide
+      type: boolean
+      label: Hide
+      description: To hide, but not delete this entry.
     - type: text
       name: album
       label: Album Name
