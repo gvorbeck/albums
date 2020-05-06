@@ -63,65 +63,66 @@
             &:hover {
                 background-color: rgba(#000000, .6);
 
-                div::before,
-                div::after {
+                span::before,
+                span::after {
                     background-color: rgba(#FFFFFF, .6);
                 }
             }
 
-            div {
+            span {
                 position: relative;
+                display: block;
             }
 
-            div::before,
-            div::after {
+            span::before,
+            span::after {
                 @include pseudo;
                 background-color: rgba(#000000, .6);
             }
 
-            &.spotlight__close div::before,
-            &.spotlight__close div::after {
+            &.spotlight__close span::before,
+            &.spotlight__close span::after {
                 width: 3rem;
                 height: .5rem;
                 top: rem(-3px);
                 left: rem(-3px);
             }
 
-            &.spotlight__close div::before {
+            &.spotlight__close span::before {
                 transform: rotate(45deg);
             }
 
-            &.spotlight__close div::after {
+            &.spotlight__close span::after {
                 transform: rotate(-45deg);
             }
 
-            &.spotlight__nav-button div::before,
-            &.spotlight__nav-button div::after {
+            &.spotlight__nav-button span::before,
+            &.spotlight__nav-button span::after {
                 width: 1.5rem;
                 height: .5rem;
                 top: 0;
                 left: 0;
             }
 
-            &.spotlight__nav-button:first-child div::before {
+            &.spotlight__nav-button:first-child span::before {
                 transform: rotate(-45deg);
                 top: rem(-9px);
                 left: rem(8px);
             }
 
-            &.spotlight__nav-button:first-child div::after {
+            &.spotlight__nav-button:first-child span::after {
                 transform: rotate(45deg);
                 top: rem(3px);
                 left: rem(8px);
             }
 
-            &.spotlight__nav-button:nth-child(2) div::before {
+            &.spotlight__nav-button:nth-child(2) span::before {
                 transform: rotate(45deg);
                 top: rem(-9px);
                 left: rem(8px);
             }
 
-            &.spotlight__nav-button:nth-child(2) div::after {
+            &.spotlight__nav-button:nth-child(2) span::after {
                 transform: rotate(-45deg);
                 top: rem(3px);
                 left: rem(8px);
