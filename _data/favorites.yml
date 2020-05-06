@@ -126,7 +126,7 @@
     tags: []
     spotify_link: ''
     genius_link: ''
-    album_cover_override: "/assets/images/covers/colors.png"
+    album_cover_override: "/assets/images/covers/lies_lies.jpeg"
   - album: All Or Nothing
     artist: Shopping
     switch_sort: false
