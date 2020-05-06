@@ -1,49 +1,51 @@
 <ul class="album-list">
     {% assign albums = include.list | sort_natural: "artist" %}
     {% for albumItem in albums %}
-        <li class="album-list__item">
-            <div class="album">
-                {% include tape.svg %}
-                {% comment %}This is for reordering names that start with in/definite articles or personal names.{% endcomment %}
-                {% capture artistName %}
-                    {%- if albumItem.switch_sort -%}
-                        {{ albumItem.artist | split: ", " | last }} {{ albumItem.artist | split: ", " | first }}
-                    {%- else -%}
-                        {{- albumItem.artist -}}
-                    {%- endif -%}
-                {% endcapture %}
-                <button class="album__button" aria-label="Open {{ albumItem.album | escape }} by {{ artistName | escape }}"
-                data-artist-url="{{ artistName | url_encode }}"
-                data-album-url="{{ albumItem.album | url_encode }}"
-                data-artist="{{ artistName | escape }}"
-                data-album="{{ albumItem.album | escape }}"
-                {% comment %}This prevents JS from adding a data-thumb attribute from last.fm.{% endcomment %}
-                {% if albumItem.album_cover_override %}
-                    data-thumb="{{ albumItem.album_cover_override }}"
-                {% endif %}
-                {% if albumItem.favorite_track %}
-                    data-track="{{ albumItem.favorite_track }}"
-                {% endif %}
-                {% if albumItem.text %}
-                    data-review="{{ albumItem.text | markdownify }}"
-                {% endif %}
-                {% if albumItem.tags %}
-                    data-tags="{{- albumItem.tags | join: ', '}}"
-                {% endif %}
-                {% if albumItem.genius_link %}
-                    data-genius="{{ albumItem.genius_link }}"
-                {% endif %}
-                {% if albumItem.spotify_link %}
-                    data-spotify="{{ albumItem.spotify_link }}"
-                {% endif %}
-                {% unless include.tab == "true" %}
-                  tabindex=-1
-                {% endunless %}>
-                    <p class="byline">
-                        <span class="byline__title">{{ albumItem.album }}</span> by <span class="byline__artist">{{ artistName }}</span>
-                    </p>
-                </button>
-            </div>
-        </li>
+        {% unless albumItem.hide %}
+            <li class="album-list__item">
+                <div class="album">
+                    {% include tape.svg %}
+                    {% comment %}This is for reordering names that start with in/definite articles or personal names.{% endcomment %}
+                    {% capture artistName %}
+                        {%- if albumItem.switch_sort -%}
+                            {{ albumItem.artist | split: ", " | last }} {{ albumItem.artist | split: ", " | first }}
+                        {%- else -%}
+                            {{- albumItem.artist -}}
+                        {%- endif -%}
+                    {% endcapture %}
+                    <button class="album__button" aria-label="Open {{ albumItem.album | escape }} by {{ artistName | escape }}"
+                    data-artist-url="{{ artistName | url_encode }}"
+                    data-album-url="{{ albumItem.album | url_encode }}"
+                    data-artist="{{ artistName | escape }}"
+                    data-album="{{ albumItem.album | escape }}"
+                    {% comment %}This prevents JS from adding a data-thumb attribute from last.fm.{% endcomment %}
+                    {% if albumItem.album_cover_override %}
+                        data-thumb="{{ albumItem.album_cover_override }}"
+                    {% endif %}
+                    {% if albumItem.favorite_track %}
+                        data-track="{{ albumItem.favorite_track }}"
+                    {% endif %}
+                    {% if albumItem.text %}
+                        data-review="{{ albumItem.text | markdownify }}"
+                    {% endif %}
+                    {% if albumItem.tags %}
+                        data-tags="{{- albumItem.tags | join: ', '}}"
+                    {% endif %}
+                    {% if albumItem.genius_link %}
+                        data-genius="{{ albumItem.genius_link }}"
+                    {% endif %}
+                    {% if albumItem.spotify_link %}
+                        data-spotify="{{ albumItem.spotify_link }}"
+                    {% endif %}
+                    {% unless include.tab == "true" %}
+                      tabindex=-1
+                    {% endunless %}>
+                        <p class="byline">
+                            <span class="byline__title">{{ albumItem.album }}</span> by <span class="byline__artist">{{ artistName }}</span>
+                        </p>
+                    </button>
+                </div>
+            </li>
+        {% endunless %}
     {% endfor %}
 </ul>
