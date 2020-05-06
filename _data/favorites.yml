@@ -1854,7 +1854,6 @@
     album_cover_override: ''
   - artist: Baby Panda / Paul Gonzenbach
     album: Avalanche Kiss
-    thumb: avalanche_kiss.jpeg
     spotify_link: spotify:album:5JylMXQ2Zqt63KROfogBP2
     tags: []
     favorite_track: ''
@@ -2752,7 +2751,6 @@
     album_cover_override: ''
   - artist: Scientific
     album: From the Nest of Idea
-    thumb: from_the_nest_of_idea.jpeg
     spotify_link: spotify:album:4QkCqeFmgsJHlyzgPu9ge4
     tags: []
     favorite_track: ''
@@ -2975,7 +2973,6 @@
     album_cover_override: ''
   - artist: My Hotel Year
     album: The Composition of Ending and Phrasing
-    thumb: the_composition_of_ending_and_phrasing.jpeg
     spotify_link: spotify:album:0ntqqxkwnFBHrluwekQv9G
     tags: []
     favorite_track: ''
