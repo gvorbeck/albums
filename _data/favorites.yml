@@ -10,6 +10,7 @@
     spotify_link: ''
     genius_link: ''
     album_cover_override: ''
+    hide: false
   - album: Guardian Singles
     artist: Guardian Singles
     switch_sort: false
@@ -19,6 +20,7 @@
     spotify_link: ''
     genius_link: ''
     album_cover_override: ''
+    hide: false
   - album: Countless Branches
     artist: Fay, Bill
     switch_sort: true
@@ -28,6 +30,7 @@
     spotify_link: ''
     genius_link: ''
     album_cover_override: ''
+    hide: false
   - album: Like New
     artist: Purr
     switch_sort: false
@@ -37,6 +40,7 @@
     spotify_link: ''
     genius_link: ''
     album_cover_override: ''
+    hide: false
   - album: Sing In A World That's Falling Apart
     artist: Black Lips
     switch_sort: false
@@ -46,6 +50,7 @@
     spotify_link: ''
     genius_link: ''
     album_cover_override: ''
+    hide: false
   - album: A Different Kind of World
     artist: Tygersounds
     switch_sort: false
@@ -55,6 +60,7 @@
     spotify_link: ''
     genius_link: ''
     album_cover_override: ''
+    hide: false
   - album: Viscerals
     artist: Pigs Pigs Pigs Pigs Pigs Pigs Pigs
     switch_sort: false
@@ -64,6 +70,7 @@
     spotify_link: ''
     genius_link: ''
     album_cover_override: ''
+    hide: false
   - album: Ditches
     artist: Ditches
     switch_sort: false
@@ -73,6 +80,7 @@
     spotify_link: ''
     genius_link: ''
     album_cover_override: ''
+    hide: false
   - album: New Petal Instants
     artist: Arbor Labor Union
     switch_sort: false
@@ -82,6 +90,7 @@
     spotify_link: ''
     genius_link: ''
     album_cover_override: ''
+    hide: false
   - album: Celebration
     artist: Music Band
     switch_sort: false
@@ -91,6 +100,7 @@
     spotify_link: ''
     genius_link: ''
     album_cover_override: ''
+    hide: false
   - album: Starmaker
     artist: Harper, Honey
     switch_sort: true
@@ -100,6 +110,7 @@
     spotify_link: ''
     genius_link: ''
     album_cover_override: ''
+    hide: false
   - album: Field Recordings, Vol. 1
     artist: Crockett, Charlie
     switch_sort: true
@@ -109,6 +120,7 @@
     spotify_link: ''
     genius_link: ''
     album_cover_override: "/assets/images/covers/field_recordings_vol_1.jpg"
+    hide: false
   - album: Ceremony
     artist: Phantogram
     switch_sort: false
@@ -118,6 +130,7 @@
     spotify_link: ''
     genius_link: ''
     album_cover_override: ''
+    hide: false
   - album: Lies Lies
     artist: Lies Lies
     switch_sort: false
@@ -127,6 +140,7 @@
     spotify_link: ''
     genius_link: ''
     album_cover_override: "/assets/images/covers/lies_lies.jpeg"
+    hide: false
   - album: All Or Nothing
     artist: Shopping
     switch_sort: false
@@ -136,6 +150,7 @@
     spotify_link: ''
     genius_link: ''
     album_cover_override: ''
+    hide: false
   - album: Swimmer
     artist: Tennis
     switch_sort: false
@@ -145,6 +160,7 @@
     spotify_link: ''
     genius_link: ''
     album_cover_override: ''
+    hide: false
   - album: Forward Motion Godyssey
     artist: Post Animal
     switch_sort: false
@@ -154,6 +170,7 @@
     spotify_link: ''
     genius_link: ''
     album_cover_override: ''
+    hide: false
   - album: The Neon Skyline
     artist: Shauf, Andy
     switch_sort: true
@@ -163,6 +180,7 @@
     spotify_link: ''
     genius_link: ''
     album_cover_override: ''
+    hide: false
 - year: "2019"
   list:
   - album: Swungert
@@ -177,6 +195,7 @@
     spotify_link: spotify:album:70oAlTTzfDriM99CuAT8um
     genius_link: ''
     album_cover_override: ''
+    hide: false
   - album: Hello Exile
     artist: Menzingers, The
     switch_sort: true
@@ -188,6 +207,7 @@
     spotify_link: spotify:album:5baJxk2fGaLorySaf6173S
     genius_link: ''
     album_cover_override: ''
+    hide: false
   - album: Silencia
     artist: Hammock
     switch_sort: false
@@ -200,6 +220,7 @@
     spotify_link: spotify:album:66DqsCid51MqdyOwBfoMEY
     genius_link: ''
     album_cover_override: ''
+    hide: false
   - album: Altogether
     artist: Turnover
     switch_sort: false
@@ -212,6 +233,7 @@
     spotify_link: spotify:album:322Gl8hhheihCL7dJ0vsqT
     genius_link: https://genius.com/albums/Turnover/Altogether
     album_cover_override: ''
+    hide: false
   - album: Nothing and Nowhere
     artist: B. Hamilton
     favorite_track: ''
@@ -222,6 +244,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - album: Cry
     artist: Cigarettes After Sex
     favorite_track: ''
@@ -238,6 +261,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - album: Pony
     artist: Peck, Orville
     favorite_track: ''
@@ -249,6 +273,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - album: Back in Texas
     artist: Cashen, Andrew
     favorite_track: Darling Will You
@@ -261,6 +286,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - album: Love & the Dark
     artist: Harris, Jason Hawk
     favorite_track: Giving In
@@ -271,6 +297,7 @@
     genius_link: https://genius.com/albums/Jason-hawk-harris/Love-the-dark
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - album: Look Me In The Eye
     artist: Mermaidens
     favorite_track: She's Running
@@ -280,6 +307,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - album: Phoenix
     artist: Pedro The Lion
     favorite_track: Powerful Taboo
@@ -293,6 +321,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - album: Mystifier Deluxe
     artist: Loudness War
     favorite_track: Mystifier
@@ -305,6 +334,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - album: The Center Won't Hold
     artist: Sleater-Kinney
     favorite_track: Can I Go On
@@ -315,6 +345,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - album: Infest The Rats' Nest
     artist: King Gizzard & The Lizard Wizard
     favorite_track: ''
@@ -329,6 +360,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - album: The Beast You Are
     artist: Big Business
     favorite_track: Bright Grey
@@ -340,6 +372,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - album: Floating Being
     artist: Earth Tongue
     favorite_track: ''
@@ -353,6 +386,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - album: Mother Nature
     artist: Dangerous Summer, The
     favorite_track: ''
@@ -365,6 +399,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - album: '"Let''s Rock"'
     artist: Black Keys, The
     favorite_track: ''
@@ -376,6 +411,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - album: Gold & Grey
     artist: Baroness
     favorite_track: ''
@@ -390,6 +426,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - album: Fishing For Fishies
     artist: King Gizzard & The Lizard Wizard
     favorite_track: Plastic Boogie
@@ -402,6 +439,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - album: Nothing Great About Britain
     artist: slowthai
     favorite_track: Doorman
@@ -413,6 +451,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - album: LP3
     artist: American Football
     favorite_track: Uncomfortably Numb
@@ -425,6 +464,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - album: BENT
     artist: Stonefield
     favorite_track: Dead Alive
@@ -436,6 +476,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - album: The Fleeting Light of Impermanence
     artist: Appleseed Cast, The
     favorite_track: Time The Destroyer
@@ -447,6 +488,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - album: III
     artist: Masked Intruder
     favorite_track: So You Know
@@ -457,6 +499,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
 - year: "2018"
   list:
   - album: All at Once
@@ -469,6 +512,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - album: Loved to Death
     artist: Dance With the Dead
     tags:
@@ -494,6 +538,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - album: Ordinary Corrupt Human Love
     artist: Deafheaven
     tags:
@@ -520,6 +565,7 @@
     favorite_track: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - album: Crown of Nothing
     artist: Direct Hit!
     tags:
@@ -541,6 +587,7 @@
     favorite_track: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - album: Love Is Dead
     artist: CHVRCHES
     favorite_track: Graves
@@ -560,6 +607,7 @@
     genius_link: https://genius.com/albums/Chvrches/Love-is-dead
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - album: Double Negative
     artist: Low
     tags:
@@ -574,6 +622,7 @@
     text: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - album: "'Til the End"
     artist: MiTis
     tags:
@@ -598,6 +647,7 @@
     favorite_track: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - album: Clean
     artist: Soccer Mommy
     tags:
@@ -608,6 +658,7 @@
     text: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - album: ROCKNROLL MACHINE
     artist: Turbonegro
     tags:
@@ -621,6 +672,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - album: When I Think Of You In A Castle
     artist: Post Animal
     spotify_link: spotify:album:6OwMRrwnUsiIAQxdiIMuik
@@ -630,6 +682,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - album: Everybody!!
     artist: WANIMA
     favorite_track: OLE!!
@@ -651,6 +704,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
 - year: "2017"
   list:
   - album: The Demonstration
@@ -665,6 +719,7 @@
     spotify_link: spotify:album:0FiYugoYnbpVfMw6Ade35J
     genius_link: ''
     album_cover_override: ''
+    hide: false
   - artist: Bad Cop, Bad Cop
     album: Warriors
     tags:
@@ -680,6 +735,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Can't Swim
     album: Fail You Again
     tags:
@@ -692,6 +748,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Communions
     album: Blue
     tags:
@@ -718,6 +775,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Future Islands
     album: The Far Field
     tags:
@@ -729,6 +787,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Iya Terra
     album: Sacred Sound
     tags:
@@ -739,6 +798,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Mega Drive
     album: The Grid
     tags:
@@ -753,6 +813,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Menzingers, The
     album: After The Party
     favorite_track: Tellin' Lies
@@ -764,6 +825,7 @@
     text: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: San Fermin
     album: Belong
     spotify_link: spotify:album:22sKyWyE7QGrAtfPHDboXV
@@ -773,6 +835,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Teenage Bottlerocket
     album: Stealing the Covers
     tags:
@@ -785,6 +848,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Tigers Jaw
     album: spin
     tags:
@@ -796,6 +860,7 @@
     text: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: King Gizzard & The Lizard Wizard
     album: Flying Microtonal Banana
     tags:
@@ -809,6 +874,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: King Gizzard & The Lizard Wizard
     album: Polygondwanaland
     tags:
@@ -821,6 +887,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: King Gizzard & The Lizard Wizard
     album: Murder Of The Universe
     tags:
@@ -845,6 +912,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Japandroids
     album: Near To The Wild Heart Of Life
     spotify_link: spotify:album:26hqnB0XF1ZFc31zY6NAgf
@@ -854,6 +922,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
 - year: "2016"
   list:
   - artist: Shauf, Andy
@@ -867,6 +936,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: Baroness
     album: Purple
     tags:
@@ -877,6 +947,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Bazan, David
     album: Blanco
     spotify_link: spotify:album:33kDKilTTOHjFDJvNBbiWi
@@ -886,6 +957,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: King Gizzard & the Lizard Wizard
     album: Nonagon Infinity
     tags:
@@ -899,6 +971,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Matt Pond PA
     album: Winter Lives
     spotify_link: spotify:album:62hP0p3napMAE06DsYt2fg
@@ -908,6 +981,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Mean Jeans
     album: Tight New Dimension
     tags:
@@ -918,6 +992,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Mrs. Magician
     album: Bermuda
     spotify_link: spotify:album:2Vp7l22Ljza3OH80HJq6dC
@@ -927,6 +1002,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Rebelution
     album: Falling Into Place
     spotify_link: spotify:album:3TsqZMEQhGAnQ1nph9M22A
@@ -936,6 +1012,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Tiger Army
     album: V
     spotify_link: spotify:album:6PYN4eAuXbcMq3h29h9spJ
@@ -945,6 +1022,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
 - year: "2015"
   list:
   - artist: Enter Shikari
@@ -956,6 +1034,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Fetty Wap
     album: Fetty Wap
     spotify_link: spotify:album:2gKQvajkEEaDtkqJ8FJ4uw
@@ -967,6 +1046,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: King Gizzard & The Lizard Wizard
     album: Paper Mâché Dream Balloon
     tags:
@@ -978,6 +1058,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Radioactivity
     album: Silent Kill
     spotify_link: spotify:album:1pcM7NFV8ZaZkfNUpcY13P
@@ -987,6 +1068,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: MisterWives
     album: Our Own House
     spotify_link: spotify:album:726GB3GTBwPdsGr5XzOQbz
@@ -996,6 +1078,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Teenage Bottlerocket
     album: Tales From Wyoming
     spotify_link: spotify:album:6EcpmYvGlUa8AIlcvm1Ds9
@@ -1005,6 +1088,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Decline, The
     album: Resister
     spotify_link: spotify:album:5ot4933neHbkPcSEDCeFTM
@@ -1014,6 +1098,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: Expanders, The
     album: Hustling Culture
     spotify_link: spotify:album:7bdBUhd3ojfCJJdAQqtgON
@@ -1023,6 +1108,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: Foxing
     album: Dealer
     spotify_link: spotify:album:7nVLbTV7JrJ5ohUbPjvSlN
@@ -1032,6 +1118,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Smallpools
     album: LOVETAP!
     spotify_link: spotify:album:59xqFRG2IgFTsZtQ73yIp6
@@ -1041,6 +1128,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: CHVRCHES
     album: Every Open Eye
     spotify_link: spotify:album:6pcfjrxlkf7fk9irlvJUzG
@@ -1050,6 +1138,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
 - year: "2014"
   list:
   - artist: Architecture in Helsinki
@@ -1061,6 +1150,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Bear Hands
     album: Distraction
     spotify_link: spotify:album:2g0SR4SuVcPKgzigzzpw5d
@@ -1070,6 +1160,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Bleachers
     album: Strange Desire
     spotify_link: spotify:album:0cnNCK2xpudXjB8pzsrYy9
@@ -1079,6 +1170,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Copyrights, The
     album: Report
     spotify_link: spotify:album:77Li4A2uUeoDFeTtYCf6U7
@@ -1088,6 +1180,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: Deleted Scenes
     album: Lithium Burn
     spotify_link: spotify:album:6oZkQ4pJBWmaXAltXcRIpT
@@ -1097,6 +1190,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: King Gizzard & The Lizard Wizard
     album: Oddments
     spotify_link: spotify:album:2DKCPWXAyXPq2dr1ZahO9p
@@ -1106,6 +1200,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Future Islands
     album: Singles
     spotify_link: spotify:album:1dKh4z5Aayt8FFDWjO5FDh
@@ -1115,6 +1210,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Lo-Fang
     album: Blue Film
     spotify_link: spotify:album:66BEZ127VgaQbxxRJijFZg
@@ -1124,6 +1220,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Skaters
     album: Manhattan
     spotify_link: spotify:album:2yZx85NwXdqZu3roJ0vH6J
@@ -1133,6 +1230,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: SOJA
     album: Amid The Noise And Haste
     spotify_link: spotify:album:5OkMrvt48nB8iMDN6Mx3HL
@@ -1142,6 +1240,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Tokyo Police Club
     album: Forcefield
     spotify_link: spotify:album:55pj3OVrpwedZVi8GUrChK
@@ -1151,6 +1250,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
 - year: "2013"
   list:
   - album: Voices
@@ -1162,6 +1262,7 @@
     spotify_link: ''
     genius_link: ''
     album_cover_override: ''
+    hide: false
   - artist: Appleseed Cast, The
     album: Illumination Ritual
     spotify_link: spotify:album:4ZUpacHZD1ts1H37ms8iiG
@@ -1171,6 +1272,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: Banquets
     album: Banquets
     spotify_link: spotify:album:6KRKbkw6ZxW1U6aAuV4DyF
@@ -1180,6 +1282,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Conditions
     album: Full Of War
     spotify_link: spotify:album:5XlMI2QVBxFS0vh5oJxBYc
@@ -1189,6 +1292,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Fourth Estate, The
     album: The Costs of Living
     spotify_link: spotify:album:45RLzeKuX9YcmdwKcbTu8T
@@ -1198,6 +1302,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: Har Mar Superstar
     album: Bye Bye 17
     spotify_link: spotify:album:2GC0D9Deyx1L8UHrskFbEi
@@ -1207,6 +1312,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Old Man Markley
     album: Down Side Up
     spotify_link: spotify:album:3iJLMNGT4uSpG5I0lxthQm
@@ -1216,6 +1322,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Radioactivity
     album: Radioactivity
     spotify_link: spotify:album:0atZuxlHAR1UaMAksmJS5Y
@@ -1225,6 +1332,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Sarabix
     album: Krakatoa
     spotify_link: spotify:album:49OwlsWqHDtsIKkliRuiOr
@@ -1234,6 +1342,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Sigur Rós
     album: Kveikur
     spotify_link: spotify:album:1rRNqn4MTZfh393GzGvBtY
@@ -1243,6 +1352,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: This Town Needs Guns
     album: 13.0.0.0.0
     spotify_link: spotify:album:3QQOkN9iqJJrwXohbNYRiP
@@ -1252,6 +1362,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
 - year: "2012"
   list:
   - artist: Tower and The Fool, The
@@ -1263,6 +1374,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: Athletics
     album: Who You Are Is Not Enough
     spotify_link: spotify:album:3XkhvmeGUwG2IZbxkQnsDH
@@ -1272,6 +1384,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Enter Shikari
     album: A Flash Flood Of Colour
     spotify_link: spotify:album:4bRbfjARi12Jm0EoAV2t3u
@@ -1281,6 +1394,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Belie My Burial
     album: Pale Beyond
     spotify_link: spotify:album:1hjCFXjEpjlHLj7Q9jBZGa
@@ -1290,6 +1404,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Sigur Rós
     album: Valtari
     spotify_link: spotify:album:0ZHkshyLAi9f8DXdj3Z5ph
@@ -1299,6 +1414,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Banks, Paul
     album: Banks
     spotify_link: spotify:album:5AXP2zfIyBQifia7ELGZbK
@@ -1308,6 +1424,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: Symphony Of Distraction
     album: Call It Off, John
     spotify_link: spotify:album:3Ozi0IBL8NtRaxuYPmG79X
@@ -1317,6 +1434,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Mrs. Magician
     album: Strange Heaven
     spotify_link: spotify:album:57s6xQwSat3q23ac1OY8ed
@@ -1328,6 +1446,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Pinback
     album: Information Retrieved
     spotify_link: spotify:album:3J1E7sOzCfnv9LaJNlFdwI
@@ -1337,6 +1456,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Voodoo Glow Skulls
     album: Break The Spell
     spotify_link: spotify:album:3r65OXZa8o8mK92m7uB1m7
@@ -1346,6 +1466,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Menzingers, The
     album: On The Impossible Past
     spotify_link: spotify:album:4Jh3PDPicP3QwWpktQS7Yh
@@ -1355,6 +1476,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: Del Rey, Lana
     album: Born To Die
     spotify_link: spotify:album:4X8hAqIWpQyQks2yRhyqs4
@@ -1364,6 +1486,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: Pennywise
     album: All Or Nothing
     spotify_link: spotify:album:3k0DvRgQzEtUXFCrCDB8qa
@@ -1373,6 +1496,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Teenage Bottlerocket
     album: Freak Out!
     spotify_link: spotify:album:14XskGyGbsFkXyX7Tb5zFd
@@ -1382,6 +1506,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
 - year: "2011"
   list:
   - artist: Ever Forthright
@@ -1393,6 +1518,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Vaccines, The
     album: What Did You Expect from the Vaccines?
     spotify_link: spotify:album:6eWtdQm0hSlTgpkbw4LaBG
@@ -1402,6 +1528,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: Black Lips
     album: Arabia Mountain
     spotify_link: spotify:album:2gfAAM6Uwp2XR1PjJscw33
@@ -1411,6 +1538,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Bride, The
     album: President Rd
     spotify_link: spotify:album:4LM8ofSW0JjPZasZLkTbUe
@@ -1420,6 +1548,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: Five O'Clock Heroes
     album: Different Times
     spotify_link: spotify:album:6GvdlYJmJzRiNEx67nvHVF
@@ -1429,6 +1558,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Bazan, David
     album: Strange Negotiations
     spotify_link: spotify:album:0teCneZSSxaicWL96S1bfH
@@ -1438,6 +1568,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: Tennis
     album: Cape Dory
     spotify_link: spotify:album:7EdH3HFfkPD44j2uh4HYNr
@@ -1447,6 +1578,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Decline, The
     album: Are You Gonna Eat That?
     spotify_link: spotify:album:7eWdY196pAYZun7x4RqLS9
@@ -1456,6 +1588,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: Hands
     album: Give Me Rest
     spotify_link: spotify:album:7kxHA6L2NxB1YBvlp7Je4L
@@ -1465,6 +1598,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Expanders, The
     album: The Expanders
     spotify_link: spotify:album:1zKyHrPc54uJDWDSreBC9T
@@ -1474,6 +1608,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: Dirty Beaches
     album: Badlands
     spotify_link: spotify:album:5PV54mAI2Vrlbp1SfjeD6a
@@ -1483,6 +1618,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Forus
     album: We
     spotify_link: spotify:album:6NA02zLUglUSYEzpaIUJux
@@ -1492,6 +1628,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: I See Stars
     album: The End Of The World Party
     spotify_link: spotify:album:493Zvo4Sf1VF0RCYFlQ5yd
@@ -1501,6 +1638,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Scattered Trees
     album: Sympathy
     spotify_link: spotify:album:0Y4JXu4tfVTDhZCgZRCe2I
@@ -1510,6 +1648,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Pains Of Being Pure At Heart, The
     album: Belong
     spotify_link: spotify:album:7Hif0SCVj3oHys2QsTSWiZ
@@ -1519,6 +1658,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: How Dare You
     album: The King, the Clown and Colonel
     spotify_link: spotify:album:6vxQr0zsENULpdu32O9gpJ
@@ -1528,6 +1668,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Nothington
     album: Borrowed Time
     spotify_link: spotify:album:3sAjsBpcWPDJPSZHGwOgrD
@@ -1537,6 +1678,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
 - year: "2010"
   list:
   - album: Crazy For You
@@ -1550,6 +1692,7 @@
     spotify_link: spotify:album:2lLjGAmDHjCNiydZ4Yp8bT
     genius_link: ''
     album_cover_override: ''
+    hide: false
   - artist: Decibully
     album: World Travels Fast
     spotify_link: spotify:album:5I2qbAY6jdllUaIMPEehmZ
@@ -1559,6 +1702,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Affiance
     album: No Secret Revealed
     spotify_link: spotify:album:3WqXOKjQ371qGFVQE94ZsF
@@ -1568,6 +1712,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Black Keys, The
     album: Brothers
     spotify_link: spotify:album:7qE6RXYyz5kj5Tll7mJU0v
@@ -1577,6 +1722,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: Conditions
     album: Fluorescent Youth
     spotify_link: spotify:album:06fCkwSB0j0dsZmUmbhC1B
@@ -1586,6 +1732,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Decline, The
     album: I'm Not Gonna Lie to You
     spotify_link: spotify:album:5ZdOCRZVJc5slPXXlqA56q
@@ -1595,6 +1742,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: Fifty Stars Anger
     album: Mind Grenades for The Revolution
     tags: []
@@ -1604,6 +1752,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Golliwog
     album: Plague Allegiance
     spotify_link: spotify:album:2d4PJzmFbgb5XDAjS7F3Mg
@@ -1613,6 +1762,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Growlers, The
     album: Hot Tropics
     spotify_link: spotify:album:02KuwrUe9r1knIfI0rVf7c
@@ -1622,6 +1772,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: La Vida Bohème
     album: Nuestra
     spotify_link: spotify:album:7kSxnf1JIMeFMIKKC5xDtt
@@ -1631,6 +1782,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Miami Horror
     album: Illumination
     spotify_link: spotify:album:1Nb8xRzI4OVThbG3ewobwY
@@ -1640,6 +1792,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Various Artists
     album: Red Dead Redemption Original Soundtrack
     spotify_link: spotify:album:22H5XKyHXkxHbty4jtBibg
@@ -1649,6 +1802,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Against Me!
     album: White Crosses
     spotify_link: spotify:album:5VLEp4UIDkIowATwaveKUQ
@@ -1658,6 +1812,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
 - year: "2009"
   list:
   - artist: Bazan, David
@@ -1669,6 +1824,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: Horse The Band
     album: Desperate Living
     spotify_link: spotify:album:4rNTleyIYz0fJKLaSxSe8Z
@@ -1678,6 +1834,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Edward Sharpe & The Magnetic Zeros
     album: Up from Below
     spotify_link: spotify:album:39xrkt8RILtwa9DMyLkv32
@@ -1687,6 +1844,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Propagandhi
     album: Supporting Caste
     spotify_link: spotify:album:2XD0u81Bu0cnddlaYXUOT5
@@ -1696,6 +1854,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: fun.
     album: Aim and Ignite
     spotify_link: spotify:album:68Q6uG6exOAUqF4Q7aNUEY
@@ -1705,6 +1864,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Plenti, Julian
     album: Julian Plenti Is... Skyscraper
     spotify_link: spotify:album:2xLmsfiCmieCud4cj8yMrl
@@ -1714,6 +1874,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: Cobra Skulls
     album: American Rubicon
     spotify_link: spotify:album:1OLg3WMwHfRa9va84rA2Vq
@@ -1723,6 +1884,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: La Roux
     album: La Roux
     spotify_link: spotify:album:3elHo10HDaxn13uuVhiTWH
@@ -1732,6 +1894,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Heap, Imogen
     album: Ellipse
     spotify_link: spotify:album:5AYKGPzPBJNHeKehCxMaq0
@@ -1741,6 +1904,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: Killswitch Engage
     album: Killswitch Engage
     tags:
@@ -1752,6 +1916,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Enter Shikari
     album: Common Dreads
     spotify_link: spotify:album:1NuzPVEhVfDYdu49gmxrzd
@@ -1761,6 +1926,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Strike Anywhere
     album: Iron Front
     spotify_link: spotify:album:5AUGZyMmBtTVMRGx058Mkk
@@ -1770,6 +1936,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Avett Brothers, The
     album: I and Love and You
     tags:
@@ -1781,6 +1948,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: This Is A Standoff
     album: Be Disappointed
     tags:
@@ -1793,6 +1961,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Raveonettes, The
     album: In And Out Of Control
     spotify_link: spotify:album:44VzVHBsqOAWWS6gnTOXbv
@@ -1802,6 +1971,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: Mumford & Sons
     album: Sigh No More
     tags:
@@ -1814,6 +1984,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
 - year: "2008"
   list:
   - artist: Teenagers, The
@@ -1825,6 +1996,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: No Use For A Name
     album: The Feel Good Record of the Year
     spotify_link: spotify:album:4u8maWk9uRQ7ipjkKTVHup
@@ -1834,6 +2006,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Tholen, Jay
     album: Epidemic
     spotify_link: spotify:album:41gWYyywW8PNVU9Bl7vFx4
@@ -1843,6 +2016,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: West, Kanye
     album: 808s & Heartbreak
     spotify_link: spotify:album:3WFTGIO6E3Xh4paEOBY9OU
@@ -1852,6 +2026,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: Baby Panda / Paul Gonzenbach
     album: Avalanche Kiss
     spotify_link: spotify:album:5JylMXQ2Zqt63KROfogBP2
@@ -1860,7 +2035,8 @@
     text: ''
     genius_link: ''
     switch_sort: false
-    album_cover_override: ''
+    album_cover_override: "/assets/images/covers/avalanche_kiss.jpeg"
+    hide: false
   - artist: Smash the Statues
     album: When Fear Is All Around Us
     spotify_link: spotify:album:3JcjYNoUVD0CPjnAeIUwqg
@@ -1870,6 +2046,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Black President
     album: Black President
     tags: []
@@ -1879,6 +2056,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Pendulum
     album: In Silico
     spotify_link: spotify:album:6eRDE48ttoLqN2VfkEpPOJ
@@ -1888,6 +2066,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Crystal Castles
     album: Crystal Castles
     spotify_link: spotify:album:5nM3cUPxqg7iqjaoyeCWtN
@@ -1897,6 +2076,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Dillinger Four
     album: C I V I L W A R
     spotify_link: spotify:album:3qIFEGF5cuip70vU7zatpb
@@ -1906,6 +2086,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Atlas Losing Grip
     album: Shut the World Out
     spotify_link: spotify:album:4iIUmm3xcHgH8wuvi1LGt5
@@ -1915,6 +2096,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Frightened Rabbit
     album: The Midnight Organ Fight
     spotify_link: spotify:album:69voh97i16t9SrQeHWIqrY
@@ -1924,6 +2106,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Handheld
     album: Handheld
     spotify_link: spotify:album:3tz4aUyqS5QhHPtTo6FxMl
@@ -1933,6 +2116,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Santigold
     album: Santigold
     spotify_link: spotify:album:4yATru0hY3VgRHSreswbGj
@@ -1942,6 +2126,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Xploding Plastix
     album: Treated Timber Resists Rot
     spotify_link: spotify:album:3ailWW6LnksSpjrPM3tLHt
@@ -1951,6 +2136,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
 - year: "2007"
   list:
   - artist: Lavender Diamond
@@ -1962,6 +2148,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Cobra Skulls
     album: Sitting Army
     spotify_link: spotify:album:06XizyvLh1GN1Cr237MtQl
@@ -1971,6 +2158,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Grouper
     album: Cover the Windows and the Walls
     spotify_link: spotify:album:6FDT9qQNRT6ntiEhTI8SI6
@@ -1995,6 +2183,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Murcof
     album: Cosmos
     spotify_link: spotify:album:5CPMjEHl3GxbZufnQdgylB
@@ -2004,6 +2193,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Chief
     album: Provocation Of The Nation
     spotify_link: spotify:album:72NmrcAzL2nWxQ6quUPKXP
@@ -2013,6 +2203,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Robert Plant & Alison Krauss
     album: Raising Sand
     spotify_link: spotify:album:54GfJ3ZEY2b6PKmvETmj1n
@@ -2022,6 +2213,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Explosions In The Sky
     album: All of a Sudden I Miss Everyone
     spotify_link: spotify:album:34RLNUE77WOvP9na4nf7Ua
@@ -2031,6 +2223,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Angels & Airwaves
     album: I-Empire
     spotify_link: spotify:album:7E31adfdc3ljGnxjZVF6et
@@ -2040,6 +2233,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Aspects of Physics
     album: 'Marginalized Information Forms 2: Cummulative ErRror'
     spotify_link: spotify:album:4MaEYv5Uh7ERcsk60J9jsE
@@ -2049,6 +2243,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Tegan and Sara
     album: The Con
     spotify_link: spotify:album:4QjGIZZqvNrdkgw4LZKLZK
@@ -2058,6 +2253,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Pour Habit
     album: Suiticide
     spotify_link: spotify:album:2aC8u1cEMH8i09wtOvq1S9
@@ -2067,6 +2263,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
 - year: "2006"
   list:
   - artist: Bazan, David
@@ -2090,6 +2287,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: DragonForce
     album: Inhuman Rampage
     spotify_link: spotify:album:28YBgZU6HDhnkf6ZZXbY3y
@@ -2099,6 +2297,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Angels & Airwaves
     album: We Don't Need To Whisper
     spotify_link: spotify:album:55drvPTRV1FgJkuaztyS5X
@@ -2108,6 +2307,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Sounds, The
     album: Dying To Say This To You
     spotify_link: spotify:album:45obbcVIa3428mdxaNLmly
@@ -2117,6 +2317,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: NOFX
     album: Wolves in Wolves' Clothing
     spotify_link: spotify:album:0bb9iLMHdUJhFIVwOars3P
@@ -2126,6 +2327,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Killswitch Engage
     album: As Daylight Dies
     spotify_link: spotify:album:6iJEtgHTEbVlSS5isIS71z
@@ -2135,6 +2337,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Carafa, Kevin
     album: Sick Sad World
     spotify_link: ''
@@ -2144,6 +2347,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: Format, The
     album: Dog Problems
     spotify_link: spotify:album:6VPLqG06SlXc1FzVzzcuZB
@@ -2153,6 +2357,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: Streets, The
     album: The Hardest Way to Make An Easy Living
     spotify_link: spotify:album:7EZnqnThnWnSG4MJMd0Gug
@@ -2162,6 +2367,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: Fratellis, The
     album: Costello Music
     spotify_link: spotify:album:6R6pjR9ocMYuqSuNx5e4mg
@@ -2171,6 +2377,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: Anti-Flag
     album: For Blood And Empire
     spotify_link: spotify:album:3B3gJszXnaDZMz8YVRZ1J2
@@ -2180,6 +2387,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Brandtson
     album: Hello, Control
     spotify_link: spotify:album:6vfntMjrhjePcDe48vXOwz
@@ -2206,6 +2414,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: New Found Glory
     album: Coming Home
     spotify_link: spotify:album:1rRe0RrLHXpYhOSQeiGgGK
@@ -2215,6 +2424,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Coup, The
     album: Pick A Bigger Weapon
     spotify_link: spotify:album:5EExWVfD5JW4QI95Upzx6v
@@ -2224,6 +2434,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
 - year: "2005"
   list:
   - artist: Bright Eyes
@@ -2235,6 +2446,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Grouper
     album: Way Their Crept
     spotify_link: spotify:album:2UbTwil7eR6Lov37LRyVhb
@@ -2244,6 +2456,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Headphones
     album: Headphones
     spotify_link: spotify:album:4O9EVQ1g2RhYW2ouZGb7tE
@@ -2253,6 +2466,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Rice, Johnathan
     album: Trouble Is Real
     spotify_link: spotify:album:6FYx7TOhsQ8lcUHamp1CRI
@@ -2262,6 +2476,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: Murcof
     album: Remembranza
     spotify_link: spotify:album:1eZVS1l222WHIDbzYBnXjH
@@ -2271,6 +2486,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: MxPx
     album: Panic
     spotify_link: spotify:album:4AbGeI8xFWJ7CwQMnhw7Fe
@@ -2280,6 +2496,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Pendulum
     album: Hold Your Colour
     spotify_link: spotify:album:4FAfNNU21dqtKKhHWB2eOa
@@ -2289,6 +2506,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Team Sleep
     album: Team Sleep
     spotify_link: spotify:album:7BORauiIbjPkOVRzSq38DP
@@ -2298,6 +2516,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Jim Yoshii Pile-Up, The
     album: Picks Us Apart
     spotify_link: spotify:album:43GUr6TsgkHmFknRysakoM
@@ -2307,6 +2526,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: VNV Nation
     album: Matter + Form
     spotify_link: spotify:album:0ePUvI74Sz0awGfcjoHZP2
@@ -2316,6 +2536,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Wilhelm Scream, A
     album: Ruiner
     spotify_link: spotify:album:4SWFv2A7yGx4XlIW8vxRMV
@@ -2325,6 +2546,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: Reggie And The Full Effect
     album: Songs Not to Get Married to
     spotify_link: spotify:album:5E5OzJiE0UVmEkIO6csUb2
@@ -2334,6 +2556,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Rocket Summer, The
     album: Hello, Good Friend.
     spotify_link: spotify:album:4yFoGX4PpiDBfbyaCxV340
@@ -2343,6 +2566,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
 - year: "2004"
   list:
   - artist: Brandtson
@@ -2354,6 +2578,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Vangaalen, Chad
     album: Infiniheart
     spotify_link: spotify:album:28o7tifPOuNz4vgr2ULjlG
@@ -2363,6 +2588,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: Further Seems Forever
     album: Hide Nothing
     spotify_link: spotify:album:7HWx9lE5B0uyMWbbeZ2qHv
@@ -2372,6 +2598,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Interpol
     album: Antics
     spotify_link: spotify:album:58fDEyJ5XSau8FRA3y8Bps
@@ -2383,6 +2610,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Midtown
     album: Forget What You Know
     spotify_link: spotify:album:0kzHDUWg9XKx5ianlRedvu
@@ -2392,6 +2620,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Muse
     album: Absolution
     spotify_link: spotify:album:0HcHPBu9aaF1MxOiZmUQTl
@@ -2401,6 +2630,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Pedro The Lion
     album: Achilles' Heel
     spotify_link: spotify:album:6cRhboSBQIIQwuexf2OOOV
@@ -2418,6 +2648,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Ratatat
     album: Ratatat
     spotify_link: spotify:album:4JKPD5CoWpBbzf2WwokRSp
@@ -2427,6 +2658,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Killers, The
     album: Hot Fuss
     spotify_link: spotify:album:4undIeGmofnAYKhnDclN1w
@@ -2436,6 +2668,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: Streets, The
     album: A Grand Don't Come For Free
     spotify_link: spotify:album:365ETCJBUmEWroc4UGBS1u
@@ -2445,6 +2678,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: Death From Above 1979
     album: You're A Woman, I'm A Machine
     spotify_link: spotify:album:07sQdQsdK2Pxh48FOvYgce
@@ -2454,6 +2688,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Joy Electric
     album: Hello Mannequin
     spotify_link: spotify:album:6VBKnjq4HOZWViBDQVrUpA
@@ -2463,6 +2698,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Killswitch Engage
     album: The End Of Heartache
     spotify_link: spotify:album:6NrMjaGIZAKZLMzVnkNY4V
@@ -2472,6 +2708,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Kings of Leon
     album: Aha Shake Heartbreak
     spotify_link: spotify:album:1pIUIkBJsyKvNYNqw7oY4k
@@ -2481,6 +2718,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Pinback
     album: Summer In Abaddon
     spotify_link: spotify:album:3XLn9BkDkwq4icsUye2Krp
@@ -2490,6 +2728,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Say Anything
     album: "...Is a Real Boy"
     spotify_link: spotify:album:2dEa0qjnAkSjGhD4wY16QT
@@ -2499,6 +2738,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
 - year: "2003"
   list:
   - album: Guilt Beats Hate
@@ -2513,6 +2753,7 @@
     spotify_link: spotify:album:2iCJk7cYHGIHHCuSzT8MOI
     genius_link: ''
     album_cover_override: ''
+    hide: false
   - artist: Copeland
     album: Beneath Medicine Tree
     spotify_link: spotify:album:5aF786F2yHxfNbto7ej8d0
@@ -2522,6 +2763,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Cursive
     album: The Ugly Organ
     spotify_link: spotify:album:3ZoVW62G8g8GC0yzpXOcKz
@@ -2531,6 +2773,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Dolorean
     album: Not Exotic
     spotify_link: spotify:album:7iQ43gTJrpabjE2D8p7VaY
@@ -2546,6 +2789,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: M83
     album: Dead Cities, Red Seas & Lost Ghosts
     spotify_link: spotify:album:44Sy39wQjQFX0jJOufXTvv
@@ -2555,6 +2799,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: The Mars Volta
     album: Deloused in the Comatorium
     spotify_link: spotify:album:0CA2EVHhRPR5VPV78KZw89
@@ -2564,6 +2809,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: The Microphones
     album: Mount Eerie
     spotify_link: spotify:album:5qvuDzzdqHFID4IlUMGZcb
@@ -2573,6 +2819,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Sounds, The
     album: Living In America
     spotify_link: spotify:album:7xvl4BcHImqxCOeMr31DoU
@@ -2582,6 +2829,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: Wrens, The
     album: The Meadowlands
     spotify_link: spotify:album:4Olz2cm8ncBqhnRcDwqVFK
@@ -2591,6 +2839,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: Wolfsheim
     album: Casting Shadows
     spotify_link: spotify:album:0qn895MQagZ5qZ5iNEacON
@@ -2600,6 +2849,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Vaux
     album: There Must be Some Way to Stop Them
     spotify_link: spotify:album:0jvXBuQqgkynqt81V79zGj
@@ -2609,6 +2859,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Azure Ray
     album: Hold On Love
     spotify_link: spotify:album:002VxJYn0PuESip7EnYZ5V
@@ -2618,6 +2869,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Postal Service, The
     album: Give Up
     spotify_link: spotify:album:4ssF0ppdJnMTtL2hg1CLKX
@@ -2627,6 +2879,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: Cex
     album: Being Ridden
     spotify_link: spotify:album:2Vm9o3t0fRSfQdM01YVPLR
@@ -2636,6 +2889,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Horse The Band
     album: R. Borlax
     spotify_link: spotify:album:7d8CDV3sAMg0BE0T6hziFk
@@ -2645,6 +2899,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Format, The
     album: Interventions and Lullabies
     spotify_link: spotify:album:5B6SoTwBaUBoJbUFycg0Oa
@@ -2654,6 +2909,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: Rocket Summer, The
     album: Calendar Days
     spotify_link: spotify:album:6NiF6BfePelczZlw5vVBb1
@@ -2663,6 +2919,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
 - year: "2002"
   list:
   - artist: All-Time Quarterback
@@ -2674,6 +2931,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Jurado, Damien
     album: I Break Chairs
     spotify_link: spotify:album:3ecFpF2SYYIzD64ubfxRID
@@ -2683,6 +2941,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: Hot Rod Circuit
     album: Sorry About Tomorrow
     spotify_link: spotify:album:6fYGFmyMFVEZvS7F95lLD2
@@ -2692,6 +2951,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Iron & Wine
     album: The Creek Drank the Cradle
     spotify_link: spotify:album:7ElvlLVKEhWaSGcTAGiCf7
@@ -2701,6 +2961,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Kind of Like Spitting
     album: One Hundred Dollar Room
     spotify_link: spotify:album:46fE8REBgbaRVqTq5m3YEj
@@ -2710,6 +2971,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: No Use For A Name
     album: Hard Rock Bottom
     spotify_link: spotify:album:6TdS0Yfp7GcukVlZJfjmo3
@@ -2719,6 +2981,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Pedro The Lion
     album: Control
     tags:
@@ -2749,6 +3012,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Scientific
     album: From the Nest of Idea
     spotify_link: spotify:album:4QkCqeFmgsJHlyzgPu9ge4
@@ -2758,6 +3022,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Anniversary, The
     album: Your Majesty
     text: 'There are records that can encapsulate entire periods of your life if you
@@ -2779,6 +3044,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: Interpol
     album: Turn On The Bright Lights
     spotify_link: spotify:album:79deKDaslwLfH3yPR2T3SB
@@ -2788,6 +3054,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Bright Eyes
     album: Lifted or The Story Is in the Soil, Keep Your Ear to the Ground
     spotify_link: spotify:album:3D9lWF6r92UhRESvgte65y
@@ -2797,6 +3064,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Coldplay
     album: A Rush of Blood to the Head
     spotify_link: spotify:album:0RHX9XECH8IVI3LNgWDpmQ
@@ -2806,6 +3074,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Hot Hot Heat
     album: Make Up The Breakdown
     spotify_link: spotify:album:6MN4QYFWo1cLuZRiv2sedC
@@ -2815,6 +3084,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Seldom
     album: Romance
     spotify_link: ''
@@ -2824,6 +3094,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Unsung Zeros
     album: The People Mover
     spotify_link: spotify:album:6qtTGdLm4VMUT0hnUUU9gp
@@ -2833,6 +3104,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
 - year: "2001"
   list:
   - artist: Black Rebel Motorcycle Club
@@ -2844,6 +3116,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: W.K., Andrew
     album: I Get Wet
     spotify_link: spotify:album:6BQMUDC55fjjnApdWtZYZM
@@ -2853,6 +3126,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: Craig's Brother
     album: Lost At Sea
     spotify_link: spotify:album:7M9Q57z3E9ylSBg1DpcQ7e
@@ -2862,6 +3136,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Dashboard Confessional
     album: The Places You Have Come to Fear the Most
     spotify_link: spotify:album:3aH8aeNdQQO2bdLfhuL65w
@@ -2871,6 +3146,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Five Iron Frenzy
     album: 'Five Iron Frenzy 2: Electric Boogaloo'
     spotify_link: spotify:album:26Rf3n2qppspfPUGKYx56Z
@@ -2880,6 +3156,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Onesidezero
     album: Is This Room Getting Smaller?
     spotify_link: spotify:album:4RTup2e5U7iVJM49P0WXdd
@@ -2889,6 +3166,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Osker
     album: Idle Will Kill
     spotify_link: spotify:album:0BGdKihwQAFBRn5QGzgkbQ
@@ -2898,6 +3176,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Pinback
     album: Blue Screen Life
     spotify_link: spotify:album:0RSUOK3VQn1HR4Vb0lMWFD
@@ -2907,6 +3186,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Saves The Day
     album: Stay What You Are
     spotify_link: spotify:album:39gFAYxTjxzx9FK57VpsRK
@@ -2916,6 +3196,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Appleseed Cast, The
     album: Low Level Owl
     spotify_link: spotify:album:3N9rSlRPoCSyXwZ6u18Xa8
@@ -2925,6 +3206,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: Jim Yoshii Pile-Up, The
     album: It's Winter Here
     spotify_link: spotify:album:5RBB59IdmJ35fVokeQMu86
@@ -2934,6 +3216,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: Alkaline Trio
     album: From Here to Infirmary
     spotify_link: spotify:album:74FavWuKZGG8tp3jpMVzN4
@@ -2943,6 +3226,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Ataris, The
     album: End Is Forever
     spotify_link: spotify:album:3Xe3ERA3WSRcRrbQw1VsRO
@@ -2952,6 +3236,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: Explosions In The Sky
     album: Those Who Tell the Truth Shall Die, Those Who Tell the Truth Shall Live
       Forever
@@ -2962,6 +3247,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Further Seems Forever
     album: The Moon Is Down
     spotify_link: spotify:album:7JJNQLAixkJUjc5vCj19rP
@@ -2971,6 +3257,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: My Hotel Year
     album: The Composition of Ending and Phrasing
     spotify_link: spotify:album:0ntqqxkwnFBHrluwekQv9G
@@ -2980,6 +3267,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: System Of A Down
     album: Toxicity
     spotify_link: spotify:album:6jWde94ln40epKIQCd8XUh
@@ -2989,6 +3277,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
 - year: "2000"
   list:
   - artist: Blindside
@@ -3000,6 +3289,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Coldplay
     album: Parachutes
     spotify_link: spotify:album:6ZG5lRT77aJ3btmArcykra
@@ -3009,6 +3299,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Dogwood
     album: Building A Better Me
     spotify_link: spotify:album:4DSY3DcUKKJgkAtO6PMCBM
@@ -3018,6 +3309,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Elliott
     album: False Cathedrals
     spotify_link: spotify:album:6s2VrdrRwXXB1kr6RcrKfv
@@ -3027,6 +3319,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Godspeed You! Black Emperor
     album: Lift Your Skinny Fists Like Antennas to Heaven
     spotify_link: spotify:album:2rT82YYlV9UoxBYLIezkRq
@@ -3036,6 +3329,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: MxPx
     album: The Ever Passing Moment
     spotify_link: spotify:album:0C5IaBCCHezbc3KY8N93un
@@ -3045,6 +3339,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: New Found Glory
     album: New Found Glory
     spotify_link: spotify:album:485PPCvKNtmAJBfzpyw3wk
@@ -3054,6 +3349,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Pedro The Lion
     album: Winners Never Quit
     spotify_link: spotify:album:09iUbAL6vQRsL6eLvKtoKB
@@ -3063,6 +3359,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Sunny Day Real Estate
     album: The Rising Tide
     spotify_link: spotify:album:6qF8IcGGO3Y4YuNx33DJA2
@@ -3098,6 +3395,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: White Octave, The
     album: Style No. 6312
     spotify_link: spotify:album:1xsOA9nS2z9wSdt6eGIVut
@@ -3107,6 +3405,7 @@
     genius_link: ''
     switch_sort: true
     album_cover_override: ''
+    hide: false
   - artist: Dead Prez
     album: Let's Get Free
     spotify_link: spotify:album:7gXuElmegVReY7imkb5bf8
@@ -3116,6 +3415,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Slick Shoes
     album: Wake Up Screaming
     spotify_link: spotify:album:5p31d39Lkx9Fy1gi8MEtVr
@@ -3125,6 +3425,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: NOFX
     album: Pump Up The Valuum
     spotify_link: spotify:album:37hvw6OVfRLktCmFcU9zHE
@@ -3134,6 +3435,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Millencolin
     album: Pennybridge Pioneers
     spotify_link: spotify:album:5VWyJbfC4DUsnC1NLSjuWC
@@ -3143,6 +3445,7 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
   - artist: Teen Idols
     album: Full Leather Jacket
     spotify_link: spotify:album:26EAfY3Entzcgk9UgU2K9a
@@ -3152,3 +3455,4 @@
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
+    hide: false
