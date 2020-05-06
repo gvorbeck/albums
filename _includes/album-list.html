@@ -17,9 +17,9 @@
                 data-album-url="{{ albumItem.album | url_encode }}"
                 data-artist="{{ artistName | escape }}"
                 data-album="{{ albumItem.album | escape }}"
-                {% comment %}This precludes JS from adding a data-thumb attribute from last.fm.{% endcomment %}
-                {% if albumItem.thumb %}
-                    data-thumb="assets/images/covers/{{ albumItem.thumb }}"
+                {% comment %}This prevents JS from adding a data-thumb attribute from last.fm.{% endcomment %}
+                {% if albumItem.album_cover_override %}
+                    data-thumb="{{ albumItem.album_cover_override }}"
                 {% endif %}
                 {% if albumItem.favorite_track %}
                     data-track="{{ albumItem.favorite_track }}"

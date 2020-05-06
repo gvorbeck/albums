@@ -94,7 +94,9 @@ function populateSpotlight(data, color) {
     document.getElementsByClassName("spotlight__artist")[0].appendChild(document.createTextNode(data.artist));
     // Album cover
     if (data.thumb) {
-        SpotlightCover.getElementsByTagName("IMG")[0].setAttribute("src", data.thumb);
+        let SpotlightIMG = SpotlightCover.getElementsByTagName("IMG")[0];
+        SpotlightIMG.setAttribute("src", data.thumb);
+        SpotlightIMG.setAttribute("alt", data.album);
     }
     // External links
     if (data.lastfm || data.genius || data.spotify) {
