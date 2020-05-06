@@ -3021,7 +3021,7 @@
     text: ''
     genius_link: ''
     switch_sort: false
-    album_cover_override: ''
+    album_cover_override: "/assets/images/covers/from_the_nest_of_idea.jpeg"
     hide: false
   - artist: Anniversary, The
     album: Your Majesty
