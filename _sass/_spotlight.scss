@@ -17,6 +17,7 @@
         left: 25%;
         top: rem(128px);
         margin-bottom: 2rem;
+        box-shadow: rem(-4px) rem(8px) rem(8px) rgba(#000000, .5);
         overflow: hidden;
 
         @media (max-width: 1400px) {
@@ -61,7 +62,7 @@
                 opacity: .25;
             }
 
-            &:hover {
+            &:hover:not(:disabled) {
                 background-color: rgba(#000000, .6);
 
                 span::before,
@@ -149,6 +150,9 @@
     }
 
     &__cover {
+        width: rem(300px);
+        height: rem(300px);
+        background-color: rgba(#000000, .4);
 
         img {
             box-shadow: 0 rem(2px) rem(4px) rgba(#000000, .5);
@@ -194,7 +198,7 @@
     }
 
     &__quick {
-        grid-template-rows: min-content min-content auto;
+        grid-template-rows: min-content minmax(0, min-content) auto;
     }
 
     &__links {
