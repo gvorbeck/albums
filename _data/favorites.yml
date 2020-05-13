@@ -1,6 +1,18 @@
 ---
 - year: "2020"
   list:
+  - hide: false
+    album: Uneasy Laughter
+    artist: Moaning
+    switch_sort: false
+    favorite_track: Running
+    text: ''
+    tags:
+    - post.punk
+    - dream.pop
+    spotify_link: spotify:album:342FbXgO7NwePGgoTAmRiP
+    genius_link: ''
+    album_cover_override: ''
   - hide: true
     album: PITH
     artist: Melkbelly
