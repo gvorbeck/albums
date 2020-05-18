@@ -164,7 +164,7 @@
     spotify_link: spotify:album:2C4pCAR41BjNeDEEn1M7tM
     genius_link: ''
     album_cover_override: "/assets/images/covers/field_recordings_vol_1.jpg"
-    hide: false
+    hide: true
   - album: Ceremony
     artist: Phantogram
     switch_sort: false
