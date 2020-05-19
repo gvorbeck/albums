@@ -10,6 +10,7 @@
     tags:
     - power.pop
     - indie.rock
+    - pop.punk
     spotify_link: spotify:album:74IXMUg7W8OvCjdTeCTtLx
     genius_link: ''
     album_cover_override: ''
@@ -150,7 +151,8 @@
     switch_sort: true
     favorite_track: ''
     text: ''
-    tags: []
+    tags:
+    - country
     spotify_link: spotify:album:6ErlH1igKFCvBH2DF5MITv
     genius_link: https://genius.com/albums/Honey-harper/Starmaker
     album_cover_override: ''
