@@ -180,7 +180,9 @@
     switch_sort: false
     favorite_track: ''
     text: ''
-    tags: []
+    tags:
+    - shoegaze
+    - dream.pop
     spotify_link: spotify:album:1WegPF8Kba4PaatynfsSwS
     genius_link: ''
     album_cover_override: "/assets/images/covers/lies_lies.jpeg"
