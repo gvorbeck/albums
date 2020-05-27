@@ -157,16 +157,6 @@
     genius_link: https://genius.com/albums/Honey-harper/Starmaker
     album_cover_override: ''
     hide: false
-  - album: Field Recordings, Vol. 1
-    artist: Crockett, Charlie
-    switch_sort: true
-    favorite_track: ''
-    text: ''
-    tags: []
-    spotify_link: spotify:album:2C4pCAR41BjNeDEEn1M7tM
-    genius_link: ''
-    album_cover_override: "/assets/images/covers/field_recordings_vol_1.jpg"
-    hide: true
   - album: Ceremony
     artist: Phantogram
     switch_sort: false
