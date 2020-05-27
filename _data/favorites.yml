@@ -2,6 +2,16 @@
 - year: "2020"
   list:
   - hide: false
+    album: World As a Waiting Room
+    artist: White Denim
+    switch_sort: false
+    favorite_track: ''
+    text: ''
+    tags: []
+    spotify_link: spotify:album:1N8lBpamL9wejL6BWL9BJX
+    genius_link: ''
+    album_cover_override: ''
+  - hide: false
     album: Infinitely Ordinary
     artist: Wrecks, The
     switch_sort: true
