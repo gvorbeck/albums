@@ -2,6 +2,17 @@
 - year: "2020"
   list:
   - hide: false
+    album: Forever
+    artist: Pullover
+    switch_sort: false
+    favorite_track: ''
+    text: ''
+    tags:
+    - post.rock
+    spotify_link: spotify:album:5NLsWxTGUBgrmKSkBYQMsW
+    genius_link: ''
+    album_cover_override: ''
+  - hide: false
     album: Livin' In The Jungle
     artist: Banshee
     switch_sort: false
