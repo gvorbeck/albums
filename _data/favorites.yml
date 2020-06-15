@@ -2,6 +2,18 @@
 - year: "2020"
   list:
   - hide: false
+    album: Animal Oxygen
+    artist: Cobra Thief
+    switch_sort: false
+    favorite_track: ''
+    text: ''
+    tags:
+    - stoner.metal
+    - psychedelic.rock
+    spotify_link: spotify:album:4n5BrVdFuRUX3PPTLqgNfF
+    genius_link: ''
+    album_cover_override: ''
+  - hide: false
     album: Forever
     artist: Pullover
     switch_sort: false
