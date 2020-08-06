@@ -2,6 +2,16 @@
 - year: "2020"
   list:
   - hide: false
+    album: Dislocation
+    artist: Nest Egg
+    switch_sort: false
+    favorite_track: ''
+    text: ''
+    tags: []
+    spotify_link: ''
+    genius_link: ''
+    album_cover_override: ''
+  - hide: false
     album: The Unfit
     artist: Unfit, The
     switch_sort: true
