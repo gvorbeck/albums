@@ -2,6 +2,16 @@
 - year: "2020"
   list:
   - hide: false
+    album: Welcome to Hard Times
+    artist: Crockett, Charlie
+    switch_sort: true
+    favorite_track: ''
+    text: ''
+    tags: []
+    spotify_link: ''
+    genius_link: ''
+    album_cover_override: ''
+  - hide: false
     album: Hello Pinky!
     artist: Juicebumps
     switch_sort: false
