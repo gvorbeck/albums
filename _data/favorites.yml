@@ -4,7 +4,7 @@
   - hide: false
     album: Logan Ledger
     artist: Ledger, Logan
-    switch_sort: false
+    switch_sort: true
     favorite_track: ''
     text: ''
     tags: []
