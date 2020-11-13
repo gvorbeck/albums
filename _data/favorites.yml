@@ -122,16 +122,6 @@
     genius_link: ''
     album_cover_override: ''
   - hide: false
-    album: Panzarotti
-    artist: Mietz, Brian
-    switch_sort: true
-    favorite_track: ''
-    text: ''
-    tags: []
-    spotify_link: ''
-    genius_link: ''
-    album_cover_override: ''
-  - hide: false
     album: Welcome to Hard Times
     artist: Crockett, Charley
     switch_sort: true
@@ -162,16 +152,6 @@
     genius_link: ''
     album_cover_override: ''
   - hide: false
-    album: A Violet World
-    artist: Liquid TV
-    switch_sort: false
-    favorite_track: ''
-    text: ''
-    tags: []
-    spotify_link: ''
-    genius_link: ''
-    album_cover_override: ''
-  - hide: false
     album: Confetti Teeth
     artist: Grizzled Mighty, The
     switch_sort: true
@@ -185,16 +165,6 @@
     album: The Freelancer's Blues
     artist: Poole, Dougie
     switch_sort: true
-    favorite_track: ''
-    text: ''
-    tags: []
-    spotify_link: ''
-    genius_link: ''
-    album_cover_override: ''
-  - hide: false
-    album: Disheveled Cuss
-    artist: Disheveled Cuss
-    switch_sort: false
     favorite_track: ''
     text: ''
     tags: []
