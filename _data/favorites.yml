@@ -202,17 +202,6 @@
     genius_link: ''
     album_cover_override: ''
   - hide: false
-    album: Mount Hush
-    artist: Mount Hush
-    switch_sort: false
-    favorite_track: ''
-    text: ''
-    tags:
-    - stoner.metal
-    spotify_link: ''
-    genius_link: ''
-    album_cover_override: ''
-  - hide: false
     album: Forever
     artist: Pullover
     switch_sort: false
