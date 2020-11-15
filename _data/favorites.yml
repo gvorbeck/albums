@@ -267,16 +267,6 @@
     genius_link: ''
     album_cover_override: ''
     hide: false
-  - album: Guardian Singles
-    artist: Guardian Singles
-    switch_sort: false
-    favorite_track: ''
-    text: ''
-    tags: []
-    spotify_link: ''
-    genius_link: ''
-    album_cover_override: ''
-    hide: false
   - album: Like New
     artist: Purr
     switch_sort: false
