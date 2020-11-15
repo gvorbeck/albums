@@ -193,16 +193,6 @@
     genius_link: ''
     album_cover_override: ''
   - hide: false
-    album: Livin' In The Jungle
-    artist: Banshee
-    switch_sort: false
-    favorite_track: ''
-    text: ''
-    tags: []
-    spotify_link: spotify:album:5uyXJcuKXy1oIrWrusFRi6
-    genius_link: ''
-    album_cover_override: ''
-  - hide: false
     album: World As a Waiting Room
     artist: White Denim
     switch_sort: false
