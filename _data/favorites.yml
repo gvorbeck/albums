@@ -227,16 +227,6 @@
     genius_link: ''
     album_cover_override: ''
     hide: false
-  - album: Ditches
-    artist: Ditches
-    switch_sort: false
-    favorite_track: ''
-    text: ''
-    tags: []
-    spotify_link: ''
-    genius_link: ''
-    album_cover_override: ''
-    hide: false
   - album: Starmaker
     artist: Harper, Honey
     switch_sort: true
