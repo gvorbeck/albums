@@ -42,16 +42,6 @@
     genius_link: ''
     album_cover_override: ''
   - hide: false
-    album: Nothing Forever, Everything
-    artist: Noel, Credric
-    switch_sort: true
-    favorite_track: ''
-    text: ''
-    tags: []
-    spotify_link: ''
-    genius_link: ''
-    album_cover_override: ''
-  - hide: false
     album: Deuce Ex Machina
     artist: Pabst
     switch_sort: false
@@ -182,16 +172,6 @@
     genius_link: ''
     album_cover_override: ''
   - hide: false
-    album: Fog Museum
-    artist: Operations
-    switch_sort: false
-    favorite_track: ''
-    text: ''
-    tags: []
-    spotify_link: ''
-    genius_link: ''
-    album_cover_override: ''
-  - hide: false
     album: All in Good Time
     artist: Familiars
     switch_sort: false
@@ -267,7 +247,7 @@
     spotify_link: spotify:album:342FbXgO7NwePGgoTAmRiP
     genius_link: ''
     album_cover_override: ''
-  - hide: true
+  - hide: false
     album: PITH
     artist: Melkbelly
     switch_sort: false
@@ -277,7 +257,7 @@
     spotify_link: ''
     genius_link: ''
     album_cover_override: ''
-  - hide: true
+  - hide: false
     album: Either Light
     artist: Vundabar
     switch_sort: false
@@ -306,7 +286,7 @@
     spotify_link: ''
     genius_link: ''
     album_cover_override: ''
-    hide: true
+    hide: false
   - album: Like New
     artist: Purr
     switch_sort: false
@@ -326,7 +306,7 @@
     spotify_link: ''
     genius_link: ''
     album_cover_override: ''
-    hide: true
+    hide: false
   - album: A Different Kind of World
     artist: Tygersounds
     switch_sort: false
@@ -337,16 +317,6 @@
     genius_link: ''
     album_cover_override: "/assets/images/covers/a_different_kind_of_world.jpeg"
     hide: false
-  - album: Viscerals
-    artist: Pigs Pigs Pigs Pigs Pigs Pigs Pigs
-    switch_sort: false
-    favorite_track: ''
-    text: ''
-    tags: []
-    spotify_link: ''
-    genius_link: ''
-    album_cover_override: ''
-    hide: true
   - album: Ditches
     artist: Ditches
     switch_sort: false
@@ -356,7 +326,7 @@
     spotify_link: ''
     genius_link: ''
     album_cover_override: ''
-    hide: true
+    hide: false
   - album: Celebration
     artist: Music Band
     switch_sort: false
@@ -366,7 +336,7 @@
     spotify_link: ''
     genius_link: ''
     album_cover_override: ''
-    hide: true
+    hide: false
   - album: Starmaker
     artist: Harper, Honey
     switch_sort: true
@@ -376,16 +346,6 @@
     - country
     spotify_link: spotify:album:6ErlH1igKFCvBH2DF5MITv
     genius_link: https://genius.com/albums/Honey-harper/Starmaker
-    album_cover_override: ''
-    hide: false
-  - album: Ceremony
-    artist: Phantogram
-    switch_sort: false
-    favorite_track: ''
-    text: ''
-    tags: []
-    spotify_link: ''
-    genius_link: ''
     album_cover_override: ''
     hide: false
   - album: Lies Lies
