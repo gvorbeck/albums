@@ -247,16 +247,6 @@
     spotify_link: spotify:album:342FbXgO7NwePGgoTAmRiP
     genius_link: ''
     album_cover_override: ''
-  - hide: false
-    album: PITH
-    artist: Melkbelly
-    switch_sort: false
-    favorite_track: ''
-    text: ''
-    tags: []
-    spotify_link: ''
-    genius_link: ''
-    album_cover_override: ''
   - album: R.Y.C
     artist: Masa, Mura
     switch_sort: true
@@ -289,16 +279,6 @@
     hide: false
   - album: Ditches
     artist: Ditches
-    switch_sort: false
-    favorite_track: ''
-    text: ''
-    tags: []
-    spotify_link: ''
-    genius_link: ''
-    album_cover_override: ''
-    hide: false
-  - album: Celebration
-    artist: Music Band
     switch_sort: false
     favorite_track: ''
     text: ''
