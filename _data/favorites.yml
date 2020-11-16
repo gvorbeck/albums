@@ -94,7 +94,7 @@
   - hide: false
     album: Deuce Ex Machina
     artist: Pabst
-    switch_sort: true
+    switch_sort: false
     favorite_track: ''
     text: ''
     tags: []
