@@ -1,4 +1,17 @@
 ---
+- year: "2021"
+  list:
+  - hide: false
+    album: Fuck Art
+    artist: Dirty Nil, The
+    switch_sort: true
+    favorite_track: ''
+    text: ''
+    tags:
+    - pop.punk
+    spotify_link: ''
+    genius_link: ''
+    album_cover_override: ''
 - year: "2020"
   list:
   - hide: false
