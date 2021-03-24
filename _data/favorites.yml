@@ -2,6 +2,17 @@
 - year: "2021"
   list:
   - hide: false
+    album: Heavy Male Insecurity
+    artist: Death By Unga Bunga
+    switch_sort: false
+    favorite_track: ''
+    text: ''
+    tags:
+    - pop.punk
+    spotify_link: ''
+    genius_link: ''
+    album_cover_override: ''
+  - hide: false
     album: L.W.
     artist: King Gizzard & The Lizard Wizard
     switch_sort: false
