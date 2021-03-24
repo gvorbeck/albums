@@ -2,6 +2,16 @@
 - year: "2021"
   list:
   - hide: false
+    album: I Won't Care How You Remember Me
+    artist: Tigers Jaw
+    switch_sort: false
+    favorite_track: ''
+    text: ''
+    tags: []
+    spotify_link: ''
+    genius_link: ''
+    album_cover_override: ''
+  - hide: false
     album: Heavy Male Insecurity
     artist: Death By Unga Bunga
     switch_sort: false
