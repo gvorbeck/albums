@@ -2,6 +2,16 @@
 - year: "2021"
   list:
   - hide: false
+    album: Emotional
+    artist: When Saints Go Machine
+    switch_sort: false
+    favorite_track: ''
+    text: ''
+    tags: []
+    spotify_link: ''
+    genius_link: ''
+    album_cover_override: ''
+  - hide: false
     album: Mirrors
     artist: Pupil Slicer
     switch_sort: false
