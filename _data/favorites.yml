@@ -2,6 +2,16 @@
 - year: "2021"
   list:
   - hide: false
+    album: Moot!
+    artist: Moin
+    switch_sort: false
+    favorite_track: ''
+    text: ''
+    tags: []
+    spotify_link: ''
+    genius_link: ''
+    album_cover_override: ''
+  - hide: false
     album: Grecian Urn
     artist: Adult Books
     switch_sort: false
