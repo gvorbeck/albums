@@ -2,6 +2,16 @@
 - year: "2021"
   list:
   - hide: false
+    album: Life In Your Glass World
+    artist: Citizen
+    switch_sort: false
+    favorite_track: ''
+    text: ''
+    tags: []
+    spotify_link: ''
+    genius_link: ''
+    album_cover_override: ''
+  - hide: false
     album: Looking for a Light
     artist: Tombstones in Their Eyes
     switch_sort: false
