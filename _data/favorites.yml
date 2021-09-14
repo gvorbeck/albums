@@ -2,6 +2,16 @@
 - year: "2021"
   list:
   - hide: false
+    album: Post People
+    artist: Heave Blood & Die
+    switch_sort: false
+    favorite_track: ''
+    text: ''
+    tags: []
+    spotify_link: ''
+    genius_link: ''
+    album_cover_override: ''
+  - hide: false
     album: Sick Sesh!
     artist: Teenage Bottlerocket
     switch_sort: false
