@@ -2,6 +2,16 @@
 - year: "2021"
   list:
   - hide: false
+    album: Pono
+    artist: A Great Big Pile of Leaves
+    switch_sort: false
+    favorite_track: ''
+    text: ''
+    tags: []
+    spotify_link: ''
+    genius_link: ''
+    album_cover_override: ''
+  - hide: false
     album: Strength
     artist: Unto Others
     switch_sort: false
