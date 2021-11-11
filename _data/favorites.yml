@@ -153,16 +153,6 @@
     genius_link: ''
     album_cover_override: ''
   - hide: false
-    album: Lost
-    artist: MitiS
-    switch_sort: false
-    favorite_track: ''
-    text: ''
-    tags: []
-    spotify_link: ''
-    genius_link: ''
-    album_cover_override: ''
-  - hide: false
     album: III
     artist: Dusted
     switch_sort: false
