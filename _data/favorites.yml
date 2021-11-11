@@ -53,16 +53,6 @@
     genius_link: ''
     album_cover_override: ''
   - hide: false
-    album: Superinertia
-    artist: 10 000 Russos
-    switch_sort: false
-    favorite_track: ''
-    text: ''
-    tags: []
-    spotify_link: ''
-    genius_link: ''
-    album_cover_override: ''
-  - hide: false
     album: Zorked
     artist: Shapiro, Julia
     switch_sort: true
