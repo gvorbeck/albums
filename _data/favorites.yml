@@ -431,9 +431,9 @@
     spotify_link: spotify:album:342FbXgO7NwePGgoTAmRiP
     genius_link: ''
     album_cover_override: ''
-  - album: R.Y.C
-    artist: Masa, Mura
-    switch_sort: true
+  - album: 'Wanderers: Astrology of The Nine'
+    artist: Mare Cognitum
+    switch_sort: false
     favorite_track: ''
     text: ''
     tags: []
