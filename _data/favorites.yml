@@ -1,4 +1,16 @@
 ---
+- year: "2022"
+  list:
+  - hide: false
+    album: Havasu
+    artist: Pedro The Lion
+    switch_sort: false
+    favorite_track: ''
+    text: ''
+    tags: []
+    spotify_link: ''
+    genius_link: ''
+    album_cover_override: ''
 - year: "2021"
   list:
   - hide: false
@@ -868,7 +880,7 @@
       and the songs seem to demand a story all by themselves. Perhaps one day I''ll
       get that story written.
 
-'
+      '
     favorite_track: ''
     genius_link: ''
     switch_sort: false
@@ -896,7 +908,7 @@
       but the heart of this record is found in every element of its makeup. This record,
       more than any of the others I listened to this year, feels like a piece of art.
 
-'
+      '
     favorite_track: ''
     switch_sort: false
     album_cover_override: ''
@@ -918,7 +930,7 @@
       us to enjoy what we can in this terrible world before we inevitably shuffle
       off this mortal coil, and that''s cool with me.
 
-'
+      '
     favorite_track: ''
     switch_sort: false
     album_cover_override: ''
@@ -937,7 +949,7 @@
       offerings. My old roommate would blast this band on hot summer mornings while
       she cleaned and I think of her whenever they play.
 
-'
+      '
     spotify_link: spotify:album:7EchhykwUf4ACDDABEDa7o
     genius_link: https://genius.com/albums/Chvrches/Love-is-dead
     switch_sort: false
@@ -978,7 +990,7 @@
       and the record leaves us with a victorious few minutes to contemplate where
       we go now in _Dreams_.
 
-'
+      '
     favorite_track: ''
     switch_sort: false
     album_cover_override: ''
@@ -1035,7 +1047,7 @@
       break-neck cadence is exactly what I need to feel like trying to re-master doing
       kickflips off the curb.
 
-'
+      '
     genius_link: ''
     switch_sort: false
     album_cover_override: ''
@@ -1065,7 +1077,7 @@
     text: 'I think this is a record that really reflects the time in which it was
       written. TBC.
 
-'
+      '
     favorite_track: ''
     genius_link: ''
     switch_sort: false
@@ -1143,7 +1155,7 @@
       straight out of a grimdark reboot of Back To The Future. No one''s asking for
       it, but we''d all check it out.
 
-'
+      '
     favorite_track: ''
     genius_link: ''
     switch_sort: false
@@ -1242,7 +1254,7 @@
       record apart from their other albums is the spoken-word narrators, something
       they haven''t done since _Eyes Like the Sky_
 
-'
+      '
     favorite_track: ''
     genius_link: ''
     switch_sort: false
@@ -2616,7 +2628,7 @@
       of even being in a band and this would allow him to go beyond what he had created
       **Pedro the Lion** for.
 
-'
+      '
     tags: []
     favorite_track: ''
     genius_link: ''
@@ -3341,7 +3353,7 @@
       in 2012 and loved watching these songs performed after spending so many evenings
       listening to this record.
 
-'
+      '
     spotify_link: spotify:album:3WPhii5HmncMeCKLHZUePr
     favorite_track: ''
     genius_link: ''
@@ -3372,7 +3384,7 @@
       and preserve that experience in a way that I can nostalgically revisit with
       these songs.
 
-'
+      '
     spotify_link: spotify:album:1UIrwwVo9RnXDgVahgHic3
     tags: []
     favorite_track: ''
